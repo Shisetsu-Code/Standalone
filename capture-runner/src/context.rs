@@ -581,15 +581,16 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
                 && match host {
                     "kendoo.com" => {
                         url.query().is_none()
-                            && crate::adapters::kendoo::GAMES
-                                .iter()
-                                .any(|(slug, _)| url.path().strip_prefix("/games/") == Some(slug))
+                            && url
+                                .path()
+                                .strip_prefix("/games/")
+                                .is_some_and(crate::adapters::kendoo::known_slug)
                     }
                     "betman-demo.head.kendoo.pro" => {
                         url.path() == "/betman-demo/static/game.html"
                             || (url.query().is_none()
                                 && url.path().ends_with("/demo/")
-                                && crate::adapters::kendoo::GAMES.iter().any(|(_, code)| {
+                                && crate::adapters::kendoo::native_codes().any(|code| {
                                     url.path()
                                         .starts_with(&format!("/betman-demo/gs/{code}/desktop/"))
                                 }))
@@ -709,7 +710,8 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
         "irondog" => {
             url.scheme() == "https"
                 && match host {
-                    "gamelauncherservice-stage.1x2networkhub.com" => {
+                    "gamelauncherservice-stage.1x2networkhub.com"
+                    | "gamelauncherservice.desertorchidhub.com" => {
                         url.path() == "/" && url.query().is_none()
                     }
                     "nogs-gl-stage.nyxmalta.com" => url.path() == "/game/",
@@ -753,13 +755,22 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
         "betsoft" => {
             url.scheme() == "https"
                 && match host {
-                    "democasino.betsoftgaming.com" => {
+                    "democasino.betsoftgaming.com" | "lobby-gp3demo.betsoftgaming.com" => {
                         matches!(url.path(), "/cwguestlogin.do" | "/free/base/template.jsp")
                     }
-                    "games-gp3demo.betsoftgaming.com" => matches!(
-                        url.path(),
-                        "/Lucky7.game" | "/AtTheMovies.game" | "/RooksRevenge.game"
-                    ),
+                    "games-gp3demo.betsoftgaming.com" => {
+                        url.query().is_none()
+                            && url
+                                .path()
+                                .strip_prefix('/')
+                                .and_then(|path| path.strip_suffix(".game"))
+                                .is_some_and(|game| {
+                                    !game.is_empty()
+                                        && game.bytes().all(|b| {
+                                            b.is_ascii_alphanumeric() || matches!(b, b'-' | b'_')
+                                        })
+                                })
+                    }
                     _ => false,
                 }
         }
@@ -775,17 +786,16 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
             ("preprod.elaapi.com", "wss") => url.path() == "/gateway-game/socket.io/",
             _ => false,
         },
-        "amusnet" => matches!(
-            (host, url.scheme(), url.path()),
-            ("amusnet.com", "https", "/api/lobby")
-                | ("free-pod.games.amusnet.io", "https", "/demo/v1/launch")
-                | (
-                    "free-pod.games.amusnet.io" | "free-pod01.games.amusnet.io",
-                    "wss",
-                    "/"
-                )
-                | ("prod.cdn.amusnet.io", "https", "/")
-        ),
+        "amusnet" => {
+            matches!(
+                (host, url.scheme(), url.path()),
+                ("amusnet.com", "https", "/api/lobby")
+                    | ("free-pod.games.amusnet.io", "https", "/demo/v1/launch")
+                    | ("prod.cdn.amusnet.io", "https", "/")
+            ) || (url.scheme() == "wss"
+                && url.path() == "/"
+                && crate::adapters::amusnet::demo_socket_host(host))
+        }
         "hacksaw" => matches!(
             host,
             "static-live.hacksawgaming.com" | "rgs-demo.hacksawgaming.com"
@@ -1000,6 +1010,39 @@ mod tests {
     fn unreviewed_targets_fail_without_network() {
         assert!(validate_target("pragmatic", "https://example.com/").is_err());
         assert!(validate_target("pragmatic", "http://demogamesfree.pragmaticplay.net/").is_err());
+    }
+
+    #[test]
+    fn supplemental_demo_launchers_keep_host_and_path_boundaries() {
+        assert!(
+            validate_target(
+                "irondog",
+                "https://gamelauncherservice.desertorchidhub.com/"
+            )
+            .is_ok()
+        );
+        assert!(
+            validate_target(
+                "betsoft",
+                "https://lobby-gp3demo.betsoftgaming.com/cwguestlogin.do?bankId=14425&gameId=1009"
+            )
+            .is_ok()
+        );
+        assert!(
+            validate_target(
+                "betsoft",
+                "https://games-gp3demo.betsoftgaming.com/Venice_1.game"
+            )
+            .is_ok()
+        );
+        for target in [
+            "https://games-gp3demo.betsoftgaming.com/folder/Venice.game",
+            "https://games-gp3demo.betsoftgaming.com/Venice.game?redirect=1",
+            "https://games-gp3demo.betsoftgaming.com/.game",
+            "https://games.betsoftgaming.com/Venice.game",
+        ] {
+            assert!(validate_target("betsoft", target).is_err(), "{target}");
+        }
     }
     #[tokio::test]
     async fn unexpected_websocket_greeting_and_binary_formats_are_alertable() {

@@ -95,6 +95,52 @@ impl Catalog {
                 }
                 sources.push(json!({"provider":provider.id,"file":"embedded/gamesglobal-inventory.json","sha256":sha256(supplement)}));
             }
+            // Native IDs and selectors from the delivered IntegratedSlots inventory.
+            // Add the four new IDs and two new ante modes without rewriting existing evidence.
+            if provider.id == "irondog" {
+                let supplement = include_bytes!("../bindings/irondog-integrated.json");
+                let extra: Value = serde_json::from_slice(supplement)?;
+                for (id, row) in extra["games"]
+                    .as_object()
+                    .context("Iron Dog supplemental games missing")?
+                {
+                    let mut modes = vec![];
+                    for (key, kind) in row["modes"]
+                        .as_object()
+                        .context("Iron Dog supplemental modes missing")?
+                    {
+                        modes.push(Mode {
+                            key: key.clone(),
+                            kind: serde_json::from_value(kind.clone())?,
+                            label: key.clone(),
+                            requires_prerequisites: json!(false),
+                        });
+                    }
+                    if let Some(game) = provider.games.iter_mut().find(|g| &g.id == id) {
+                        for mode in modes {
+                            if let Some(existing) = game.modes.iter().find(|m| m.key == mode.key) {
+                                ensure!(
+                                    existing.kind == mode.kind,
+                                    "Iron Dog supplemental mode kind conflicts: {id}/{}",
+                                    mode.key
+                                );
+                            } else {
+                                game.modes.push(mode);
+                            }
+                        }
+                    } else {
+                        provider.games.push(Game {
+                            id: id.clone(),
+                            name: row["name"]
+                                .as_str()
+                                .context("Iron Dog supplemental name missing")?
+                                .to_owned(),
+                            modes,
+                        });
+                    }
+                }
+                sources.push(json!({"provider":provider.id,"file":"embedded/irondog-integrated.json","sha256":sha256(supplement)}));
+            }
             let mut game_ids = BTreeSet::new();
             for game in &provider.games {
                 ensure!(game_ids.insert(&game.id), "duplicate game");
@@ -299,7 +345,7 @@ mod tests {
         assert_eq!(c.providers.len(), 35);
         assert_eq!(
             c.providers.iter().map(|p| p.games.len()).sum::<usize>(),
-            9874
+            9878
         );
         assert_eq!(
             c.providers
@@ -307,7 +353,7 @@ mod tests {
                 .flat_map(|p| &p.games)
                 .map(|g| g.modes.len())
                 .sum::<usize>(),
-            20068
+            20090
         );
         assert!(
             c.providers
@@ -315,5 +361,83 @@ mod tests {
                 .flat_map(|p| &p.games)
                 .any(|g| g.modes.is_empty())
         );
+    }
+
+    #[test]
+    fn irondog_supplement_enumerates_all_native_pairs_once_and_preserves_originals() {
+        let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../standalone info");
+        let catalog = Catalog::load(&root).unwrap();
+        let provider = catalog
+            .providers
+            .iter()
+            .find(|p| p.id == "irondog")
+            .unwrap();
+        let original: Provider =
+            serde_json::from_slice(&fs::read(root.join("irondog/inventario.json")).unwrap())
+                .unwrap();
+        let bytes = include_bytes!("../bindings/irondog-integrated.json");
+        let extra: Value = serde_json::from_slice(bytes).unwrap();
+        let mut source_pairs = 0;
+        for (id, row) in extra["games"].as_object().unwrap() {
+            let games: Vec<_> = provider.games.iter().filter(|g| &g.id == id).collect();
+            assert_eq!(games.len(), 1, "native game {id} must be listed once");
+            let game = games[0];
+            if !original.games.iter().any(|g| &g.id == id) {
+                assert_eq!(game.name, row["name"].as_str().unwrap());
+            }
+            for (key, kind) in row["modes"].as_object().unwrap() {
+                source_pairs += 1;
+                let modes: Vec<_> = game.modes.iter().filter(|m| &m.key == key).collect();
+                assert_eq!(modes.len(), 1, "native mode {id}/{key} must be listed once");
+                assert_eq!(modes[0].kind.as_str(), kind.as_str().unwrap());
+                assert!(adapters::supports("irondog", game, modes[0]));
+            }
+        }
+        assert_eq!(source_pairs, 61);
+        for old in &original.games {
+            let games: Vec<_> = provider.games.iter().filter(|g| g.id == old.id).collect();
+            assert_eq!(games.len(), 1);
+            let game = games[0];
+            assert_eq!(game.name, old.name);
+            for old_mode in &old.modes {
+                let modes: Vec<_> = game
+                    .modes
+                    .iter()
+                    .filter(|m| m.key == old_mode.key)
+                    .collect();
+                assert_eq!(modes.len(), 1);
+                assert_eq!(
+                    serde_json::to_value(modes[0]).unwrap(),
+                    serde_json::to_value(old_mode).unwrap()
+                );
+            }
+        }
+        assert_eq!(provider.games.len(), 145);
+        assert_eq!(
+            provider.games.iter().map(|g| g.modes.len()).sum::<usize>(),
+            401
+        );
+        assert_eq!(
+            provider
+                .games
+                .iter()
+                .flat_map(|g| g.modes.iter().map(move |m| (g, m)))
+                .filter(|(g, m)| adapters::supports("irondog", g, m))
+                .count(),
+            64
+        );
+        assert_eq!(
+            provider
+                .games
+                .iter()
+                .filter(|g| g.modes.iter().any(|m| adapters::supports("irondog", g, m)))
+                .count(),
+            19
+        );
+        assert!(catalog.sources.iter().any(|source| {
+            source["provider"] == "irondog"
+                && source["file"] == "embedded/irondog-integrated.json"
+                && source["sha256"] == sha256(bytes)
+        }));
     }
 }

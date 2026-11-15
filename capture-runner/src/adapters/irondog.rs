@@ -12,7 +12,7 @@ use anyhow::{Context, Result, bail, ensure};
 use rust_decimal::Decimal;
 use serde::{Deserialize, Serialize};
 use serde_json::{Value, json};
-use std::{collections::BTreeMap, time::Duration};
+use std::{collections::BTreeMap, sync::LazyLock, time::Duration};
 use url::Url;
 use uuid::Uuid;
 
@@ -33,8 +33,16 @@ fn selection(kind: &ModeKind, key: &str) -> Option<MorphicMode> {
     }
 }
 
+static INTEGRATED: LazyLock<Value> = LazyLock::new(|| {
+    serde_json::from_str(include_str!("../../bindings/irondog-integrated.json"))
+        .expect("embedded Iron Dog IntegratedSlots contracts")
+});
+fn integrated_binding(game: &Game, mode: &Mode) -> bool {
+    INTEGRATED["games"][&game.id]["modes"][&mode.key].as_str() == Some(mode.kind.as_str())
+}
 pub fn supports(game: &Game, mode: &Mode) -> bool {
-    matches!(game.id.as_str(), "90110" | "90140") && selection(&mode.kind, &mode.key).is_some()
+    (matches!(game.id.as_str(), "90110" | "90140") && selection(&mode.kind, &mode.key).is_some())
+        || integrated_binding(game, mode)
 }
 
 fn correlation(text: &str, seed: u32) -> String {
@@ -124,18 +132,16 @@ struct Gateway<'a> {
 }
 
 impl Gateway<'_> {
-    async fn command(
+    async fn exchange(
         &mut self,
         action: &str,
+        target: &str,
         payload: &Value,
         round_action: bool,
     ) -> Result<Value> {
         tokio::time::sleep(Duration::from_secs(1)).await;
         let mut url = self.url.clone();
-        url.query_pairs_mut().append_pair(
-            "target",
-            &format!("http://localhost:81/integratedslotsduck/services/v1/duck/{action}"),
-        );
+        url.query_pairs_mut().append_pair("target", target);
         self.ctx.note(
             "native_request",
             &json!({"action":action,"request":payload}),
@@ -151,19 +157,356 @@ impl Gateway<'_> {
                 round_action,
             )
             .await?;
-        let outer = decrypt(&self.token, text(&response["response"], "data")?)?;
+        let outer = decrypt(&self.token, text(&response["response"], "data")?).map_err(|e| {
+            unknown_event(format!("Iron Dog native encrypted envelope changed: {e}"))
+        })?;
         self.token = text(&outer, "token")?.to_owned();
         let native: Value = serde_json::from_str(text(&outer, "data")?)?;
         self.ctx.note(
             "native_response",
             &json!({"action":action,"response":native}),
         )?;
+        Ok(native)
+    }
+    async fn command(
+        &mut self,
+        action: &str,
+        payload: &Value,
+        round_action: bool,
+    ) -> Result<Value> {
+        let native = self
+            .exchange(
+                action,
+                &format!("http://localhost:81/integratedslotsduck/services/v1/duck/{action}"),
+                payload,
+                round_action,
+            )
+            .await?;
         ensure!(
             native["success"] == true,
             "Iron Dog Morphic native command rejected"
         );
         Ok(native["payload"].clone())
     }
+    async fn integrated_command(
+        &mut self,
+        action: &str,
+        payload: &Value,
+        round_action: bool,
+    ) -> Result<Value> {
+        let native = self
+            .exchange(
+                action,
+                "http://localhost:81/IntegratedSlots/game",
+                payload,
+                round_action,
+            )
+            .await?;
+        let response = native
+            .get("response")
+            .filter(|v| v.is_object())
+            .ok_or_else(|| unknown_event("Iron Dog IntegratedSlots response envelope changed"))?;
+        if let Some(code) = response.get("errorcode").filter(|v| !v.is_null()) {
+            let value = code
+                .as_i64()
+                .or_else(|| code.as_str().and_then(|s| s.parse::<i64>().ok()))
+                .ok_or_else(|| {
+                    unknown_event("Iron Dog IntegratedSlots error code shape changed")
+                })?;
+            ensure!(
+                value == 0,
+                "Iron Dog IntegratedSlots native rejection {value}"
+            );
+        }
+        Ok(response.clone())
+    }
+}
+
+struct IntegratedQuote {
+    stake: Value,
+    modifiers: Value,
+    repeat: bool,
+}
+fn native_number(n: Decimal) -> Result<Value> {
+    Ok(serde_json::from_str(&n.normalize().to_string())?)
+}
+fn quote_integrated(setup: &Value, mode: &MorphicMode) -> Result<IntegratedQuote> {
+    let cfg = &setup["response"]["config"];
+    if !matches!(
+        cfg["type"].as_str(),
+        Some("PAYLINES" | "WINWAYS" | "CLUSTERPAYS")
+    ) {
+        return Err(unknown_event(
+            "Iron Dog IntegratedSlots config family changed",
+        ));
+    }
+    let values = cfg["betValues"]
+        .as_array()
+        .ok_or_else(|| unknown_event("Iron Dog native stake menu shape changed"))?;
+    let stake = values
+        .iter()
+        .map(amount)
+        .collect::<Result<Vec<_>>>()?
+        .into_iter()
+        .filter(|v| *v > Decimal::ZERO)
+        .min()
+        .context("Iron Dog native stake menu empty")?;
+    let stake = exact_mul(stake, Decimal::from(100))?;
+    ensure!(
+        stake.fract() == Decimal::ZERO,
+        "Iron Dog native stake cannot be encoded in cents"
+    );
+    let mut modifiers = json!({});
+    let mut repeat = false;
+    match mode {
+        MorphicMode::Normal => {}
+        MorphicMode::Ante(id) => {
+            ensure!(cfg["disableAnteBet"] != true, "Iron Dog ante unavailable");
+            let option = &cfg["anteBetSetup"]["options"][id];
+            let scale = amount(&option["stakeScale"])?;
+            ensure!(scale > Decimal::ZERO, "Iron Dog native ante unavailable");
+            modifiers["isAnte"] = json!(true);
+            // The native contract encodes this per-option value with two decimal places.
+            modifiers[format!("anteBetSelection_{id}")] =
+                native_number(exact_mul(stake, scale)?.round_dp(2))?;
+            repeat = true;
+        }
+        MorphicMode::Purchase(id) => {
+            ensure!(cfg["disableBuyIn"] != true, "Iron Dog buy unavailable");
+            let groups = cfg["buyInSetup"]["options"]
+                .as_array()
+                .context("Iron Dog buy menu absent")?;
+            if groups.len() != 1 {
+                return Err(unknown_event("Iron Dog buy menu group structure changed"));
+            }
+            let prices = groups[0]["price"]
+                .as_array()
+                .context("Iron Dog buy option list absent")?;
+            let mut matches = prices
+                .iter()
+                .filter(|p| identity(&p["optionString"]).ok().as_ref() == Some(id));
+            let option = matches
+                .next()
+                .context("Iron Dog requested buy option absent")?;
+            if matches.next().is_some() {
+                return Err(unknown_event("Iron Dog duplicate buy option"));
+            }
+            let scale = amount(&option["stakeScale"])?;
+            ensure!(scale > Decimal::ONE, "Iron Dog buy scale unavailable");
+            if let Some(limit) = option.get("maxBet").filter(|v| !v.is_null()) {
+                let limit = amount(limit)?;
+                ensure!(
+                    limit == Decimal::ZERO || stake <= limit,
+                    "Iron Dog buy exceeds native option bound"
+                );
+            }
+            let lines = if let Some(lines) = cfg["lines"].as_array() {
+                u64::try_from(lines.len())?
+            } else {
+                integer(&cfg["coinsPlayed"])?
+            };
+            ensure!(lines > 0, "Iron Dog native line count absent");
+            modifiers = json!({"buyIn":"true","buyInValue":native_number(exact_mul(stake,scale)?.round_dp(2))?,
+                "selection_0":option["optionString"],"lines":lines.to_string(),"conf":"2","mobile":"false"});
+            if let Some(spins) = option["spins"].as_u64() {
+                modifiers["nSpins"] = json!(spins.to_string());
+            }
+        }
+    }
+    Ok(IntegratedQuote {
+        stake: native_number(stake)?,
+        modifiers,
+        repeat,
+    })
+}
+fn integrated_spin(
+    common: &Value,
+    guest: u64,
+    record: Option<&Value>,
+    quote: &IntegratedQuote,
+    first: bool,
+) -> Result<Value> {
+    let mut payload = common.clone();
+    let fields = payload
+        .as_object_mut()
+        .context("Iron Dog common request must be an object")?;
+    fields.extend(json!({"mode":"spin","isPromoRound":0,"promoActivationID":0,"promoCampaignID":0,"promoType":0,
+        "stake":quote.stake,"now":now_ms(),"settings":"011","accountID":guest,"customerID":"guest"}).as_object().unwrap().clone());
+    if let Some(record) =
+        record.filter(|v| !v.is_null() && v.as_u64() != Some(0) && v.as_str() != Some(""))
+    {
+        let record = identity(record)?;
+        fields.insert("accountID".into(), json!(format!("{guest}||{record}")));
+        fields.insert("customerID".into(), json!(format!("guest||{record}")));
+    }
+    if first || quote.repeat {
+        fields.extend(
+            quote
+                .modifiers
+                .as_object()
+                .context("Iron Dog native modifiers must be an object")?
+                .clone(),
+        );
+    }
+    Ok(payload)
+}
+fn integrated_settled(response: &Value) -> Result<bool> {
+    identity(&response["bet"]["id"])
+        .map_err(|_| unknown_event("Iron Dog IntegratedSlots bet identity missing"))?;
+    response["bet"]["settle"]
+        .as_bool()
+        .ok_or_else(|| unknown_event("Iron Dog IntegratedSlots settlement marker missing"))
+}
+
+fn integrated_headers(origin: &str) -> BTreeMap<String, String> {
+    BTreeMap::from([
+        ("origin".into(), origin.into()),
+        ("user-agent".into(), UA.into()),
+        ("accept".into(), "*/*".into()),
+        ("accept-language".into(), "en-US,en;q=0.9".into()),
+    ])
+}
+
+async fn execute_integrated(ctx: &RunContext, game: &Game, mode: &Mode) -> Result<Completion> {
+    let gid = game.id.parse::<u64>()?;
+    let profile = [
+        ("siteID", "809".to_owned()),
+        ("clientID", "184".to_owned()),
+        ("sessionID", "demo".to_owned()),
+        ("gameID", game.id.clone()),
+        ("playMode", "fun".to_owned()),
+        ("lang", "en".to_owned()),
+        ("platform", "mobile".to_owned()),
+        ("jurisdiction", "com".to_owned()),
+    ];
+    let query = url::form_urlencoded::Serializer::new(String::new())
+        .extend_pairs(&profile)
+        .finish();
+    let seed = format!("{query}|{}|{}", now_ms(), Uuid::new_v4());
+    let hash = format!("{}{}", correlation(&seed, 0), correlation(&seed, 1));
+    let mut params: Vec<_> = profile
+        .iter()
+        .map(|(key, value)| json!({"key":key,"value":value}))
+        .collect();
+    params.push(json!({"key":"userAgent","value":UA}));
+    let launch = ctx
+        .json(
+            "public_fun_launcher",
+            "https://gamelauncherservice.desertorchidhub.com/",
+            &json!({"clientID":"184","hash":hash,"payload":params,"userAgent":UA}),
+            integrated_headers("https://gamelauncher.desertorchidhub.com"),
+            false,
+        )
+        .await?;
+    let binding = validate_launch(&launch, gid)?;
+    let p = &launch["data"]["parameters"];
+    if launch["success"] != true
+        || p["playMode"] != "fun"
+        || binding.morphic
+        || binding.gateway != "https://gp.sociumhubeurope.com/gateway/"
+        || !matches!(p["gameType"].as_str(), Some("PREMIUMSLOTS" | "OPENSLOTS"))
+    {
+        return Err(unknown_event(
+            "Iron Dog IntegratedSlots launcher contract changed",
+        ));
+    }
+    ensure!(
+        integer(&p["site"])? == 809,
+        "Iron Dog public demo site changed"
+    );
+    let mut headers = integrated_headers("https://cdn.desertorchidhub.com");
+    headers.insert("referer".into(), "https://cdn.desertorchidhub.com/".into());
+    let guest = ctx
+        .http(
+            "guest_id",
+            "GET",
+            &binding.guest_path,
+            headers.clone(),
+            String::new(),
+            false,
+        )
+        .await?;
+    ensure!(
+        guest.status == 200,
+        "Iron Dog guest endpoint returned HTTP {}",
+        guest.status
+    );
+    let mut guests =
+        url::form_urlencoded::parse(guest.body.as_bytes()).filter(|(k, _)| k == "guestID");
+    let guest = guests
+        .next()
+        .context("Iron Dog guest identity absent")?
+        .1
+        .parse::<u64>()?;
+    if guest == 0 || guests.next().is_some() {
+        return Err(unknown_event("Iron Dog guest identity ambiguous"));
+    }
+    headers.insert("x-do-not-track".into(), "c2ad63fd79f2".into());
+    headers.insert("x-csrf-token".into(), game.id.clone());
+    let url = Url::parse(&binding.gateway)?;
+    let init = ctx
+        .http(
+            "gateway_init",
+            "POST",
+            url.join("init")?.as_str(),
+            headers.clone(),
+            String::new(),
+            false,
+        )
+        .await?;
+    ensure!(
+        init.status == 201,
+        "Iron Dog gateway init returned HTTP {}",
+        init.status
+    );
+    let init: Value = serde_json::from_str(&init.body)?;
+    headers.insert("x-requested-with".into(), text(&init, "sid")?.into());
+    headers.insert(
+        "x-requested-type".into(),
+        "application/x-www-form-urlencoded".into(),
+    );
+    headers.insert(
+        "content-type".into(),
+        "application/x-www-form-urlencoded".into(),
+    );
+    let mut gateway = Gateway {
+        ctx,
+        url,
+        headers,
+        token: text(&init, "token")?.into(),
+    };
+    identity(&p["gameVersion"])?;
+    let common = json!({"gameID":gid,"username":"guest","customerID":"guest","fun_real":-1,"ex_rate":1,"currency":"FUN",
+        "site":809,"version":p["gameVersion"],"jurisdiction":p["jurisdiction"].as_str().unwrap_or(""),"gameType":p["gameType"]});
+    let mut request = common.clone();
+    request["mode"] = json!("setup");
+    request["accountID"] = json!(guest);
+    request["stake"] = json!("100");
+    request["now"] = json!(now_ms());
+    let setup = gateway.integrated_command("setup", &request, false).await?;
+    let quote = quote_integrated(
+        &json!({"response":setup}),
+        &selection(&mode.kind, &mode.key).context("Iron Dog native selector absent")?,
+    )?;
+    ctx.save_session(&json!({"provider":"irondog","engine":"IntegratedSlots","game":gid,"guest":guest,"sid":init["sid"],"token":gateway.token,"gateway":gateway.url.as_str()}))?;
+    let mut record = setup["bet"].get("betRecord").cloned();
+    let mut first_id = None;
+    for step in 0..ctx.max_steps() {
+        let payload = integrated_spin(&common, guest, record.as_ref(), &quote, step == 0)?;
+        let result = gateway.integrated_command("spin", &payload, true).await?;
+        let closed = integrated_settled(&result)?;
+        if first_id.is_none() {
+            first_id = Some(identity(&result["bet"]["id"])?);
+        }
+        if closed {
+            return Ok(Completion {
+                native_round_id: first_id,
+                details: json!({"game":gid,"engine":"IntegratedSlots","steps":step+1}),
+            });
+        }
+        record = result["bet"].get("betRecord").cloned();
+    }
+    bail!("Iron Dog IntegratedSlots continuation limit reached")
 }
 
 pub async fn execute(
@@ -176,6 +519,9 @@ pub async fn execute(
         supports(game, mode),
         "Iron Dog reviewed game or mode unavailable"
     );
+    if integrated_binding(game, mode) {
+        return execute_integrated(ctx, game, mode).await;
+    }
     let gid = game.id.parse::<u64>()?;
     let demo_id = match gid {
         90110 => "182733",
@@ -611,6 +957,75 @@ mod capture_tests {
                 .unwrap()
                 .stake_unit,
             10
+        );
+    }
+}
+
+#[cfg(test)]
+mod recovered_tests {
+    use super::*;
+
+    #[test]
+    fn integrated_launcher_guest_and_gateway_keep_required_client_language() {
+        let launcher = integrated_headers("https://gamelauncher.desertorchidhub.com");
+        let guest = integrated_headers("https://cdn.desertorchidhub.com");
+        let mut gateway = guest.clone();
+        gateway.insert("x-csrf-token".into(), "8150".into());
+        gateway.insert("x-requested-with".into(), "fresh-gateway-sid".into());
+        gateway.insert(
+            "x-requested-type".into(),
+            "application/x-www-form-urlencoded".into(),
+        );
+        // Preserve the native harvester's exact language header on every HTTP request.
+        for headers in [launcher, guest, gateway] {
+            assert_eq!(
+                headers.get("accept-language").map(String::as_str),
+                Some("en-US,en;q=0.9")
+            );
+            assert_eq!(headers.get("accept").map(String::as_str), Some("*/*"));
+        }
+    }
+    fn setup() -> Value {
+        json!({"response":{"config":{"type":"PAYLINES","betValues":[0.2,0.5],"lines":[[],[],[],[],[]],"anteBetSetup":{"options":{"100":{"stakeScale":1.5}}},"buyInSetup":{"options":[{"price":[{"optionString":0,"stakeScale":50,"spins":10}]}]}}}})
+    }
+    #[test]
+    fn integrated_native_units_and_modifiers_need_no_balance() {
+        let q = quote_integrated(&setup(), &MorphicMode::Purchase("0".into())).unwrap();
+        assert_eq!(q.stake, json!(20));
+        assert_eq!(
+            q.modifiers,
+            json!({"buyIn":"true","buyInValue":1000,"selection_0":0,"nSpins":"10","lines":"5","conf":"2","mobile":"false"})
+        );
+        assert!(!q.repeat);
+        let a = quote_integrated(&setup(), &MorphicMode::Ante("100".into())).unwrap();
+        assert_eq!(
+            a.modifiers,
+            json!({"isAnte":true,"anteBetSelection_100":30})
+        );
+        assert!(a.repeat);
+        assert!(quote_integrated(&setup(), &MorphicMode::Purchase("99".into())).is_err());
+    }
+    #[test]
+    fn integrated_record_is_carried_and_buy_is_only_on_entry() {
+        let q = quote_integrated(&setup(), &MorphicMode::Purchase("0".into())).unwrap();
+        let common = json!({"gameID":8150,"customerID":"guest"});
+        let first = integrated_spin(&common, 123, None, &q, true).unwrap();
+        let next = integrated_spin(&common, 123, Some(&json!(77)), &q, false).unwrap();
+        assert_eq!(first["accountID"], 123);
+        assert_eq!(first["selection_0"], 0);
+        assert_eq!(next["accountID"], "123||77");
+        assert_eq!(next["customerID"], "guest||77");
+        assert!(next.get("buyIn").is_none());
+    }
+    #[test]
+    fn integrated_terminal_marker_is_native_and_unknown_shape_alerts() {
+        assert!(integrated_settled(&json!({"bet":{"id":9,"settle":true,"balance":null}})).unwrap());
+        assert!(!integrated_settled(&json!({"bet":{"id":9,"settle":false}})).unwrap());
+        assert!(
+            integrated_settled(&json!({"bet":{"id":9,"newState":"pick"}}))
+                .unwrap_err()
+                .downcast_ref::<crate::model::UnknownEvent>()
+                .is_some()
         );
     }
 }

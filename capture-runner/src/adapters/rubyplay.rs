@@ -1,5 +1,7 @@
-//! African Cats native binary protocol, reconstructed from the published source index.
-//! Other RubyPlay games need the missing per-game decoder bindings; coverage reports that explicitly.
+//! African Cats native decoder plus the explicit HTTP controls recovered from capture.py.
+//! Additional games preserve binary replies opaquely and follow the native HTTP envelope.
+#[path = "rubyplay_extra.rs"]
+mod extra;
 use crate::{
     context::RunContext,
     model::{Completion, Game, Mode, ModeKind, sha256, unknown_event},
@@ -25,6 +27,10 @@ const SOURCE: &str =
 const HASH: &str = "cd94725c10fbd5a1c70313b64c5eacaa6d17c89d52ea745601c48de7133c9c50";
 
 pub fn supports(game: &Game, mode: &Mode) -> bool {
+    original_supports(game, mode) || extra::supports(game, mode)
+}
+
+fn original_supports(game: &Game, mode: &Mode) -> bool {
     game.id == GAME && mode.kind == ModeKind::Normal && mode.key == "normal"
 }
 
@@ -138,8 +144,11 @@ pub async fn execute(
     mode: &Mode,
     _settings: &Value,
 ) -> Result<Completion> {
+    if extra::supports(game, mode) {
+        return extra::execute(ctx, game, mode).await;
+    }
     ensure!(
-        supports(game, mode),
+        original_supports(game, mode),
         "RubyPlay mode has no reviewed binding"
     );
     let headers = BTreeMap::from([
@@ -295,6 +304,31 @@ pub async fn execute(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn explicit_http_controls_extend_only_the_documented_catalogue_modes() {
+        for id in [
+            "rp_1", "rp_102", "rp_103", "rp_106", "rp_109", "rp_112", "rp_114", "rp_222",
+        ] {
+            let game = Game {
+                id: id.into(),
+                name: String::new(),
+                modes: vec![],
+            };
+            let mode = Mode {
+                key: "normal".into(),
+                kind: ModeKind::Normal,
+                label: String::new(),
+                requires_prerequisites: Value::Null,
+            };
+            assert!(supports(&game, &mode), "missing source-known normal: {id}");
+            let buy = Mode {
+                key: "buy_feature:freespin".into(),
+                kind: ModeKind::Purchase,
+                ..mode
+            };
+            assert_eq!(supports(&game, &buy), matches!(id, "rp_102" | "rp_103"));
+        }
+    }
     #[test]
     fn changed_decoder_source_is_typed_novelty() {
         let err = inspect("changed source", &json!({}), &[]).unwrap_err();

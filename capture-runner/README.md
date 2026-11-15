@@ -106,6 +106,8 @@ Los bytes HTTP y binarios WebSocket se guardan en base64. Un mensaje se conserva
 
 La alerta sale también por `stderr`, inmediatamente. Se dispara ante acciones, estados, formatos o versiones de protocolo que el conector identifica como desconocidos. Detiene ese intento y permite continuar otros juegos. Un rechazo conocido del proveedor y un fallo de transporte se registran con categorías distintas.
 
+En los ocho juegos adicionales de RubyPlay, el binario se conserva íntegro pero todavía es opaco para el conector. Las alertas reconocen cambios del sobre, secuencia, versión y acción siguiente; no identifican un evento nuevo que cambie únicamente el contenido interno de ese binario. African Cats conserva su decodificador específico.
+
 ## Estados y reanudación
 
 | Estado | Significado |
@@ -125,11 +127,11 @@ Los modos sin conector quedan en `plan --details` y en los eventos de ejecución
 
 ## Cobertura y procedencia
 
-Los 35 proveedores y sus juegos se leen del inventario, sin filtrar por `ready`, `campaign_eligible` o conciliaciones anteriores. Games Global agrega dos selectores que estaban publicados en su inventario individual. La cobertura ejecutable se calcula mediante la misma tabla que despacha los conectores; no se confunde una fila de inventario con un protocolo implementado.
+Los 35 proveedores y sus juegos se leen del inventario, sin filtrar por `ready`, `campaign_eligible` o conciliaciones anteriores. Games Global agrega dos selectores de su inventario individual. El suplemento IronDog incorpora cuatro juegos y 22 modos identificados en la nueva entrega, preservando los archivos de evidencia originales y registrando el hash del suplemento en la identidad del catálogo. La cobertura ejecutable se calcula mediante la misma tabla que despacha los conectores; no se confunde una fila de inventario con un protocolo implementado.
 
-Se incorporaron también los protocolos completos conservados en referencias: NoLimit, ELK, BGaming legacy/RPC/Cocos, mesas y clásicos de Play’n GO, y los selectores de Yggdrasil respaldados por el traspaso. La entrega tiene contratos ejecutables para **13.841 de 20.068 modos**, en 6.393 juegos. La tabla de los 35 proveedores está en [COVERAGE.md](docs/COVERAGE.md).
+Se incorporaron también los protocolos completos conservados en referencias: NoLimit, ELK, BGaming legacy/RPC/Cocos, mesas y clásicos de Play’n GO, y los selectores de Yggdrasil respaldados por el traspaso. La entrega adicional del 15 de noviembre amplía Betsoft, IronDog, RubyPlay, Kendoo, 1spin4win, Mascot y Amusnet. Hay contratos ejecutables para **14.379 de 20.090 modos**, en 6.675 juegos. Veinte proveedores cubren todos sus modos identificados. La tabla de los 35 proveedores está en [COVERAGE.md](docs/COVERAGE.md).
 
-Algunas familias conservan únicamente un juego o un subconjunto de modos implementable con los archivos entregados. En RubyPlay está el índice del decodificador de African Cats; los demás decodificadores citados por la evidencia no están incluidos. La infraestructura admite los cupos solicitados, pero la cobertura actual de RubyPlay permite un solo juego distinto por salida. [MISSING-EVIDENCE.md](docs/MISSING-EVIDENCE.md) lista los archivos concretos que faltan. Ver también [PROVENANCE.md](docs/PROVENANCE.md) y `plan --details`.
+Algunas familias conservan únicamente un juego o un subconjunto de modos implementable con los archivos entregados. RubyPlay ahora dispone de nueve juegos distintos por salida y 11 modos; las elecciones y versiones restantes siguen necesitando sus contratos. Playtech conserva un solo binding completo: el mock reconstruido de la nueva entrega no aporta los motores nativos ausentes. [MISSING-EVIDENCE.md](docs/MISSING-EVIDENCE.md) lista las rutas concretas, los límites de cada familia y qué material nuevo ya fue aprovechado. Ver también [PROVENANCE.md](docs/PROVENANCE.md) y `plan --details`.
 
 ## Verificación local
 
@@ -141,4 +143,4 @@ cargo clippy --locked --manifest-path capture-runner/Cargo.toml --all-targets --
 
 Las pruebas usan archivos temporales, servidores locales y comandos simulados. Comprueban cupos independientes por proveedor/salida, conservación de respuestas parciales, alertas, continuidad después de un evento desconocido, reanudación sin reenvío, configuración de 30 salidas y propiedad/rollback de recursos de red. No solicitan apuestas a proveedores ni levantan túneles reales.
 
-Los resultados de la entrega, las 185 pruebas y los límites de la verificación están en [VERIFICATION.md](docs/VERIFICATION.md).
+Los resultados de las pruebas y los límites de la verificación están en [VERIFICATION.md](docs/VERIFICATION.md).

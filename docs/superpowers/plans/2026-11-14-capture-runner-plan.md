@@ -68,6 +68,18 @@ Files owned: `src/{config,wireguard,supervisor}.rs`, `examples/`, `docs/WIREGUAR
 - [x] Add Linux CI and operator documentation with exact commands.
 - [x] Compile release, run tests and independent review, fix material findings, prepare a reviewable branch.
 
-## Verified implementation scope
+## Verified initial implementation scope
 
 All delivered protocol families that could be reconstructed with their required bindings have been integrated. The common catalogue has 35 providers and 9,874 games; supplementary GamesGlobal controls bring it to 20,068 modes. The registry exposes 13,841 modes across 6,393 games. Missing private decoders, prepared native sources and selectors remain explicit; see capture-runner/docs/MISSING-EVIDENCE.md. Historical financial success is not a support gate. Real VPN/provider operation requires the deployment VM and peer configurations, which were not supplied.
+
+## Follow-up: ENTREGA-CLAUDE evidence, 15 November 2026
+
+The user supplied `ENTREGA-CLAUDE.zip` and `CLAUDE-COMPLETO.md` and asked about the remaining providers. Audit the new native captures and helper code against the exact pending mode keys. Mock servers and reconstructed responses do not establish official request contracts. The previous description of Mascot's 31 gaps was incorrect: they comprise 22 purchase modes and nine normal modes, which must be assessed separately.
+
+- [x] Audit RubyPlay and Playtech decoder/launcher coverage from the new package.
+- [x] Audit the six Claude providers and recover supported Mascot modes from actual captures.
+- [x] Audit the other provider helper code for complete native controls.
+- [x] Correct the missing-evidence report, provenance and generated coverage.
+- [x] Verify new contracts and prepare the follow-up for the same PR.
+
+Verified follow-up: 538 additional executable modes across seven providers, including 22 new exact IronDog catalogue pairs. The catalogue now contains 9,878 games and 20,090 modes; 14,379 modes across 6,675 games have executable contracts and 5,711 remain explicit. All 216 local tests pass, clippy/fmt/release gates pass, and the generated coverage matches the release plan. Original evidence and all 33 previous binding files are unchanged. Native provider/VPN verification remains a deployment task.
