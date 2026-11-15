@@ -1,0 +1,550 @@
+{
+  "source_commit": "749ae8e4ca8e50326cc756fda8efb916c47b0be8",
+  "bindings": [
+    {
+      "file": "1spin4win.json",
+      "source": "game-runner/bindings/1spin4win.json",
+      "sha256": "e12f427794d6456f704596840a4236f776739c2efcc614e06cd383a5cd75a161",
+      "bytes": 61820,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "amusnet.json",
+      "source": "game-runner/bindings/amusnet.json",
+      "sha256": "a97a851b027685cb43eca77ddd7bd40d8f302c6f0900e42837dec2ac5ec43375",
+      "bytes": 84640,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "bgaming-extra.json",
+      "sha256": "ecfd1a6d62f86889c7802f18ecdd5e75d41e092ecd0761ab044a61131d819ecf",
+      "bytes": 13710,
+      "kind": "derived",
+      "transformation": "Exact inventory selectors for delivered legacy-v1, variant, choice and RPC families. Missing prepared-source families are excluded; historical success is not required.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+          "sha256": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+          "sha256": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/native_variants.py",
+          "sha256": "c70630e51cd0fa64f1c72fbe12eddb3df4045ed9f16e1fbe6a6254881c059a84"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/old_slots.py",
+          "sha256": "d5f224862fefcfa3c151a21745901e029cd1ca02aa9d2b17aec3e9c32246928a"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_slots.py",
+          "sha256": "a72cbf0019fc98477d2ccf5c67b918c8e81689741a7b4ada94e83e2f97c28bdb"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/alice_choices.py",
+          "sha256": "05c1973b26525d4d124704b01be0a198a0311dcca939e2cfdf2182b069f4cdde"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cats_choices.py",
+          "sha256": "5db6023b66406ec194dc7b164f0654a5537f711f82963d0392b1221a83421e98"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/bonus_choices_extra.py",
+          "sha256": "0f79db9162462fa3a1f639fdae82c8df9a6f95361cdf4be37e86cda92653a193"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_wild_moon_manual.py",
+          "sha256": "a580566f05a15b1655b7307cf75dfda229cf1455dc9bcbe7a98cd77055613ee0"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_gamble.py",
+          "sha256": "527d5280b71ac6e904009d946f6177a4f1e99449bdadf06a8450cd309b7ce090"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/finish_dig_conditional_choices.py",
+          "sha256": "eadf50946db70fbc062e3d83dc62ea5927285e6140768376371a67462db05283"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "bgaming-legacy-v2.json",
+      "sha256": "fdc4d8456d54b01c2e5fbd848d14a80db60cc9b0ae369fb3a7460ed90a089589",
+      "bytes": 37289,
+      "kind": "derived",
+      "transformation": "Exact legacy-v2 game/mode identities intersected with inventory; current source and native menu must prove the selector before dispatch.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+          "sha256": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+          "sha256": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/line_count_modes.py",
+          "sha256": "0f033953570693974217c4af077f918a61033ae2cdf9947f5a8ff2484ab1c63e"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/volatility_modes.py",
+          "sha256": "15375d6374135056babee547474170927e79dbd2affacc0c068693b35a4cc9fa"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/gold_symbols.py",
+          "sha256": "4a9ffa049286befd9e39dd9ab4e5a16c6ef300eaf93dcdf0e21b5ef3cc86e10e"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/freespin_types.py",
+          "sha256": "c9e00f1b7687d8e2e2d4cc744db528f7b5cf08f752ef3d0249f29b762d6914e2"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/indexed_rows.py",
+          "sha256": "82c2ab40901b731cd0c708e3f64f9c84455464e861e887ba39530049d6e7e08d"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/lucky_dragon_controls.py",
+          "sha256": "26956982b62d93e28b7d9c3dd1efac31cb6410201116aa261f6279eaf1f818e0"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "bgaming-rpc-contracts.json",
+      "sha256": "017181332feb2efca454e20fef57514ec931a19622e0da00ecd5005ab0345906",
+      "bytes": 19828,
+      "kind": "derived",
+      "transformation": "RPC request/control descriptors ported from the published Python family contracts; only games selected by bgaming-extra.json are executable.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_extra.py",
+          "sha256": "9a44fc0591659c6285c76fa2770e535b6130b7d6a6992b23ed1d9cf39f46ef0f"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_source_pins.py",
+          "sha256": "ce71724adebf3c5fa8713ad43754f5aa5d3f3e62b46cf225ccf0395f7f52bea3"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/four_modern_slots.py",
+          "sha256": "70c3942e6d81792fef48203ae6a28e028b4f7f2663845e054ce0ae4b5fb71840"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/product_round_rpc.py",
+          "sha256": "03397fda4e1155ba80ebeaafbe4076bee687447652dac4a8981ffeecc6667995"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/oga_classic.py",
+          "sha256": "bf11cd8e1ad8292d8e40235b397ab63f52a47e6d47b568cc9c48ae10a5026d01"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/star_choices.py",
+          "sha256": "075ae836cf8c9190d9314d4d07f4b4b6f6cd4feb7db451af225cec3e2119fc32"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/final_rpc_pair.py",
+          "sha256": "543b83ff54896ea91049465cedbcbe223bb677d4451c3f1ae56a6dab03208889"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_metadata.py",
+          "sha256": "fb13dc2f0277db0e4c1eedf6f0a5b3586142f206ac91e29be0044390fa2b0fac"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_adapter.py",
+          "sha256": "351b30c119da62a21edcb8d160078974614da41964e8bec7fd0a82264396a329"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/hyperhive_adapter.py",
+          "sha256": "354203eb3e80dfaf1d60fe9f8e6fcb302cf785e12024449379c80e0292c8750d"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "egt-digital.json",
+      "source": "game-runner/bindings/egt-digital.json",
+      "sha256": "05bce352b02abea6837c53b1ad2e3c59312dc3f8781dd581db806d1aba01bb98",
+      "bytes": 92142,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "ela-games.json",
+      "source": "game-runner/bindings/ela-games.json",
+      "sha256": "2afa537916d95fb68c9e754a2d05a92afbe664d97d062f493f7dc73000691ecd",
+      "bytes": 15239,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "elk-bindings.json",
+      "sha256": "9937d3c131e6b627d019e822637d75606aad0bff7cf1fbe33d86fb7094379bcf",
+      "bytes": 36652,
+      "kind": "derived",
+      "transformation": "Join of immutable ELK catalogue game ID/XDM and inventory mode keys/kinds; protocol port includes variants, classic XML and native Boss progression.",
+      "sources": [
+        {
+          "path": "standalone info/elk/inventario.json",
+          "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk/catalog.json",
+          "sha256": "f9092d1885af70c4c1797f9741bb2c8adea336375d104a1279ed9d8b0da2f12b"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_client.py",
+          "sha256": "2295fbd9f844c95d770eb525eed1464706605299872405d042a4843ea9f6825d"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_protocol.py",
+          "sha256": "4e4e33bd51257121f977ef1fffa54824445389d3de65dfa9c669a388bfda57d6"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_boss.py",
+          "sha256": "47ba2fd0752bd126fb47d256ec8dc263d0b37640818f0ae8e5b0839f68f9382d"
+        }
+      ]
+    },
+    {
+      "file": "endorphina-catalog.json",
+      "source": "demo-dashboard/endorphina/catalog.json",
+      "sha256": "7bb60cc832605bc1b3aab9388482ee4cf6e7c7425bb3db3a054de4cce838475f",
+      "bytes": 65626,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "evoplay.json",
+      "source": "game-runner/bindings/evoplay.json",
+      "sha256": "017ce7836280b53b0663092c1b66baa86ff97b2ef353df092b33df482bac7ee4",
+      "bytes": 34421,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "gamesglobal-inventory.json",
+      "source": "game-runner/bindings/gamesglobal-inventory.json",
+      "sha256": "1629221a212d88816b6d7d3af340b01bb5ee4acc5cea66abf7da1af153591279",
+      "bytes": 18447,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "habanero.json",
+      "source": "game-runner/bindings/habanero.json",
+      "sha256": "df09a28bd04e6f079d36d36daf2d8dcbb1bb34a84398010c275bfe9fded7a6dd",
+      "bytes": 53009,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "kagaming.json",
+      "source": "game-runner/bindings/kagaming.json",
+      "sha256": "029ef4909a96814942c0b00a4074f7a4a654dd7d4125c6d1d1f6b5d486dfe681",
+      "bytes": 249790,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "mascot.json",
+      "source": "game-runner/bindings/mascot.json",
+      "sha256": "72419982212df2e9184b11bc98cc86393d87129fea65be980b5aae7fbfe6f61b",
+      "bytes": 41642,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-geco-modes.json",
+      "source": "game-runner/bindings/netent-geco-modes.json",
+      "sha256": "858836a0dad5f715ef97e9e893c5447f7848803ed3057737f5e303d997fd311a",
+      "bytes": 6565,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-geco.json",
+      "source": "game-runner/bindings/netent-geco.json",
+      "sha256": "da9c89453bfd36e4a02174fb91fd4c9a8d05dad17e93ee095306fcc6e375759a",
+      "bytes": 13578,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-horizon.json",
+      "source": "game-runner/bindings/netent-horizon.json",
+      "sha256": "94a9bb9069653300be8d2767e11bf5f321437897046d4b90d300f8e5171c7a39",
+      "bytes": 42423,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-launch.json",
+      "source": "game-runner/bindings/netent-launch.json",
+      "sha256": "0f5bb9dc09e5884d427ea960fbfa27efd816537926c410370e0bac0b9d842f0d",
+      "bytes": 19340,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-redtiger.json",
+      "source": "game-runner/bindings/netent-redtiger.json",
+      "sha256": "fb14357c2b2d1bd664399e154b5e800002a190081a85f282677ed8e6d1027de4",
+      "bytes": 7346,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "nolimit-choice-fixtures.json",
+      "sha256": "3d29d21db565ae6b1f806c20442e5314dd943178a45cff08a2ec13843022c995",
+      "bytes": 49083,
+      "kind": "derived",
+      "transformation": "Synthetic state fixtures for101 archived choice contracts; expected requests and node IDs computed from immutable Python reference.",
+      "sources": [
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/choices-matrix.json",
+          "sha256": "7762136345d707634a481f852cf3c2607d0c603b78063838d0057d7fd6b2f5ba"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/choices-matrix.json",
+          "sha256": "94891c15683ca7bc1900f48df32b293fe9e9f4c243508e080c3161ff7f347599"
+        }
+      ]
+    },
+    {
+      "file": "nolimit-controls.json",
+      "sha256": "55afb4ad7d7a918260c7492e16af8bdcd85c6a85875ce1aa960ef75490f939e4",
+      "bytes": 204880,
+      "kind": "derived",
+      "transformation": "Exact native feature/side/cap selectors and display identities derived from archived inventory controls.",
+      "sources": [
+        {
+          "path": "docs/recolector/inventario/nolimit.json",
+          "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_client.py",
+          "sha256": "d565b4bbb998ab77d01ece99c41f37d9d98fad7318258ac1e9786ec056f4b42f"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_run.py",
+          "sha256": "332db1be983bb85cd7b30503dd95d0ad0384c7c3a2611d5ec671a8c5e2c9bdcd"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/inventory.json",
+          "sha256": "75cf988887a33fded3babe502d891da10f79510235f77be5195eb07637fa72f2"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/inventory.json",
+          "sha256": "2d50385e98f9715ae6513fe707735aedc85d298e91032d538df3dfdd74eaec5b"
+        }
+      ]
+    },
+    {
+      "file": "nolimit-init-fixtures.json",
+      "sha256": "4567ac9e53ed4a1835b3232e021069aa4cc3ac550c0332e23b7c0fef918de636",
+      "bytes": 741587,
+      "kind": "derived",
+      "transformation": "Reduced archived initializations for offline tests, without sessions, wallet or payout metadata.",
+      "sources": [
+        {
+          "path": "docs/recolector/inventario/nolimit.json",
+          "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_client.py",
+          "sha256": "d565b4bbb998ab77d01ece99c41f37d9d98fad7318258ac1e9786ec056f4b42f"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_run.py",
+          "sha256": "332db1be983bb85cd7b30503dd95d0ad0384c7c3a2611d5ec671a8c5e2c9bdcd"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/inventory.json",
+          "sha256": "75cf988887a33fded3babe502d891da10f79510235f77be5195eb07637fa72f2"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/inventory.json",
+          "sha256": "2d50385e98f9715ae6513fe707735aedc85d298e91032d538df3dfdd74eaec5b"
+        }
+      ]
+    },
+    {
+      "file": "peterandsons.json",
+      "source": "game-runner/bindings/peterandsons.json",
+      "sha256": "2187fc9638130bf27a5dbe05001e92945bc2afcdf602defd3de472fc7486afdd",
+      "bytes": 22015,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "playngo-tables.json",
+      "sha256": "848001c9004b8a7a2719a1114fb40a8536e2088840755c33ac82db816a494862",
+      "bytes": 7135,
+      "kind": "derived",
+      "transformation": "Public GID and native source pins for18 table/draw/classic games, with exact family selectors reconstructed from archived Python contracts.",
+      "sources": [
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_craps.py",
+          "sha256": "1f738a24b3474c421d2594d41c851d28e56e27b4b38a0adfb048c4d3dc9464f1"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_holdem.py",
+          "sha256": "cb87d60e938b42c8a0154cfbfc378d4af26fa5e189a0eafac11e135f9e307214"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_roulette.py",
+          "sha256": "a457d23295a1e3c0ee9e2c9955ba420131dc5e8930cbd1029596c406660f1fc1"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_draw_games.py",
+          "sha256": "700703f71882f3307027c319d708ae34c339aebb8c7000d3dabd0f6d1b99b47b"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_legacy_tables.py",
+          "sha256": "31b4e06ff795221632dff90fba851919b39ff8242620f7fe7828b0b71d739c83"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_table_rules.py",
+          "sha256": "8a7823a7651c5a2bfd3ada91ee57ecb2cea337e76ae3d051a0ab49e42dcf28e4"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_rules.py",
+          "sha256": "dbf389dea41ac94e6c0c1b9b1c0a9e91c6cdaa406223612d84fd1154844722ac"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_run.py",
+          "sha256": "ddc88369d98b52e4e34f479832730ce24d74dc1dbd4547d94b271ba3547a7488"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_client.py",
+          "sha256": "06e029632d1eaf099e46027bec2c3b26639590dd50dabcd120e7ed4f0a5ee811"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_protocol.py",
+          "sha256": "a854adf36853047d14732b86db98205b7029034ff27b964ba569a2936ca24492"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/catalog.json",
+          "sha256": "a53a7ac5995e6055bb38a0a436b768102b3cab2a6a769c9269d324fbbefd8022"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/1-100/inventory.json",
+          "sha256": "ee446ba9a3012ed67b09894df231a1295d886c98c369251c513683dea91d3594"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/101-200/inventory.json",
+          "sha256": "367ec8b9f8ac883bd1726ef69e149a10b1ef9f553fc1dafda5453accfe675dd4"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/201-300/inventory.json",
+          "sha256": "07a7e80e4f3a6491b575476e9a2d1ca01c270270293970f7df4170d5b25412ca"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/301-400/inventory.json",
+          "sha256": "08eb61b61790e9a2de54003214fdfa9e5da1363cad1e4525272b9ba2da70e7a6"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/401-477/inventory.json",
+          "sha256": "fe51d867216ec9350c0e1569a6a2bf8297b6dd9404831bc2c4b49cb2aa8e2e6d"
+        }
+      ]
+    },
+    {
+      "file": "playngo.json",
+      "source": "game-runner/bindings/playngo.json",
+      "sha256": "c33fd1e3697e6fcabf0d21161303a9779280dca2437e7141e70632b72dc9ccae",
+      "bytes": 80896,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "playson.json",
+      "source": "game-runner/bindings/playson.json",
+      "sha256": "dec80dc5afb11971e33af59aab61b64527918e89c4bc22cb2a2892f6d07777ae",
+      "bytes": 99134,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "rubyplay-rp47-source-index.json",
+      "source": "game-runner/bindings/rubyplay-rp47-source-index.json",
+      "sha256": "1d602cb6e0f6ecf9d369146583d323d6da3e26c73ef1246168ef90cd9ef1f66b",
+      "bytes": 87177,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "spinomenal-public-init.json",
+      "source": "game-runner/bindings/spinomenal-public-init.json",
+      "sha256": "2487196fcdea6b3007396bd8798a99a78cd2ce4e03ea4185665c918b1dc92fad",
+      "bytes": 219625,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "spinomenal.json",
+      "source": "game-runner/bindings/spinomenal.json",
+      "sha256": "7ec257e35ba125da2e0cf0a9973c8ac8fd35aa1900af40b0d54ab2955aca72bb",
+      "bytes": 219839,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "threeoaks-continuations.json",
+      "source": "demo-dashboard/threeoaks/reference/continuation-bindings.json",
+      "sha256": "ad7092bf66e2090d3935197a52d752dd9332a2b76e6e70791de6dfda0783d3ac",
+      "bytes": 36650,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "threeoaks-serializers.json",
+      "source": "demo-dashboard/threeoaks/reference/serializer-bindings.json",
+      "sha256": "02206b0fb8539c6ebd657b25721913445dc560892838dc07015334de694c2dbc",
+      "bytes": 24523,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "thunderspin.json",
+      "source": "game-runner/bindings/thunderspin.json",
+      "sha256": "76ea2bc24764e02360608726755fc213ff4db02ecad12b04998bbf5c328db142",
+      "bytes": 17687,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "yggdrasil.json",
+      "sha256": "50119b56f08c7f1139bc007e3a23a79d2b83b0d2c265a3e9d72f3e0d14a8830a",
+      "bytes": 94559,
+      "kind": "derived",
+      "transformation": "All301 unique CSV game/mode/coin/amount entries intersected with inventory, including18 historical rejections; four identical observations deduplicated; request rule from supplied archive protocol.",
+      "sources": [
+        {
+          "path": "standalone info/yggdrasil/referencias/provider-work/yggdrasil-export/yggdrasil-rounds.csv",
+          "sha256": "f7c66f85ff4c82ebf4e5e235c5f6d9a7619dd1387b70dabc35301f0d9bcd3ebb"
+        },
+        {
+          "path": "handoff/traspaso-claude-20261114/yggdrasil/yggdrasil-checkpoint-20261107.json",
+          "sha256": "a312e22c959119802045c21f92d32ee5953455ca7e4710dd59567104732e5e99"
+        },
+        {
+          "path": "standalone info/yggdrasil/inventario.json",
+          "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3"
+        }
+      ]
+    }
+  ]
+}

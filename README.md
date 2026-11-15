@@ -1,5 +1,18 @@
 # Standalone
 
+## Runner nuevo: captura y WireGuard en paralelo
+
+[capture-runner](capture-runner/README.md) es el runner independiente para una VM Linux, sin interfaz gráfica. Ejecuta un cupo configurable de juegos **por proveedor y por salida WireGuard**, conserva solicitudes/respuestas completas y parciales, y avisa ante eventos nativos desconocidos. Los saldos no determinan si una captura se guarda o si continúa otro juego.
+
+`plan` informa la cobertura ejecutable real de los 35 inventarios; los modos sin un contrato ejecutable completo aparecen explícitamente como pendientes. Ver [puesta en marcha](capture-runner/README.md), [cobertura](capture-runner/docs/COVERAGE.md) y [red WireGuard](capture-runner/docs/WIREGUARD.md).
+
+```bash
+cargo build --release --locked --manifest-path capture-runner/Cargo.toml
+capture-runner/target/release/capture-runner plan --config capture-runner/examples/direct-explicit.json
+```
+
+## Ejecutables anteriores
+
 Ejecutables por proveedor para recopilar rondas de demos públicas con saldo ficticio. El código principal está en [game-runner](game-runner/README.md). BGaming, SmartSoft y Three Oaks usan el [crate de ejecutables adicionales](bet-collector/game-runner/).
 
 ## Datos por proveedor
@@ -8,7 +21,7 @@ Ejecutables por proveedor para recopilar rondas de demos públicas con saldo fic
 
 Las configuraciones usadas al compilar están en [game-runner/bindings](game-runner/bindings/) y [docs/recolector/inventario](docs/recolector/inventario/). La carpeta de datos es una referencia para las integraciones pendientes. Los ejecutables leen sus contratos incorporados, y `--data` selecciona un directorio privado para guardar los recibos localmente.
 
-## Compilar
+## Compilar los ejecutables anteriores
 
 Desde la raíz, con Rust 1.99 o posterior:
 
