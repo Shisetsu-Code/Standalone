@@ -1,0 +1,915 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_rbitfoxa1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "e7c8f49c-7a22-4c9b-a988-99cee77ac95e:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 6,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 6,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999996,
+      "cost": 10,
+      "win": 6,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "3f2bae53-6acd-4eb8-af59-e756a64f5e07:1",
+      "name": "BF1",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 300,
+      "before": 999996,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 300,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 72,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 72,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999768,
+      "cost": 300,
+      "win": 72,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "30bca565-133f-4600-ac48-1c01214e74f1:1",
+      "name": "BF2",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 350,
+      "before": 999768,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 350,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 10,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 10,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 50,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 60,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 60,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 20,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 80,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 80,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 80,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 20,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 100,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 20,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 120,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 120,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 10,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 130,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 130,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 10,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 140,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 140,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "CreditWheels",
+          "native_total_win": 140,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 140,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999558,
+      "cost": 350,
+      "win": 140,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "22d73c22-40f8-4e41-a1dd-06cc9d7e0d6d:1",
+      "name": "BF3",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 400,
+      "before": 999558,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 400,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitEscape",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2500,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 2500,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001658,
+      "cost": 400,
+      "win": 2500,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "7727304d-5467-4802-ac7d-817fe06ab07c:1",
+      "name": "BF4",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 350,
+      "before": 1001658,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 350,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RabbitFrenzy",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 375,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 375,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001683,
+      "cost": 350,
+      "win": 375,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "72af093541d4fdc3a25bcf65d393e5dcef0dcd4522bf6297ee19f5cca0ee00f6"
+  ],
+  "native_modes": [
+    {
+      "id": "e7c8f49c-7a22-4c9b-a988-99cee77ac95e",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "9"
+        },
+        "uuid": "e7c8f49c-7a22-4c9b-a988-99cee77ac95e"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        350,
+        400,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "3f2bae53-6acd-4eb8-af59-e756a64f5e07",
+      "name": "BF1",
+      "kind": "PURCHASE",
+      "selector": "BF1",
+      "selector_source": "native declaration",
+      "cost": 300,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 300,
+        "name": "BF1",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "0b40fac3-7934-4527-9ff1-c2bb644bb8c2",
+          "startingPlays": "1",
+          "winline": "9"
+        },
+        "uuid": "3f2bae53-6acd-4eb8-af59-e756a64f5e07"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        350,
+        400,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "30bca565-133f-4600-ac48-1c01214e74f1",
+      "name": "BF2",
+      "kind": "PURCHASE",
+      "selector": "BF2",
+      "selector_source": "native declaration",
+      "cost": 350,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 350,
+        "name": "BF2",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "012d6496-7f42-4fd9-9ead-a71ec8bd5ee7",
+          "startingPlays": "1",
+          "winline": "9"
+        },
+        "uuid": "30bca565-133f-4600-ac48-1c01214e74f1"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        350,
+        400,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "22d73c22-40f8-4e41-a1dd-06cc9d7e0d6d",
+      "name": "BF3",
+      "kind": "PURCHASE",
+      "selector": "BF3",
+      "selector_source": "native declaration",
+      "cost": 400,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 400,
+        "name": "BF3",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "7d26a675-4289-4001-a06e-b2a2664d0e73",
+          "startingPlays": "1",
+          "winline": "9"
+        },
+        "uuid": "22d73c22-40f8-4e41-a1dd-06cc9d7e0d6d"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        350,
+        400,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "7727304d-5467-4802-ac7d-817fe06ab07c",
+      "name": "BF4",
+      "kind": "PURCHASE",
+      "selector": "BF4",
+      "selector_source": "native declaration",
+      "cost": 350,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 350,
+        "name": "BF4",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "813a7492-d940-42b5-91ec-03a55e785ca7",
+          "startingPlays": "1",
+          "winline": "9"
+        },
+        "uuid": "7727304d-5467-4802-ac7d-817fe06ab07c"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        350,
+        400,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "9"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793484007.7218945,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

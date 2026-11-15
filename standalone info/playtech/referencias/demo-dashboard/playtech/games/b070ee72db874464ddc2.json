@@ -1,0 +1,224 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_dwpe1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "b8896018-a3f2-422f-bccd-0942b09f3d1c:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "cbf48182-819b-4416-bf37-acbfc3ee9ca2:1",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 999990,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999965,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "ac0b47b8b155ffd364641538043fabad81e76959b78929dc57a9445333e588bc"
+  ],
+  "native_modes": [
+    {
+      "id": "b8896018-a3f2-422f-bccd-0942b09f3d1c",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "supplier context transformer or native line constructor",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "b8896018-a3f2-422f-bccd-0942b09f3d1c"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3400
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "cbf48182-819b-4416-bf37-acbfc3ee9ca2",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "selector": "extra",
+      "selector_source": "native declaration",
+      "cost": 25,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 25,
+        "name": "extra",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "34118b10-b296-490f-b57d-9c849e0e22e3",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "cbf48182-819b-4416-bf37-acbfc3ee9ca2"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793479800.2313545,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

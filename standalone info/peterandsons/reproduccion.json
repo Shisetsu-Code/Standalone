@@ -1,0 +1,24 @@
+{
+  "provider": "peterandsons",
+  "name": "Peter & Sons",
+  "inventory": "../inventario/peterandsons.json",
+  "historical": "../evidencia/peterandsons.json",
+  "games": 75,
+  "modes": 223,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/peterandsons-chat4"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "peterandsons.native",
+  "continuation": "native state/available actions",
+  "closure": "native final state and wallet",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/peterandsons.rs",
+    "verified_normal_ci": false
+  },
+  "paused": false
+}

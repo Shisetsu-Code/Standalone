@@ -1,0 +1,777 @@
+[
+  {
+    "provider": "hacksaw",
+    "game_id": "2234",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "EUR",
+      "bet": 10,
+      "cost": 10,
+      "win": 6,
+      "balance_before": 500000,
+      "balance_after": 499996
+    },
+    "mode": {
+      "key": "normal",
+      "type": "normal"
+    },
+    "source_sha256": "2b71ea8f61cf625e430a7f418e700abcc39a5e56bf6c48e800ed85eaa59342cb",
+    "phases": {
+      "accepted_packet_index": 1,
+      "closed_packet_index": 2,
+      "entry_packet_index": 1,
+      "selected_option": null,
+      "transport": "http_relay",
+      "options_offered": [
+        {
+          "id": "mod_bonus",
+          "multiplier": "3"
+        },
+        {
+          "id": "mod_wheel",
+          "multiplier": "250"
+        },
+        {
+          "id": "mod_wheel_epic",
+          "multiplier": "1000"
+        },
+        {
+          "id": "fs",
+          "multiplier": "100"
+        },
+        {
+          "id": "fs_2",
+          "multiplier": "200"
+        }
+      ],
+      "steps": [
+        {
+          "packet_index": 1,
+          "selected_action": null,
+          "status": "wfwpc",
+          "options_offered": []
+        },
+        {
+          "packet_index": 2,
+          "selected_action": "win_presentation_complete",
+          "status": "completed",
+          "options_offered": []
+        }
+      ]
+    }
+  },
+  {
+    "provider": "hacksaw",
+    "game_id": "2234",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "EUR",
+      "bet": 10,
+      "cost": 1000,
+      "win": 2,
+      "balance_before": 500000,
+      "balance_after": 499002
+    },
+    "mode": {
+      "key": "fs",
+      "type": "purchase"
+    },
+    "source_sha256": "bdbd4c94c3949d257b50a8d20bd22578cd334db0f094abbf3d375a51a533c0c2",
+    "phases": {
+      "accepted_packet_index": 1,
+      "closed_packet_index": 2,
+      "entry_packet_index": 1,
+      "selected_option": "fs",
+      "transport": "http_relay",
+      "options_offered": [
+        {
+          "id": "mod_bonus",
+          "multiplier": "3"
+        },
+        {
+          "id": "mod_wheel",
+          "multiplier": "250"
+        },
+        {
+          "id": "mod_wheel_epic",
+          "multiplier": "1000"
+        },
+        {
+          "id": "fs",
+          "multiplier": "100"
+        },
+        {
+          "id": "fs_2",
+          "multiplier": "200"
+        }
+      ],
+      "steps": [
+        {
+          "packet_index": 1,
+          "selected_action": null,
+          "status": "wfwpc",
+          "options_offered": []
+        },
+        {
+          "packet_index": 2,
+          "selected_action": "win_presentation_complete",
+          "status": "completed",
+          "options_offered": []
+        }
+      ]
+    }
+  },
+  {
+    "provider": "smartsoft",
+    "game_id": "GeniesBonanza",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "DMO",
+      "bet": "0.2",
+      "cost": "20",
+      "win": "4.6",
+      "balance_before": "20000",
+      "balance_after": "19984.6"
+    },
+    "mode": {
+      "key": "PurchaseBonus:0",
+      "type": "purchase"
+    },
+    "source_sha256": "b90ffcdde5389f8ccce1dbbd0d80549d78e60244d710c00a04e311e673d8ae52",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 10,
+      "entry_event_index": 0,
+      "selected_option": "PurchaseBonus",
+      "selected_value": 0,
+      "transport": "http_direct",
+      "options_offered": [
+        "Start",
+        "PurchaseBonus",
+        "RiskBet",
+        "RiskGame"
+      ],
+      "steps": [
+        {
+          "event": "start.game",
+          "event_index": 0,
+          "selected_action": "PurchaseBonus",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 1,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 2,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 3,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 4,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 5,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 6,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 7,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 8,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 9,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 10,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start",
+            "PurchaseBonus",
+            "RiskBet",
+            "RiskGame"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "provider": "threeoaks",
+    "game_id": "4_hot_chillies",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "FUN",
+      "bet": null,
+      "cost": 1000,
+      "win": 1180,
+      "balance_before": 100000,
+      "balance_after": 100180
+    },
+    "mode": {
+      "key": "buy-1",
+      "type": "purchase"
+    },
+    "source_sha256": "75a42377748f71e87df0fdabb4e0e014c13d0044b9e458c96f98ae89cb6243c1",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 15,
+      "entry_event_index": 0,
+      "selected_option": "buy-1",
+      "transport": "http_direct",
+      "options_offered": [
+        1,
+        2
+      ],
+      "steps": [
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 0,
+          "round_finished": false,
+          "state": "spins",
+          "total_win": 0,
+          "options_offered": [
+            "bonus_init"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 1,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 2,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 3,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 4,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 5,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 6,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 7,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 8,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 9,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 10,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 11,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 12,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 13,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 100180,
+          "index": 14,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "bonus_spins_stop"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 100180,
+          "index": 15,
+          "round_finished": true,
+          "state": "spins",
+          "total_win": 1180,
+          "options_offered": [
+            "spin",
+            "buy_spin"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "provider": "bgaming",
+    "game_id": "MysteryGarden",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "FUN",
+      "bet": 10,
+      "cost": 600,
+      "win": 120,
+      "balance_before": 100000,
+      "balance_after": 99520
+    },
+    "mode": {
+      "key": "freespin_buy",
+      "type": "purchase"
+    },
+    "source_sha256": "a8000489569d87fd497d326aea059b6a8af5fcc9cd0e554a9d22483a7ddb7528",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 10,
+      "entry_event_index": 0,
+      "selected_option": "freespin_buy",
+      "transport": "http_direct",
+      "options_offered": [],
+      "steps": [
+        {
+          "action": "spin",
+          "balance": null,
+          "index": 0,
+          "native_win": 120,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 1,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 2,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 3,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 4,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 5,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 6,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 7,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 8,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 9,
+          "native_win": 0,
+          "state": "freespins",
+          "options_offered": [
+            "init",
+            "freespin"
+          ]
+        },
+        {
+          "action": "freespin",
+          "balance": null,
+          "index": 10,
+          "native_win": 0,
+          "state": "closed",
+          "options_offered": [
+            "init",
+            "spin"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "provider": "bgaming",
+    "game_id": "ChickenFire",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "FUN",
+      "bet": 100,
+      "cost": 6000,
+      "win": 2500,
+      "balance_before": 100000,
+      "balance_after": 96500
+    },
+    "mode": {
+      "key": "buy_bonus",
+      "type": "purchase"
+    },
+    "source_sha256": "e938407028b3d045ad96712f84f66f1d47be2b900ef7968c423a7172861f4b31",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 13,
+      "entry_event_index": 0,
+      "selected_option": "buy_bonus",
+      "transport": "http_direct",
+      "options_offered": [
+        {
+          "key": "buy_chance"
+        },
+        {
+          "key": "buy_bonus"
+        },
+        {
+          "key": "buy_super_bonus"
+        },
+        {
+          "key": "buy_ultra_bonus"
+        }
+      ],
+      "steps": [
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 0,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 1,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 2,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 3,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 4,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 5,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 6,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 7,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 8,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 9,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 10,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 11,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 94000,
+          "final": false,
+          "index": 12,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        },
+        {
+          "balance": 96500,
+          "final": true,
+          "index": 13,
+          "native_win": 2500,
+          "next_action": null,
+          "options_offered": []
+        }
+      ]
+    }
+  }
+]

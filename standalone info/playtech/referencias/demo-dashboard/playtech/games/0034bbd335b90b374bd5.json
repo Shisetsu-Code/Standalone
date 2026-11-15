@@ -1,0 +1,157 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_wofire1lo_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "54e8df42-9212-4497-8a99-d935807b1184:2",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 2,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "3ecbb68ee6cb9b9e096f3ead8063f728bfa3d899fdb9eee7094db1677760e078"
+  ],
+  "native_modes": [
+    {
+      "id": "54e8df42-9212-4497-8a99-d935807b1184",
+      "name": "Standard",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "supplier context transformer or native line constructor",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Standard",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "54e8df42-9212-4497-8a99-d935807b1184"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 2
+    },
+    {
+      "id": "c62ccba1-384d-46cd-ad5a-85034f83050e",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "selector": "extra",
+      "selector_source": "native declaration",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "extra",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "20f13b5c-4993-4a10-8a4f-ddd1403da5b8",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "c62ccba1-384d-46cd-ad5a-85034f83050e"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "30"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "STAKE_UUID_MISMATCH",
+  "error_type": "ValueError",
+  "updated_at": 1793479096.1658666,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

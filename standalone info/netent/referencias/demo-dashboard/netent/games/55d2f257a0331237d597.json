@@ -1,0 +1,1674 @@
+{
+  "game_id": "thrill-to-grill",
+  "title": "Thrill to Grill",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0,
+            "current": 0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [],
+            "vault": null,
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 3
+          },
+          "wins": {
+            "total": 0,
+            "current": 0
+          },
+          "game": {}
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 3
+          },
+          "wins": {
+            "total": 4.1,
+            "current": 4.1
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 1
+                }
+              ],
+              [
+                {
+                  "id": 1
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 1.5,
+                "multiplier": null,
+                "winnings": 0.3,
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  }
+                ]
+              },
+              {
+                "payout": 2.5,
+                "multiplier": null,
+                "winnings": 3.0,
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  }
+                ]
+              },
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.4,
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              },
+              {
+                "payout": 0.25,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ]
+              },
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 4.15,
+            "current": 0.05
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 0.25,
+                "multiplier": null,
+                "winnings": 0.05,
+                "winSymbol": {
+                  "id": 12
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 3
+          },
+          "wins": {
+            "total": 4.75,
+            "current": 0.6
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 1,
+                "multiplier": null,
+                "winnings": 0.4,
+                "winSymbol": {
+                  "id": 11
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  }
+                ]
+              },
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 4
+          },
+          "wins": {
+            "total": 4.95,
+            "current": 0.2
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 16
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 5.58,
+            "current": 0.63
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 1
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 1.5,
+                "multiplier": null,
+                "winnings": 0.6,
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ]
+              },
+              {
+                "payout": 0.15,
+                "multiplier": null,
+                "winnings": 0.03,
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 2
+          },
+          "wins": {
+            "total": 5.58,
+            "current": 0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 1
+          },
+          "wins": {
+            "total": 6.06,
+            "current": 0.48
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 0.4,
+                "multiplier": null,
+                "winnings": 0.08,
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ]
+              },
+              {
+                "payout": 1,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  }
+                ]
+              },
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 4,
+            "left": 0
+          },
+          "wins": {
+            "total": 6.26,
+            "current": 0.2
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "payout": 0.5,
+                "multiplier": null,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ]
+              }
+            ],
+            "vault": {
+              "symbol": {
+                "id": 8
+              },
+              "positions": [
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 3
+                }
+              ],
+              "expansion": null,
+              "magnet": null,
+              "multiplier": null
+            },
+            "collectables": {},
+            "freeSpins": {
+              "entering": false
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "60",
+      "cost": "12.0",
+      "before": "999.8",
+      "debit": "987.8",
+      "after": "994.06",
+      "win": "6.26"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

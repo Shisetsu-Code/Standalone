@@ -1,0 +1,23 @@
+{
+  "provider": "amigogaming",
+  "name": "Amigo Gaming",
+  "inventory": "../inventario/amigogaming.json",
+  "historical": "../evidencia/amigogaming.json",
+  "games": 157,
+  "modes": 207,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/amigogaming-chat4"
+    ],
+    "absent_from_checkout": [
+      "provider-work/amigogaming-chat4"
+    ]
+  },
+  "native_family": "amigo.native",
+  "continuation": "native free game",
+  "closure": "native final state and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

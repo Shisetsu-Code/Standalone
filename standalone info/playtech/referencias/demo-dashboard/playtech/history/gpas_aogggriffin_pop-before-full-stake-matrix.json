@@ -1,0 +1,214 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_aogggriffin_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus normalized manifest title matched to archived slot catalogue",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "6370719c-d261-4663-a0c9-602c476d948c:1",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 360,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 360,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000340,
+      "cost": 20,
+      "win": 360,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "830c5e9e72ffd731dc1ebc1c0d39435e700b6659791dc024cc894bb423abd0a3"
+  ],
+  "native_modes": [
+    {
+      "id": "6370719c-d261-4663-a0c9-602c476d948c",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "selector": "default",
+      "selector_source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "20",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1"
+        },
+        "uuid": "6370719c-d261-4663-a0c9-602c476d948c"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25,
+        50,
+        100,
+        125,
+        150,
+        250,
+        300,
+        400
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [],
+  "line_domain_note": "No selectable line choice declared",
+  "disabled_native_options": [
+    {
+      "cost": 200,
+      "name": "HR10",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "c5a0f83c-ecc3-44a4-86aa-18becfa5f709",
+        "startingPlays": "1",
+        "winline": "10"
+      },
+      "uuid": "a5888193-241d-41b0-8fd6-b3836c113b72"
+    },
+    {
+      "cost": 400,
+      "name": "HR20",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "950db27e-d0fe-4fa7-9a2b-e8bf6e4d17c7",
+        "startingPlays": "1"
+      },
+      "uuid": "3aeb469d-0b02-4664-a42f-ee6303b052ba"
+    },
+    {
+      "cost": 800,
+      "name": "HR40",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "8f35442e-e2bc-45d5-aa2d-eb652e325a19",
+        "startingPlays": "1"
+      },
+      "uuid": "369dc0e2-8a5e-45dc-81a5-cf437af9657d"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 200,
+        "name": "HR10",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "c5a0f83c-ecc3-44a4-86aa-18becfa5f709",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "a5888193-241d-41b0-8fd6-b3836c113b72"
+      },
+      "reason": "Native powerPlayEnabled=false; supplier BuyPowerPlay option unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 400,
+        "name": "HR20",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "950db27e-d0fe-4fa7-9a2b-e8bf6e4d17c7",
+          "startingPlays": "1"
+        },
+        "uuid": "3aeb469d-0b02-4664-a42f-ee6303b052ba"
+      },
+      "reason": "Native powerPlayEnabled=false; supplier BuyPowerPlay option unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 800,
+        "name": "HR40",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "8f35442e-e2bc-45d5-aa2d-eb652e325a19",
+          "startingPlays": "1"
+        },
+        "uuid": "369dc0e2-8a5e-45dc-81a5-cf437af9657d"
+      },
+      "reason": "Native powerPlayEnabled=false; supplier BuyPowerPlay option unavailable in this demo"
+    }
+  ],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793474880.2935214,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "historical_attempts": [
+    {
+      "path": "history/gpas_aogggriffin_pop-before-available-native-actions-v4.json",
+      "sha256": "fd568863dd4555a47b752b3d5afb5d3f15b11ebd820fcc1045a44f72ae10c506",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 1
+    }
+  ],
+  "protocol_recovery": {
+    "independent_demo_control": true,
+    "historical_rounds_resumed": false,
+    "historical_failures_retained": true,
+    "note": "Current protocol coverage verified in a new anonymous demo. This does not assert settlement or recovery of earlier missing receipts."
+  },
+  "pending_choice_branches": {}
+}

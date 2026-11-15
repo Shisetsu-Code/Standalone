@@ -1,0 +1,323 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_bbld_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "ea4b935c-4089-4a18-b547-3cbeec397d14:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "d1ebbe70-3f06-4a19-b997-d6a116eaeb83:1",
+      "name": "BuyBonus",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 400,
+      "before": 999990,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 400,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 6,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 6,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 20,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 26,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999616,
+      "cost": 400,
+      "win": 26,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "f78902929b20d30d0e4e4f92bd6a155c53891f836d2d6be0f163a53008fb7f40",
+    "c6a94aa4ef1833b76307b319380349518bd22741a02ab1bee20ee1474db4534e"
+  ],
+  "native_modes": [
+    {
+      "id": "ea4b935c-4089-4a18-b547-3cbeec397d14",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "supplier context transformer or native line constructor",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "25df0dd1-2298-4423-a40c-41fbb588c8d4",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "ea4b935c-4089-4a18-b547-3cbeec397d14"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3500,
+        4000,
+        4400,
+        4500,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "d1ebbe70-3f06-4a19-b997-d6a116eaeb83",
+      "name": "BuyBonus",
+      "kind": "PURCHASE",
+      "selector": "BuyBonus",
+      "selector_source": "supplier context transformer or native line constructor",
+      "cost": 400,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 400,
+        "name": "BuyBonus",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "c7c442db-6cc8-4194-8029-cf103326e4a1",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "d1ebbe70-3f06-4a19-b997-d6a116eaeb83"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3500,
+        4000,
+        4400,
+        4500,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "40"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 400,
+      "name": "BuyBonusA1",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "fc209e1b-34e8-46aa-88b4-be227fe07a95",
+        "startingPlays": "1",
+        "winline": "40"
+      },
+      "uuid": "037ae43c-dee6-49af-9624-5bfefef2292c"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 400,
+        "name": "BuyBonusA1",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "fc209e1b-34e8-46aa-88b4-be227fe07a95",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "037ae43c-dee6-49af-9624-5bfefef2292c"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793488547.5265405,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": true,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

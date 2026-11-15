@@ -1,0 +1,4695 @@
+{
+  "game_id": "crab-trap",
+  "title": "Crab Trap",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 10,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 10,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 10,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 10,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": null,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "1000",
+      "debit": "999.9",
+      "after": "999.9",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 6
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": null,
+            "wins": null,
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": true,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 0,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 6,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 0,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.2,
+                  "fullPayout": 0.2
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 12,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 19,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 20,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 21,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 1,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 6,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.2,
+                  "fullPayout": 0.2
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 19,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 20,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 21,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 1,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.8,
+            "current": 0.8
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 7,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.2,
+                  "fullPayout": 0.2
+                },
+                {
+                  "id": 7,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 19,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 20,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 21,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 22,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 20.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 5,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 5,
+                    "y": 0
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ],
+                "payout": 2,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              }
+            ],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 1,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 4
+          },
+          "wins": {
+            "total": 0.8,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 17,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 15,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 0,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 19,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 20,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 21,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 1,
+                  "y": 3
+                },
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 3
+          },
+          "wins": {
+            "total": 0.8,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 20,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 21,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 3,
+                  "y": 3
+                },
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 3,
+                  "y": 3
+                },
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 3,
+                  "y": 3
+                },
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 2
+          },
+          "wins": {
+            "total": 0.84,
+            "current": 0.04
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 19,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 20,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 0.2
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  },
+                  {
+                    "x": 5,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 5,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.4,
+                "winnings": 0.04
+              }
+            ],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 1
+          },
+          "wins": {
+            "total": 1.04,
+            "current": 0.2
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 21,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.2,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 21,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 14,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 22,
+                  "hold": false,
+                  "individualPayout": 0.1,
+                  "fullPayout": 10.0
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 2
+                  },
+                  {
+                    "x": 5,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 2,
+                "winnings": 0.2
+              }
+            ],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 1,
+                  "y": 1
+                },
+                "position": {
+                  "x": 2,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 3,
+                  "y": 2
+                },
+                "position": {
+                  "x": 1,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 3,
+                  "y": 2
+                },
+                "position": {
+                  "x": 0,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 1,
+                  "y": 1
+                },
+                "position": {
+                  "x": 5,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 6,
+            "left": 0
+          },
+          "wins": {
+            "total": 1.12,
+            "current": 0.08
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 18,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 17,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 16,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 15,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 13,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 12,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  },
+                  {
+                    "x": 5,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.4,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 5,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.4,
+                "winnings": 0.04
+              }
+            ],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": {
+                  "x": 1,
+                  "y": 2
+                },
+                "position": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 6,
+            "left": 0
+          },
+          "wins": {
+            "total": 1.12,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 18,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 17,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 16,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 15,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 6,
+            "left": 0
+          },
+          "wins": {
+            "total": 1.12,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 18,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 17,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 16,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 15,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 7,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [],
+            "traps": [
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": false,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": 2,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 6,
+            "left": 0
+          },
+          "wins": {
+            "total": 2.72,
+            "current": 1.6
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 18,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 17,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 7,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 16,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 15,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 1.0
+                },
+                {
+                  "id": 6,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 9,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 4,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                }
+              ],
+              [
+                {
+                  "id": 7,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 14,
+                  "hold": true,
+                  "individualPayout": 0.1,
+                  "fullPayout": 0.1
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ],
+              [
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 3,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 8,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                },
+                {
+                  "id": 5,
+                  "hold": false,
+                  "individualPayout": null,
+                  "fullPayout": null
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 18
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  }
+                ],
+                "payout": 10,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 1,
+                    "y": 3
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 4,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 14
+                },
+                "symbolPositions": [
+                  {
+                    "x": 4,
+                    "y": 1
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.1
+              }
+            ],
+            "traps": [
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 5,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 2
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": true,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 2,
+                  "y": 3
+                }
+              },
+              {
+                "isTriggered": false,
+                "isForNewRound": false,
+                "shouldRemove": true,
+                "origin": null,
+                "position": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "trapsPerStake": {
+              "0.1": []
+            },
+            "scattersCollected": null,
+            "featureBuyEnabled": true,
+            "isFeatureBuyRound": true
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "50",
+      "cost": "5.0",
+      "before": "999.9",
+      "debit": "994.9",
+      "after": "997.62",
+      "win": "2.72"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

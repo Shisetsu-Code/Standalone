@@ -1,0 +1,23 @@
+{
+  "provider": "kendoo",
+  "name": "Kendoo",
+  "inventory": "../inventario/kendoo.json",
+  "historical": "../evidencia/kendoo.json",
+  "games": 33,
+  "modes": 76,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/kendoo-chat4"
+    ],
+    "absent_from_checkout": [
+      "provider-work/kendoo-chat4"
+    ]
+  },
+  "native_family": "kendoo.state-actions",
+  "continuation": "context.actions/current",
+  "closure": "round_finished and balance",
+  "standalone_rust": null,
+  "paused": true
+}

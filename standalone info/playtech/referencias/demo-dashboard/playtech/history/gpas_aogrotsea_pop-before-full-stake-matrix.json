@@ -1,0 +1,108 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_aogrotsea_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "69b7b386-6fa3-4f08-925c-2770015461ed:1",
+      "name": "15",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 15,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 15,
+          "win": 10,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 10
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999995,
+      "cost": 15,
+      "win": 10,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "36977db97ac3f58c997c86ab421c5442b770e78253bd79988ddc7185117a5b9a"
+  ],
+  "native_modes": [
+    {
+      "id": "69b7b386-6fa3-4f08-925c-2770015461ed",
+      "name": "15",
+      "kind": "SPIN",
+      "selector": "15",
+      "cost": 15,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 15,
+        "name": "15",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "69b7b386-6fa3-4f08-925c-2770015461ed"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "declared_line_options": [
+    "30"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "updated_at": 1793427382.7302423,
+  "pending_choice_branches": {}
+}

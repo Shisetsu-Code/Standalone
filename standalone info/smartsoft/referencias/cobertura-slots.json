@@ -1,0 +1,1944 @@
+[
+  {
+    "ficha": "/games/bao-slot-5",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Bao Slot 5X"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BaoSlot5X",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.05",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.95",
+        "evidencia": "BaoSlot5X-post.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "BaoSlot5X-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/blazing-hot-10",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Burning Ice 10"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BlazingHot10",
+    "modos": {
+      "normal": {
+        "estado": "pendiente",
+        "detalle": "La demo muestra límite de una mesa simultánea y presenta el título Burning Ice 10.",
+        "evidencia": "BlazingHot10-post.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "BlazingHot10-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/boca-jamba-10",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Boka Jamba 10"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BokaJamba10",
+    "modos": {
+      "normal": {
+        "estado": "resultado verificado, abono pendiente de verificar",
+        "apuesta_dmo": "0.10",
+        "premio_dmo": "0.90",
+        "evidencia": "BokaJamba10-post.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "BokaJamba10-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/book-of-bonanza",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Book of Bonanza"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BookOfBonanza",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.40",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "20000.40",
+        "evidencia": "BookOfBonanza-post.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.6,
+        "eventos": 1,
+        "evidencia": "BookOfBonanza-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19966.6,
+        "eventos": 11,
+        "evidencia": "BookOfBonanza-compra-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.5,
+        "eventos": 1,
+        "evidencia": "BookOfBonanza-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "PurchaseDiscountedBonus",
+      "RiskBet",
+      "RiskGame"
+    ]
+  },
+  {
+    "ficha": "/games/book-of-futuria",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Book of Futuria"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BookOfFuturia",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.20",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.80",
+        "evidencia": "BookOfFuturia-post.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "BookOfFuturia-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20002.6,
+        "eventos": 11,
+        "evidencia": "BookOfFuturia-compra-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.75,
+        "eventos": 1,
+        "evidencia": "BookOfFuturia-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "PurchaseDiscountedBonus",
+      "RiskBet",
+      "RiskGame"
+    ]
+  },
+  {
+    "ficha": "/games/burning-ice-40",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Burning Ice 40"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BlazingHot40",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.6,
+        "eventos": 1,
+        "evidencia": "BlazingHot40-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/burning-ice-41",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Burning Ice"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "BlazingHot",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "BlazingHot-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/coins-of-atlantis",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Coins Of Atlantis"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "CoinsOfAtlantis",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.50",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.50",
+        "evidencia": "CoinsOfAtlantis-normal.png"
+      },
+      "ante_bet": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.75",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.25",
+        "evidencia": "CoinsOfAtlantis-ante-resultado.png"
+      },
+      "compra_bono": {
+        "estado": "verificado visualmente hasta el abono",
+        "saldo_inicial_dmo": "20000.00",
+        "coste_dmo": "30.00",
+        "saldo_tras_cargo_dmo": "19970.00",
+        "tiradas_iniciales": 3,
+        "premio_dmo": "28.00",
+        "saldo_final_dmo": "19998.00",
+        "evidencia_resultado": "CoinsOfAtlantis-premio-confirmado.png",
+        "evidencia_saldo": "CoinsOfAtlantis-saldo-confirmado.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.5,
+        "eventos": 1,
+        "evidencia": "CoinsOfAtlantis-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19993.5,
+        "eventos": 13,
+        "evidencia": "CoinsOfAtlantis-compra-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.25,
+        "eventos": 1,
+        "evidencia": "CoinsOfAtlantis-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/dice-jungle",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Dice Jungle"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "estado": "lanzador responde",
+    "juego": "DiceJungle",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "DiceJungle-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/draculas-fortune-2",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Dracula's Fortune"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "DraculasFortune",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "DraculasFortune-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/dragons-code",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Dragon's Code"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "DragonsCode",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.25,
+        "eventos": 2,
+        "evidencia": "DragonsCode-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19990.55,
+        "eventos": 2,
+        "evidencia": "DragonsCode-riskbet-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19980.0,
+        "eventos": 1,
+        "evidencia": "DragonsCode-riskbet-1-http.json"
+      }
+    ],
+    "nota_cierre": "La ficha marca compra. La demo ofrece dos RiskBet verificados y no anuncia PurchaseBonus.",
+    "opciones_iniciales_http": [
+      "Start",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/farms-fortune-6n0s6",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Farm's Fortune"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "FarmsFortune",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "FarmsFortune-http.json"
+      }
+    ],
+    "nota_cierre": "La ficha marca compra. La sesión demo solo ofrece Start.",
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/foxy-hot-20",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Foxy Hot 20"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "FoxyHot20",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "FoxyHot20-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/gates-of-merlyn",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Gates of Merlyn"
+    ],
+    "payout-type": [
+      "Tumble"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "GatesOfMerlyn",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "GatesOfMerlyn-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19992.49,
+        "eventos": 16,
+        "evidencia": "GatesOfMerlyn-compra-0-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 11366.0,
+        "eventos": 16,
+        "evidencia": "GatesOfMerlyn-compra-1-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19925.0,
+        "eventos": 1,
+        "evidencia": "GatesOfMerlyn-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/gems-crown-charging-wilds",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Gems Crown Charging Wilds"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "estado": "lanzador responde",
+    "juego": "GemsCrownChargingWilds",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.10",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.90",
+        "evidencia": "GemsCrownChargingWilds-normal.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "GemsCrownChargingWilds-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.0,
+        "eventos": 2,
+        "evidencia": "GemsCrownChargingWilds-riskbet-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.0,
+        "eventos": 1,
+        "evidencia": "GemsCrownChargingWilds-riskbet-1-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/genies-bonanza",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Genie's Bonanza"
+    ],
+    "payout-type": [
+      "Tumble"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "GeniesBonanza",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "GeniesBonanza-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19983.48,
+        "eventos": 11,
+        "evidencia": "GeniesBonanza-compra-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.75,
+        "eventos": 1,
+        "evidencia": "GeniesBonanza-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "RiskBet",
+      "RiskGame"
+    ]
+  },
+  {
+    "ficha": "/games/hab",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Habesha Fortune 5"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "HabeshaFortune5",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "HabeshaFortune5-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/hot-samba",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Hot Samba"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "HotSamba",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "HotSamba-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/jingle-bell-bonanza",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Jingle Bell Bonanza"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "JingleBellBonanza",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.7,
+        "eventos": 2,
+        "evidencia": "JingleBellBonanza-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/jungle-sisters",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Jungle Sisters"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "JungleSisters",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "JungleSisters-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19991.24,
+        "eventos": 11,
+        "evidencia": "JungleSisters-compra-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus"
+    ]
+  },
+  {
+    "ficha": "/games/jungle-sisters-deluxe",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Jungle Sisters Deluxe"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "JungleSistersDeluxe",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "JungleSistersDeluxe-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20010.0,
+        "eventos": 11,
+        "evidencia": "JungleSistersDeluxe-compra-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus"
+    ]
+  },
+  {
+    "ficha": "/games/mad-slot",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Mad Slot"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MadSlot",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "MadSlot-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19970.3,
+        "eventos": 11,
+        "evidencia": "MadSlot-compra-0-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19997.8,
+        "eventos": 14,
+        "evidencia": "MadSlot-compra-1-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.5,
+        "eventos": 1,
+        "evidencia": "MadSlot-riskbet-0-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus",
+      "PurchaseDiscountedBonus",
+      "RiskBet",
+      "RiskGame"
+    ]
+  },
+  {
+    "ficha": "/games/mariachi-coins",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Mariachi Coins"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MariachiCoins",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.15,
+        "eventos": 2,
+        "evidencia": "MariachiCoins-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.3,
+        "eventos": 2,
+        "evidencia": "MariachiCoins-riskbet-0-http.json"
+      }
+    ],
+    "nota_cierre": "La ficha marca compra. La demo ofrece RiskBet, verificado, y no anuncia PurchaseBonus.",
+    "opciones_iniciales_http": [
+      "Start",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/multi-fruits-charging-wilds",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Fruits Charging Wilds"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiFruitsChargingWilds",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "MultiFruitsChargingWilds-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.5,
+        "eventos": 1,
+        "evidencia": "MultiFruitsChargingWilds-riskbet-0-http.json"
+      },
+      {
+        "opcion": "RiskBet",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20004.0,
+        "eventos": 2,
+        "evidencia": "MultiFruitsChargingWilds-riskbet-1-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "RiskBet"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-10-2",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 10"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "sin enlace en catálogo",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [],
+    "nota_cierre": "Multi Hot 10 no tiene enlace de demo en el catálogo capturado."
+  },
+  {
+    "ficha": "/games/multi-hot-100",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 100"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot100",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.0,
+        "eventos": 1,
+        "evidencia": "MultiHot100-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-20",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 20"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot20",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "MultiHot20-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-40",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 40"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "High"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot40",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.40",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.60",
+        "evidencia": "multihot40-normal.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.2,
+        "eventos": 2,
+        "evidencia": "MultiHot40-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-5",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 5"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot5",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20000.15,
+        "eventos": 2,
+        "evidencia": "MultiHot5-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-5-burn-wilds",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 5 Burn Wilds"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot5BurnWilds",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "MultiHot5BurnWilds-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-5-deluxe",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 5 Deluxe"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot5Deluxe",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "MultiHot5Deluxe-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-5-super-wilds",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 5 Super Wilds"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot5SuperWilds",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "MultiHot5SuperWilds-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-5-wild",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot 5 Wild"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHot5Wild",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "MultiHot5Wild-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-ways",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot Ways"
+    ],
+    "payout-type": [
+      "Ways"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHotWays",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "MultiHotWays-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/multi-hot-wild-ways",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Multi Hot Wild Ways"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "MultiHotWildWays",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 20001.0,
+        "eventos": 2,
+        "evidencia": "MultiHotWildWays-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/power-of-tiger",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Power of Tiger"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "estado": "lanzador responde",
+    "juego": "PowerOfTiger",
+    "modos": {
+      "normal": {
+        "estado": "verificado visualmente",
+        "apuesta_dmo": "0.10",
+        "saldo_inicial_dmo": "20000.00",
+        "saldo_final_dmo": "19999.90",
+        "evidencia": "PowerOfTiger-normal.png"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "PowerOfTiger-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/safari-simba-2",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Safari Simba"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "SafariSimba",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "SafariSimba-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/samurai-deluxe",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Samurai"
+    ],
+    "payout-type": [
+      "Ways"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "Samurai",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [],
+    "nota_cierre": "El lanzador demo devuelve HTTP 500."
+  },
+  {
+    "ficha": "/games/sugar-fiesta",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Sugar Fiesta"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Low"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "SugarFiesta",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "SugarFiesta-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/vampires",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Vampires"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Other"
+    ],
+    "estado": "lanzador responde",
+    "juego": "Vampires",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.95,
+        "eventos": 1,
+        "evidencia": "Vampires-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/wild-multi-stars",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Wild Multi Stars"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Fruits"
+    ],
+    "estado": "lanzador responde",
+    "juego": "WildMultiStars",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.9,
+        "eventos": 1,
+        "evidencia": "WildMultiStars-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start"
+    ]
+  },
+  {
+    "ficha": "/games/wilds-and-gods",
+    "category": [
+      "Slots"
+    ],
+    "name": [
+      "Wilds and Gods"
+    ],
+    "payout-type": [
+      "Lines"
+    ],
+    "volatility": [
+      "Medium"
+    ],
+    "type": [
+      "Buy Bonus"
+    ],
+    "estado": "lanzador responde",
+    "juego": "WildsAndGods",
+    "modos": {
+      "normal": {
+        "estado": "pendiente"
+      }
+    },
+    "inventario_de_modos": "pendiente de verificar exhaustivamente",
+    "pruebas_http": [
+      {
+        "opcion": "Start",
+        "variante": null,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19999.8,
+        "eventos": 1,
+        "evidencia": "WildsAndGods-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 0,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19995.5,
+        "eventos": 4,
+        "evidencia": "WildsAndGods-compra-0-http.json"
+      },
+      {
+        "opcion": "PurchaseBonus",
+        "variante": 1,
+        "retorno_a_base": true,
+        "saldo_inicial": 20000.0,
+        "saldo_final": 19990.4,
+        "eventos": 5,
+        "evidencia": "WildsAndGods-compra-1-http.json"
+      }
+    ],
+    "opciones_iniciales_http": [
+      "Start",
+      "PurchaseBonus"
+    ]
+  }
+]

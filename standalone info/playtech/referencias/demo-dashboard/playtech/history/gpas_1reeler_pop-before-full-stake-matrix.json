@@ -1,0 +1,113 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_1reeler_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus archived slot catalogue membership",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "97c9f78b-6eca-4149-ba35-bf2f7782a16d:1",
+      "name": "5",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999995,
+      "cost": 5,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "8fc4b690583bccc60b57d93df5aa3152c09f7186f9e59389df8eebd4bae0dfff"
+  ],
+  "native_modes": [
+    {
+      "id": "97c9f78b-6eca-4149-ba35-bf2f7782a16d",
+      "name": "5",
+      "kind": "NATIVE_OPTION",
+      "selector": "5",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "5",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "6424f163-2d3f-473d-ac0d-24c4799371e2",
+          "startingPlays": "1"
+        },
+        "uuid": "97c9f78b-6eca-4149-ba35-bf2f7782a16d"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        4000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [],
+  "line_domain_note": "No selectable line choice declared",
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793455292.239307,
+  "pending_choice_branches": {}
+}

@@ -1,0 +1,141 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_icave_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "209d1e4b-6d84-4ce8-a280-844f0d02ea6f:1",
+      "name": "default-20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "36b8703d179f18353e8dc49641d38e657ec09e76f409754d25718a324b3610ec"
+  ],
+  "native_modes": [
+    {
+      "id": "209d1e4b-6d84-4ce8-a280-844f0d02ea6f",
+      "name": "default-20",
+      "kind": "NATIVE_OPTION",
+      "selector": "default-20",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "default-20",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "0c3bfee6-a076-4072-b8d2-2b8cff7f16b0",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "209d1e4b-6d84-4ce8-a280-844f0d02ea6f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "acc8c68e-d46e-4b05-a64b-f432a17e5594",
+      "name": "feature-20",
+      "kind": "NATIVE_OPTION",
+      "selector": "feature-20",
+      "cost": 30,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 30,
+        "name": "feature-20",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "e29711f8-d76f-47cf-800e-ded86cc14dc9",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "acc8c68e-d46e-4b05-a64b-f432a17e5594"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "20"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "com.pt.casino.platform.game.EngineError:0",
+  "error_type": "ValueError",
+  "updated_at": 1793455128.3087387
+}

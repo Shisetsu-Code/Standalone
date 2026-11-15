@@ -1,0 +1,134 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_wofire1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "7009bb4a-1f57-4540-92e4-46f89d8b9b0b:2",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 2,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "45f0a8fa97e5689585740f1cc7c5256a4a205748d22f4b72d5aa04a0c8e90e14"
+  ],
+  "native_modes": [
+    {
+      "id": "7009bb4a-1f57-4540-92e4-46f89d8b9b0b",
+      "name": "Standard",
+      "kind": "SPIN",
+      "selector": "lines-30",
+      "selector_source": "Supplier normal request flow, verified native baseline and source-bound line constructor",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Standard",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "7009bb4a-1f57-4540-92e4-46f89d8b9b0b"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 2
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "30"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 20,
+      "name": "extra",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "20f13b5c-4993-4a10-8a4f-ddd1403da5b8",
+        "startingPlays": "1",
+        "winline": "30"
+      },
+      "uuid": "102ec212-5088-4bb0-abf3-cefe3de1bf80"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 20,
+        "name": "extra",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "20f13b5c-4993-4a10-8a4f-ddd1403da5b8",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "102ec212-5088-4bb0-abf3-cefe3de1bf80"
+      },
+      "reason": "extraBetEnabled=false"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "STAKE_UUID_MISMATCH",
+  "error_type": "ValueError",
+  "updated_at": 1793474914.277743,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "operation_tag": "available-native-actions-v4",
+  "selected_mode_ids": null
+}

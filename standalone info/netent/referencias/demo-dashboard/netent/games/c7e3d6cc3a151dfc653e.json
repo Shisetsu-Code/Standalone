@@ -1,0 +1,72 @@
+{
+  "game_id": "dont-eat-the-candy",
+  "title": "Don’t Eat the Candy",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 1,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.22",
+          "has_state": false
+        },
+        {
+          "path": "game.respin[0]",
+          "mode": "Respin",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[1]",
+          "mode": "Respin",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[2]",
+          "mode": "Respin",
+          "win_reference": "0.22",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "closed_state": true,
+        "ordinary_entry": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "10000.12",
+      "win": "0.22",
+      "currency": "EUR"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 4,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

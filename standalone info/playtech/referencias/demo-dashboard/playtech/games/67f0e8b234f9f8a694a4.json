@@ -1,0 +1,116 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_merfind_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "52124b19-afa8-44f6-be91-6f92efb56c78:1",
+      "name": "base",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "d6ef446cff93400704971c35e6cdded5ae66c9a2d73e2ff4c1488d60a55036fd"
+  ],
+  "native_modes": [
+    {
+      "id": "52124b19-afa8-44f6-be91-6f92efb56c78",
+      "name": "base",
+      "kind": "SPIN",
+      "selector": "base",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "base",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "ee24990e-7520-4623-9017-11907402f197",
+          "startingPlays": "1",
+          "winline": "60"
+        },
+        "uuid": "52124b19-afa8-44f6-be91-6f92efb56c78"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "declared_line_options": [
+    "60"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION means a source-bound paid UUID option whose commercial category is still unclassified",
+  "updated_at": 1793428549.3366268,
+  "pending_choice_branches": {}
+}

@@ -1,0 +1,526 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_aoegypt_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Each declared bound action and line choice across all native legal stake multipliers; independent demo sessions retained separately",
+  "all_stake_sizes_requested": true,
+  "cases": [
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:1",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999980,
+      "cost": 20,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:2",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 2,
+      "expected_cost": 40,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 40,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999960,
+      "cost": 40,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481954718459500"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:3",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 3,
+      "expected_cost": 60,
+      "before": 999960,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 60,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999900,
+      "cost": 60,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481954718459500"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:5",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 5,
+      "expected_cost": 100,
+      "before": 999900,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 100,
+          "win": 125,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 125,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999925,
+      "cost": 100,
+      "win": 125,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481954718459500"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:10",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 10,
+      "expected_cost": 200,
+      "before": 999925,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 200,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999725,
+      "cost": 200,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481954718459500"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:25",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 25,
+      "expected_cost": 500,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 500,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999500,
+      "cost": 500,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481963242750700"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:50",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 50,
+      "expected_cost": 1000,
+      "before": 999500,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1000,
+          "win": 200,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 200,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 998700,
+      "cost": 1000,
+      "win": 200,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481963242750700"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:100",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 100,
+      "expected_cost": 2000,
+      "before": 998700,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 2000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 996700,
+      "cost": 2000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481963242750700"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:500",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 500,
+      "expected_cost": 10000,
+      "before": 996700,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 986700,
+      "cost": 10000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481963242750700"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:1000",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1000,
+      "expected_cost": 20000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 980000,
+      "cost": 20000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481971021367400"
+    },
+    {
+      "case_id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f:2500",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 2500,
+      "expected_cost": 50000,
+      "before": 980000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 50000,
+          "win": 37500,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 37500,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 967500,
+      "cost": 50000,
+      "win": 37500,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-28ffefd5-1793481971021367400"
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "ab892aa41ca16b328eec919124c2e1533fc37f81f91afd3a93c033956f864919"
+  ],
+  "native_modes": [
+    {
+      "id": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "selector": "20",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "20",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "28ffefd5-b19c-4776-a9b1-62949ce9bc5f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        25,
+        50,
+        100,
+        500,
+        1000,
+        2500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "20"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "supplemental_sessions": [
+    {
+      "session_group": "stake-matrix-28ffefd5-1793481954718459500",
+      "operation_tag": "stake-matrix-28ffefd5-1793481954718459500",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-28ffefd5-1793481963242750700",
+      "operation_tag": "stake-matrix-28ffefd5-1793481963242750700",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-28ffefd5-1793481971021367400",
+      "operation_tag": "stake-matrix-28ffefd5-1793481971021367400",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    }
+  ],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793481977.0436313,
+  "pending_choice_branches": {},
+  "full_stake_coverage": {
+    "status": "complete",
+    "declared_pairs": 11,
+    "verified_pairs": 11,
+    "baseline_snapshot": "history/gpas_aoegypt_pop-before-full-stake-matrix.json",
+    "baseline_sha256": "da57764f2d9c372f99ae17de9f4fd9a84944f45e796ebb0c51f9e9a752363a6d",
+    "updated_at": 1793481977.0436313,
+    "missing_pairs": [],
+    "held_pairs": [],
+    "blocked_by_demo_balance": [],
+    "protocol_review": []
+  }
+}

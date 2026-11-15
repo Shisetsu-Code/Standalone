@@ -1,0 +1,222 @@
+{
+  "game_id": "cornelius",
+  "title": "Cornelius™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "20",
+          "game_state": "basic",
+          "credit_cents": "100000"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "1000",
+      "win": "0.2",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "initfreespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "initfreespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "11",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "22",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "36",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "40",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "44",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "56",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "66",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "95",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "123",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "161",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "279",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "427",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "605",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "840",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1024",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1024",
+          "game_state": "freespin",
+          "credit_cents": "98000"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "1024",
+          "game_state": "basic",
+          "credit_cents": "99024"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "100",
+      "cost": "20",
+      "before": "1000",
+      "debit": "980",
+      "after": "990.24",
+      "win": "10.24",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

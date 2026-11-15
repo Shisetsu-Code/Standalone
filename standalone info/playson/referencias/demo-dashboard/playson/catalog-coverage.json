@@ -1,0 +1,87 @@
+{
+  "provider": "Playson",
+  "captured_at": "2026-10-30T23:01:58.408695+00:00",
+  "catalog_complete": true,
+  "full_catalog_total": 114,
+  "pagination_terminal_confirmed": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://playson.com/games",
+      "next_url": "https://playson.com/games?sort=date&order=desc&limit=50&page=2",
+      "game_count": 50,
+      "file": "page-1.json",
+      "sha256": "2f6bc6177f74c4364a58fd2c4b8c1608bf0d8263eaef1a23d7bd8070aeb30e3a"
+    },
+    {
+      "page": 2,
+      "url": "https://playson.com/games?sort=date&order=desc&limit=50&page=2",
+      "next_url": "https://playson.com/games?sort=date&order=desc&limit=50&page=3&offset=50",
+      "game_count": 50,
+      "file": "page-2.json",
+      "sha256": "e858fdce1c42cdd325db6d5784d2b952ba153830d174e4fb7cd3118f129b4030"
+    },
+    {
+      "page": 3,
+      "url": "https://playson.com/games?sort=date&order=desc&limit=50&page=3&offset=50",
+      "next_url": null,
+      "game_count": 14,
+      "file": "page-3.json",
+      "sha256": "9d981dd0f4817469a360f1c3d94ac3048be32c66c2e5786d6e6503e927983d59"
+    }
+  ],
+  "upcoming": [
+    {
+      "official_slug": "multidiamond-xxl-spins",
+      "site_url": "https://playson.com/game/multidiamond-xxl-spins",
+      "title": "Multidiamond XXL: Spins+",
+      "release_date": "2026-11-05",
+      "desktop_code": "multidiamond_xxl_spins_plus",
+      "mobile_code": "multidiamond_xxl_spins_plus_mob",
+      "public_demo_button": true,
+      "public_demo_code_present": true,
+      "status": "public_demo_tested_complete",
+      "verified_modes": 6,
+      "report": "upcoming/multidiamond-xxl-spins.json",
+      "gameplay_requests_sent": true,
+      "all_declared_rounds_closed": true,
+      "availability_checked_at": "2026-10-31T04:19:47.256833+00:00",
+      "included_in_published_catalog": false
+    },
+    {
+      "official_slug": "x1500-sugar-teddy-2",
+      "site_url": "https://playson.com/game/x1500-sugar-teddy-2",
+      "title": "X1500 Sugar Teddy 2",
+      "release_date": "2026-11-19",
+      "desktop_code": "",
+      "mobile_code": "",
+      "public_demo_button": false,
+      "public_demo_code_present": false,
+      "status": "public_demo_not_enabled",
+      "availability_checked_at": "2026-10-31T04:19:47.256833+00:00",
+      "included_in_published_catalog": false,
+      "gameplay_requests_sent": false,
+      "verified_modes": 0,
+      "reason": "Official page has no PLAY DEMO button and blank desktop/mobile launch codes; no launch identifier guessed."
+    },
+    {
+      "official_slug": "thunder-coins-xxxl-hold-and-win",
+      "site_url": "https://playson.com/game/thunder-coins-xxxl-hold-and-win",
+      "title": "Thunder Coins XXXL: Hold and Win",
+      "release_date": "2026-11-26",
+      "desktop_code": "",
+      "mobile_code": "",
+      "public_demo_button": false,
+      "public_demo_code_present": false,
+      "status": "public_demo_not_enabled",
+      "availability_checked_at": "2026-10-31T04:19:47.256833+00:00",
+      "included_in_published_catalog": false,
+      "gameplay_requests_sent": false,
+      "verified_modes": 0,
+      "reason": "Official page has no PLAY DEMO button and blank desktop/mobile launch codes; no launch identifier guessed."
+    }
+  ],
+  "scope": "All currently published slots listed by the official website, not unreleased previews or every historical/discontinued title",
+  "snapshot_path": "catalog-snapshots/20261030T230158Z",
+  "upcoming_availability_checked_at": "2026-10-31T04:19:47.256833+00:00"
+}

@@ -1,0 +1,265 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_mmaniaa1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "80ae0618-cde6-452e-8450-78b0db239c11:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999995,
+      "cost": 5,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "cf1ec0d9-2cd5-45b0-83ca-1cbb6a3b1d6a:1",
+      "name": "BuyFeature",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 500,
+      "before": 999995,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 500,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1120,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1120,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000615,
+      "cost": 500,
+      "win": 1120,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "9704a50abf91ef70aaa179954d3dbed2283a01eb30d631b621c274ea8b61dca4"
+  ],
+  "native_modes": [
+    {
+      "id": "80ae0618-cde6-452e-8450-78b0db239c11",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "5"
+        },
+        "uuid": "80ae0618-cde6-452e-8450-78b0db239c11"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        8000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "cf1ec0d9-2cd5-45b0-83ca-1cbb6a3b1d6a",
+      "name": "BuyFeature",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "BuyFeature",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "17388173-e794-416f-9db7-b5bedd5d7cad",
+          "startingPlays": "1",
+          "winline": "5"
+        },
+        "uuid": "cf1ec0d9-2cd5-45b0-83ca-1cbb6a3b1d6a"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        8000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "5"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793484865.163051,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

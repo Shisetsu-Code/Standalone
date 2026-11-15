@@ -1,0 +1,29 @@
+{
+  "schema": "ngm-samz-production-host-integration-fix/v3",
+  "game_code": "samz",
+  "contract": {
+    "path": "playtech-private-root/ngm-families/candidates/samz/native-normal-source-v3/source-contract.json",
+    "sha256": "82bce7af4f53d72cf2ed69e44c4e1a6b0805fa540c8c24f7715b115284149d36"
+  },
+  "adapter": {
+    "path": "playtech-private-root/ngm-families/candidates/samz/native-normal-source-v3/adapter.js",
+    "sha256": "74c4d8a195eeb6a8fd26490c11af8c7fbd80aa209420f6b5735fe4622a4ef65f"
+  },
+  "verification": {
+    "path": "playtech-private-root/ngm-families/candidates/samz/native-normal-source-v3/verification.json",
+    "sha256": "07108c4bdf1d20926ed3d8fb8871170ac1bc7074e90d4a807554a998a9fe73f7"
+  },
+  "production_test": {
+    "path": "playtech-private-root/ngm-families/candidates/samz/native-normal-source-v3/test-production-host.cjs",
+    "sha256": "6ebbe431b22f78065ee9eb9ac90c0298054fa59a1d4f65578afeae78fa4615da"
+  },
+  "V2_preserved": {
+    "path": "playtech-private-root/ngm-families/candidates/samz/native-normal-source-v2/source-contract.json",
+    "sha256": "263d274a427f9810c1f69ba01a24cb88a5469cbc3ce40ea002208efef3172dce"
+  },
+  "adapter_delta_proved_equivalent_except_fixture_binding": true,
+  "new_original_gameplay_draws": 0,
+  "new_original_dispatches": 0,
+  "shared_files_modified": false,
+  "root_profile_action": "Point adapter and contract to V3 and run production quote/replay again. No new original case has been run by agent; no repeat of any source outcome requested."
+}

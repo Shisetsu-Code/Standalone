@@ -1,0 +1,256 @@
+{
+  "game_id": "hotline-2",
+  "title": "Hotline 2™",
+  "game_type": "Slots",
+  "status": "validation_failed",
+  "complete": false,
+  "declared_modes": 3,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "failed_validation",
+      "complete": false,
+      "state": "needs_review",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "credit_cents": "99970",
+          "win_cents": "0",
+          "game_state": "basic"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": false,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "observed_cost": "0.3",
+      "before": "1000",
+      "debit": "999.9",
+      "after": "999.7",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "BonusBet:1",
+      "kind": "special",
+      "mode": "BonusBet:1",
+      "status": "failed_validation",
+      "complete": false,
+      "state": "needs_review",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "credit_cents": "99940",
+          "win_cents": "0",
+          "game_state": "basic"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": false,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "2",
+      "cost": "0.2",
+      "observed_cost": "0.3",
+      "before": "999.7",
+      "debit": "999.5",
+      "after": "999.4",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "BonusBet:2",
+      "kind": "special",
+      "mode": "BonusBet:2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "credit_cents": "99910",
+          "win_cents": "0",
+          "game_state": "basic"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.3",
+      "factor": "3",
+      "cost": "0.3",
+      "observed_cost": "0.3",
+      "before": "999.4",
+      "debit": "999.1",
+      "after": "999.1",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 3,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0,
+  "historical_closed_requests": [
+    {
+      "reason": "The old request omitted required bet.bonusbetlevel. Server closed the round, but its default level was not echoed; original incorrect price evaluation is preserved and does not count as a verified client mode.",
+      "before": "1000",
+      "after": "999.7",
+      "win": "0",
+      "prior_evaluation": {
+        "mode": "Spin",
+        "cost": "0.1",
+        "checks": {
+          "demo": true,
+          "minimum_base": true,
+          "positive_factor": true,
+          "wallet_ledger": false,
+          "nonnegative_credit": true,
+          "round_closed": true
+        },
+        "passed": false,
+        "steps": [
+          {
+            "kind": "paid_entry",
+            "next_action": "spin",
+            "game_over": "true",
+            "win_cents": "0",
+            "game_state": "basic",
+            "credit_cents": "99970"
+          }
+        ]
+      }
+    },
+    {
+      "reason": "Prior direct HTTP result; native XHR independently checked the same source prices. Original failed checks retained.",
+      "before": "1000",
+      "after": "999.7",
+      "win": "0",
+      "prior_evaluation": {
+        "mode": "Spin",
+        "cost": "0.1",
+        "checks": {
+          "demo": true,
+          "minimum_base": true,
+          "positive_factor": true,
+          "wallet_ledger": false,
+          "nonnegative_credit": true,
+          "round_closed": true
+        },
+        "passed": false,
+        "steps": [
+          {
+            "kind": "paid_entry",
+            "next_action": "spin",
+            "game_over": "true",
+            "win_cents": "0",
+            "game_state": "basic",
+            "credit_cents": "99970"
+          }
+        ]
+      }
+    },
+    {
+      "reason": "Prior direct HTTP result; native XHR independently checked the same source prices. Original failed checks retained.",
+      "before": "999.7",
+      "after": "999.4",
+      "win": "0",
+      "prior_evaluation": {
+        "mode": "BonusBet:1",
+        "cost": "0.2",
+        "checks": {
+          "demo": true,
+          "minimum_base": true,
+          "positive_factor": true,
+          "wallet_ledger": false,
+          "nonnegative_credit": true,
+          "round_closed": true
+        },
+        "passed": false,
+        "steps": [
+          {
+            "kind": "paid_entry",
+            "next_action": "spin",
+            "game_over": "true",
+            "win_cents": "0",
+            "game_state": "basic",
+            "credit_cents": "99940"
+          }
+        ]
+      }
+    },
+    {
+      "reason": "Prior direct HTTP result; native XHR independently checked the same source prices. Original failed checks retained.",
+      "before": "999.4",
+      "after": "999.1",
+      "win": "0",
+      "prior_evaluation": {
+        "mode": "BonusBet:2",
+        "cost": "0.3",
+        "checks": {
+          "demo": true,
+          "minimum_base": true,
+          "positive_factor": true,
+          "wallet_ledger": true,
+          "nonnegative_credit": true,
+          "round_closed": true
+        },
+        "passed": true,
+        "steps": [
+          {
+            "kind": "paid_entry",
+            "next_action": "spin",
+            "game_over": "true",
+            "win_cents": "0",
+            "game_state": "basic",
+            "credit_cents": "99910"
+          }
+        ]
+      }
+    }
+  ],
+  "review_complete": true,
+  "validation_exception": {
+    "code": "native_price_selector_mismatch",
+    "detail": "Native browser XHR confirms three closed rounds charge 0.30 despite source selector prices 0.10, 0.20 and 0.30.",
+    "expected_costs": [
+      "0.10",
+      "0.20",
+      "0.30"
+    ],
+    "observed_costs": [
+      "0.30",
+      "0.30",
+      "0.30"
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_cashrlmx_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "c730fbd8-6c52-418f-b49a-73696225e345:1",
+      "name": "PESOS-2",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 200,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "2647213476bd2787409838a53ff03df300328298f698497ab2ad15bab05c6289"
+  ],
+  "native_modes": [
+    {
+      "id": "c730fbd8-6c52-418f-b49a-73696225e345",
+      "name": "PESOS-2",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-2",
+      "selector_source": "native declaration",
+      "cost": 200,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 200,
+        "name": "PESOS-2",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "c730fbd8-6c52-418f-b49a-73696225e345"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "cb7be328-3d7a-496e-a4db-716a918d865b",
+      "name": "PESOS-5",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-5",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "PESOS-5",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "cb7be328-3d7a-496e-a4db-716a918d865b"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "8ca0fd71-5bec-4a91-9733-ae6857d24509",
+      "name": "PESOS-10",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-10",
+      "selector_source": "native declaration",
+      "cost": 1000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1000,
+        "name": "PESOS-10",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "8ca0fd71-5bec-4a91-9733-ae6857d24509"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "a6272e1c-640b-4a27-b326-d222667a9957",
+      "name": "PESOS-20",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-20",
+      "selector_source": "native declaration",
+      "cost": 2000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2000,
+        "name": "PESOS-20",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "a6272e1c-640b-4a27-b326-d222667a9957"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "7f624985-da36-46bd-9d8a-e46a07e790f3",
+      "name": "PESOS-50",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-50",
+      "selector_source": "native declaration",
+      "cost": 5000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5000,
+        "name": "PESOS-50",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "7f624985-da36-46bd-9d8a-e46a07e790f3"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "1474f47d-71d4-4392-96e6-0e69e8508e25",
+      "name": "PESOS-100",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-100",
+      "selector_source": "native declaration",
+      "cost": 10000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10000,
+        "name": "PESOS-100",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "1474f47d-71d4-4392-96e6-0e69e8508e25"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "626dd896-7df7-413a-a3f2-95b94bc3ad45",
+      "name": "PESOS-200",
+      "kind": "NATIVE_OPTION",
+      "selector": "PESOS-200",
+      "selector_source": "native declaration",
+      "cost": 20000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20000,
+        "name": "PESOS-200",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "626dd896-7df7-413a-a3f2-95b94bc3ad45"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 10,
+      "name": "DOLLAR-10",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "75caabd3-28b6-48ae-b8dd-a6307a889d5f"
+    },
+    {
+      "cost": 25,
+      "name": "DOLLAR-25",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "deb29569-a838-4079-bffe-776509f7a9e1"
+    },
+    {
+      "cost": 50,
+      "name": "DOLLAR-50",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "b576172f-fda4-4a86-b419-9f0d677881f2"
+    },
+    {
+      "cost": 100,
+      "name": "DOLLAR-100",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "c3891456-67c0-45de-98a6-60089f01c6c5"
+    },
+    {
+      "cost": 250,
+      "name": "DOLLAR-250",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "45ba431e-cb80-483a-8a8f-bf1f4ff86d90"
+    },
+    {
+      "cost": 500,
+      "name": "DOLLAR-500",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "db5406e0-042d-4dcb-b424-8744cbcad03d"
+    },
+    {
+      "cost": 1000,
+      "name": "DOLLAR-1000",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "2740f760-7363-40f9-8cd4-95810feac1fe"
+    },
+    {
+      "cost": 10,
+      "name": "CREDITS",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "fcaa88cd-aff9-4412-9bc9-99fdc7214fe1"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "DOLLAR-10",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "75caabd3-28b6-48ae-b8dd-a6307a889d5f"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 25,
+        "name": "DOLLAR-25",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "deb29569-a838-4079-bffe-776509f7a9e1"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 50,
+        "name": "DOLLAR-50",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "b576172f-fda4-4a86-b419-9f0d677881f2"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 100,
+        "name": "DOLLAR-100",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "c3891456-67c0-45de-98a6-60089f01c6c5"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 250,
+        "name": "DOLLAR-250",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "45ba431e-cb80-483a-8a8f-bf1f4ff86d90"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 500,
+        "name": "DOLLAR-500",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "db5406e0-042d-4dcb-b424-8744cbcad03d"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 1000,
+        "name": "DOLLAR-1000",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "2740f760-7363-40f9-8cd4-95810feac1fe"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "CREDITS",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "fcaa88cd-aff9-4412-9bc9-99fdc7214fe1"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    }
+  ],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "com.pt.casino.platform.game.GameUnavailableError:unknown",
+  "error_type": "ValueError",
+  "updated_at": 1793482785.109838,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

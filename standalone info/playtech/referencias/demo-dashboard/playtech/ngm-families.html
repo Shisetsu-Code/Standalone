@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playtech · Perfiles NGM</title>
+<style>body{font:16px system-ui;background:#101725;color:#edf3fa;max-width:1200px;margin:32px auto;padding:20px}a{color:#8ac9ff}p{line-height:1.6}.cards{display:flex;gap:16px;flex-wrap:wrap}.card{padding:18px;background:#1c2940;border-radius:10px;min-width:140px}.card b{display:block;font-size:28px}table{border-collapse:collapse;width:100%;margin:22px 0}th,td{padding:12px;text-align:left;border-bottom:1px solid #35445d;vertical-align:top}.scroll{overflow:auto}.ok{color:#9fe0af}.pending{color:#edca89}small{display:block;color:#b8c5d8;margin-top:8px}#error{color:#ffb2b2}</style>
+<nav><a href="../providers.html">Proveedores</a> · <a href="ngm-node.html">Pruebas anteriores</a> · <a href="ngm-family-summary.json">Detalle descargable</a></nav>
+<h1>Playtech: perfiles NGM</h1>
+<p>Motor original adaptado para cálculos locales sin navegador. El ejecutor visible permanece en standby. Cada juego requiere su propia fuente, configuración y comprobaciones.</p>
+<p><strong>Alcance experimental:</strong> estos cálculos no demuestran el ciclo completo de una ronda ni una liquidación remota.</p>
+<div id="counts" class="cards"></div><p id="error" role="alert"></p>
+<div class="scroll"><table><thead><tr><th>Juego</th><th>Normal</th><th>Antebet</th><th>Compras</th><th>Bonos / elecciones</th><th>Contraste y líneas</th></tr></thead><tbody id="profiles"></tbody></table></div>
+<p id="campaign"></p><p id="bonus"></p><p id="matrix"></p><ul id="limits"></ul>
+<script>
+const el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n};
+const status=m=>m?.status==='enabled_for_calculation'?'Cálculo adaptado':m?.status==='native_quote_only'?'Sólo coste nativo':m?.status==='enabled_for_replay'?'Sólo reproducción':'Pendiente';
+fetch('ngm-family-summary.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('No se pudo leer el resumen');return r.json()}).then(d=>{
+ const c=d.counts;
+ for(const [n,label] of [[c.slots,'Slots del catálogo'],[c.verified_source_manifest_pairs,'Fuentes y configuraciones'],[c.reviewed_profiles,'Perfiles experimentales'],[c.normal_calculators,'Cálculo normal adaptado'],[c.antebet_calculators,'Perfiles con antebet']]){const box=el('div','');box.className='card';box.append(el('b',n),el('span',label));document.querySelector('#counts').append(box)}
+ for(const p of d.profiles){const tr=el('tr','');const name=el('td',p.title);name.append(el('small',p.game_code));tr.append(name);for(const mode of ['NORMAL','ANTE_BET','PURCHASE']){const td=el('td',status(p.modes[mode]));td.className=p.modes[mode]?.status==='enabled_for_calculation'?'ok':'pending';tr.append(td)}tr.append(el('td',p.modes.BONUS_CONTINUATION?.status==='enabled_for_calculation'?'Continuación local adaptada; elecciones pendientes':'Ciclo completo pendiente'));const last=el('td',p.official_payout_fixture_available?'Premio comparado con captura oficial':'Sólo comprobaciones de la fuente; falta captura oficial');last.append(el('small',typeof p.line_coverage==='string'?p.line_coverage:JSON.stringify(p.line_coverage)));tr.append(last);document.querySelector('#profiles').append(tr)}
+ document.querySelector('#campaign').textContent='Control finito: '+(d.campaign.counts.native_calculation_complete||0)+' cálculos locales registrados en esta campaña; '+(d.campaign.counts.prior_native_calculation_retained||0)+' previos conservados; '+(d.campaign.counts.held_prior_result||0)+' resultado previo pendiente conservado; '+(d.campaign.counts.held_native_result||0)+' resultado nativo retenido para revisión; '+(d.campaign.counts.needs_review_no_auto_retry||0)+' control detenido para revisión sin reintento. No se repiten para completar casilleros.';
+ const b=d.native_bonus_calculations;document.querySelector('#bonus').textContent='Bai Shi: '+b.completed_model_cycles+' bonus calculado con el motor original. Apareció tras '+b.paid_entries+' cálculos normales y completó '+b.free_steps+' tiradas gratis, con coste adicional '+b.economic_free_debit+' y retorno a normal. Sin retrigger observado. Es cálculo local; no liquidación remota. Las pruebas sintéticas de retrigger se registran por separado.';
+ const matrix=d.native_selection_matrix;document.querySelector('#matrix').textContent='Bai Shi: '+matrix.cases+' combinaciones de líneas y moneda completadas ('+matrix.new_paid_entries+' nuevas y '+matrix.reused_paid_cases+' reutilizada). Incluye '+matrix.new_bonus_cycles+' bonos adicionales y '+matrix.new_free_steps+' tiradas gratis nuevas, sin coste adicional. Son cálculos locales; no apuestas remotas.';
+ for(const text of d.limitations)document.querySelector('#limits').append(el('li',text));
+}).catch(e=>document.querySelector('#error').textContent=e.message);
+</script></html>

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "1562",
+    "name": "Le Pharaoh",
+    "slug": "le-pharaoh",
+    "details_url": "https://www.hacksawgaming.com/games/le-pharaoh",
+    "bonus_id": "bonus_2",
+    "control_type": "bonus",
+    "case": "1562--buy-3--choice-1",
+    "root_case": "1562--buy-3",
+    "kind": "choice",
+    "choice_target": {
+      "node": "2819ffae163c9602",
+      "option": "lives"
+    },
+    "status": "completed",
+    "balance_before": "500000",
+    "bet": "10",
+    "currency": "EUR",
+    "version": "1.50.1",
+    "choices": [
+      {
+        "node": "2819ffae163c9602",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "lives"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "options": [
+          "fs",
+          "lives"
+        ],
+        "selected": "lives"
+      }
+    ],
+    "multiplier": "250",
+    "published_control": {
+      "bonusGameId": "bonus_2",
+      "betCostMultiplier": "250",
+      "expectedRtp": 96.26
+    },
+    "stake_sent": true,
+    "cost": "2500",
+    "win": "1080",
+    "balance_after": "498580",
+    "wallet_check": "match",
+    "round_id": "83775347"
+  },
+  {
+    "id": "1562",
+    "name": "Le Pharaoh",
+    "slug": "le-pharaoh",
+    "details_url": "https://www.hacksawgaming.com/games/le-pharaoh",
+    "bonus_id": "bonus",
+    "control_type": "bonus",
+    "case": "1562--buy-2--choice-1",
+    "root_case": "1562--buy-2",
+    "kind": "choice",
+    "choice_target": {
+      "node": "fb6a129dacd48167",
+      "option": "lives"
+    },
+    "status": "completed",
+    "balance_before": "500000",
+    "bet": "10",
+    "currency": "EUR",
+    "version": "1.50.1",
+    "choices": [
+      {
+        "node": "fb6a129dacd48167",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "lives"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "options": [
+          "fs",
+          "lives"
+        ],
+        "selected": "lives"
+      }
+    ],
+    "multiplier": "100",
+    "published_control": {
+      "bonusGameId": "bonus",
+      "betCostMultiplier": "100",
+      "expectedRtp": 96.31
+    },
+    "stake_sent": true,
+    "cost": "1000",
+    "win": "390",
+    "balance_after": "499390",
+    "wallet_check": "match",
+    "round_id": "83775400"
+  },
+  {
+    "id": "1534",
+    "name": "SixSixSix",
+    "slug": "sixsixsix",
+    "details_url": "https://www.hacksawgaming.com/games/sixsixsix",
+    "bonus_id": "bonus",
+    "control_type": "bonus",
+    "case": "1534--buy-2--choice-1",
+    "root_case": "1534--buy-2",
+    "kind": "choice",
+    "choice_target": {
+      "node": "0d501c9f1a230a17",
+      "option": "gamble"
+    },
+    "status": "completed",
+    "balance_before": "500000",
+    "bet": "10",
+    "currency": "EUR",
+    "version": "1.0.5",
+    "choices": [
+      {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "options": [
+          "play",
+          "gamble"
+        ],
+        "selected": "gamble"
+      }
+    ],
+    "multiplier": "100",
+    "published_control": {
+      "bonusGameId": "bonus",
+      "betCostMultiplier": "100",
+      "expectedRtp": 96.2
+    },
+    "stake_sent": true,
+    "cost": "1000",
+    "win": "758",
+    "balance_after": "499758",
+    "wallet_check": "match",
+    "round_id": "83775445"
+  },
+  {
+    "id": "1534",
+    "name": "SixSixSix",
+    "slug": "sixsixsix",
+    "details_url": "https://www.hacksawgaming.com/games/sixsixsix",
+    "bonus_id": "bonus_2",
+    "control_type": "bonus",
+    "case": "1534--buy-3--choice-1",
+    "root_case": "1534--buy-3",
+    "kind": "choice",
+    "choice_target": {
+      "node": "47946acd33026cd8",
+      "option": "gamble"
+    },
+    "status": "completed",
+    "balance_before": "500000",
+    "bet": "10",
+    "currency": "EUR",
+    "version": "1.0.5",
+    "choices": [
+      {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "options": [
+          "play",
+          "gamble"
+        ],
+        "selected": "gamble"
+      }
+    ],
+    "multiplier": "250",
+    "published_control": {
+      "bonusGameId": "bonus_2",
+      "betCostMultiplier": "250",
+      "expectedRtp": 96.22
+    },
+    "stake_sent": true,
+    "cost": "2500",
+    "win": "1760",
+    "balance_after": "499260",
+    "wallet_check": "match",
+    "round_id": "83775469"
+  }
+]

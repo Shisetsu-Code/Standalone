@@ -1,0 +1,249 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "anwild",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; HTTP/WSS asset/lobby traffic via relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 250,
+      "win": 0,
+      "balance_before": 100000,
+      "balance_after": 99750,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    },
+    {
+      "verified": true,
+      "stake": 25,
+      "win": 871,
+      "balance_before": 100000,
+      "balance_after": 100846,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true,
+      "session_group": "anwild-minimum-v3--1793481904457460600"
+    }
+  ],
+  "demo_verified": true,
+  "native_source_sha256": [
+    "90f26620573850858ef5ee2b67fd3fced88d1bc57e40153d94fb634ac13685e1"
+  ],
+  "observed_bet": 250,
+  "local_event_trace_validated": true,
+  "minimum_stake_verified": true,
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "review_note": "Official local rounds verified at native observed default250 and native-selected minimum25 in independent sessions. Other native stake amounts and feature inventory remain pending.",
+  "native_stake_selection": {
+    "verified": true,
+    "currentIndex": 0,
+    "totalBet": 25,
+    "source_sha256": "90f26620573850858ef5ee2b67fd3fced88d1bc57e40153d94fb634ac13685e1",
+    "actions": [
+      {
+        "direction": "minus",
+        "from_index": 7,
+        "expected_index": 6,
+        "totalBet": 200,
+        "event_index": 17,
+        "events_before": 16
+      },
+      {
+        "direction": "minus",
+        "from_index": 6,
+        "expected_index": 5,
+        "totalBet": 150,
+        "event_index": 18,
+        "events_before": 17
+      },
+      {
+        "direction": "minus",
+        "from_index": 5,
+        "expected_index": 4,
+        "totalBet": 125,
+        "event_index": 19,
+        "events_before": 18
+      },
+      {
+        "direction": "minus",
+        "from_index": 4,
+        "expected_index": 3,
+        "totalBet": 100,
+        "event_index": 20,
+        "events_before": 19
+      },
+      {
+        "direction": "minus",
+        "from_index": 3,
+        "expected_index": 2,
+        "totalBet": 75,
+        "event_index": 21,
+        "events_before": 20
+      },
+      {
+        "direction": "minus",
+        "from_index": 2,
+        "expected_index": 1,
+        "totalBet": 50,
+        "event_index": 22,
+        "events_before": 21
+      },
+      {
+        "direction": "minus",
+        "from_index": 1,
+        "expected_index": 0,
+        "totalBet": 25,
+        "event_index": 23,
+        "events_before": 22
+      }
+    ],
+    "domain": [
+      {
+        "index": 0,
+        "coin": 1,
+        "totalBet": 25,
+        "legal": true
+      },
+      {
+        "index": 1,
+        "coin": 2,
+        "totalBet": 50,
+        "legal": true
+      },
+      {
+        "index": 2,
+        "coin": 3,
+        "totalBet": 75,
+        "legal": true
+      },
+      {
+        "index": 3,
+        "coin": 4,
+        "totalBet": 100,
+        "legal": true
+      },
+      {
+        "index": 4,
+        "coin": 5,
+        "totalBet": 125,
+        "legal": true
+      },
+      {
+        "index": 5,
+        "coin": 6,
+        "totalBet": 150,
+        "legal": true
+      },
+      {
+        "index": 6,
+        "coin": 8,
+        "totalBet": 200,
+        "legal": true
+      },
+      {
+        "index": 7,
+        "coin": 10,
+        "totalBet": 250,
+        "legal": true
+      },
+      {
+        "index": 8,
+        "coin": 20,
+        "totalBet": 500,
+        "legal": true
+      },
+      {
+        "index": 9,
+        "coin": 25,
+        "totalBet": 625,
+        "legal": true
+      },
+      {
+        "index": 10,
+        "coin": 30,
+        "totalBet": 750,
+        "legal": true
+      },
+      {
+        "index": 11,
+        "coin": 40,
+        "totalBet": 1000,
+        "legal": true
+      },
+      {
+        "index": 12,
+        "coin": 50,
+        "totalBet": 1250,
+        "legal": true
+      },
+      {
+        "index": 13,
+        "coin": 75,
+        "totalBet": 1875,
+        "legal": true
+      },
+      {
+        "index": 14,
+        "coin": 100,
+        "totalBet": 2500,
+        "legal": true
+      },
+      {
+        "index": 15,
+        "coin": 200,
+        "totalBet": 5000,
+        "legal": true
+      },
+      {
+        "index": 16,
+        "coin": 500,
+        "totalBet": 12500,
+        "legal": true
+      },
+      {
+        "index": 17,
+        "coin": 1000,
+        "totalBet": 25000,
+        "legal": true
+      },
+      {
+        "index": 18,
+        "coin": 2000,
+        "totalBet": 50000,
+        "legal": true
+      },
+      {
+        "index": 19,
+        "coin": 2500,
+        "totalBet": 62500,
+        "legal": true
+      },
+      {
+        "index": 20,
+        "coin": 5000,
+        "totalBet": 125000,
+        "legal": true
+      },
+      {
+        "index": 21,
+        "coin": 7500,
+        "totalBet": 187500,
+        "legal": true
+      },
+      {
+        "index": 22,
+        "coin": 10000,
+        "totalBet": 250000,
+        "legal": true
+      }
+    ],
+    "authority": "native-filtered-domain+registered-ui-callbacks"
+  }
+}

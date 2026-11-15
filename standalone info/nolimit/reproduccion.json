@@ -1,0 +1,21 @@
+{
+  "provider": "nolimit",
+  "name": "Nolimit City",
+  "inventory": "../inventario/nolimit.json",
+  "historical": "../evidencia/nolimit.json",
+  "games": 141,
+  "modes": 1147,
+  "python": {
+    "source": "../../../bet-collector/collection_worker.py",
+    "entry": "nolimit",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "nolimit.websocket",
+  "continuation": "native game state",
+  "closure": "round completed and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

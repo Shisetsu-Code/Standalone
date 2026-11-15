@@ -1,0 +1,21 @@
+{
+  "provider": "netent",
+  "name": "NetEnt",
+  "inventory": "../inventario/netent.json",
+  "historical": "../evidencia/netent.json",
+  "games": 233,
+  "modes": 440,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/netent-root"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "netent",
+  "continuation": "bootstrap family and next action",
+  "closure": "family-specific settlement",
+  "standalone_rust": null,
+  "paused": false
+}

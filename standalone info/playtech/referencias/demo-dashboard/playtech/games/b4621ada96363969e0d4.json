@@ -1,0 +1,105 @@
+{
+  "provider": "Playtech",
+  "game_code": "TigerTurtleDragonPhoenix",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus archived slot catalogue membership",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "69ec3265-01a6-4379-881f-69e7f160b0ef:1",
+      "name": "20",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 4,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 4
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999984,
+      "cost": 20,
+      "win": 4,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "48cdd8fba20df5bfcd6a1d2f09682dd7a0c63122ab0e1f54fd1a279fa4ac9db5"
+  ],
+  "native_modes": [
+    {
+      "id": "69ec3265-01a6-4379-881f-69e7f160b0ef",
+      "name": "20",
+      "kind": "SPIN",
+      "selector": "20",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "20",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1"
+        },
+        "uuid": "69ec3265-01a6-4379-881f-69e7f160b0ef"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        200,
+        500,
+        1000,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "declared_line_options": [],
+  "line_domain_note": "No selectable line choice declared",
+  "updated_at": 1793427027.1937115,
+  "pending_choice_branches": {}
+}

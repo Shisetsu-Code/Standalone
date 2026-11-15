@@ -1,0 +1,8212 @@
+{
+  "game_id": "twister",
+  "title": "Twister",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "currentAction": "spin",
+            "freeSpinMultiplier": null,
+            "lastBaseGameReels": [],
+            "debugTag": "Finished_NormalGame"
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 11,
+            "left": 11
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": 4,
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "currentAction": "spin",
+            "freeSpinMultiplier": null,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsEntranceToFreeSpins"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 11,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.04,
+            "current": 0.04
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.04,
+                "multiplicity": 1,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.04,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 11,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.16,
+            "current": 0.12
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.12,
+                "multiplicity": 3,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.16,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 11,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.4,
+            "current": 0.24
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.24,
+                "multiplicity": 6,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.4,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 11,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.44,
+            "current": 0.04
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.04,
+                "multiplicity": 1,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.44,
+            "isBonus": null,
+            "scatters": 2,
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 11,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.45,
+            "current": 0.01
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.01,
+                "multiplicity": 1,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.45,
+            "isBonus": null,
+            "scatters": 2,
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 12,
+            "left": 11
+          },
+          "wins": {
+            "total": 0.45,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.45,
+            "isBonus": null,
+            "scatters": 2,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.75,
+            "current": 0.3
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.3,
+                "multiplicity": 3,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.3,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.79,
+            "current": 0.04
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.04,
+                "multiplicity": 1,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.34,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 12,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.79,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.34,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 1,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 9
+          },
+          "wins": {
+            "total": 2.39,
+            "current": 1.6
+          },
+          "game": {
+            "features": [
+              {
+                "twister": {
+                  "bodyPart": "RightFoot",
+                  "color": "Yellow"
+                },
+                "lockedRemainingLives": null,
+                "leftHandsRandomWilds": null,
+                "twisterPosition": {
+                  "x": 1,
+                  "y": 4
+                }
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.4,
+                "multiplicity": 10,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.4,
+                "multiplicity": 10,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 1.6,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 14
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 2
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 12,
+            "left": 9
+          },
+          "wins": {
+            "total": 2.39,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 1.6,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 8
+          },
+          "wins": {
+            "total": 2.47,
+            "current": 0.08
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 5
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.04,
+                "multiplicity": 4,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.08,
+            "isBonus": null,
+            "scatters": 1,
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 8
+          },
+          "wins": {
+            "total": 3.59,
+            "current": 1.12
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.75,
+                "winnings": 0.3,
+                "multiplicity": 2,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.24,
+                "multiplicity": 6,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 5
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.02,
+                "multiplicity": 2,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 1.2,
+            "isBonus": null,
+            "scatters": 1,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 12,
+            "left": 8
+          },
+          "wins": {
+            "total": 4.39,
+            "current": 0.8
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.4,
+                "multiplicity": 4,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 2.0,
+            "isBonus": null,
+            "scatters": 1,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 13,
+            "left": 9
+          },
+          "wins": {
+            "total": 4.39,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 2.0,
+            "isBonus": null,
+            "scatters": 2,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 13,
+            "left": 8
+          },
+          "wins": {
+            "total": 5.03,
+            "current": 0.64
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.32,
+                "multiplicity": 8,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.64,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 2,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 13,
+            "left": 8
+          },
+          "wins": {
+            "total": 8.87,
+            "current": 3.84
+          },
+          "game": {
+            "features": [
+              {
+                "twister": {
+                  "bodyPart": "RightFoot",
+                  "color": "Red"
+                },
+                "lockedRemainingLives": null,
+                "leftHandsRandomWilds": null,
+                "twisterPosition": {
+                  "x": 3,
+                  "y": 1
+                }
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 5
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.48,
+                "multiplicity": 12,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.8,
+                "multiplicity": 20,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 4.48,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 15
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 2
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 3,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 13,
+            "left": 8
+          },
+          "wins": {
+            "total": 9.77,
+            "current": 0.9
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.75,
+                "winnings": 0.3,
+                "multiplicity": 2,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 5.38,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 3,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 9
+          },
+          "wins": {
+            "total": 9.77,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 5.38,
+            "isBonus": null,
+            "scatters": 2,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 3,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 8
+          },
+          "wins": {
+            "total": 10.34,
+            "current": 0.57
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 5
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.75,
+                "winnings": 0.15,
+                "multiplicity": 1,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.04,
+                "multiplicity": 1,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.57,
+            "isBonus": null,
+            "scatters": 1,
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 3,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 8
+          },
+          "wins": {
+            "total": 10.34,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.57,
+            "isBonus": null,
+            "scatters": 1,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 3,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 7
+          },
+          "wins": {
+            "total": 15.9,
+            "current": 5.56
+          },
+          "game": {
+            "features": [
+              {
+                "twister": {
+                  "bodyPart": "LeftHand",
+                  "color": "Green"
+                },
+                "lockedRemainingLives": null,
+                "leftHandsRandomWilds": [
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "twisterPosition": {
+                  "x": 1,
+                  "y": 3
+                }
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 5
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.2,
+                "multiplicity": 1,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.2,
+                "multiplicity": 2,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.28,
+                "multiplicity": 7,
+                "winLength": 3
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.16,
+                "multiplicity": 4,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 5
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.32,
+                "multiplicity": 8,
+                "winLength": 4
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.07,
+                "multiplicity": 7,
+                "winLength": 3
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.16,
+                "multiplicity": 4,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 5.56,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 16
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 16
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 16
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 2
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 7
+          },
+          "wins": {
+            "total": 15.9,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 5.56,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 6
+          },
+          "wins": {
+            "total": 16.86,
+            "current": 0.96
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.24,
+                "multiplicity": 6,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.96,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 6
+          },
+          "wins": {
+            "total": 16.86,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.96,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 5
+          },
+          "wins": {
+            "total": 16.86,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 4
+          },
+          "wins": {
+            "total": 16.86,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 3
+          },
+          "wins": {
+            "total": 16.86,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 4,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 2
+          },
+          "wins": {
+            "total": 17.06,
+            "current": 0.2
+          },
+          "game": {
+            "features": [
+              {
+                "twister": {
+                  "bodyPart": "RightHand",
+                  "color": "Blue"
+                },
+                "lockedRemainingLives": 1,
+                "leftHandsRandomWilds": null,
+                "twisterPosition": {
+                  "x": 1,
+                  "y": 0
+                }
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.04,
+                "multiplicity": 4,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.2,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 2
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 2
+          },
+          "wins": {
+            "total": 17.26,
+            "current": 0.2
+          },
+          "game": {
+            "features": [
+              {
+                "twister": {
+                  "bodyPart": "RightHand",
+                  "color": "Blue"
+                },
+                "lockedRemainingLives": 0,
+                "leftHandsRandomWilds": null,
+                "twisterPosition": {
+                  "x": 1,
+                  "y": 3
+                }
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.04,
+                "multiplicity": 4,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.4,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 2
+          },
+          "wins": {
+            "total": 17.26,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.4,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 14,
+            "left": 1
+          },
+          "wins": {
+            "total": 17.26,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.0,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "NextStateIsNewFreeSpinStart"
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 0
+          },
+          "wins": {
+            "total": 17.86,
+            "current": 0.6
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 5
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.12,
+                "multiplicity": 3,
+                "winLength": 4
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.6,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "freespin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 14,
+            "left": 0
+          },
+          "wins": {
+            "total": 17.96,
+            "current": 0.1
+          },
+          "game": {
+            "features": [],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 5
+                  }
+                ],
+                "payout": 0.05,
+                "winnings": 0.02,
+                "multiplicity": 2,
+                "winLength": 3
+              }
+            ],
+            "thisSpinAccumulatedWin": 0.7,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [],
+            "debugTag": "FreeSpinGameAvalancheState"
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 14,
+            "left": 0
+          },
+          "wins": {
+            "total": 17.96,
+            "current": 0.0
+          },
+          "game": {
+            "features": [],
+            "wins": [],
+            "thisSpinAccumulatedWin": 0.7,
+            "isBonus": null,
+            "scatters": null,
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "baseReels": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "currentAction": "respin",
+            "freeSpinMultiplier": 5,
+            "lastBaseGameReels": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "debugTag": "Finished_FreeSpin"
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "100",
+      "cost": "20.0",
+      "before": "1000",
+      "debit": "980.0",
+      "after": "997.96",
+      "win": "17.96"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

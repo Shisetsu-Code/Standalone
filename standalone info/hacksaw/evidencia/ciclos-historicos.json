@@ -1,0 +1,130 @@
+[
+  {
+    "provider": "hacksaw",
+    "game_id": "2234",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "EUR",
+      "bet": 10,
+      "cost": 10,
+      "win": 6,
+      "balance_before": 500000,
+      "balance_after": 499996
+    },
+    "mode": {
+      "key": "normal",
+      "type": "normal"
+    },
+    "source_sha256": "2b71ea8f61cf625e430a7f418e700abcc39a5e56bf6c48e800ed85eaa59342cb",
+    "phases": {
+      "accepted_packet_index": 1,
+      "closed_packet_index": 2,
+      "entry_packet_index": 1,
+      "selected_option": null,
+      "transport": "http_relay",
+      "options_offered": [
+        {
+          "id": "mod_bonus",
+          "multiplier": "3"
+        },
+        {
+          "id": "mod_wheel",
+          "multiplier": "250"
+        },
+        {
+          "id": "mod_wheel_epic",
+          "multiplier": "1000"
+        },
+        {
+          "id": "fs",
+          "multiplier": "100"
+        },
+        {
+          "id": "fs_2",
+          "multiplier": "200"
+        }
+      ],
+      "steps": [
+        {
+          "packet_index": 1,
+          "selected_action": null,
+          "status": "wfwpc",
+          "options_offered": []
+        },
+        {
+          "packet_index": 2,
+          "selected_action": "win_presentation_complete",
+          "status": "completed",
+          "options_offered": []
+        }
+      ]
+    }
+  },
+  {
+    "provider": "hacksaw",
+    "game_id": "2234",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "EUR",
+      "bet": 10,
+      "cost": 1000,
+      "win": 2,
+      "balance_before": 500000,
+      "balance_after": 499002
+    },
+    "mode": {
+      "key": "fs",
+      "type": "purchase"
+    },
+    "source_sha256": "bdbd4c94c3949d257b50a8d20bd22578cd334db0f094abbf3d375a51a533c0c2",
+    "phases": {
+      "accepted_packet_index": 1,
+      "closed_packet_index": 2,
+      "entry_packet_index": 1,
+      "selected_option": "fs",
+      "transport": "http_relay",
+      "options_offered": [
+        {
+          "id": "mod_bonus",
+          "multiplier": "3"
+        },
+        {
+          "id": "mod_wheel",
+          "multiplier": "250"
+        },
+        {
+          "id": "mod_wheel_epic",
+          "multiplier": "1000"
+        },
+        {
+          "id": "fs",
+          "multiplier": "100"
+        },
+        {
+          "id": "fs_2",
+          "multiplier": "200"
+        }
+      ],
+      "steps": [
+        {
+          "packet_index": 1,
+          "selected_action": null,
+          "status": "wfwpc",
+          "options_offered": []
+        },
+        {
+          "packet_index": 2,
+          "selected_action": "win_presentation_complete",
+          "status": "completed",
+          "options_offered": []
+        }
+      ]
+    }
+  }
+]

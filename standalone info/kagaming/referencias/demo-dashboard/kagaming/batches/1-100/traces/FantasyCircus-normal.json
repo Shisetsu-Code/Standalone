@@ -1,0 +1,152 @@
+{
+  "game": "FantasyCircus",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 30,
+    "cost_formula": "Uc(sel,cps) -> 30*cps (selection-independent)",
+    "source_sha256": "0cadf032be56f4718cd7eafa388d4d97b5db8bb1b41f24689e31d7343a9d4dbe",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "FantasyCircus",
+        "sel": 5,
+        "sid": 1295548272,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793295548.2717953,
+      "http_status": 200,
+      "response": {
+        "sid": 1295548272,
+        "md": {
+          "sid": 1296287075,
+          "tid": "round-ba4177af72be90d13452",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 30,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            8,
+            9,
+            1,
+            4,
+            1,
+            7,
+            6,
+            11,
+            12,
+            5,
+            5,
+            12,
+            8,
+            9,
+            4
+          ],
+          "swi": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "snm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ssm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sm": [
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999970,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 30
+        },
+        "pcr": 9999970,
+        "cr": 9999970,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100,
+          150,
+          250,
+          500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793295546.2702754,
+  "session_group": "FantasyCircus-5e99f9c721054852aaa3e05794e4371c",
+  "balance_before_native": 10000000,
+  "cost_native": 30,
+  "win_native": 0,
+  "balance_after_native": 9999970,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

@@ -1,0 +1,257 @@
+{
+  "game_id": "hotline",
+  "title": "Hotline™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 7,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99985"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "1",
+      "cost": "0.15",
+      "before": "1000",
+      "debit": "999.85",
+      "after": "999.85",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:1",
+      "kind": "special",
+      "mode": "Hotlines:1",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99970"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "1",
+      "cost": "0.15",
+      "before": "999.85",
+      "debit": "999.7",
+      "after": "999.7",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:2",
+      "kind": "special",
+      "mode": "Hotlines:2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99955"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "1",
+      "cost": "0.15",
+      "before": "999.7",
+      "debit": "999.55",
+      "after": "999.55",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:0,1",
+      "kind": "special",
+      "mode": "Hotlines:0,1",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99925"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "2",
+      "cost": "0.3",
+      "before": "999.55",
+      "debit": "999.25",
+      "after": "999.25",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:0,2",
+      "kind": "special",
+      "mode": "Hotlines:0,2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "10",
+          "game_state": "basic",
+          "credit_cents": "99905"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "2",
+      "cost": "0.3",
+      "before": "999.25",
+      "debit": "998.95",
+      "after": "999.05",
+      "win": "0.1",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:1,2",
+      "kind": "special",
+      "mode": "Hotlines:1,2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99875"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "2",
+      "cost": "0.3",
+      "before": "999.05",
+      "debit": "998.75",
+      "after": "998.75",
+      "win": "0",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Hotlines:0,1,2",
+      "kind": "special",
+      "mode": "Hotlines:0,1,2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "5",
+          "game_state": "basic",
+          "credit_cents": "99835"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.15",
+      "factor": "3",
+      "cost": "0.45",
+      "before": "998.75",
+      "debit": "998.3",
+      "after": "998.35",
+      "win": "0.05",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 1,
+  "prior_run_report": "prior-runs/hotline-before-selector-mapping.json"
+}

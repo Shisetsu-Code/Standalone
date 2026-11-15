@@ -1,0 +1,208 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_archer_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "subset_complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "cbecabcb-e44c-4728-879d-11300b830e9b:25",
+      "name": "25",
+      "kind": "SPIN",
+      "multiplier": 25,
+      "expected_cost": 625,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 625,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999375,
+      "cost": 625,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "cbecabcb-e44c-4728-879d-11300b830e9b:50",
+      "name": "25",
+      "kind": "SPIN",
+      "multiplier": 50,
+      "expected_cost": 1250,
+      "before": 999375,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1250,
+          "win": 1250,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1250,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999375,
+      "cost": 1250,
+      "win": 1250,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "cbecabcb-e44c-4728-879d-11300b830e9b:100",
+      "name": "25",
+      "kind": "SPIN",
+      "multiplier": 100,
+      "expected_cost": 2500,
+      "before": 999375,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 2500,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 996875,
+      "cost": 2500,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "bfc2d1dc496777d0d76d4dd5defd41a16e18bf6f38de4d5b57d89bb4dbba1dfd"
+  ],
+  "native_modes": [
+    {
+      "id": "cbecabcb-e44c-4728-879d-11300b830e9b",
+      "name": "25",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "supplier context transformer or native line constructor",
+      "cost": 25,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 25,
+        "name": "25",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "cbecabcb-e44c-4728-879d-11300b830e9b"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        25,
+        50,
+        100
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793483037.9763203,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": false,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true,
+  "requested_stake_targets": {
+    "cbecabcb-e44c-4728-879d-11300b830e9b": [
+      25,
+      50,
+      100
+    ]
+  },
+  "demo_initial_balance": 1000000,
+  "operation_tag": "stake-matrix-cbecabcb-1793483031406298300",
+  "selected_mode_ids": [
+    "cbecabcb-e44c-4728-879d-11300b830e9b"
+  ],
+  "all_requested_modes_complete": true
+}

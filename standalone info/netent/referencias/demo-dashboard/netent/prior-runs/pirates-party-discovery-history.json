@@ -1,0 +1,125 @@
+{
+  "provider": "NetEnt",
+  "game": "pirates-party",
+  "status": "conditional_choices_now_verified",
+  "previous_baseline_cases": [
+    {
+      "mode": "Spin",
+      "state": "verified",
+      "passed": true,
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "9999.90",
+      "win": "0.00",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.00",
+          "has_state": true
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_settled": true,
+        "minimum_base": true
+      },
+      "historical_failed_checks": 1,
+      "prior_evaluations": [
+        {
+          "at": 1793355478.936532,
+          "checks": {
+            "success": true,
+            "demo": true,
+            "continuity": true,
+            "native_mode_id": true,
+            "no_promotional_bonus": true,
+            "request_stake_matches_game": true,
+            "debit": true,
+            "credit": true,
+            "wallet_ledger": true,
+            "nonnegative_credit": true,
+            "round_settled": false,
+            "minimum_base": true
+          },
+          "state": "needs_review",
+          "reason": "Native statefulControl restores persistent reels; atomic parent result and wallet are settled",
+          "native_source_sha256": "2adfb7032998bcc6fcd4aa042ef18bec0033cf6e1fa0e21a7398769bc501f120"
+        }
+      ]
+    }
+  ],
+  "records_are_checkpoint_snapshots_not_additive_counts": true,
+  "previous_discovery_snapshots": [
+    {
+      "run_label": "choices-discovery",
+      "verified_unique_modes": [
+        "Spin",
+        "Choice:1"
+      ],
+      "additional_verified_rounds": 98,
+      "unfinished_or_rejected_cases": [
+        {
+          "mode": "Spin",
+          "state": "sent_or_uncertain",
+          "passed": false,
+          "stake": "0.1",
+          "factor": "1",
+          "before": "10001.22",
+          "steps": [],
+          "checks": {}
+        }
+      ],
+      "provider_rejections": [
+        {
+          "code": 44,
+          "maximum_session_bets_reached": true,
+          "wallet_after_rejection_reconfirmed": false,
+          "uncertain_request_replayed": false
+        }
+      ]
+    },
+    {
+      "run_label": "choices-completion",
+      "verified_unique_modes": [
+        "Spin",
+        "Choice:1",
+        "Choice:2"
+      ],
+      "additional_verified_rounds": 197,
+      "unfinished_or_rejected_cases": [
+        {
+          "mode": "Spin",
+          "state": "sent_or_uncertain",
+          "passed": false,
+          "stake": "0.1",
+          "factor": "1",
+          "before": "10024.17",
+          "steps": [],
+          "checks": {},
+          "origin_run_label": "choices-completion"
+        }
+      ],
+      "provider_rejections": [
+        {
+          "code": 44,
+          "maximum_session_bets_reached": true,
+          "wallet_after_rejection_reconfirmed": false,
+          "uncertain_request_replayed": false
+        }
+      ]
+    }
+  ],
+  "original_private_records_preserved": true
+}

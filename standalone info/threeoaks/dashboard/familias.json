@@ -1,0 +1,5534 @@
+[
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_hot_chillies",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/0",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_apple_x2500",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/1",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "chili_coins_xxxl",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/2",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_superpower_diamonds",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/3",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_dragon_pearls",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/4",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_super_clover_pots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/5",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_penny_3_pots_super_wheel",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/6",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_super_hot_teapots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/7",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coinup_volcano",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/8",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "grand",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/9",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_fortune_clovers",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/10",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "super_hotfire_diamonds",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/11",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "joker_glitz_x1000",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/12",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_clover_pots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/13",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_lucky_sparks",
+    "family_id": "threeoaks.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "buy-1",
+        "buy-2"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_lifecycle_audit_failed"
+          ]
+        },
+        {
+          "mode": "buy-1",
+          "gaps": [
+            "native_lifecycle_audit_failed"
+          ]
+        },
+        {
+          "mode": "buy-2",
+          "gaps": [
+            "native_lifecycle_audit_failed"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/14",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "supreme_diamond_xxl",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/15",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_penny_powerscatter",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/16",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "jungle_volcano",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/17",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_apple_x1000",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/18",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_olymp_fortunes",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/19",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "thunder_tiger",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/20",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "purple_diamond",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/21",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_fairy_flowers",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/22",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "dj_tiger_x1000",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/23",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_wolf_drums",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/24",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lord_of_thunder",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/25",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "chili_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/26",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_super_coin_volcanoes",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/27",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_pots_of_egypt",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/28",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "egypt_power_x1000",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "booster-2",
+        "booster-3",
+        "booster-4",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        },
+        {
+          "mode": "booster-2",
+          "gaps": []
+        },
+        {
+          "mode": "booster-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/29",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "4_african_drums",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/30",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lava_coins_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/31",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "egypt_fire_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/32",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "power_sun_xxl",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/33",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sun_of_egypt_5",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/34",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "super_hot_teapots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/35",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_penny_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/36",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "magic_clovers",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/37",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_volcano_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/38",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "amazonia_wins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/39",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "777_fruity_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/40",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_princess_x1000",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/41",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "super_china_pots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "buy-4",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "buy-4",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/42",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "space_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/43",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_super_hot_chillies",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/44",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "dancing_joker",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/45",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_hot_teapots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/46",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_express",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/47",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_aztec_temples",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/48",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "power_sun",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/49",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_clover_pots_extra",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/50",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_african_drums",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/51",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lava_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/52",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_coin_volcanoes",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/53",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_pots_of_egypt",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/54",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "hot_fire_fruits",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/55",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "fortune_globe",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/56",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lucky_penny",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/57",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "super_hot_chilli",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/58",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_lightning",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/59",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "golden_teapot",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/60",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "super_sticky_piggy",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/61",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "fishing_bear",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/62",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_china_pots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/63",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_clover_pots",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/64",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_egypt_chests",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/65",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_up",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/66",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sun_of_egypt_4",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/67",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "aztec_fire_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/68",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "gold_nuggets",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/69",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "grab_more_gold",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/70",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_hot_chillies",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/71",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "777_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/72",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "black_wolf_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/73",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "little_farm",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/74",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "green_chilli_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/75",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "coin_volcano",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy-1",
+        "buy-2",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/76",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "lady_fortune",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "booster-1",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "booster-1",
+        "buy-1",
+        "buy-2",
+        "buy-3",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "buy-1",
+          "gaps": []
+        },
+        {
+          "mode": "buy-2",
+          "gaps": []
+        },
+        {
+          "mode": "buy-3",
+          "gaps": []
+        },
+        {
+          "mode": "booster-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/77",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "tiger_gems",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/78",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "grab_the_gold",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/79",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "more_magic_apple",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/80",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "egypt_fire",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/81",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sunlight_princess",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/82",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "rio_gems",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/83",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "hit_more_gold",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/84",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "green_chilli",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/85",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "big_heist",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/86",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "aztec_fire",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/87",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "magic_apple_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/88",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sun_of_egypt_3",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/89",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "gold_express",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/90",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "tiger_jungle",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/91",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "wolf_night",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/92",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "hit_the_gold",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/93",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "magic_apple",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/94",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "3_coins",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/95",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sun_of_egypt_2",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/96",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "scarab_temple",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/97",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "15_dragon_pearls",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/98",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "aztec_sun",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/99",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "moon_sisters",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/100",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "sun_of_egypt",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/101",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  },
+  {
+    "provider_id": "threeoaks",
+    "game_id": "book_of_sun_multichance",
+    "family_id": "threeoaks.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/threeoaks/catalog.json",
+        "pointer": "/102",
+        "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_worker.py",
+        "pointer": "threeoaks",
+        "sha256": "997303fcedc0e3684f51cc056f8382120813ee4af96438fbc707c51f09292797"
+      }
+    ]
+  }
+]

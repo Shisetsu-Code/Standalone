@@ -1,0 +1,111 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_dbond_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding and explicit costConfiguration winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "8fbd8ede-06a1-4f35-8fe4-5e3c9ffedc56:1",
+      "name": "10",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 1,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999991,
+      "cost": 10,
+      "win": 1,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "6f3f930cc2a73646d3d578adbf4122897de3b6a6d8afb0b3a3e75a7955ba9278"
+  ],
+  "native_modes": [
+    {
+      "id": "8fbd8ede-06a1-4f35-8fe4-5e3c9ffedc56",
+      "name": "10",
+      "kind": "SPIN",
+      "selector": "10",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "10",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "50"
+        },
+        "uuid": "8fbd8ede-06a1-4f35-8fe4-5e3c9ffedc56"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "declared_line_options": [
+    "50"
+  ],
+  "updated_at": 1793426897.8552969,
+  "pending_choice_branches": {}
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "endorphina",
+  "name": "Endorphina",
+  "inventory": "../inventario/endorphina.json",
+  "historical": "../evidencia/endorphina.json",
+  "games": 238,
+  "modes": 563,
+  "python": {
+    "source": "../../../bet-collector/collection_worker.py",
+    "entry": "endorphina",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "endorphina.protobuf",
+  "continuation": "close_round native response",
+  "closure": "terminal protobuf and wallet",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/endorphina.rs",
+    "verified_normal_ci": true
+  },
+  "paused": false
+}

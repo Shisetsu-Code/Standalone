@@ -1,0 +1,171 @@
+{
+  "provider": "Playtech",
+  "game_code": "VampirePrincess",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "9265162d-15c3-49d9-a977-ffe8858bfa15:1",
+      "name": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "Base",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999995,
+      "cost": 5,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "07733e19ac85e606bbbb5ba6bca593e03cbb6a5b1b6234c6cb0a7550e805b6ac"
+  ],
+  "native_modes": [
+    {
+      "id": "9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "name": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "kind": "NATIVE_OPTION",
+      "selector": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "",
+        "parameters": {
+          "winline": "5"
+        },
+        "uuid": "9265162d-15c3-49d9-a977-ffe8858bfa15"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1200
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Previously source-bound selector dispatch",
+  "declared_line_options": [
+    "5"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793477472.1825297,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": false,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "historical_attempts": [
+    {
+      "path": "history/VampirePrincess--retained-before-final-control.json",
+      "sha256": "498ce3a9d0dcc8f7e8e52dbc7f8115e17cd788716da786ff682e185777b63b3f",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 0
+    },
+    {
+      "path": "history/VampirePrincess--retained-VampirePrincess--manifest-api-negotiation.json",
+      "sha256": "fcd20dc69f3a28ad7b25974a64b138bfd31e10c242811a931f0e558efd0730b7",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 0
+    },
+    {
+      "path": "history/VampirePrincess--retained-VampirePrincess--official-legacy-lines.json",
+      "sha256": "a829cad171f0ed8c31a43bc8ea6054df6f575cdb6eb53b509a2862136c85363f",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 0
+    },
+    {
+      "path": "history/VampirePrincess-before-legacy-base-terminal-v2.json",
+      "sha256": "8ed529d313505f9a4e314d083440d660f8f09405f6c0775d8e84b1c178337d61",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 0
+    }
+  ],
+  "protocol_recovery": {
+    "independent_demo_control": true,
+    "historical_rounds_resumed": false,
+    "historical_failures_retained": true,
+    "note": "Current protocol coverage verified in a new anonymous demo. This does not assert settlement or recovery of earlier missing receipts."
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

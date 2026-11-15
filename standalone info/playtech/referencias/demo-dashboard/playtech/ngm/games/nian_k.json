@@ -1,0 +1,40 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "nian_k",
+  "title": "Nian Nian You Yu",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 9,
+      "win": 2,
+      "balance_before": 100000,
+      "balance_after": 99993,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485250.3737023,
+  "bootstrap_seconds": 28.719,
+  "preload_wait_seconds": 31.64,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "d33f22f45ad3221d6a7534f37c72f6ad58640a7d7faa8b6f9385383c3cef9973"
+  ],
+  "observed_bet": 9,
+  "native_stake_controls_available": false,
+  "local_event_trace_validated": true,
+  "review_note": "Official local round verified. Full action/feature inventory and all stake sizes require separate coverage; no remote server settlement is asserted.",
+  "native_inventory_unresolved_count": 42,
+  "native_inventory_plan_complete": false
+}

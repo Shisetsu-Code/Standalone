@@ -1,0 +1,789 @@
+{
+  "game_id": "reel-rush-xxxtreme",
+  "title": "Reel Rush™ XXXtreme",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 4,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "advanceLevel": 5
+              }
+            ],
+            "advanceLevelCurrent": 0,
+            "advanceLevelNext": 0,
+            "multiplierCurrent": 1,
+            "multiplierNext": null
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.3",
+      "factor": "1",
+      "cost": "0.3",
+      "before": "1000",
+      "debit": "999.7",
+      "after": "999.7",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.2,
+            "spin": 0.2,
+            "current": 0.2,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.6666666666666666,
+                "winnings": 0.2
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.2
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "GoldenMultiplier10",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "advanceLevel": 6
+              }
+            ],
+            "advanceLevelCurrent": 0,
+            "advanceLevelNext": 1,
+            "multiplierCurrent": 1,
+            "multiplierNext": 2
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.2,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.2
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "GoldenMultiplier10",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "advanceLevel": 6
+              }
+            ],
+            "advanceLevelCurrent": 1,
+            "advanceLevelNext": 1,
+            "multiplierCurrent": 2,
+            "multiplierNext": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.3",
+      "factor": "3",
+      "cost": "0.9",
+      "before": "999.7",
+      "debit": "998.8",
+      "after": "999.0",
+      "win": "0.2"
+    },
+    {
+      "name": "FeatureBuyEnhanced",
+      "kind": "special",
+      "mode": "FeatureBuyEnhanced",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "GoldenExpandingWild",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                },
+                "advanceLevel": 6
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "advanceLevel": 6
+              }
+            ],
+            "advanceLevelCurrent": 0,
+            "advanceLevelNext": 0,
+            "multiplierCurrent": 1,
+            "multiplierNext": null
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.3",
+      "factor": "25",
+      "cost": "7.5",
+      "before": "999.0",
+      "debit": "991.5",
+      "after": "991.5",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy3",
+      "kind": "special",
+      "mode": "FeatureBuy3",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.05,
+            "spin": 0.05,
+            "current": 0.05,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.16666666666666666,
+                "winnings": 0.05
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.05
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "GoldenMultiplier10",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "GoldenExpandingWild",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "GoldenStickyWild",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "GoldenExpandingWild",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                },
+                "advanceLevel": 6
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "advanceLevel": 6
+              }
+            ],
+            "advanceLevelCurrent": 0,
+            "advanceLevelNext": 1,
+            "multiplierCurrent": 1,
+            "multiplierNext": 3
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.05,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.05
+              }
+            }
+          },
+          "game": {
+            "featureBlocks": [
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "advanceLevel": 1
+              },
+              {
+                "featureType": "Wild",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "advanceLevel": 2
+              },
+              {
+                "featureType": "GoldenMultiplier10",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 0
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "GoldenExpandingWild",
+                "status": 1,
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "advanceLevel": 3
+              },
+              {
+                "featureType": "GoldenStickyWild",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 0
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "GoldenExpandingWild",
+                "status": 1,
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "advanceLevel": 4
+              },
+              {
+                "featureType": "Advance",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "advanceLevel": 5
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 0
+                },
+                "advanceLevel": 6
+              },
+              {
+                "featureType": "Multiplier1",
+                "status": 1,
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "advanceLevel": 6
+              }
+            ],
+            "advanceLevelCurrent": 1,
+            "advanceLevelNext": 1,
+            "multiplierCurrent": 3,
+            "multiplierNext": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.3",
+      "factor": "200",
+      "cost": "60.0",
+      "before": "991.5",
+      "debit": "931.5",
+      "after": "931.55",
+      "win": "0.05"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

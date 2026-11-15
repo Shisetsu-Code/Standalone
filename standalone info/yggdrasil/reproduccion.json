@@ -1,0 +1,21 @@
+{
+  "provider": "yggdrasil",
+  "name": "Yggdrasil",
+  "inventory": "../inventario/yggdrasil.json",
+  "historical": "../evidencia/yggdrasil.json",
+  "games": 138,
+  "modes": 301,
+  "python": {
+    "source": "../../../bet-collector/collection_yggdrasil.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/yggdrasil-export"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": null,
+  "continuation": null,
+  "closure": null,
+  "standalone_rust": null,
+  "paused": false
+}

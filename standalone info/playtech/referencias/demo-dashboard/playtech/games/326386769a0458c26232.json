@@ -1,0 +1,25 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_kenob1_pop",
+  "game_type": "Non-slot",
+  "classification_source": "Native game.crash configuration or game-specific Keno model/stage plus native title",
+  "status": "excluded_non_slot",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "a2e7a1f18a38baa863058261a67ce666a4f0a08767fd1b8faf1207add0d97842"
+  ],
+  "review_note": "Excluded before gameplay under slots-only scope; official Keno model/renderer or native crash configuration confirms non-slot product",
+  "updated_at": 1793479679.383866,
+  "non_slot_evidence": {
+    "confirmed": true,
+    "native_crash_configuration": false,
+    "native_keno_model_and_renderer": true,
+    "source": "Native game.crash configuration or game-specific Keno model/stage plus native title"
+  }
+}

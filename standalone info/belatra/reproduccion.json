@@ -1,0 +1,23 @@
+{
+  "provider": "belatra",
+  "name": "Belatra",
+  "inventory": "../inventario/belatra.json",
+  "historical": "../evidencia/belatra.json",
+  "games": 117,
+  "modes": 302,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/belatra-chat4"
+    ],
+    "absent_from_checkout": [
+      "provider-work/belatra-chat4"
+    ]
+  },
+  "native_family": "belatra.native-phase",
+  "continuation": "gs.phaseNext",
+  "closure": "native phase and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

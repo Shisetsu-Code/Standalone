@@ -1,0 +1,116 @@
+{
+  "provider": "Playtech",
+  "game_code": "StarsAblaze",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "3e94c75f-f7c9-4b87-8f69-85e053817a35:2",
+      "name": "__unnamed_uuid_option__:3e94c75f-f7c9-4b87-8f69-85e053817a35",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 2,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 10,
+          "round_closed": true,
+          "next_round": "Base",
+          "native_total_win": 10,
+          "request_parameters": []
+        }
+      ],
+      "state": "closed_needs_review",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "372827cc45e1df9fabc61c0ab15246804bdee20d0f1baf0308d10c1a3fa543df"
+  ],
+  "native_modes": [
+    {
+      "id": "3e94c75f-f7c9-4b87-8f69-85e053817a35",
+      "name": "__unnamed_uuid_option__:3e94c75f-f7c9-4b87-8f69-85e053817a35",
+      "kind": "NATIVE_OPTION",
+      "selector": "__unnamed_uuid_option__:3e94c75f-f7c9-4b87-8f69-85e053817a35",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 2,
+      "declaration": {
+        "cost": 5,
+        "name": "",
+        "parameters": {
+          "winline": "5"
+        },
+        "uuid": "3e94c75f-f7c9-4b87-8f69-85e053817a35"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        7000,
+        10000
+      ],
+      "minimum_legal_multiplier": 2
+    }
+  ],
+  "native_selector_policy": "Previously source-bound selector dispatch",
+  "declared_line_options": [
+    "5"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "com.pt.casino.platform.game.EngineError:0",
+  "error_type": "ValueError",
+  "updated_at": 1793477293.2320976,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": false,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true,
+  "operation_tag": "legacy-final-minimum-recheck",
+  "selected_mode_ids": null
+}

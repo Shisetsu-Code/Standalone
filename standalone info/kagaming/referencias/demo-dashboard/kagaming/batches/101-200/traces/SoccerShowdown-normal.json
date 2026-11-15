@@ -1,0 +1,153 @@
+{
+  "game": "SoccerShowdown",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 88,
+    "cost_formula": "Uc(sel,cps) -> constant Z6*cps; Z6=88",
+    "source_sha256": "a404c5e1acd35584bd2edb2767adfb30d5dbc31a2bfa66d977434db17d4d08aa",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "SoccerShowdown",
+        "sel": 5,
+        "sid": 1304527875,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793304527.8740256,
+      "http_status": 200,
+      "response": {
+        "sid": 1304527875,
+        "md": {
+          "sid": 1296614738,
+          "tid": "round-84e74f191a03c7ea901b",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 88,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            2,
+            11,
+            9,
+            2,
+            4,
+            2,
+            3,
+            11,
+            4,
+            5,
+            5,
+            4,
+            1,
+            3,
+            6
+          ],
+          "swi": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "snm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ssm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sm": [
+            0,
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999912,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 88
+        },
+        "pcr": 9999912,
+        "cr": 9999912,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793304525.872565,
+  "session_group": "SoccerShowdown-5077844be8de44998942e5caffbf7add",
+  "balance_before_native": 10000000,
+  "cost_native": 88,
+  "win_native": 0,
+  "balance_after_native": 9999912,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

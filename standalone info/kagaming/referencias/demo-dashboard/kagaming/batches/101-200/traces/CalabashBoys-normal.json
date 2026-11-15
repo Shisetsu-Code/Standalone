@@ -1,0 +1,146 @@
+{
+  "game": "CalabashBoys",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 35,
+    "cost_formula": "Uc(sel,cps) -> 35*cps (selection-independent)",
+    "source_sha256": "50cf5279d0910fb46a719113500bfa02920d9b45ef55f0e576def91bbf96f784",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "CalabashBoys",
+        "sel": 5,
+        "sid": 1299637721,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793299637.7205286,
+      "http_status": 200,
+      "response": {
+        "sid": 1299637721,
+        "md": {
+          "sid": 1296430300,
+          "tid": "round-fb9d3580bf1c909c2c75",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 35,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 2,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            11,
+            5,
+            9,
+            5,
+            8,
+            2,
+            9,
+            2,
+            2,
+            0,
+            9,
+            11,
+            3,
+            4,
+            10
+          ],
+          "swi": [
+            2
+          ],
+          "snm": [
+            1
+          ],
+          "ssm": [
+            1092
+          ],
+          "sm": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999967,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 2,
+          "tsb": 35
+        },
+        "pcr": 9999965,
+        "cr": 9999967,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100,
+          150,
+          250,
+          500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793299635.7177887,
+  "session_group": "CalabashBoys-238ecab3ad6e4055bb64c0ab66963683",
+  "balance_before_native": 10000000,
+  "cost_native": 35,
+  "win_native": 2,
+  "balance_after_native": 9999967,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

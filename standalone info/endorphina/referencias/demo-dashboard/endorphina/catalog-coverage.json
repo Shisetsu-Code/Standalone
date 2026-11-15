@@ -1,0 +1,30 @@
+{
+  "provider": "endorphina",
+  "catalog_games": 240,
+  "tested_games": 238,
+  "unavailable_games": [
+    {
+      "slug": "legendary-sumo",
+      "name": "Legendary Sumo",
+      "batch": "101-200",
+      "reason": "official_launcher_has_empty_destination"
+    },
+    {
+      "slug": "satoshis-secret",
+      "name": "Satoshi's secret",
+      "batch": "201-240",
+      "reason": "official_demo_temporarily_unavailable"
+    }
+  ],
+  "purchases": 325,
+  "risk_options": 942,
+  "internal_options": 222,
+  "reconciled_rounds": 5615,
+  "all_available_cases_passed": true,
+  "prior_batch_audits_unchanged": true,
+  "batch_audits": [
+    "batches/1-100/audit.json",
+    "batches/101-200/audit.json",
+    "batches/201-240/audit.json"
+  ]
+}

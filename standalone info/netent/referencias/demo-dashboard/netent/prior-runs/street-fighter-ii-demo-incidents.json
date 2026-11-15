@@ -1,0 +1,73 @@
+{
+  "provider": "NetEnt",
+  "game": "Street Fighter II: The World Warrior",
+  "fictional_demo_only": true,
+  "financial_requests_replayed": 0,
+  "prior_native_sdk_round": {
+    "accepted": true,
+    "entry_cost": "0.20",
+    "state": "open",
+    "last_next_action": "trigger_wild",
+    "wallet_confirmed_closed": false,
+    "restoration": "Existing official launch no longer initializes; read-only restoration unavailable."
+  },
+  "native_http_campaign": {
+    "confirmed_closed_rounds": 426,
+    "verified_unique_modes": [
+      "Spin",
+      "Gamble:yes"
+    ],
+    "additional_verified_rounds": 424,
+    "interrupted_intent": {
+      "mode": "Spin",
+      "state": "sent_or_uncertain",
+      "accepted": null,
+      "quoted_stake": "0.20",
+      "receipt_observed": false,
+      "reason": "Native frame detached during evaluation at the ten-minute boundary. No retry."
+    }
+  },
+  "note": "The uncertain intent is distinct from the accepted interrupted round. Neither is counted as a verified closed round.",
+  "later_native_demo_expiry": {
+    "accepted": true,
+    "entry_cost": "0.20",
+    "state": "open",
+    "acknowledged_steps": [
+      {
+        "kind": "paid_entry",
+        "next_action": "drop",
+        "game_over": "false",
+        "credit_cents": "96857",
+        "win_cents": "5",
+        "game_state": "basic"
+      },
+      {
+        "kind": "drop",
+        "next_action": "bonusaction",
+        "game_over": "false",
+        "credit_cents": "96857",
+        "win_cents": "5",
+        "game_state": "bonus"
+      }
+    ],
+    "wallet_confirmed_closed": false,
+    "reason": "The native demo also invalidates its server session at ten minutes. Failed continuation was not repeated."
+  },
+  "accepted_interrupted_rounds": 2,
+  "unconfirmed_paid_intents": 1,
+  "current_conditional_coverage": {
+    "verified_modes": [
+      "Spin",
+      "Gamble:yes"
+    ],
+    "not_observed": [
+      "Gamble:no"
+    ],
+    "verified_closed_rounds": 1434,
+    "additional_rounds": 1432,
+    "last_sample_closed_before_expiry": true,
+    "last_sample_rounds": 159,
+    "last_sample_seconds_budget": 250,
+    "note": "The missing branch was never sent without a server offer. It remains unverified."
+  }
+}

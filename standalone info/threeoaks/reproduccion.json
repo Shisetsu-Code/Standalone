@@ -1,0 +1,21 @@
+{
+  "provider": "threeoaks",
+  "name": "3 Oaks Gaming",
+  "inventory": "../inventario/threeoaks.json",
+  "historical": "../evidencia/threeoaks.json",
+  "games": 103,
+  "modes": 234,
+  "python": {
+    "source": "../../../bet-collector/collection_worker.py",
+    "entry": "native_rust",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "threeoaks.native",
+  "continuation": "native continuation",
+  "closure": "settled response and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

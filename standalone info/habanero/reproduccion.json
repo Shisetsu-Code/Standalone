@@ -1,0 +1,23 @@
+{
+  "provider": "habanero",
+  "name": "Habanero",
+  "inventory": "../inventario/habanero.json",
+  "historical": "../evidencia/habanero.json",
+  "games": 205,
+  "modes": 315,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/habanero-export"
+    ],
+    "absent_from_checkout": [
+      "provider-work/habanero-export"
+    ]
+  },
+  "native_family": "habanero",
+  "continuation": "native pending state",
+  "closure": "closed and balance_ok",
+  "standalone_rust": null,
+  "paused": false
+}

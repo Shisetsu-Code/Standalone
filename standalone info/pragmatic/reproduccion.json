@@ -1,0 +1,24 @@
+{
+  "provider": "pragmatic",
+  "name": "Pragmatic Play",
+  "inventory": "../inventario/pragmatic.json",
+  "historical": "../evidencia/pragmatic.json",
+  "games": 660,
+  "modes": 1687,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "pragmatic.action",
+  "continuation": "na/bonus decision",
+  "closure": "native round and wallet",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/pragmatic.rs",
+    "verified_normal_ci": true
+  },
+  "paused": false
+}

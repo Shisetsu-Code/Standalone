@@ -1,0 +1,793 @@
+{
+  "schema_version": 1,
+  "source": "local collector dispatch and published inventory",
+  "providers": [
+    {
+      "provider": "1spin4win",
+      "name": "1spin4win",
+      "inventory": "../inventario/1spin4win.json",
+      "historical": "../evidencia/1spin4win.json",
+      "games": 232,
+      "modes": 283,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/1spin4win"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/1spin4win"
+        ]
+      },
+      "native_family": "1spin4win.websocket",
+      "continuation": "native selectors and continuation",
+      "closure": "terminal frame; wallet may be unavailable",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "amigogaming",
+      "name": "Amigo Gaming",
+      "inventory": "../inventario/amigogaming.json",
+      "historical": "../evidencia/amigogaming.json",
+      "games": 157,
+      "modes": 207,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/amigogaming-chat4"
+        ],
+        "absent_from_checkout": [
+          "provider-work/amigogaming-chat4"
+        ]
+      },
+      "native_family": "amigo.native",
+      "continuation": "native free game",
+      "closure": "native final state and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "amusnet",
+      "name": "Amusnet",
+      "inventory": "../inventario/amusnet.json",
+      "historical": "../evidencia/amusnet.json",
+      "games": 468,
+      "modes": 763,
+      "python": {
+        "source": "../../../bet-collector/collection_extra_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "amusnet-private"
+        ],
+        "absent_from_checkout": [
+          "amusnet-private"
+        ]
+      },
+      "native_family": "amusnet.gin",
+      "continuation": "native option and bonus phase",
+      "closure": "round and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "belatra",
+      "name": "Belatra",
+      "inventory": "../inventario/belatra.json",
+      "historical": "../evidencia/belatra.json",
+      "games": 117,
+      "modes": 302,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/belatra-chat4"
+        ],
+        "absent_from_checkout": [
+          "provider-work/belatra-chat4"
+        ]
+      },
+      "native_family": "belatra.native-phase",
+      "continuation": "gs.phaseNext",
+      "closure": "native phase and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "betsoft",
+      "name": "Betsoft",
+      "inventory": "../inventario/betsoft.json",
+      "historical": "../evidencia/betsoft.json",
+      "games": 219,
+      "modes": 574,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/betsoft"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/betsoft"
+        ]
+      },
+      "native_family": "betsoft.command",
+      "continuation": "native command/state",
+      "closure": "terminal award and balance",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "bgaming",
+      "name": "BGaming",
+      "inventory": "../inventario/bgaming.json",
+      "historical": "../evidencia/bgaming.json",
+      "games": 244,
+      "modes": 808,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/bgaming-chat4"
+        ],
+        "absent_from_checkout": [
+          "provider-work/bgaming-chat4"
+        ]
+      },
+      "native_family": "bgaming.game-service",
+      "continuation": "events/free or bonus",
+      "closure": "native response round and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "egt-digital",
+      "name": "EGT Digital",
+      "inventory": "../inventario/egt-digital.json",
+      "historical": "../evidencia/egt-digital.json",
+      "games": 231,
+      "modes": 331,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/egt-digital"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/egt-digital"
+        ]
+      },
+      "native_family": "egt.websocket",
+      "continuation": "native variant state",
+      "closure": "terminal event and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "ela-games",
+      "name": "Ela Games",
+      "inventory": "../inventario/ela-games.json",
+      "historical": "../evidencia/ela-games.json",
+      "games": 68,
+      "modes": 134,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "ela-games-private"
+        ],
+        "absent_from_checkout": [
+          "ela-games-private"
+        ]
+      },
+      "native_family": "ela.feature",
+      "continuation": "native free/respins",
+      "closure": "native award and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "elk",
+      "name": "ELK Studios",
+      "inventory": "../inventario/elk.json",
+      "historical": "../evidencia/elk.json",
+      "games": 159,
+      "modes": 803,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "elk.xiter",
+      "continuation": "native game state",
+      "closure": "native closed state and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "endorphina",
+      "name": "Endorphina",
+      "inventory": "../inventario/endorphina.json",
+      "historical": "../evidencia/endorphina.json",
+      "games": 238,
+      "modes": 563,
+      "python": {
+        "source": "../../../bet-collector/collection_worker.py",
+        "entry": "endorphina",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "endorphina.protobuf",
+      "continuation": "close_round native response",
+      "closure": "terminal protobuf and wallet",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/endorphina.rs",
+        "verified_normal_ci": true
+      },
+      "paused": false
+    },
+    {
+      "provider": "evoplay",
+      "name": "Evoplay",
+      "inventory": "../inventario/evoplay.json",
+      "historical": "../evidencia/evoplay.json",
+      "games": 258,
+      "modes": 1080,
+      "python": {
+        "source": "../../../bet-collector/collection_full_playtech.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "demo-dashboard/evoplay"
+        ],
+        "absent_from_checkout": [
+          "demo-dashboard/evoplay"
+        ]
+      },
+      "native_family": "evoplay.fullstate",
+      "continuation": "available_actions",
+      "closure": "idle plus native payout ledger",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "gamesglobal",
+      "name": "Games Global",
+      "inventory": "../inventario/gamesglobal.json",
+      "historical": "../evidencia/gamesglobal.json",
+      "games": 81,
+      "modes": 0,
+      "python": null,
+      "native_family": null,
+      "continuation": null,
+      "closure": null,
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "habanero",
+      "name": "Habanero",
+      "inventory": "../inventario/habanero.json",
+      "historical": "../evidencia/habanero.json",
+      "games": 205,
+      "modes": 315,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/habanero-export"
+        ],
+        "absent_from_checkout": [
+          "provider-work/habanero-export"
+        ]
+      },
+      "native_family": "habanero",
+      "continuation": "native pending state",
+      "closure": "closed and balance_ok",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "hacksaw",
+      "name": "Hacksaw Gaming",
+      "inventory": "../inventario/hacksaw.json",
+      "historical": "../evidencia/hacksaw.json",
+      "games": 142,
+      "modes": 744,
+      "python": {
+        "source": "../../../bet-collector/collection_worker.py",
+        "entry": "hacksaw",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "hacksaw.play",
+      "continuation": "nextRound/actions",
+      "closure": "round finished and balance",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/hacksaw.rs",
+        "verified_normal_ci": true
+      },
+      "paused": false
+    },
+    {
+      "provider": "hardfire-kalamba",
+      "name": "Kalamba",
+      "inventory": "../inventario/hardfire-kalamba.json",
+      "historical": "../evidencia/hardfire-kalamba.json",
+      "games": 441,
+      "modes": 66,
+      "python": {
+        "source": "../../../bet-collector/collection_claude_extra.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "bet-collector/claude-demo-catalog.json"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": null,
+      "continuation": null,
+      "closure": null,
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "irondog",
+      "name": "Iron Dog Studio",
+      "inventory": "../inventario/irondog.json",
+      "historical": "../evidencia/irondog.json",
+      "games": 141,
+      "modes": 379,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/irondog"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/irondog"
+        ]
+      },
+      "native_family": "irondog.morphic",
+      "continuation": "native engine continuation",
+      "closure": "settled; legacy cycle exceptions",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "kagaming",
+      "name": "KA Gaming",
+      "inventory": "../inventario/kagaming.json",
+      "historical": "../evidencia/kagaming.json",
+      "games": 837,
+      "modes": 885,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "parallel-workspaces/kagaming"
+        ],
+        "absent_from_checkout": [
+          "parallel-workspaces/kagaming"
+        ]
+      },
+      "native_family": "kaga.spin",
+      "continuation": "native bonus commands",
+      "closure": "native cash and total win",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "kendoo",
+      "name": "Kendoo",
+      "inventory": "../inventario/kendoo.json",
+      "historical": "../evidencia/kendoo.json",
+      "games": 33,
+      "modes": 76,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/kendoo-chat4"
+        ],
+        "absent_from_checkout": [
+          "provider-work/kendoo-chat4"
+        ]
+      },
+      "native_family": "kendoo.state-actions",
+      "continuation": "context.actions/current",
+      "closure": "round_finished and balance",
+      "standalone_rust": null,
+      "paused": true
+    },
+    {
+      "provider": "mascot",
+      "name": "Mascot Gaming",
+      "inventory": "../inventario/mascot.json",
+      "historical": "../evidencia/mascot.json",
+      "games": 171,
+      "modes": 211,
+      "python": {
+        "source": "../../../bet-collector/collection_mascot.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/mascot",
+          "provider-work/mascot-gaming"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/mascot",
+          "provider-work/mascot-gaming"
+        ]
+      },
+      "native_family": null,
+      "continuation": null,
+      "closure": null,
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "microgaming",
+      "name": "Microgaming",
+      "inventory": "../inventario/microgaming.json",
+      "historical": "../evidencia/microgaming.json",
+      "games": 147,
+      "modes": 49,
+      "python": {
+        "source": "../../../bet-collector/collection_claude_extra.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "bet-collector/claude-demo-catalog.json"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": null,
+      "continuation": null,
+      "closure": null,
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "netent",
+      "name": "NetEnt",
+      "inventory": "../inventario/netent.json",
+      "historical": "../evidencia/netent.json",
+      "games": 233,
+      "modes": 440,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/netent-root"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "netent",
+      "continuation": "bootstrap family and next action",
+      "closure": "family-specific settlement",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "nolimit",
+      "name": "Nolimit City",
+      "inventory": "../inventario/nolimit.json",
+      "historical": "../evidencia/nolimit.json",
+      "games": 141,
+      "modes": 1147,
+      "python": {
+        "source": "../../../bet-collector/collection_worker.py",
+        "entry": "nolimit",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "nolimit.websocket",
+      "continuation": "native game state",
+      "closure": "round completed and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "peterandsons",
+      "name": "Peter & Sons",
+      "inventory": "../inventario/peterandsons.json",
+      "historical": "../evidencia/peterandsons.json",
+      "games": 75,
+      "modes": 223,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/peterandsons-chat4"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "peterandsons.native",
+      "continuation": "native state/available actions",
+      "closure": "native final state and wallet",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/peterandsons.rs",
+        "verified_normal_ci": false
+      },
+      "paused": false
+    },
+    {
+      "provider": "playngo",
+      "name": "Play’n GO",
+      "inventory": "../inventario/playngo.json",
+      "historical": "../evidencia/playngo.json",
+      "games": 476,
+      "modes": 493,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "playngo.xml",
+      "continuation": "game-specific XML commands",
+      "closure": "native settlement and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "playson",
+      "name": "Playson",
+      "inventory": "../inventario/playson.json",
+      "historical": "../evidencia/playson.json",
+      "games": 114,
+      "modes": 242,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/playson-root"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "playson.micro-packets",
+      "continuation": "native command packets",
+      "closure": "idle plus cash/bonus ledger",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/playson.rs",
+        "verified_normal_ci": false
+      },
+      "paused": false
+    },
+    {
+      "provider": "playtech",
+      "name": "Playtech",
+      "inventory": "../inventario/playtech.json",
+      "historical": "../evidencia/playtech.json",
+      "games": 2033,
+      "modes": 3940,
+      "python": {
+        "source": "../../../bet-collector/collection_full_playtech.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/playtech-root",
+          "playtech-private-root"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "playtech",
+      "continuation": "native engine phase/choice",
+      "closure": "native engine terminal and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "pragmatic",
+      "name": "Pragmatic Play",
+      "inventory": "../inventario/pragmatic.json",
+      "historical": "../evidencia/pragmatic.json",
+      "games": 660,
+      "modes": 1687,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "pragmatic.action",
+      "continuation": "na/bonus decision",
+      "closure": "native round and wallet",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/pragmatic.rs",
+        "verified_normal_ci": true
+      },
+      "paused": false
+    },
+    {
+      "provider": "redtiger",
+      "name": "Red Tiger",
+      "inventory": "../inventario/redtiger.json",
+      "historical": "../evidencia/redtiger.json",
+      "games": 361,
+      "modes": 607,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/mocks/redtiger"
+        ],
+        "absent_from_checkout": [
+          "provider-work/mocks/redtiger"
+        ]
+      },
+      "native_family": "redtiger.http",
+      "continuation": "native mode/choice/finish",
+      "closure": "native round closed; wallet gap explicit",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "reelkingdom",
+      "name": "Reel Kingdom",
+      "inventory": "../inventario/reelkingdom.json",
+      "historical": "../evidencia/reelkingdom.json",
+      "games": 73,
+      "modes": 183,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "pragmatic.action",
+      "continuation": "na/bonus decision",
+      "closure": "native round and wallet",
+      "standalone_rust": {
+        "source": "../../../game-runner/src/adapters/pragmatic.rs",
+        "verified_normal_ci": true
+      },
+      "paused": false
+    },
+    {
+      "provider": "rubyplay",
+      "name": "RubyPlay",
+      "inventory": "../inventario/rubyplay.json",
+      "historical": "../evidencia/rubyplay.json",
+      "games": 180,
+      "modes": 262,
+      "python": {
+        "source": "../../../bet-collector/collection_full_node.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/rubyplay-chat2"
+        ],
+        "absent_from_checkout": [
+          "provider-work/rubyplay-chat2"
+        ]
+      },
+      "native_family": "rubyplay.native-binary",
+      "continuation": "phaseNext/native source plan",
+      "closure": "native round and funding ledger",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "smartsoft",
+      "name": "SmartSoft Gaming",
+      "inventory": "../inventario/smartsoft.json",
+      "historical": "../evidencia/smartsoft.json",
+      "games": 41,
+      "modes": 66,
+      "python": {
+        "source": "../../../bet-collector/collection_worker.py",
+        "entry": "native_rust",
+        "dependency_paths": [
+          "smartsoft-private"
+        ],
+        "absent_from_checkout": [
+          "smartsoft-private"
+        ]
+      },
+      "native_family": "smartsoft.options",
+      "continuation": "native option/state",
+      "closure": "native closure and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "spinomenal",
+      "name": "Spinomenal",
+      "inventory": "../inventario/spinomenal.json",
+      "historical": "../evidencia/spinomenal.json",
+      "games": 596,
+      "modes": 1581,
+      "python": {
+        "source": "../../../bet-collector/collection_full_misc.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "spinomenal-private"
+        ],
+        "absent_from_checkout": [
+          "spinomenal-private"
+        ]
+      },
+      "native_family": "spinomenal.process",
+      "continuation": "process/feature/choice",
+      "closure": "finished phase and balance ledger",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "threeoaks",
+      "name": "3 Oaks Gaming",
+      "inventory": "../inventario/threeoaks.json",
+      "historical": "../evidencia/threeoaks.json",
+      "games": 103,
+      "modes": 234,
+      "python": {
+        "source": "../../../bet-collector/collection_worker.py",
+        "entry": "native_rust",
+        "dependency_paths": [
+          "demo-dashboard"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": "threeoaks.native",
+      "continuation": "native continuation",
+      "closure": "settled response and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "thunderspin",
+      "name": "ThunderSpin",
+      "inventory": "../inventario/thunderspin.json",
+      "historical": "../evidencia/thunderspin.json",
+      "games": 61,
+      "modes": 84,
+      "python": {
+        "source": "../../../bet-collector/collection_full_existing.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/thunderspin-chat4"
+        ],
+        "absent_from_checkout": [
+          "provider-work/thunderspin-chat4"
+        ]
+      },
+      "native_family": "thunderspin.native",
+      "continuation": "client campaign contract",
+      "closure": "native final state and wallet",
+      "standalone_rust": null,
+      "paused": false
+    },
+    {
+      "provider": "yggdrasil",
+      "name": "Yggdrasil",
+      "inventory": "../inventario/yggdrasil.json",
+      "historical": "../evidencia/yggdrasil.json",
+      "games": 138,
+      "modes": 301,
+      "python": {
+        "source": "../../../bet-collector/collection_yggdrasil.py",
+        "entry": "collect",
+        "dependency_paths": [
+          "provider-work/yggdrasil-export"
+        ],
+        "absent_from_checkout": []
+      },
+      "native_family": null,
+      "continuation": null,
+      "closure": null,
+      "standalone_rust": null,
+      "paused": false
+    }
+  ]
+}

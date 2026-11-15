@@ -1,0 +1,102 @@
+{
+  "provider": "Playson",
+  "slug": "fire-coins-hold-and-win",
+  "fictional_demo_only": true,
+  "transport": "HTTP XML through relay8793",
+  "cases": [
+    {
+      "mode": "Spin",
+      "state": "verified",
+      "passed": true,
+      "checks": {
+        "documented_demo_adjustments": true,
+        "positive_native_cost": true,
+        "entry_base_cost": true,
+        "entry_wallet": true,
+        "wallet_ledger": true,
+        "round_closed": true,
+        "purchase_binding": true,
+        "ante_binding": true,
+        "free_entries_zero_cost": true,
+        "demo": true,
+        "minimum_base": true,
+        "native_source": true
+      },
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "credit_minor": 1100380,
+          "base_win_minor": 400,
+          "bonus_win_minor": 0,
+          "bonus_present": false,
+          "bonus_spins_left": null,
+          "free_win_minor": null,
+          "free_spins_remaining": 0,
+          "native_cash_bet_minor": 20
+        }
+      ],
+      "kind": "normal",
+      "before_minor": 1100000,
+      "line_bet_minor": 2,
+      "base_cost_minor": 20,
+      "cost_minor": 20,
+      "multiplier": 1,
+      "minimum_observed": true,
+      "entry_base_cost_matches": true,
+      "native_cash_bet_minor": 20,
+      "native_cash_bet_game_minor": 20,
+      "ante_binding": true,
+      "purchase_binding": true,
+      "demo_reconnect_adjustment_minor": 0,
+      "after_minor": 1100380,
+      "win_minor": 400,
+      "entry_ordinal": 3,
+      "cash_packet_win_minor": 400,
+      "bonus_packet_win_minor": 0,
+      "validation_concluded": true,
+      "win_source": "Sum of native cash-win micro packets plus settled bonus-win packets; aggregate free-win retained as a diagnostic."
+    }
+  ],
+  "mode_cost_factors": {
+    "Spin": 1
+  },
+  "contract_review_complete": true,
+  "all_game_modes_complete": true,
+  "native_client_sha256": "ba45b5967686a8976a0a8db4d130483ac4c8ede9ef23dc6ef0b20670714c875c",
+  "status": "complete",
+  "demo_verified": true,
+  "native_source_verified": true,
+  "quote": {
+    "ante_multipliers": [],
+    "line_bet_minor": 2,
+    "line_bet_domain": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      50,
+      75,
+      100,
+      200,
+      300,
+      500,
+      750,
+      1000
+    ],
+    "base_multiplier": 10,
+    "base_cost_minor": 20,
+    "buy_multipliers": []
+  },
+  "minimum_base_minor": 20,
+  "all_native_modes_attempted": true
+}

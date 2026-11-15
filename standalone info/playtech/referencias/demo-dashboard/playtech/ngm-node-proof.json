@@ -1,0 +1,54 @@
+{
+  "source_sha256": "90f26620573850858ef5ee2b67fd3fced88d1bc57e40153d94fb634ac13685e1",
+  "browser": false,
+  "network": false,
+  "scope": "Anaconda source-pinned offline proof; recorded regular spin payout parity only",
+  "verified_round": false,
+  "production_ready": false,
+  "all_games_supported": false,
+  "bundle_loaded": true,
+  "onload_registered": true,
+  "stage": "recorded-winning-replay",
+  "native_configuration": {
+    "scenarioCount": 10000,
+    "positions": 25,
+    "nativeSlotConfiguration": true,
+    "nativeOfflineServer": true
+  },
+  "recorded_replays": [
+    {
+      "nativeUnits": 0,
+      "payoutCount": 0,
+      "stake": 250,
+      "expected_win": 0,
+      "matches": true
+    },
+    {
+      "nativeUnits": 871,
+      "payoutCount": 43,
+      "stake": 25,
+      "expected_win": 871,
+      "matches": true
+    }
+  ],
+  "unsupported_scope_cases_rejected": 5,
+  "elapsed_ms": 923,
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "anwild",
+  "title": "Anaconda Wild",
+  "status": "offline_calculator_proof_of_concept",
+  "updated_at": 1793485951.8285017,
+  "existing_gameplay_case_count_unchanged": true,
+  "new_remote_wagers": 0,
+  "notes": [
+    "Two recorded regular spins reproduced with native calculators; not newly settled rounds.",
+    "Other games, bonus/choice state, full closure and all line/stake domains remain unverified by this adapter."
+  ],
+  "tests": {
+    "captured_payout_cases": 2,
+    "unsupported_scopes_rejected": 5,
+    "subprocess_regressions_passed": 3,
+    "independent_review": "No Critical or Important issues within bounded proof scope"
+  }
+}

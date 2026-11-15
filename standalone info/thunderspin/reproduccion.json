@@ -1,0 +1,23 @@
+{
+  "provider": "thunderspin",
+  "name": "ThunderSpin",
+  "inventory": "../inventario/thunderspin.json",
+  "historical": "../evidencia/thunderspin.json",
+  "games": 61,
+  "modes": 84,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/thunderspin-chat4"
+    ],
+    "absent_from_checkout": [
+      "provider-work/thunderspin-chat4"
+    ]
+  },
+  "native_family": "thunderspin.native",
+  "continuation": "client campaign contract",
+  "closure": "native final state and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

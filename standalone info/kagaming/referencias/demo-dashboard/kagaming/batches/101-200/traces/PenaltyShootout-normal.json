@@ -1,0 +1,138 @@
+{
+  "game": "PenaltyShootout",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "game_id": "PenaltyShootout",
+    "sel": 1,
+    "cps": 5,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 50,
+    "cost_formula": "native=100*dn*10*cps",
+    "source_sha256": "7efe5bf152715b11b6f9c88595312ff74af7d0701f13c9b68275a37322c48c5c",
+    "common_sha256": "6cf1bdace2d5fb0a889364ad05fa3a3a31ed2fc37aa79b36be4ee71a6e49a0f2",
+    "position": [
+      0
+    ],
+    "key": "normal",
+    "kind": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "sel": 1,
+        "cps": 5,
+        "dn": 0.01,
+        "atb": 0,
+        "gn": "PenaltyShootout",
+        "sid": 1304769112,
+        "pos": [
+          0
+        ]
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793304769.1113124,
+      "http_status": 200,
+      "response": {
+        "sid": 1304769112,
+        "md": {
+          "sid": 1296623606,
+          "tid": "round-214b1716f74ab6c3bafe",
+          "sel": 1,
+          "cps": 5,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 50,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            0
+          ],
+          "swi": [
+            0
+          ],
+          "snm": [
+            0
+          ],
+          "ssm": [
+            0
+          ],
+          "sm": [
+            0
+          ],
+          "pos": [
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999950,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 50
+        },
+        "pcr": 9999950,
+        "cr": 9999950,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          5,
+          10,
+          15,
+          20,
+          30,
+          50,
+          75,
+          100,
+          200,
+          500,
+          1000,
+          2000,
+          5000,
+          10000,
+          20000
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793304767.1084948,
+  "session_group": "PenaltyShootout-a0d2385ae13245f8a33cf1284be730f7",
+  "balance_before_native": 10000000,
+  "cost_native": 50,
+  "win_native": 0,
+  "balance_after_native": 9999950,
+  "internal_steps": 1,
+  "paid_rounds": 1,
+  "wallet_check": "match"
+}

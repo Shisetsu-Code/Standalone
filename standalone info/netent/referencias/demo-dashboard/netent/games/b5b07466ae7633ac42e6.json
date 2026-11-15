@@ -1,0 +1,3105 @@
+{
+  "game_id": "big-money-wheel",
+  "title": "Big Money Wheel",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 3,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": null,
+            "multiplier": null,
+            "mysteryCoins": [],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 3
+          },
+          "wins": {
+            "total": 0,
+            "current": 0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 2,
+            "current": 2
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 3,
+            "current": 3
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 3,
+            "current": 3
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 13,
+            "current": 13
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 14,
+            "current": 14
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 14,
+            "current": 14
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 2,
+            "left": 1
+          },
+          "wins": {
+            "total": 14,
+            "current": 14
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 15,
+            "current": 15
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 15,
+            "current": 15
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 17,
+            "current": 17
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 17,
+            "current": 17
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 2,
+            "left": 1
+          },
+          "wins": {
+            "total": 17,
+            "current": 17
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 2,
+            "left": 1
+          },
+          "wins": {
+            "total": 17,
+            "current": 17
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 1,
+            "left": 0
+          },
+          "wins": {
+            "total": 5.4,
+            "current": 27
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 30
+                },
+                "symbolPositions": [
+                  {
+                    "x": 3,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 5
+                  },
+                  {
+                    "x": 5,
+                    "y": 0
+                  },
+                  {
+                    "x": 5,
+                    "y": 1
+                  }
+                ],
+                "payout": 27,
+                "winnings": 5.4
+              }
+            ],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": {
+              "id": 33
+            },
+            "baseSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 33
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 30
+                }
+              ],
+              [
+                {
+                  "id": 31
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "isNextBmw": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "90",
+      "cost": "18.0",
+      "before": "1000",
+      "debit": "982.0",
+      "after": "987.4",
+      "win": "5.4"
+    },
+    {
+      "name": "FeatureBuyEnhanced",
+      "kind": "special",
+      "mode": "FeatureBuyEnhanced",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 3
+          },
+          "wins": {
+            "total": 0,
+            "current": 0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 30
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 30
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 4,
+            "left": 3
+          },
+          "wins": {
+            "total": 11,
+            "current": 11
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 3,
+            "left": 2
+          },
+          "wins": {
+            "total": 11,
+            "current": 11
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 2,
+            "left": 1
+          },
+          "wins": {
+            "total": 11,
+            "current": 11
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 2,
+            "left": 1
+          },
+          "wins": {
+            "total": 11,
+            "current": 11
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": null,
+            "baseSymbols": null,
+            "isNextBmw": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 1,
+            "left": 0
+          },
+          "wins": {
+            "total": 17.2,
+            "current": 86
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 30
+                },
+                "symbolPositions": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 5
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  },
+                  {
+                    "x": 4,
+                    "y": 5
+                  },
+                  {
+                    "x": 5,
+                    "y": 1
+                  }
+                ],
+                "payout": 86,
+                "winnings": 17.2
+              }
+            ],
+            "colossal": {
+              "id": 0
+            },
+            "multiplier": null,
+            "mysteryCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 5,
+                "y": 1
+              }
+            ],
+            "wheelSymbol": {
+              "id": 34
+            },
+            "baseSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 32
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": 31
+                }
+              ],
+              [
+                {
+                  "id": -1
+                },
+                {
+                  "id": 40
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                },
+                {
+                  "id": -1
+                }
+              ]
+            ],
+            "isNextBmw": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "150",
+      "cost": "30.0",
+      "before": "987.4",
+      "debit": "957.4",
+      "after": "974.6",
+      "win": "17.2"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

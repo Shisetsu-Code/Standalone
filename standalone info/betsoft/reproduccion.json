@@ -1,0 +1,23 @@
+{
+  "provider": "betsoft",
+  "name": "Betsoft",
+  "inventory": "../inventario/betsoft.json",
+  "historical": "../evidencia/betsoft.json",
+  "games": 219,
+  "modes": 574,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/mocks/betsoft"
+    ],
+    "absent_from_checkout": [
+      "provider-work/mocks/betsoft"
+    ]
+  },
+  "native_family": "betsoft.command",
+  "continuation": "native command/state",
+  "closure": "terminal award and balance",
+  "standalone_rust": null,
+  "paused": false
+}

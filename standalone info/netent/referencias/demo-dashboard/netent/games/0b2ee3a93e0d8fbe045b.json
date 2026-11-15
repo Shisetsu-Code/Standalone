@@ -1,0 +1,84 @@
+{
+  "game_id": "flowers",
+  "title": "Flowers™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 1,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.15,
+            "spin": 0,
+            "current": 0.15,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.15,
+                "line": 13
+              }
+            ]
+          },
+          "game": {
+            "multiplier": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.3",
+      "factor": "1",
+      "cost": "0.3",
+      "before": "1000",
+      "debit": "999.7",
+      "after": "999.85",
+      "win": "0.15"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

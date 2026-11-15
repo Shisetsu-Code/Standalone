@@ -1,0 +1,56 @@
+{
+  "game_id": "rainforest-gold",
+  "title": "Rainforest Gold™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 1,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.02",
+          "has_state": true
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_settled": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "9999.92",
+      "win": "0.02",
+      "currency": "EUR",
+      "native_mode_id": 0
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

@@ -1,0 +1,136 @@
+{
+  "provider": "Playtech",
+  "game_code": "Eliminators",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "subset_complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "7905d0f1-91b9-4458-8825-fc005791d1d9:2500",
+      "name": "__unnamed_uuid_option__:7905d0f1-91b9-4458-8825-fc005791d1d9",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 2500,
+      "expected_cost": 50000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 50000,
+          "win": 25000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 25000,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 975000,
+      "cost": 50000,
+      "win": 25000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "c80214a6fa1c785df2bd7751c9898ce96b41bb1d3e830a8b2000d435f8dcfd96"
+  ],
+  "native_modes": [
+    {
+      "id": "7905d0f1-91b9-4458-8825-fc005791d1d9",
+      "name": "__unnamed_uuid_option__:7905d0f1-91b9-4458-8825-fc005791d1d9",
+      "kind": "NATIVE_OPTION",
+      "selector": "__unnamed_uuid_option__:7905d0f1-91b9-4458-8825-fc005791d1d9",
+      "selector_source": "native declaration",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "parameters": {
+          "winline": "20"
+        },
+        "uuid": "7905d0f1-91b9-4458-8825-fc005791d1d9"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        20,
+        25,
+        30,
+        40,
+        50,
+        75,
+        100,
+        200,
+        500,
+        1000,
+        2000,
+        2500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Previously source-bound selector dispatch",
+  "declared_line_options": [
+    "20"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793479724.1577694,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": false,
+    "native_reel_view": false,
+    "native_reel_symbols": true,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": false,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true,
+  "requested_stake_targets": {
+    "7905d0f1-91b9-4458-8825-fc005791d1d9": [
+      2500
+    ]
+  },
+  "demo_initial_balance": 1000000,
+  "operation_tag": "stake-matrix-7905d0f1-1793479719410791100",
+  "selected_mode_ids": [
+    "7905d0f1-91b9-4458-8825-fc005791d1d9"
+  ],
+  "all_requested_modes_complete": true
+}

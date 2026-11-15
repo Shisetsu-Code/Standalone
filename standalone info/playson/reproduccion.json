@@ -1,0 +1,24 @@
+{
+  "provider": "playson",
+  "name": "Playson",
+  "inventory": "../inventario/playson.json",
+  "historical": "../evidencia/playson.json",
+  "games": 114,
+  "modes": 242,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/playson-root"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "playson.micro-packets",
+  "continuation": "native command packets",
+  "closure": "idle plus cash/bonus ledger",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/playson.rs",
+    "verified_normal_ci": false
+  },
+  "paused": false
+}

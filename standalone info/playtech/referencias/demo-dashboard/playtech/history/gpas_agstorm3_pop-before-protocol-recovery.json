@@ -1,0 +1,271 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_agstorm3_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "72772d7f-fcb7-4bd5-a96a-ac4d9f0c26fb:1",
+      "name": "25",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "e0b9320e7e7b843fe3842139dfcdcd8e47e0c98b85c84482e969bff7a9f51165"
+  ],
+  "native_modes": [
+    {
+      "id": "72772d7f-fcb7-4bd5-a96a-ac4d9f0c26fb",
+      "name": "25",
+      "kind": "SPIN",
+      "selector": "25",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "25",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "72772d7f-fcb7-4bd5-a96a-ac4d9f0c26fb"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "b6938f26-e844-4f03-8c6a-68fe774c58b5",
+      "name": "20",
+      "kind": "SPIN",
+      "selector": "20",
+      "cost": 4,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 4,
+        "name": "20",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "b6938f26-e844-4f03-8c6a-68fe774c58b5"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 2
+    },
+    {
+      "id": "c0c6681b-3bd1-4a3d-9193-a40dd04edffa",
+      "name": "15",
+      "kind": "SPIN",
+      "selector": "15",
+      "cost": 3,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 3,
+        "name": "15",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "15"
+        },
+        "uuid": "c0c6681b-3bd1-4a3d-9193-a40dd04edffa"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 2
+    },
+    {
+      "id": "87607399-7345-4299-b744-bc27b44b351f",
+      "name": "10",
+      "kind": "SPIN",
+      "selector": "10",
+      "cost": 2,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2,
+        "name": "10",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "87607399-7345-4299-b744-bc27b44b351f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 3
+    },
+    {
+      "id": "cfbbf3df-e408-4601-8103-f4c986f816dc",
+      "name": "5",
+      "kind": "SPIN",
+      "selector": "5",
+      "cost": 1,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1,
+        "name": "5",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "5"
+        },
+        "uuid": "cfbbf3df-e408-4601-8103-f4c986f816dc"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "minimum_legal_multiplier": 5
+    }
+  ],
+  "declared_line_options": [
+    "10",
+    "15",
+    "20",
+    "25",
+    "5"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION means a source-bound paid UUID option whose commercial category is still unclassified",
+  "review_reason": "com.pt.casino.platform.game.EngineError:0",
+  "error_type": "ValueError",
+  "updated_at": 1793454601.012417
+}

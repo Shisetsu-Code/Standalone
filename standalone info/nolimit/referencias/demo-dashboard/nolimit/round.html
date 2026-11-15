@@ -1,0 +1,25 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Nolimit City · Detalle de ronda</title>
+<style>body{font:16px system-ui;background:#101827;color:#e2e8f0;max-width:1150px;margin:32px auto;padding:0 24px}a{color:#7dd3fc}nav{margin:22px 0}.stats{display:flex;gap:16px;flex-wrap:wrap}.card{background:#1e293b;padding:20px;border-radius:12px;flex:1}strong{display:block;font-size:26px;color:#6ee7b7}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:12px;border-bottom:1px solid #334155;vertical-align:top}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}</style>
+<nav><a href="../providers.html">Proveedores</a> · <a id="batchlink">Volver al lote</a></nav><h1 id="title">Cargando ronda…</h1><p id="state"></p><div class="stats" id="stats"></div><p>Importes nativos en EUR ficticios. El premio neto conserva las deducciones de tiradas extra dentro de la misma ronda. Cada continuación se muestra por separado. El proveedor liquida el saldo a dos decimales; se conserva también el premio interno sin redondear.</p><div id="choices"></div><table><thead><tr><th>Paso</th><th>Acción / modo</th><th>Estado y premio</th><th>Mensajes nativos</th></tr></thead><tbody id="steps"></tbody></table>
+<script>
+'use strict';const query=new URLSearchParams(location.search),batch=query.get('batch')||'1-100',key=query.get('case');
+function node(tag,text){const n=document.createElement(tag);n.textContent=text;return n}
+async function main(){
+ if(!/^[1-9][0-9]*-[1-9][0-9]*$/.test(batch)||! /^[A-Za-z0-9_]+--(?:normal|buy-\d+)(?:--choice-\d+)?$/.test(key||''))throw Error('Registro inválido');
+ document.getElementById('batchlink').href='batches/'+batch+'/index.html';
+ const response=await fetch('batches/'+batch+'/traces/'+key+'.json');if(!response.ok)throw Error('Registro no disponible');
+ const packet=await response.json(),r=packet.summary;
+ document.getElementById('title').textContent=r.name;
+ document.getElementById('state').textContent=key+' · '+(r.status==='completed'?'Cerrada':'Revisar')+' · '+(r.wallet_check==='match'?'Saldo conciliado':r.reason||'Pendiente');
+ for(const [label,value] of [['Saldo inicial',r.balance_before],['Coste de entrada',r.cost],['Premio interno neto',r.win],['Premio liquidado',r.settled_win],['Saldo final',r.balance_after]]){const card=node('div');card.className='card';card.append(node('strong',value??'Pendiente'),node('span',label));document.getElementById('stats').append(card)}
+ if(r.choices?.length){document.getElementById('choices').append(node('h2','Decisiones dentro de esta ronda'));for(const choice of r.choices){document.getElementById('choices').append(node('p',choice.family.mode+' · Opciones habilitadas: '+choice.options.join(', ')+' · Elegida: '+choice.selected+' · Costes nativos: '+JSON.stringify(choice.published_costs)))}}
+ let number=0;
+ for(const step of packet.trace){
+  const q=step.request||{},c=q.content||{},responses=step.responses||[],reply=responses.find(a=>a.id===q.id)||responses.at(-1)||{},g=reply.game||{};
+  const interaction=c.playerInteraction||{},choice=Object.entries(interaction).filter(([key])=>['playExtraSpin','playUpgradeBet','playerSelectedExtraSpin','extraSpin','selectedIndex','selectedRedraw','gambleOption','gambleSelection','gambleCollected'].includes(key));
+  const tr=node('tr'),label=choice.length?'Decisión: '+choice.map(([key,value])=>key+' = '+value).join(', '):c.type==='featureBet'?'Compra / activador':c.type==='zeroBet'?'Continuación interna':c.type==='normalBet'?'Tirada normal':c.type==='gambleBet'?'Cobro / riesgo':q.type;
+  tr.append(node('td',++number),node('td',label+(c.featureName?' · '+c.featureName:'')+(c.playerInteraction?.sideBet?' · Side bet '+c.playerInteraction.sideBet:'')),node('td',(g.mode||'')+(g.nextMode?' → '+g.nextMode:'')+((g.accumulatedRoundWin??g.totalRoundWin)!=null?' · Acumulado: '+(g.accumulatedRoundWin??g.totalRoundWin):'')+(reply.balance!=null?' · Saldo: '+reply.balance:'')));
+  const cell=node('td'),details=node('details');details.append(node('summary','Solicitud y respuestas'),node('pre',JSON.stringify(step,null,2)));cell.append(details);tr.append(cell);document.getElementById('steps').append(tr);
+ }
+}main().catch(e=>{document.getElementById('state').textContent=e.message});
+</script></html>

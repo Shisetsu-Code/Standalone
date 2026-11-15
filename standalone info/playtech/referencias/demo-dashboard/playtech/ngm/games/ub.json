@@ -1,0 +1,39 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "ub",
+  "title": "Ugga Bugga",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "needs_review",
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485987.7656736,
+  "bootstrap_seconds": 30.437,
+  "preload_wait_seconds": 0.266,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "71551dc40d009cdddee71bd446399bd5cd2bb15f0739aa30e282babe6ebd5056"
+  ],
+  "observed_bet": 10,
+  "native_stake_controls_available": false,
+  "error_type": "TimeoutError",
+  "review_reason": "NGM_ROUND_NOT_CLOSED_AND_READY",
+  "unverified_round": {
+    "verified": false,
+    "stake": 10,
+    "win": 0,
+    "balance_before": 100000,
+    "balance_after": 99990,
+    "steps": 1,
+    "issues": [
+      "ROUND_NOT_CLOSED_AND_READY"
+    ],
+    "local_demo": true
+  }
+}

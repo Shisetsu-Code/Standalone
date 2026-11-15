@@ -1,0 +1,235 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_aogggriffin_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "6370719c-d261-4663-a0c9-602c476d948c:1",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 20,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 20
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000000,
+      "cost": 20,
+      "win": 20,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "a5888193-241d-41b0-8fd6-b3836c113b72:1",
+      "name": "HR10",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 200,
+      "before": 1000000,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "830c5e9e72ffd731dc1ebc1c0d39435e700b6659791dc024cc894bb423abd0a3"
+  ],
+  "native_modes": [
+    {
+      "id": "6370719c-d261-4663-a0c9-602c476d948c",
+      "name": "20",
+      "kind": "NATIVE_OPTION",
+      "selector": "default",
+      "selector_source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "20",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1"
+        },
+        "uuid": "6370719c-d261-4663-a0c9-602c476d948c"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25,
+        50,
+        100,
+        125,
+        150,
+        250,
+        300,
+        400
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "a5888193-241d-41b0-8fd6-b3836c113b72",
+      "name": "HR10",
+      "kind": "SPIN",
+      "selector": "HR10",
+      "selector_source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control",
+      "cost": 200,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 200,
+        "name": "HR10",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "c5a0f83c-ecc3-44a4-86aa-18becfa5f709",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "a5888193-241d-41b0-8fd6-b3836c113b72"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "3aeb469d-0b02-4664-a42f-ee6303b052ba",
+      "name": "HR20",
+      "kind": "NATIVE_OPTION",
+      "selector": "HR20",
+      "selector_source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control",
+      "cost": 400,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 400,
+        "name": "HR20",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "950db27e-d0fe-4fa7-9a2b-e8bf6e4d17c7",
+          "startingPlays": "1"
+        },
+        "uuid": "3aeb469d-0b02-4664-a42f-ee6303b052ba"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        15,
+        20
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "369dc0e2-8a5e-45dc-81a5-cf437af9657d",
+      "name": "HR40",
+      "kind": "NATIVE_OPTION",
+      "selector": "HR40",
+      "selector_source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control",
+      "cost": 800,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 800,
+        "name": "HR40",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "8f35442e-e2bc-45d5-aa2d-eb652e325a19",
+          "startingPlays": "1"
+        },
+        "uuid": "369dc0e2-8a5e-45dc-81a5-cf437af9657d"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        4,
+        5,
+        10
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "10"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "com.pt.casino.platform.game.EngineError:0",
+  "error_type": "ValueError",
+  "updated_at": 1793471870.0240905,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "operation_tag": "corrective-protocol-v1",
+  "selected_mode_ids": null
+}

@@ -1,0 +1,141 @@
+{
+  "game": "TheMasterCat",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 30,
+    "cost_formula": "Uc(sel,cps) -> constant PR*cps; PR=30",
+    "source_sha256": "08c9d058368be449c80aa166ca48102e956058dd346628673505f05f2ddb1bc6",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "TheMasterCat",
+        "sel": 5,
+        "sid": 1294744075,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793294744.0773644,
+      "http_status": 200,
+      "response": {
+        "sid": 1294744075,
+        "md": {
+          "sid": 1296258155,
+          "tid": "round-59f24079b3126f67573e",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 30,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 12,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            5,
+            2,
+            11,
+            3,
+            11,
+            9,
+            2,
+            11,
+            3,
+            11,
+            9,
+            7,
+            9,
+            11,
+            6
+          ],
+          "swi": [
+            12
+          ],
+          "snm": [
+            1
+          ],
+          "ssm": [
+            8852
+          ],
+          "sm": [
+            0,
+            -1
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999982,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 12,
+          "tsb": 30
+        },
+        "pcr": 9999970,
+        "cr": 9999982,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100,
+          150,
+          250,
+          500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793294742.0725951,
+  "session_group": "TheMasterCat-e9607d0b963246fd80413313843e57ee",
+  "balance_before_native": 10000000,
+  "cost_native": 30,
+  "win_native": 12,
+  "balance_after_native": 9999982,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

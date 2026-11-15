@@ -1,0 +1,105 @@
+{
+  "provider": "Playson",
+  "updated_at_epoch": 1793424809.0702844,
+  "status": "all_official_published_slots_reviewed_one_native_wallet_failure",
+  "transport": "HTTP XML through local relay 8793",
+  "fictional_demo_only": true,
+  "catalog_captured": 100,
+  "catalog_identified": 114,
+  "full_catalog_total": 114,
+  "fresh_games_complete": 113,
+  "fresh_modes_complete": 241,
+  "fresh_paid_roots": 242,
+  "fresh_bonus_continuations": 1476,
+  "fresh_checks_passed": 2912,
+  "fresh_checks_failed": 1,
+  "remaining_games_pending": 0,
+  "failed_games": 1,
+  "pending_games": [],
+  "native_validation_failures": [
+    {
+      "game_id": "thunder-coins-xxl-hold-and-win",
+      "reason": {
+        "code": "closed_round_check_failed",
+        "detail": "All declared modes attempted; a closed native receipt retains a failed check."
+      }
+    }
+  ],
+  "reference_roots_verified": 16,
+  "reference_bonus_continuations": 13,
+  "privacy_files_checked": 238,
+  "credential_disclosures": 0,
+  "raw_hars_preserved": 3,
+  "netent_frozen_reports_preserved": 4,
+  "tests_passed": 41,
+  "current_unclosed_roots": 0,
+  "historical_interrupted_demo_rounds": 9,
+  "http_pages_verified": 6,
+  "detail_links_verified": 114,
+  "summary_matches": true,
+  "live_workers_active": false,
+  "pending_user_action": null,
+  "catalog_access": "Complete pagination archived through the user-verified browser; 114 canonical public TEST launches saved locally",
+  "kendoo_user_paused": true,
+  "latest_requested_batch": {
+    "provider": "Playson",
+    "updated_at_epoch": 1793401652.2730124,
+    "requested_new_games": 100,
+    "status": "official_published_catalog_end_confirmed",
+    "official_published_catalog_total": 114,
+    "published_slots_after_first_100": 14,
+    "new_game_ids_after_first_100": [
+      "api-sunny-fruits",
+      "api-solar-queen",
+      "api-book-of-gold-classic",
+      "api-fruits-and-jokers-100",
+      "api-imperial-fruits-5",
+      "api-sevens-n-fruits-20",
+      "api-100-joker-staxx",
+      "api-fruits-and-jokers-40",
+      "api-fruits-and-jokers-20",
+      "api-super-burning-wins",
+      "api-rise-of-egypt",
+      "api-joker-expand",
+      "api-burning-wins",
+      "api-sevens-n-fruits"
+    ],
+    "upcoming_separate": [
+      {
+        "official_slug": "multidiamond-xxl-spins",
+        "site_url": "https://playson.com/game/multidiamond-xxl-spins",
+        "status": "upcoming",
+        "included_in_published_catalog": false
+      },
+      {
+        "official_slug": "x1500-sugar-teddy-2",
+        "site_url": "https://playson.com/game/x1500-sugar-teddy-2",
+        "status": "upcoming",
+        "included_in_published_catalog": false
+      },
+      {
+        "official_slug": "thunder-coins-xxxl-hold-and-win",
+        "site_url": "https://playson.com/game/thunder-coins-xxxl-hold-and-win",
+        "status": "upcoming",
+        "included_in_published_catalog": false
+      }
+    ],
+    "catalog_complete": true,
+    "pages_saved": 3,
+    "current_completed_games": 113,
+    "current_verified_modes": 241,
+    "failed_games": 1,
+    "pending_published_games": 0,
+    "fictional_demo_only": true,
+    "note": "The complete current official published catalogue ends at 114 slots. There are 14 published titles after the first 100; an additional 100-title batch is not present in this catalogue. Historical/discontinued titles on third-party sites are not counted as current official releases."
+  },
+  "catalog_complete": true,
+  "catalog_pages_saved": 3,
+  "upcoming_separate": 3,
+  "upcoming_demo_tested_games": 1,
+  "upcoming_verified_modes": 6,
+  "upcoming_public_demos_not_enabled": 2,
+  "upcoming_open_rounds": 0,
+  "portable_tests_passed": 37,
+  "private_native_source_tests_passed": 4
+}

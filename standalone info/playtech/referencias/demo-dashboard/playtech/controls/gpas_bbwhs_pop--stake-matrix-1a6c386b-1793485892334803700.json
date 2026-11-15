@@ -1,0 +1,516 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_bbwhs_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "subset_complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "1a6c386b-a57e-456a-9126-aa3b448dd1ab:150",
+      "name": "BuyFeature3X",
+      "kind": "PURCHASE",
+      "multiplier": 150,
+      "expected_cost": 121500,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 121500,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 135000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 135000,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1013500,
+      "cost": 121500,
+      "win": 135000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "d9c4609cc4cc8fe27b187554db5c6e33d66f8b8b1a6a4854923c8f81b4387367"
+  ],
+  "native_modes": [
+    {
+      "id": "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "native declaration",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "e50efd81-55b7-4567-9559-38df01c780fe",
+      "name": "BuyFeature1X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature1X",
+      "selector_source": "native declaration",
+      "cost": 400,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 400,
+        "name": "BuyFeature1X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "ba552a40-f751-4ba4-9f1c-9ff0661cb876",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "e50efd81-55b7-4567-9559-38df01c780fe"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b",
+      "name": "BuyFeature2X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature2X",
+      "selector_source": "native declaration",
+      "cost": 595,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 595,
+        "name": "BuyFeature2X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "dc73d1d2-f64b-4dbf-ae25-5b02caddd3a9",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "1a6c386b-a57e-456a-9126-aa3b448dd1ab",
+      "name": "BuyFeature3X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature3X",
+      "selector_source": "native declaration",
+      "cost": 810,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 810,
+        "name": "BuyFeature3X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "c9876c10-acd8-41e3-b00d-46772f59cc21",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "1a6c386b-a57e-456a-9126-aa3b448dd1ab"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1200,
+        1400,
+        1500,
+        1600,
+        1700,
+        1800
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "4f29e78f-5dea-4455-a0b7-5295794f7204",
+      "name": "BuyFeature4X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature4X",
+      "selector_source": "native declaration",
+      "cost": 1040,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1040,
+        "name": "BuyFeature4X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "9b0348e1-86ac-4cfd-a1ff-0e86c110289f",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "4f29e78f-5dea-4455-a0b7-5295794f7204"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "a34b5ae4-b576-431d-8323-4e2c5dd1de4a",
+      "name": "BuyFeature5X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature5X",
+      "selector_source": "native declaration",
+      "cost": 1280,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1280,
+        "name": "BuyFeature5X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "b7ab53d2-19e5-4ee6-a6f6-1df30105f6be",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "a34b5ae4-b576-431d-8323-4e2c5dd1de4a"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "ed27695e-c139-4ff6-be2f-47fe74951257",
+      "name": "BuyFeature6X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature6X",
+      "selector_source": "native declaration",
+      "cost": 1520,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1520,
+        "name": "BuyFeature6X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "291082ff-e7c7-4ef7-aed1-5dabcac151f6",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "ed27695e-c139-4ff6-be2f-47fe74951257"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "d212e949-957f-498c-89fc-e89e85723397",
+      "name": "BuyFeature7X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature7X",
+      "selector_source": "native declaration",
+      "cost": 1760,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1760,
+        "name": "BuyFeature7X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "3b5d5e62-1738-403e-aa10-6b4384bb77f7",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "d212e949-957f-498c-89fc-e89e85723397"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "bc850948-24df-437e-bca4-b46beb4112d6",
+      "name": "BuyFeature8X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature8X",
+      "selector_source": "native declaration",
+      "cost": 2000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2000,
+        "name": "BuyFeature8X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "b26b6ae5-6755-47e9-8cc8-b2f488bb1f64",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "bc850948-24df-437e-bca4-b46beb4112d6"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "c26f2acb-8191-4b5c-a631-27a696f86e10",
+      "name": "BuyFeature9X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature9X",
+      "selector_source": "native declaration",
+      "cost": 2260,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2260,
+        "name": "BuyFeature9X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "86f7fd89-218a-4e9f-ad4a-1d0322db2c0c",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "c26f2acb-8191-4b5c-a631-27a696f86e10"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "ec58defd-97dc-41b0-a23d-4eff412b0944",
+      "name": "BuyFeature10X",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature10X",
+      "selector_source": "native declaration",
+      "cost": 2450,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2450,
+        "name": "BuyFeature10X",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "e5cc0f0a-f425-4162-84fe-c62df42e4803",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "ec58defd-97dc-41b0-a23d-4eff412b0944"
+      },
+      "server_declared": true,
+      "observed": true
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "40"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793485905.0074492,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": false,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true,
+  "requested_stake_targets": {
+    "1a6c386b-a57e-456a-9126-aa3b448dd1ab": [
+      150
+    ]
+  },
+  "demo_initial_balance": 1000000,
+  "operation_tag": "stake-matrix-1a6c386b-1793485892334803700",
+  "selected_mode_ids": [
+    "1a6c386b-a57e-456a-9126-aa3b448dd1ab"
+  ],
+  "all_requested_modes_complete": true
+}

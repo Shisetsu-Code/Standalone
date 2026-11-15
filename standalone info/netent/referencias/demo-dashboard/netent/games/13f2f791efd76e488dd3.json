@@ -1,0 +1,1530 @@
+{
+  "game_id": "space-wars-2-powerpoints",
+  "title": "Space Wars 2™ Powerpoints™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 4,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "20",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "80",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "100",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "100",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "100",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "100",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "200",
+          "game_state": "basic",
+          "credit_cents": "100180"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "1001.8",
+      "win": "2",
+      "currency": "USD",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy:1500",
+      "kind": "special",
+      "mode": "FeatureBuy:1500",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "200",
+          "game_state": "basic",
+          "credit_cents": "98700"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "75.0",
+      "cost": "15.0",
+      "before": "1000",
+      "debit": "985.0",
+      "after": "987",
+      "win": "2",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy:2800",
+      "kind": "special",
+      "mode": "FeatureBuy:2800",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "3000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3600",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4200",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "4800",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "5000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "5000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "6000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "6000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "6000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "6000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "7000",
+          "game_state": "freespin",
+          "credit_cents": "95900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "7000",
+          "game_state": "basic",
+          "credit_cents": "102900"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "140.0",
+      "cost": "28.0",
+      "before": "987",
+      "debit": "959.0",
+      "after": "1029",
+      "win": "70",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy:5000",
+      "kind": "special",
+      "mode": "FeatureBuy:5000",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "60",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1200",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1600",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2400",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2800",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "3000",
+          "game_state": "freespin",
+          "credit_cents": "97900"
+        },
+        {
+          "kind": "drop",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "3000",
+          "game_state": "basic",
+          "credit_cents": "100900"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "250.0",
+      "cost": "50.0",
+      "before": "1029",
+      "debit": "979.0",
+      "after": "1009",
+      "win": "30",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

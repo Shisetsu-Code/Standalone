@@ -1,0 +1,200 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_wdead2lo_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "dd0ac158-f4b4-403b-ad4e-e66357f2965f:1",
+      "name": "Normal",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999995,
+      "cost": 5,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "768f96c4-7043-4b10-81ce-ff128c32278f:1",
+      "name": "AllFeaturesUnlocked",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 999995,
+      "steps": [],
+      "state": "sent_or_uncertain",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "3cdfca325cc3fca4f0dc63c79b2a3e4bd2ed5cf1c7b841dca89d8a3ccc58ebda"
+  ],
+  "native_modes": [
+    {
+      "id": "dd0ac158-f4b4-403b-ad4e-e66357f2965f",
+      "name": "Normal",
+      "kind": "NATIVE_OPTION",
+      "selector": "Normal",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "Normal",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "2f370c1e-3129-4e17-87fb-1b97ea7f87a4",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "dd0ac158-f4b4-403b-ad4e-e66357f2965f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        7000,
+        10000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "768f96c4-7043-4b10-81ce-ff128c32278f",
+      "name": "AllFeaturesUnlocked",
+      "kind": "NATIVE_OPTION",
+      "selector": "AllFeaturesUnlocked",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "AllFeaturesUnlocked",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "eac90032-9829-42d0-b644-d05c547613ff",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "768f96c4-7043-4b10-81ce-ff128c32278f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        7000,
+        10000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "25"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "STAKE_UUID_MISMATCH",
+  "error_type": "ValueError",
+  "updated_at": 1793478102.6983068,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

@@ -1,0 +1,23 @@
+{
+  "provider": "egt-digital",
+  "name": "EGT Digital",
+  "inventory": "../inventario/egt-digital.json",
+  "historical": "../evidencia/egt-digital.json",
+  "games": 231,
+  "modes": 331,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/mocks/egt-digital"
+    ],
+    "absent_from_checkout": [
+      "provider-work/mocks/egt-digital"
+    ]
+  },
+  "native_family": "egt.websocket",
+  "continuation": "native variant state",
+  "closure": "terminal event and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

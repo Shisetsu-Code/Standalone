@@ -1,0 +1,264 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_cashrlb1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "2647213476bd2787409838a53ff03df300328298f698497ab2ad15bab05c6289"
+  ],
+  "native_modes": [
+    {
+      "id": "80da433c-cabe-464e-833d-8755a2df2065",
+      "name": "DOLLAR-10",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-10",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "DOLLAR-10",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "80da433c-cabe-464e-833d-8755a2df2065"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "983304cb-1c96-44bc-97a7-2d61b53760e2",
+      "name": "DOLLAR-25",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-25",
+      "selector_source": "native declaration",
+      "cost": 25,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 25,
+        "name": "DOLLAR-25",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "983304cb-1c96-44bc-97a7-2d61b53760e2"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "ad3346de-f5bf-4149-ac86-2e1ab5f5db3f",
+      "name": "DOLLAR-50",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-50",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "DOLLAR-50",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "ad3346de-f5bf-4149-ac86-2e1ab5f5db3f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "ba66d3f4-a167-4268-a1ae-6479581636b5",
+      "name": "DOLLAR-100",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-100",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "DOLLAR-100",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "ba66d3f4-a167-4268-a1ae-6479581636b5"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "dd42baef-1ab4-4311-b387-e654eef994bb",
+      "name": "DOLLAR-250",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-250",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "DOLLAR-250",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "dd42baef-1ab4-4311-b387-e654eef994bb"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "212f7615-9702-4125-9b9d-9941ce221e07",
+      "name": "DOLLAR-500",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-500",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "DOLLAR-500",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "212f7615-9702-4125-9b9d-9941ce221e07"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "1020cd08-8fec-4fd8-b338-f7018f11ddc3",
+      "name": "DOLLAR-1000",
+      "kind": "NATIVE_OPTION",
+      "selector": "DOLLAR-1000",
+      "selector_source": "native declaration",
+      "cost": 1000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1000,
+        "name": "DOLLAR-1000",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "1020cd08-8fec-4fd8-b338-f7018f11ddc3"
+      },
+      "server_declared": true,
+      "observed": true
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 10,
+      "name": "CREDITS",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "ecf8f3a8-fc4f-4da9-b8e4-d9cb269c566f"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "CREDITS",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "ecf8f3a8-fc4f-4da9-b8e4-d9cb269c566f"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    }
+  ],
+  "review_reason": "No legal stake in native scoped domain",
+  "error_type": "ValueError",
+  "updated_at": 1793482885.1119316,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

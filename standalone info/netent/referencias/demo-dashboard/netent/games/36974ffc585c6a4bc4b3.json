@@ -1,0 +1,2919 @@
+{
+  "game_id": "jack-and-the-beanstalk-2-goat-enterprise",
+  "title": "Jack and the Beanstalk 2™ Goat Enterprise",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 5,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": null,
+      "steps": [
+        {
+          "next_action": "spin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 1,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy1",
+      "kind": "special",
+      "mode": "FeatureBuy1",
+      "status": "verified",
+      "complete": true,
+      "state": null,
+      "steps": [
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [
+              {
+                "kind": 1,
+                "positions": [
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "wildsMeter": 2,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [
+              {
+                "kind": 1,
+                "positions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "wildsMeter": 2,
+            "scattersMeter": 1,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "spin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 2,
+            "scattersMeter": 1,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1.5",
+      "cost": "0.30",
+      "before": "999.8",
+      "debit": "999.5",
+      "after": "999.5",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy2",
+      "kind": "special",
+      "mode": "FeatureBuy2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [
+              {
+                "kind": 1,
+                "positions": [
+                  {
+                    "x": 1,
+                    "y": 3
+                  }
+                ]
+              }
+            ],
+            "wildsMeter": 2,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.24,
+            "spin": 0.24,
+            "current": 0.24,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.6,
+                "winnings": 0.12,
+                "line": 3,
+                "multiplier": 3
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.6,
+                "winnings": 0.12,
+                "line": 15,
+                "multiplier": 3
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "wilds": [
+              {
+                "kind": 1,
+                "positions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  }
+                ]
+              }
+            ],
+            "wildsMeter": 2,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "spin",
+          "wins": {
+            "total": 0.54,
+            "spin": 0.3,
+            "current": 0.3,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.1,
+                "line": 8,
+                "multiplier": 1
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.1,
+                "line": 20,
+                "multiplier": 1
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.1,
+                "line": 24,
+                "multiplier": 1
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.54
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 2,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "10",
+      "cost": "2.0",
+      "before": "1000",
+      "debit": "998.0",
+      "after": "998.54",
+      "win": "0.54"
+    },
+    {
+      "name": "FeatureBuy3",
+      "kind": "special",
+      "mode": "FeatureBuy3",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 1,
+            "scattersMeter": 3,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 1
+              }
+            ],
+            "initialCoins": [
+              {
+                "x": 0,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 4
+              }
+            ],
+            "progress": 0,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 1
+              }
+            ],
+            "initialCoins": null,
+            "progress": 0,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": {
+                "x": 2,
+                "y": 3
+              },
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 1
+              }
+            ],
+            "initialCoins": null,
+            "progress": 0,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Spreader": {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "affected": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 1
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 0,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "multiplier": 3
+              },
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 5
+              }
+            ],
+            "initialCoins": null,
+            "progress": 0,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Sharer": {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "affected": [
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 5
+              }
+            ],
+            "initialCoins": null,
+            "progress": 0,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": [
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 5
+              }
+            ],
+            "initialCoins": null,
+            "progress": 1,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Progress": {
+                "positions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 1,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": [
+                {
+                  "x": 3,
+                  "y": 1
+                }
+              ]
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        },
+        {
+          "next_action": "spin",
+          "wins": {
+            "total": 10.6,
+            "spin": 10.6,
+            "current": 10.6,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 30,
+                  "coins": 53
+                },
+                "symbolPositions": [
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 53,
+                "winnings": 10.6,
+                "line": -1,
+                "multiplier": null
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 10.6
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 3,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 2,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Progress": {
+                "positions": [
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "75",
+      "cost": "15.0",
+      "before": "998.54",
+      "debit": "983.54",
+      "after": "994.14",
+      "win": "10.6"
+    },
+    {
+      "name": "FeatureBuy4",
+      "kind": "special",
+      "mode": "FeatureBuy4",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 1,
+            "scattersMeter": 3,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [],
+            "initialCoins": null,
+            "progress": null,
+            "featuresLanded": null,
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 10
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 3
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": [
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 4,
+                "y": 1
+              },
+              {
+                "x": 0,
+                "y": 3
+              }
+            ],
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "multiplier": 2
+              },
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 12
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Sharer": {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "affected": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 12
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 12
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "freespin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 12
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 12
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [
+                {
+                  "x": 2,
+                  "y": 4
+                }
+              ],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 36
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": null,
+            "featureActivated": {
+              "RocketInteraction": {
+                "positions": [
+                  {
+                    "x": 2,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 1,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 36
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [
+                {
+                  "x": 1,
+                  "y": 4
+                }
+              ],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 1,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 36
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 6
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": null,
+            "featureActivated": {
+              "RocketInteraction": {
+                "positions": [
+                  {
+                    "x": 1,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "featureexecution",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 5
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 36
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 6
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": {
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "multiplier": 2
+              },
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "respin",
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 4
+                },
+                "size": 5,
+                "anchor": 0,
+                "occupiedPositions": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  }
+                ]
+              }
+            ],
+            "coins": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 7
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 38
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 8
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": null,
+            "featureActivated": {
+              "Sharer": {
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "affected": [
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        },
+        {
+          "next_action": "spin",
+          "wins": {
+            "total": 15.4,
+            "spin": 15.4,
+            "current": 15.4,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 30,
+                  "coins": 77
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 4
+                  }
+                ],
+                "payout": 77,
+                "winnings": 15.4,
+                "line": -1,
+                "multiplier": null
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 15.4
+              }
+            }
+          },
+          "game": {
+            "wilds": [],
+            "wildsMeter": 0,
+            "scattersMeter": 0,
+            "mysterySpin": null,
+            "rockets": [],
+            "coins": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 1
+                },
+                "value": 2
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 1
+                },
+                "value": 4
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 1
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 3
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 2
+                },
+                "value": 7
+              },
+              {
+                "position": {
+                  "x": 4,
+                  "y": 4
+                },
+                "value": 6
+              },
+              {
+                "position": {
+                  "x": 2,
+                  "y": 4
+                },
+                "value": 38
+              },
+              {
+                "position": {
+                  "x": 1,
+                  "y": 4
+                },
+                "value": 8
+              }
+            ],
+            "initialCoins": null,
+            "progress": 12,
+            "featuresLanded": {
+              "rocketInteraction": [],
+              "collector": null,
+              "sharer": null,
+              "spreader": null,
+              "progress": []
+            },
+            "featureActivated": null,
+            "meterUpgrade": null,
+            "winCap": false,
+            "superScatter": true
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "250",
+      "cost": "50.0",
+      "before": "994.14",
+      "debit": "944.14",
+      "after": "959.54",
+      "win": "15.4"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

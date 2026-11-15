@@ -1,0 +1,303 @@
+[
+  {
+    "opening_balance": "10000.00",
+    "after_bet": "9998.00",
+    "closing_balance": "9998.00",
+    "debit": "2",
+    "credit": "0.00",
+    "entry_kind": "normal",
+    "checks": {
+      "success": true,
+      "demo": true,
+      "continuity": true,
+      "request_stake_matches_game": true,
+      "debit": true,
+      "credit": true,
+      "wallet_ledger": true,
+      "nonnegative_credit": true,
+      "closed_state": true,
+      "ordinary_entry": true
+    },
+    "passed": true,
+    "internal_steps": [],
+    "reference": "H2:entries[245]",
+    "runtime_game_id": "DontEatTheCandy",
+    "currency": "EUR",
+    "mode": "demo",
+    "source": "captured_HAR_only_not_a_fresh_test"
+  },
+  {
+    "opening_balance": "9998.00",
+    "after_bet": "9996.00",
+    "closing_balance": "9996.00",
+    "debit": "2",
+    "credit": "0.00",
+    "entry_kind": "normal",
+    "checks": {
+      "success": true,
+      "demo": true,
+      "continuity": true,
+      "request_stake_matches_game": true,
+      "debit": true,
+      "credit": true,
+      "wallet_ledger": true,
+      "nonnegative_credit": true,
+      "closed_state": true,
+      "ordinary_entry": true
+    },
+    "passed": true,
+    "internal_steps": [],
+    "reference": "H2:entries[247]",
+    "runtime_game_id": "DontEatTheCandy",
+    "currency": "EUR",
+    "mode": "demo",
+    "source": "captured_HAR_only_not_a_fresh_test"
+  },
+  {
+    "opening_balance": "9996.00",
+    "after_bet": "9994.00",
+    "closing_balance": "9994.00",
+    "debit": "2",
+    "credit": "0.00",
+    "entry_kind": "normal",
+    "checks": {
+      "success": true,
+      "demo": true,
+      "continuity": true,
+      "request_stake_matches_game": true,
+      "debit": true,
+      "credit": true,
+      "wallet_ledger": true,
+      "nonnegative_credit": true,
+      "closed_state": true,
+      "ordinary_entry": true
+    },
+    "passed": true,
+    "internal_steps": [],
+    "reference": "H2:entries[248]",
+    "runtime_game_id": "DontEatTheCandy",
+    "currency": "EUR",
+    "mode": "demo",
+    "source": "captured_HAR_only_not_a_fresh_test"
+  },
+  {
+    "opening_balance": "9994.00",
+    "after_bet": "9992.00",
+    "closing_balance": "10034.20",
+    "debit": "2",
+    "credit": "42.20",
+    "entry_kind": "normal",
+    "checks": {
+      "success": true,
+      "demo": true,
+      "continuity": true,
+      "request_stake_matches_game": true,
+      "debit": true,
+      "credit": true,
+      "wallet_ledger": true,
+      "nonnegative_credit": true,
+      "closed_state": true,
+      "ordinary_entry": true
+    },
+    "passed": true,
+    "internal_steps": [
+      {
+        "path": "game.respin[0]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[1]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[2]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[3]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4]",
+        "mode": "Respin",
+        "win_reference": "42.20",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[0]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1]",
+        "mode": "FreeSpins",
+        "win_reference": "8.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1].respin[0]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1].respin[1]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1].respin[2]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1].respin[3]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[1].respin[4]",
+        "mode": "Respin",
+        "win_reference": "8.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[2]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[3]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4]",
+        "mode": "FreeSpins",
+        "win_reference": "18.40",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[0]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[1]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[2]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[3]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[4]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[5]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[6]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[4].respin[7]",
+        "mode": "Respin",
+        "win_reference": "18.40",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[5]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[6]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[7]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[8]",
+        "mode": "FreeSpins",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[9]",
+        "mode": "FreeSpins",
+        "win_reference": "9.20",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[9].respin[0]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[9].respin[1]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[9].respin[2]",
+        "mode": "Respin",
+        "win_reference": "0.00",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      },
+      {
+        "path": "game.respin[4].freeSpins[9].respin[3]",
+        "mode": "Respin",
+        "win_reference": "9.20",
+        "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+      }
+    ],
+    "reference": "H2:entries[249]",
+    "runtime_game_id": "DontEatTheCandy",
+    "currency": "EUR",
+    "mode": "demo",
+    "source": "captured_HAR_only_not_a_fresh_test"
+  }
+]

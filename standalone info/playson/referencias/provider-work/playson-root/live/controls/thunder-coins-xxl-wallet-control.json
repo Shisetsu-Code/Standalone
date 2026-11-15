@@ -1,0 +1,122 @@
+{
+  "game_id": "thunder-coins-xxl-hold-and-win",
+  "label": "wallet-control-1793404516",
+  "fictional_demo_only": true,
+  "original_proof_unchanged": true,
+  "status": "complete",
+  "cases": [
+    {
+      "mode": "Buy:0",
+      "state": "verified",
+      "before_minor": 1100000,
+      "after_minor": 1099860,
+      "cost_minor": 1400,
+      "win_minor": 1260,
+      "checks": {
+        "documented_demo_adjustments": true,
+        "positive_native_cost": true,
+        "entry_base_cost": true,
+        "entry_wallet": true,
+        "wallet_ledger": true,
+        "round_closed": true,
+        "purchase_binding": true,
+        "ante_binding": true,
+        "free_entries_zero_cost": true,
+        "choice_echo": true,
+        "demo": true,
+        "minimum_base": true,
+        "native_source": true
+      },
+      "passed": true,
+      "validation_concluded": true,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bonus",
+          "state": "bonus",
+          "credit_minor": 1098600,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0
+        },
+        {
+          "kind": "bonus",
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "credit_minor": 1099860,
+          "base_win_minor": 0,
+          "bonus_win_minor": 1260
+        }
+      ]
+    }
+  ],
+  "checked_at": "2026-10-30T23:57:03.341957+00:00",
+  "original_incident_retained": true,
+  "original_difference_minor": -25,
+  "incident_resolved": false,
+  "note": "One independent repeat closed with a correct wallet ledger; the original native 25-minor-unit discrepancy remains documented and is not marked fixed."
+}

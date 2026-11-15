@@ -1,0 +1,1133 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_trgems_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "fa072e39-7c5c-46a6-98fd-2d867dfc00d1:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 7,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 7
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999997,
+      "cost": 10,
+      "win": 7,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "e04d9f74-69dc-4b57-9914-7f5ec3cf0d4a:1",
+      "name": "ExtraBet1",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 15,
+      "before": 999997,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 15,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999982,
+      "cost": 15,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "86ebe6c1-56cf-42af-b346-a27bf6b3dac9:1",
+      "name": "BuyFeature1",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 600,
+      "before": 999982,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 600,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 0
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 98,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 98
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 99
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 32,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 131
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 80,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 211
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 212
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 212
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 240,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 452
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999834,
+      "cost": 600,
+      "win": 452,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "62c525c6-4b11-4933-ae48-e59399c64adc:1",
+      "name": "BuyFeature2",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 1100,
+      "before": 999834,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1100,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 0
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 2
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 254,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 256
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 256
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 30,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 286
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 127,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 413
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 203,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 616
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 31,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 647
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 315,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 962
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999696,
+      "cost": 1100,
+      "win": 962,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "9c2d58cb-1f79-4ddb-8872-cd6f88d950bd:1",
+      "name": "BuyFeature3",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 1450,
+      "before": 999696,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1450,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 0
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 137,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 137
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 25,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 162
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 210,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 372
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 18,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 390
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 390
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 390
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 9,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 399
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 399
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 399
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 399
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 250,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 649
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 180,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 829
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 831
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 831
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 831
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 40,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 871
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 300,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1171
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999417,
+      "cost": 1450,
+      "win": 1171,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "e67e9dae-ea16-4384-95f4-9a1ea6d09b20:1",
+      "name": "BuyFeature4",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 2500,
+      "before": 999417,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 2500,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 0
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 62,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 62
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 62
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 800,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 862
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 115,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 977
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 145,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1122
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 18,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1140
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1140
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1140
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 25,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1165
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 67,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1232
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 7,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1239
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 95,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1334
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1336
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 40,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1376
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 5,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1381
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1382
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1382
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 33,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1415
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1415
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 60,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1475
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1476
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 1,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1477
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 6,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 1483
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 220,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1703
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 105,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1808
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1808
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1810
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 134,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 1944
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 70,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 2014
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 55,
+          "round_closed": false,
+          "next_round": "FreeGames",
+          "native_total_win": 2069
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 2069
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "HoldAndRespin",
+          "native_total_win": 2069
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 40,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 2109
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999026,
+      "cost": 2500,
+      "win": 2109,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "d1623dcd8776756b92b93922aad143e19ad4836a4c995e2ac8c22132df5f02d4"
+  ],
+  "native_modes": [
+    {
+      "id": "fa072e39-7c5c-46a6-98fd-2d867dfc00d1",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "fa072e39-7c5c-46a6-98fd-2d867dfc00d1"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        3200,
+        3500,
+        3800,
+        3900
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "e04d9f74-69dc-4b57-9914-7f5ec3cf0d4a",
+      "name": "ExtraBet1",
+      "kind": "NATIVE_OPTION",
+      "selector": "ExtraBet1",
+      "cost": 15,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 15,
+        "name": "ExtraBet1",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "b6cbd83b-0d7b-49b8-a192-df9ced5537c7",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "e04d9f74-69dc-4b57-9914-7f5ec3cf0d4a"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        3200,
+        3500,
+        3800,
+        3900
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "86ebe6c1-56cf-42af-b346-a27bf6b3dac9",
+      "name": "BuyFeature1",
+      "kind": "NATIVE_OPTION",
+      "selector": "BuyFeature1",
+      "cost": 600,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 600,
+        "name": "BuyFeature1",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "00a63860-6134-4249-8f4e-cfb1244b5fba",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "86ebe6c1-56cf-42af-b346-a27bf6b3dac9"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "62c525c6-4b11-4933-ae48-e59399c64adc",
+      "name": "BuyFeature2",
+      "kind": "NATIVE_OPTION",
+      "selector": "BuyFeature2",
+      "cost": 1100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1100,
+        "name": "BuyFeature2",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "cc79dee8-bf4b-4d0d-b29f-3ab829024635",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "62c525c6-4b11-4933-ae48-e59399c64adc"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "9c2d58cb-1f79-4ddb-8872-cd6f88d950bd",
+      "name": "BuyFeature3",
+      "kind": "NATIVE_OPTION",
+      "selector": "BuyFeature3",
+      "cost": 1450,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1450,
+        "name": "BuyFeature3",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "5e10c0d9-6251-484d-9823-6a963d6d3952",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "9c2d58cb-1f79-4ddb-8872-cd6f88d950bd"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "e67e9dae-ea16-4384-95f4-9a1ea6d09b20",
+      "name": "BuyFeature4",
+      "kind": "NATIVE_OPTION",
+      "selector": "BuyFeature4",
+      "cost": 2500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 2500,
+        "name": "BuyFeature4",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "8530cc00-cca6-4d81-9dfb-41246d6429a0",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "e67e9dae-ea16-4384-95f4-9a1ea6d09b20"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "40"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793455379.8118908,
+  "pending_choice_branches": {}
+}

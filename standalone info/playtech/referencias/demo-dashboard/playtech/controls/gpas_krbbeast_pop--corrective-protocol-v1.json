@@ -1,0 +1,224 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_krbbeast_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus native reel renderer and directional slot payout configuration",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "c4342bbd-beed-4952-9b37-a1df947e9a6b:1",
+      "name": "10",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "50e90233ab2652cc80e51efbacc98bc797b1b94e30651e8e8c1655cfdae5ae22"
+  ],
+  "native_modes": [
+    {
+      "id": "c4342bbd-beed-4952-9b37-a1df947e9a6b",
+      "name": "10",
+      "kind": "NATIVE_OPTION",
+      "selector": "default",
+      "selector_source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet.",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "10",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "Standard",
+          "startingPlays": "1"
+        },
+        "uuid": "c4342bbd-beed-4952-9b37-a1df947e9a6b"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        120,
+        150,
+        160,
+        200,
+        240,
+        300,
+        360,
+        400,
+        480,
+        500,
+        600,
+        800,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3750
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [],
+  "line_domain_note": "No selectable line choice declared",
+  "disabled_native_options": [
+    {
+      "cost": 10,
+      "name": "HR10",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "maxBaseCostMultiplier": "100000",
+        "startingMode": "c5a0f83c-ecc3-44a4-86aa-18becfa5f709",
+        "startingPlays": "1"
+      },
+      "uuid": "f99ac427-1f2c-4a83-8838-dddf16fb8296"
+    },
+    {
+      "cost": 10,
+      "name": "HR20",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "maxBaseCostMultiplier": "100000",
+        "startingMode": "950db27e-d0fe-4fa7-9a2b-e8bf6e4d17c7",
+        "startingPlays": "1"
+      },
+      "uuid": "6b574ed7-cf06-471b-a067-2bde6139a9d1"
+    },
+    {
+      "cost": 10,
+      "name": "HR40",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "maxBaseCostMultiplier": "100000",
+        "startingMode": "8f35442e-e2bc-45d5-aa2d-eb652e325a19",
+        "startingPlays": "1"
+      },
+      "uuid": "853ff87f-ce4c-41e6-ab92-f302f89bba99"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "HR10",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "c5a0f83c-ecc3-44a4-86aa-18becfa5f709",
+          "startingPlays": "1"
+        },
+        "uuid": "f99ac427-1f2c-4a83-8838-dddf16fb8296"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "HR20",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "950db27e-d0fe-4fa7-9a2b-e8bf6e4d17c7",
+          "startingPlays": "1"
+        },
+        "uuid": "6b574ed7-cf06-471b-a067-2bde6139a9d1"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "HR40",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "8f35442e-e2bc-45d5-aa2d-eb652e325a19",
+          "startingPlays": "1"
+        },
+        "uuid": "853ff87f-ce4c-41e6-ab92-f302f89bba99"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    }
+  ],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793471984.2257843,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "operation_tag": "corrective-protocol-v1",
+  "selected_mode_ids": null,
+  "all_requested_modes_complete": true
+}

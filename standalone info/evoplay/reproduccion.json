@@ -1,0 +1,23 @@
+{
+  "provider": "evoplay",
+  "name": "Evoplay",
+  "inventory": "../inventario/evoplay.json",
+  "historical": "../evidencia/evoplay.json",
+  "games": 258,
+  "modes": 1080,
+  "python": {
+    "source": "../../../bet-collector/collection_full_playtech.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "demo-dashboard/evoplay"
+    ],
+    "absent_from_checkout": [
+      "demo-dashboard/evoplay"
+    ]
+  },
+  "native_family": "evoplay.fullstate",
+  "continuation": "available_actions",
+  "closure": "idle plus native payout ledger",
+  "standalone_rust": null,
+  "paused": false
+}

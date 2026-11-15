@@ -1,0 +1,5990 @@
+{
+  "game_id": "buckshot-wilds",
+  "title": "Buckshot Wilds",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 4,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Normal",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "wilds": [],
+            "wins": [],
+            "allWilds": {
+              "0.2": {
+                "withoutBonusBet": []
+              }
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "Spin:BonusBet",
+      "kind": "special",
+      "mode": "Spin:BonusBet",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Normal",
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 3
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [],
+            "allWilds": {
+              "0.2": {
+                "withBonusBet": [
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 3
+                    },
+                    "type": "Fresh"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "2.5",
+      "cost": "0.50",
+      "before": "1000",
+      "debit": "999.5",
+      "after": "999.5",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 6,
+            "left": 6
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [],
+            "preFreeSpinSymbols": [],
+            "wilds": [],
+            "wins": [],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 6
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 6
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 7
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.15,
+            "current": 0.15
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 7
+                },
+                "from": {
+                  "x": 3,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 6
+                },
+                "from": {
+                  "x": 2,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 21,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 4
+          },
+          "wins": {
+            "total": 0.18,
+            "current": 0.03
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 7
+                },
+                "from": {
+                  "x": 2,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 30,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 3
+          },
+          "wins": {
+            "total": 0.78,
+            "current": 0.6
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 7
+                },
+                "from": {
+                  "x": 4,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "from": {
+                  "x": 2,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 28,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 38,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 40,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 43,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 2
+          },
+          "wins": {
+            "total": 0.78,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 6
+                },
+                "from": {
+                  "x": 2,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 1
+          },
+          "wins": {
+            "total": 1.44,
+            "current": 0.66
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 7
+                },
+                "from": {
+                  "x": 2,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 5
+                },
+                "from": {
+                  "x": 4,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 5
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 6
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 5
+                },
+                "from": {
+                  "x": 3,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 4
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 5
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 6
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 6
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 0
+                },
+                "from": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 1
+                },
+                "from": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 1
+                },
+                "from": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "Exploded"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 0,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 2,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 6,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 10,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 11,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 14,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 18,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 19,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 7,
+            "left": 0
+          },
+          "wins": {
+            "total": 1.44,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 6
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 1
+                },
+                "from": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 0
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [],
+            "allWilds": {
+              "0.2": {
+                "withBonusBet": [
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 3
+                    },
+                    "type": "Fresh"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "100",
+      "cost": "20.0",
+      "before": "999.5",
+      "debit": "979.5",
+      "after": "980.94",
+      "win": "1.44"
+    },
+    {
+      "name": "FeatureBuyEnhanced",
+      "kind": "special",
+      "mode": "FeatureBuyEnhanced",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 8
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [],
+            "preFreeSpinSymbols": [],
+            "wilds": [],
+            "wins": [],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.22,
+            "current": 0.22
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 7
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 6
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 27,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 29,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 41,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 6
+          },
+          "wins": {
+            "total": 0.32,
+            "current": 0.1
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 7
+                },
+                "from": {
+                  "x": 0,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 7
+                },
+                "from": {
+                  "x": 4,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 2
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 22,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.32,
+            "current": 0.0
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 3
+                },
+                "from": {
+                  "x": 4,
+                  "y": 2
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 2
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 2
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 3
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 4
+          },
+          "wins": {
+            "total": 3.65,
+            "current": 3.33
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 4
+                },
+                "from": {
+                  "x": 4,
+                  "y": 3
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 6
+                },
+                "from": {
+                  "x": 3,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 2
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 2
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 2
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "Exploded"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 1,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 3,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 4,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 7,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 8,
+                "size": 5,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 9,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 13,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 15,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 16,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 17,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 20,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 21,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 22,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 23,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 24,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 25,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 26,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 27,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 30,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 39,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 47,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 3
+          },
+          "wins": {
+            "total": 11.81,
+            "current": 8.16
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 5
+                },
+                "from": {
+                  "x": 4,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 7
+                },
+                "from": {
+                  "x": 3,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Fresh"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 1
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 1
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 1
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 2
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 2
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "Exploded"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 0,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 1,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 3,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 4,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 5,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 6,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 7,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 8,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 9,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 10,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 12,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 13,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 14,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 15,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 16,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 17,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 18,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 20,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 21,
+                "size": 4,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 22,
+                "size": 4,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 23,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 24,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 25,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 26,
+                "size": 4,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 27,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 28,
+                "size": 5,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 30,
+                "size": 4,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 33,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 34,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 38,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 39,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 40,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 42,
+                "size": 5,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 46,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 47,
+                "size": 4,
+                "payout": 1,
+                "winnings": 0.2
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 2
+          },
+          "wins": {
+            "total": 32.14,
+            "current": 20.33
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 6
+                },
+                "from": {
+                  "x": 4,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "from": {
+                  "x": 1,
+                  "y": 2
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 1
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 3,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 20,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 21,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 22,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 23,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 24,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 25,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 26,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 27,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 28,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 29,
+                "size": 5,
+                "payout": 10,
+                "winnings": 2.0
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 30,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 32,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 33,
+                "size": 5,
+                "payout": 10,
+                "winnings": 2.0
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 34,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 35,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 37,
+                "size": 5,
+                "payout": 10,
+                "winnings": 2.0
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 38,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 39,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 40,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 41,
+                "size": 3,
+                "payout": 0.75,
+                "winnings": 0.15
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 42,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 43,
+                "size": 5,
+                "payout": 10,
+                "winnings": 2.0
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 45,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "line": 46,
+                "size": 4,
+                "payout": 2.5,
+                "winnings": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 47,
+                "size": 5,
+                "payout": 6.25,
+                "winnings": 1.25
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 8,
+            "left": 1
+          },
+          "wins": {
+            "total": 32.23,
+            "current": 0.09
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 4,
+                  "y": 7
+                },
+                "from": {
+                  "x": 4,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 3
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 2
+                },
+                "from": {
+                  "x": 3,
+                  "y": 1
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 0
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 21,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 25,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 38,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 40,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 9,
+            "left": 1
+          },
+          "wins": {
+            "total": 35.96,
+            "current": 3.73
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 7
+                },
+                "from": {
+                  "x": 1,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 5
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 3
+                },
+                "from": {
+                  "x": 3,
+                  "y": 2
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 1
+                },
+                "from": {
+                  "x": 2,
+                  "y": 0
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 0
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "line": 12,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 22,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 23,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 11
+                },
+                "line": 26,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 27,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 28,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 29,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 30,
+                "size": 4,
+                "payout": 2,
+                "winnings": 0.4
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 32,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 33,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 34,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 35,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 37,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 38,
+                "size": 4,
+                "payout": 2,
+                "winnings": 0.4
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 39,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 40,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 41,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 42,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 43,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 10
+                },
+                "line": 44,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 45,
+                "size": 3,
+                "payout": 0.1,
+                "winnings": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 46,
+                "size": 3,
+                "payout": 1,
+                "winnings": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "line": 47,
+                "size": 4,
+                "payout": 2,
+                "winnings": 0.4
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 1
+          },
+          "wins": {
+            "total": 36.09,
+            "current": 0.13
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "from": {
+                  "x": 3,
+                  "y": 3
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 1
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 1
+                },
+                "from": {
+                  "x": 2,
+                  "y": 0
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 16,
+                "size": 3,
+                "payout": 0.15,
+                "winnings": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 19,
+                "size": 5,
+                "payout": 0.5,
+                "winnings": 0.1
+              }
+            ],
+            "allWilds": null
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 10,
+            "left": 0
+          },
+          "wins": {
+            "total": 42.63,
+            "current": 6.54
+          },
+          "game": {
+            "playArea": "Expanded",
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "preFreeSpinSymbols": [],
+            "wilds": [
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 7
+                },
+                "from": {
+                  "x": 1,
+                  "y": 6
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 5
+                },
+                "from": {
+                  "x": 3,
+                  "y": 4
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 4
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 4
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 4
+                },
+                "from": {
+                  "x": 2,
+                  "y": 3
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 1
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 1
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 1
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 1
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 2
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 2,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 3,
+                  "y": 3
+                },
+                "from": {
+                  "x": 2,
+                  "y": 2
+                },
+                "type": "Exploded"
+              },
+              {
+                "pos": {
+                  "x": 1,
+                  "y": 6
+                },
+                "from": {
+                  "x": 1,
+                  "y": 5
+                },
+                "type": "WalkedDown"
+              },
+              {
+                "pos": {
+                  "x": 0,
+                  "y": 5
+                },
+                "type": "Fresh"
+              }
+            ],
+            "wins": [
+              {
+                "winSymbol": {
+                  "id": 11
+                },
+                "line": 0,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 1,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 3,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 4,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 6,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 11
+                },
+                "line": 7,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 8,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 9,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 11
+                },
+                "line": 12,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 13,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 15,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 16,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 17,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 11
+                },
+                "line": 18,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 20,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "line": 21,
+                "size": 4,
+                "payout": 0.3,
+                "winnings": 0.06
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 22,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 23,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 24,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 25,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 1
+                },
+                "line": 27,
+                "size": 4,
+                "payout": 3,
+                "winnings": 0.6
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "line": 30,
+                "size": 5,
+                "payout": 5,
+                "winnings": 1.0
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 33,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 35,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 38,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 9
+                },
+                "line": 40,
+                "size": 4,
+                "payout": 0.2,
+                "winnings": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 42,
+                "size": 4,
+                "payout": 1.5,
+                "winnings": 0.3
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "line": 45,
+                "size": 3,
+                "payout": 0.5,
+                "winnings": 0.1
+              }
+            ],
+            "allWilds": {
+              "0.2": {
+                "withBonusBet": [
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 3
+                    },
+                    "type": "Fresh"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "125",
+      "cost": "25.0",
+      "before": "980.94",
+      "debit": "955.94",
+      "after": "998.57",
+      "win": "42.63"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

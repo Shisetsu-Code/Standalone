@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title></title>
+    <link rel="apple-touch-icon" sizes="512x512" href="res/icons/ph/favicon-512x512.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="res/icons/ph/favicon-256x256.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="res/icons/ph/favicon-180x180.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="res/icons/ph/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="res/icons/ph/favicon-512x512.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="res/icons/ph/favicon-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="res/icons/ph/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="res/icons/ph/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="res/icons/ph/favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="res/icons/ph/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="res/icons/ph/favicon-16x16.png">
+    <link rel="icon" type="image/gif" href="res/icons/ph/favicon.ico">
+    <link rel="manifest" href="res/icons/ph/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="res/icons/ph/favicon-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <!-- force screen orientation on some browser -->
+    <!-- <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-orientation" content="portrait"> -->
+
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <style>
+        #gameCanvas,
+        #gameCanvas:focus {
+            outline: 1px solid transparent;
+            box-shadow: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+<script src="res/loading.js"></script>
+<script type="text/javascript">
+        var queryString = null;
+        var base64QueryString = false;
+        var IsLandscapeForFish = null;
+        var getQueryString = function() {
+            if(!queryString) {
+                var browserQuery = window.location.search.substring(1);
+                var vars = browserQuery.split("&");
+                for(var i = 0; i < vars.length; i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] === "b") {
+                        queryString = atob(pair[1]);
+                        base64QueryString = true;
+                        return queryString;
+                    }
+                }
+                queryString = browserQuery;
+            }
+            return queryString;
+        };
+        var getQueryVar = function (variable) {
+            var query = getQueryString();
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] === variable){return pair[1];}
+            }
+            return 0;
+        };
+        function KASetup(){
+            this._isFishGames = false;
+            this._isLandscapeForFish = true;
+        };
+        KASetup.prototype.isLandScape = function(){
+            return this._isLandscapeForFish;
+        };
+        KASetup.prototype._ensureFishOrientationHelper = function(){
+            if(document.getElementById("kaFishOrientationHelper")) {
+                return;
+            }
+            var source = document.createElement('script');
+            source.id = "kaFishOrientationHelper";
+            source.text="!function n(e,t,o){function i(u,f){if(!t[u]){if(!e[u]){var a=\"function\"==typeof require&&require;if(!f&&a)return a(u,!0);if(r)return r(u,!0);throw new Error(\"Cannot find module '\"+u+\"'\")}var d=t[u]={exports:{}};e[u][0].call(d.exports,function(n){var t=e[u][1][n];return i(t?t:n)},d,d.exports,n,e,t,o)}return t[u].exports}for(var r=\"function\"==typeof require&&require,u=0;u<o.length;u++)i(o[u]);return i}({1:[function(n,e){(function(n){function t(){var n={},e={};return n.on=function(n,t){var o={name:n,handler:t};return e[n]=e[n]||[],e[n].unshift(o),o},n.off=function(n){var t=e[n.name].indexOf(n);-1!=t&&e[n.name].splice(t,1)},n.trigger=function(n,t){var o,i=e[n];if(i)for(o=i.length;o--;)i[o].handler(t)},n}n.gajus=n.gajus||{},n.gajus.Sister=t,e.exports=t}).call(this,\"undefined\"!=typeof self?self:\"undefined\"!=typeof window?window:{})},{}],2:[function(n,e){(function(t){var o,i=n(\"sister\");o=function r(n){var e,o,u;return this instanceof r?(u=i(),e=this,e.on=u.on,n=n||{},n.noChangeCountToEnd=n.noChangeCountToEnd||100,n.noEndTimeout=1e3,n.debug=n.debug||!1,void t.addEventListener(\"orientationchange\",function(){var e,i,r,f,a,d;r=function(n){clearInterval(e),clearTimeout(i),e=null,i=null,n&&u.trigger(\"orientationchangeend\")},o&&o(!1),o=r,e=setInterval(function(){t.innerWidth===f&&t.innerHeight===a?(d++,d===n.noChangeCountToEnd&&(n.debug&&console.debug(\"setInterval\"),r(!0))):(f=t.innerWidth,a=t.innerHeight,d=0)}),i=setTimeout(function(){n.debug&&console.debug(\"setTimeout\"),r(!0)},n.noEndTimeout)})):new r(n)},t.gajus=t.gajus||{},t.gajus.orientationchangeend=o,e.exports=o}).call(this,\"undefined\"!=typeof self?self:\"undefined\"!=typeof window?window:{})},{sister:1}]},{},[2]);";
+            document.body.appendChild(source);
+        };
+        KASetup.prototype.applyRuntimeProfile = function(isFishGame, isLandscapeForFish){
+            this._isFishGames = !!isFishGame;
+            this._isLandscapeForFish = (isLandscapeForFish !== false);
+            IsLandscapeForFish = this._isLandscapeForFish;
+            this.cssSetup();
+            if(this._isFishGames){
+                this.divSetup();
+                this._ensureFishOrientationHelper();
+            }
+        };
+        KASetup.prototype.cssSetup = function(){
+            var link = document.getElementById("kaBootCss");
+            if (!link) {
+                link = document.createElement('link');
+                link.id = "kaBootCss";
+                link.rel = 'stylesheet';
+                document.head.appendChild(link);
+            }
+            link.href = 'res/include/'+((this._isFishGames)? "fish.css":"main.css");
+        };
+        KASetup.prototype.jsSetup = function(){
+            if (document.getElementById("kaMainScript")) {
+                return;
+            }
+            var script = document.createElement('script');
+            script.id = "kaMainScript";
+            script.src = "game.min.2090.js";
+            document.body.appendChild(script);
+        };
+        KASetup.prototype.divSetup = function(){
+            if(!this._isFishGames){
+                return;
+            }
+
+            var canvas = document.getElementById("gameCanvas");
+            if (!canvas) {
+                canvas = document.createElement('canvas');
+                canvas.id = "gameCanvas";
+                document.body.appendChild(canvas);
+            }
+            canvas.oncontextmenu = "event.preventDefault()";
+            canvas.tabIndex = "0";
+            canvas.style.outline = "1px solid transparent";
+            canvas.style.boxShadow = "none";
+            canvas.style.webkitTapHighlightColor = "rgba(0, 0, 0, 0)";
+
+            if (!document.getElementById("turnorientation")) {
+                var tl = document.createElement('div');
+                tl.id = "turnorientation";
+                document.body.appendChild(tl);
+            }
+
+            if (!document.getElementById("turnorientationportrait")) {
+                var tp = document.createElement('div');
+                tp.id = "turnorientationportrait";
+                document.body.appendChild(tp);
+            }
+        };
+        KASetup.prototype.kaGamelaunch=function(){
+            this.divSetup();
+            this.jsSetup();
+        };
+        var Generate = new KASetup();
+        window.Generate = Generate;
+        function isFishGame(){
+            return Generate._isFishGames;
+        };
+
+        window.onload = function() {
+            Generate.kaGamelaunch();
+        }
+</script>
+</body>
+</html>

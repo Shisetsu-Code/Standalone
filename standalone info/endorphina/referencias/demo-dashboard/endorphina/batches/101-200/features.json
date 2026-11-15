@@ -1,0 +1,3861 @@
+[
+  {
+    "slug": "fresh-crush",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "DropSlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "bigwinViewControllerID": "FF-bigwin-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "AdditiveMultipliersFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "tumbleWinnerControllerID": "slot-paid-winner-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "ADDITIVE_MULTIPLIER": "additive-multiplier-win-controller",
+          "bigwinViewControllerID": "FF-bigwin-view-controller",
+          "UNUSED_WILD": "unused-wild-controller",
+          "fullOfAKindSupported": false,
+          "afterMultipliersDelay": 1
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/FreshCrush/configs/config.desktop.json"
+  },
+  {
+    "slug": "joker-ra-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/JokerRaDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "late-night-win",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "BookOfSanta2SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "RABBITS_WIN",
+        "featureName": "Gifts",
+        "featureClassName": "GiftsBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "surpriseWinsInfoViewControllerID": "surprise-wins-info-view-controller",
+          "rabbitsWinInterval": 0.8,
+          "beforeRabbitsAnimationsDelay": 1,
+          "beforeNextRotationDelay": 1,
+          "spinMobileButtonSupported": true
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LateNightWin/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-streak-x",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "LuckyStreakPalmEditionSlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "LSX-bigwin-view-controller",
+          "multsAccumulatorViewControllerID": "mults-accumulator-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreakX/configs/config.desktop.json"
+  },
+  {
+    "slug": "dia-de-los-muertos-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "AdditiveMultipliersSlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "tumbleWinnerControllerID": "slot-paid-winner-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "ADDITIVE_MULTIPLIER": "additive-multiplier-win-controller",
+          "bigwinViewControllerID": "FF-bigwin-view-controller",
+          "attractionViewControllerID": "attraction-view-controller",
+          "fullOfAKindSupported": false,
+          "afterMultipliersDelay": 1
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "AdditiveMultipliersFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "tumbleWinnerControllerID": "slot-paid-winner-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "ADDITIVE_MULTIPLIER": "additive-multiplier-win-controller",
+          "bigwinViewControllerID": "FF-bigwin-view-controller",
+          "attractionViewControllerID": "attraction-view-controller",
+          "fullOfAKindSupported": false,
+          "afterMultipliersDelay": 1
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/DiaDeMuertos2/configs/config.desktop.json"
+  },
+  {
+    "slug": "argonauts",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "BookOfSanta2SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "RABBITS_WIN",
+        "featureName": "Gifts",
+        "featureClassName": "GiftsBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "surpriseWinsInfoViewControllerID": "surprise-wins-info-view-controller",
+          "rabbitsWinInterval": 1.1,
+          "beforeRabbitsAnimationsDelay": 1,
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "beforeNextRotationDelay": 1,
+          "spinMobileButtonSupported": true
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BookOfSanta2FreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Argonauts/configs/config.desktop.json"
+  },
+  {
+    "slug": "lord-of-the-seas",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "LordOfTheSeasSlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "jokerAccumulatorViewControllerID": "slot-joker-accumulator-view-controller",
+          "spinsAccumulatorViewControllerID": "spins-accumulator-view-controller",
+          "CHARGE_ACCUMULATING_JOKERS": "charge-joker-accumulator-win-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "LordOfTheSeasFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "jokerAccumulatorViewControllerID": "freegames-joker-accumulator-view-controller",
+          "jokerIconAnimationID": "TRANSFORM",
+          "jokerIconLayerID": "_DEFAULT_",
+          "wildPlaceInterval": 0.3,
+          "afterEmptySpinDelay": 1,
+          "DISCHARGE_ACCUMULATING_JOKERS": "discharge-joker-accumulator-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LordOfTheSeas/configs/config.desktop.json"
+  },
+  {
+    "slug": "giant-wild-goose-pagoda",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "bigwinViewControllerID": "FootballStar-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleWildsFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "NEW_LAUREATE_WREATHS": "appear-wilds-controller",
+          "DISAPPEARING_LAUREATE_WREATHS": "disappear-wilds-controller",
+          "bigwinViewControllerID": "FootballStar-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/GiantWildGoosePagoda/configs/config.desktop.json"
+  },
+  {
+    "slug": "silk-road",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "SilkRoadFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "BIRTH_WIN": "collectors-appear-win-controller",
+          "KILL_WIN": "collectors-disappear-win-controller",
+          "DISAPPEARING_FILIBUSTERS": "collectors-hide-win-controller",
+          "CHEST_WIN": "collect-win-controller",
+          "collectorsAppearAnimationID": "APPEAR",
+          "collectorsAppearLayerID": "_DEFAULT_"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SilkRoad/configs/config.desktop.json"
+  },
+  {
+    "slug": "green-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "sparedMultiplierViewControllerID": "spared-multiplier-view-controller",
+          "fullOfAKindSupported": false,
+          "SPARED_WIN": "spared-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/GreenSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "multistar-fruits",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSpreadingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "sparedMultiplierViewControllerID": "spared-multiplier-view-controller",
+          "fullOfAKindSupported": false,
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "SPARED_WIN": "spared-win-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller",
+          "initDrumReplacements": [
+            [
+              8,
+              17
+            ],
+            [
+              9,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/MultistarFruits/configs/config.desktop.json"
+  },
+  {
+    "slug": "joker-ra",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/JokerRa/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-cloverland-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "luckycloverland-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "ExtraWildFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "bigwinViewControllerID": "luckycloverland-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyCloverlandDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "cash-streak",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "SYMBOL_MULTIPLIER": "symbol-multiplier-win-controller",
+          "controllers": {
+            "bootstrap": {
+              "gameControllers": {
+                "featureBuyInControllerID": "feature-buy-in-controller"
+              },
+              "viewControllers": {
+                "fullOfAKindViewControllerID": "full-of-a-kind-view-controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "SYMBOL_MULTIPLIER": "symbol-multiplier-win-controller",
+          "controllers": {
+            "bootstrap": {
+              "viewControllers": {
+                "fullOfAKindViewControllerID": "full-of-a-kind-view-controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {}
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/CashStreak/configs/config.desktop.json"
+  },
+  {
+    "slug": "fruletta-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "COCKTAIL_WIN",
+        "featureName": "CocktailWheel",
+        "featureClassName": "CocktailWheelBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "wheelDurationScale": 150,
+          "wheelTweenOvershoot": 0.3,
+          "wheelMinimumAngle": 360,
+          "afterWinStepDelay": 0.01,
+          "afterNowinStepDelay": 0.5,
+          "afterWinFrameShowDelay": 0.01,
+          "afterPrizeShowDelay": 0.01,
+          "afterPrizeCountdownDelay": 0.3
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/FrulettaDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-dice-40",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot40Dice/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-dice-100",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot100Dice/configs/config.desktop.json"
+  },
+  {
+    "slug": "2023-hit-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "RX-bigwin-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "bigwinViewControllerID": "RX-bigwin-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/2023HitSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "riches-of-caliph",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/RichesOfCaliph/configs/config.desktop.json"
+  },
+  {
+    "slug": "blue-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "RX-bigwin-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/BlueSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-dice-20",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot20Dice/configs/config.desktop.json"
+  },
+  {
+    "slug": "santas-gift",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "BookOfSanta2SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "RABBITS_WIN",
+        "featureName": "Gifts",
+        "featureClassName": "GiftsBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "surpriseWinsInfoViewControllerID": "surprise-wins-info-view-controller",
+          "rabbitsWinInterval": 0.8,
+          "beforeRabbitsAnimationsDelay": 1,
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "beforeNextRotationDelay": 1,
+          "spinMobileButtonSupported": true
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BookOfSanta2FreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SantasGift/configs/config.desktop.json"
+  },
+  {
+    "slug": "rabbits",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "RABBITS_WIN",
+        "featureName": "Rabbits",
+        "featureClassName": "RabbitsBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "surpriseWinsInfoViewControllerID": "surprise-wins-info-view-controller",
+          "rabbitsWinInterval": 0.5,
+          "beforeRabbitsAnimationsDelay": 1,
+          "beforeNextRotationDelay": 1,
+          "beforeRabbitsCounterIncrementDelay": 0.4,
+          "spinMobileButtonSupported": true
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Rabbits/configs/config.desktop.json"
+  },
+  {
+    "slug": "the-vampires-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "TheVampires2FreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "PICKME_EXTENDED",
+        "featureName": "Raider",
+        "featureClassName": "RaiderBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "beforeFinishWintableDelay": 3
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/TheVampires2/configs/config.desktop.json"
+  },
+  {
+    "slug": "wild-streak",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "CyberWolfFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "CHARGE_ACCUMULATORS": "charge-accumulators-controller",
+          "chargeSoundStartDelay": 0,
+          "chargedSoundStartDelay": 0
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/WildStreak/configs/config.desktop.json"
+  },
+  {
+    "slug": "crystal-skull",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "PYRAMID_WIN",
+        "featureName": "Fortune",
+        "featureClassName": "FortuneBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "autoplayMobileButtonSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/CrystalSkull/configs/config.desktop.json"
+  },
+  {
+    "slug": "rooster-fury-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BattleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "BATTLE_COMPLETE_WIN": "battle-complete-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/RoosterFuryDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "minotauros-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "MinotaurFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "NoChoice",
+        "featureClassName": "GambleNoChoiceFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/MinotaurDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "100-zombies-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/100ZombiesDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "football-2022",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "F2-bigwin-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "PENALTY",
+        "featureName": "Penalty",
+        "featureClassName": "PenaltyBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "totalWinControllerID": "bonus-total-win-winner-controller",
+          "bigwinViewControllerID": "F2-bigwin-view-controller",
+          "goalDelay": 0.35,
+          "saveDelay": 0.35
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Football2022/configs/config.desktop.json"
+  },
+  {
+    "slug": "lumber-jack",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "bigwinViewControllerID": "LJ-bigwin-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "bigwinViewControllerID": "LJ-bigwin-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LumberJack/configs/config.desktop.json"
+  },
+  {
+    "slug": "dynamite-miner",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "DynamiteMinerSlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "dropLevelMultiplierViewControllerID": "drop-level-multiplier-view-controller",
+          "UNUSED_WILD": "unused-wild-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "DynamiteMinerFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "dropLevelMultiplierViewControllerID": "drop-level-multiplier-view-controller",
+          "UNUSED_WILD": "unused-wild-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/DynamiteMiner/configs/config.desktop.json"
+  },
+  {
+    "slug": "mongol-treasures-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "RABBITS_WIN",
+        "featureName": "Rabbits",
+        "featureClassName": "RabbitsBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "bigwinViewControllerID": "SG-bigwin-view-controller",
+          "surpriseWinsInfoViewControllerID": "surprise-wins-info-view-controller",
+          "rabbitsWinInterval": 0.5,
+          "beforeRabbitsAnimationsDelay": 1,
+          "beforeNextRotationDelay": 1,
+          "beforeRabbitsCounterIncrementDelay": 0,
+          "spinMobileButtonSupported": true
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/MongolTreasures2/configs/config.desktop.json"
+  },
+  {
+    "slug": "the-emirate-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/TheEmirate2/configs/config.desktop.json"
+  },
+  {
+    "slug": "samarkands-gold",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SamarkandsGold/configs/config.desktop.json"
+  },
+  {
+    "slug": "book-of-vlad",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BookOfBloodFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller",
+          "CHARGE_ACCUMULATORS": "charge-accumulators-controller",
+          "chargeSoundStartDelay": 0,
+          "chargedSoundStartDelay": 0
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/BookOfBlood/configs/config.desktop.json"
+  },
+  {
+    "slug": "glory-of-egypt",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/GloryOfEgypt/configs/config.desktop.json"
+  },
+  {
+    "slug": "cyber-wolf",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "CyberWolfFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "CHARGE_ACCUMULATORS": "charge-accumulators-controller",
+          "chargeSoundStartDelay": 0,
+          "chargedSoundStartDelay": 0
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/CyberWolf/configs/config.desktop.json"
+  },
+  {
+    "slug": "fisher-king",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "FisherKingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "CHARGE_ACCUMULATORS": "charge-accumulators-controller",
+          "DISCHARGE_ACCUMULATORS": "discharge-accumulators-controller",
+          "beforeAccumulatorDischargeInterval": 0.3,
+          "afterAccumulatorDischargeInterval": 0,
+          "tableMultiplierAnimationDelay": 1.7,
+          "beforeMoveItemsFromDelay": 1.85
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/FisherKing/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-cloverland",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "luckycloverland-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "ExtraWildFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "bigwinViewControllerID": "luckycloverland-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyCloverland/configs/config.desktop.json"
+  },
+  {
+    "slug": "2022-hit-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "2022-bigwin-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/2022HitSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "book-of-lady",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BookOfLadyFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/BookOfLady/configs/config.desktop.json"
+  },
+  {
+    "slug": "wild-love",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/WildLove/configs/config.desktop.json"
+  },
+  {
+    "slug": "king-of-ghosts",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "GhostCatcherFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "rotateMultiplierViewControllerID": "freegames-rotate-multiplier-view-controller",
+          "PRE_MULTIPLIER_ANIMATION": "rotate-multiplier-win-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/KingOfGhosts/configs/config.desktop.json"
+  },
+  {
+    "slug": "royal-xmass",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "bigwinViewControllerID": "RX-bigwin-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "bigwinViewControllerID": "RX-bigwin-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/RoyalXmass/configs/config.desktop.json"
+  },
+  {
+    "slug": "water-tiger",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/WaterTiger/configs/config.desktop.json"
+  },
+  {
+    "slug": "solar-eclipse",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSpreadingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "sparedMultiplierViewControllerID": "spared-multiplier-view-controller",
+          "fullOfAKindSupported": false,
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "SPARED_WIN": "spared-win-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller",
+          "initDrumReplacements": [
+            [
+              8,
+              17
+            ],
+            [
+              9,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SolarEclipse/configs/config.desktop.json"
+  },
+  {
+    "slug": "3-thunders",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/3Thunders/configs/config.desktop.json"
+  },
+  {
+    "slug": "magnum-opus",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "CHANCE_WIN",
+        "featureName": "ChanceWin",
+        "featureClassName": "ChanceWinBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "buttonHighlightDelay": 1
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/MagnumOpus/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-40",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot40/configs/config.desktop.json"
+  },
+  {
+    "slug": "book-of-oil",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSpreadingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/BookOfOil/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-20",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot20/configs/config.desktop.json"
+  },
+  {
+    "slug": "akbar-and-birbal",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "FairyTaleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "EVOLUTION_MULT_FG_WIN": "evolution-multiplier-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AkbarBirbal/configs/config.desktop.json"
+  },
+  {
+    "slug": "fruletta",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "COCKTAIL_WIN",
+        "featureName": "CocktailWheel",
+        "featureClassName": "CocktailWheelBonusFeature",
+        "params": {
+          "rotationControllerID": "bonus-rotation-controller",
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "wheelDurationScale": 150,
+          "wheelTweenOvershoot": 0.3,
+          "wheelMinimumAngle": 360,
+          "afterWinStepDelay": 0.01,
+          "afterNowinStepDelay": 0.5,
+          "afterWinFrameShowDelay": 0.01,
+          "afterPrizeShowDelay": 0.01,
+          "afterPrizeCountdownDelay": 0.3
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Fruletta/configs/config.desktop.json"
+  },
+  {
+    "slug": "joker-stoker",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/JokerStoker/configs/config.desktop.json"
+  },
+  {
+    "slug": "rooster-fury",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "BattleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "BATTLE_COMPLETE_WIN": "battle-complete-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/RoosterFury/configs/config.desktop.json"
+  },
+  {
+    "slug": "hell-hot-100",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/HellHot100/configs/config.desktop.json"
+  },
+  {
+    "slug": "2021-hit-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "playlinesViewControllerID": "playlines-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {}
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/2021HitSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "around-the-world",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "AroundTheWorldFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "EVOLUTION_MULT_FG_WIN": "evolution-multiplier-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AroundTheWorld/configs/config.desktop.json"
+  },
+  {
+    "slug": "cricket-heroes",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/CricketHeroes/configs/config.desktop.json"
+  },
+  {
+    "slug": "gem-blast",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "FluffyFruitsFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/GemBlast/configs/config.desktop.json"
+  },
+  {
+    "slug": "cupid",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "displayPaidSupported": false,
+          "scatterPrizeSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Cupid/configs/config.desktop.json"
+  },
+  {
+    "slug": "chance-machine-5",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/ChanceMachine5/configs/config.desktop.json"
+  },
+  {
+    "slug": "golden-ox",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleWildsFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "NEW_LAUREATE_WREATHS": "appear-wilds-controller",
+          "DISAPPEARING_LAUREATE_WREATHS": "disappear-wilds-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/GoldenOx/configs/config.desktop.json"
+  },
+  {
+    "slug": "diamond-chance",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "EXPANDING_JOKER": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/DiamondChance/configs/config.desktop.json"
+  },
+  {
+    "slug": "chance-machine-40",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/ChanceMachine40/configs/config.desktop.json"
+  },
+  {
+    "slug": "100-zombies",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/100Zombies/configs/config.desktop.json"
+  },
+  {
+    "slug": "buffalo-50",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Buffalo50/configs/config.desktop.json"
+  },
+  {
+    "slug": "chance-machine-20",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/ChanceMachine20/configs/config.desktop.json"
+  },
+  {
+    "slug": "red-cap",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/RedCap/configs/config.desktop.json"
+  },
+  {
+    "slug": "chance-machine-100",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/ChanceMachine100/configs/config.desktop.json"
+  },
+  {
+    "slug": "the-rise-of-ai",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "rotateMultiplierViewControllerID": "slot-rotate-multiplier-view-controller",
+          "PRE_MULTIPLIER_ANIMATION": "rotate-multiplier-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/TheRiseOfAI/configs/config.desktop.json"
+  },
+  {
+    "slug": "asgardians",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "PICKME",
+        "featureName": "Blacksmith",
+        "featureClassName": "BlacksmithBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Asgardians/configs/config.desktop.json"
+  },
+  {
+    "slug": "windy-city",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/WindyCity/configs/config.desktop.json"
+  },
+  {
+    "slug": "2020-hit-slot",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/2020HitSlot/configs/config.desktop.json"
+  },
+  {
+    "slug": "aus-dem-tal",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AusDemTal/configs/config.desktop.json"
+  },
+  {
+    "slug": "troll-haven",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSelectionFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "multipliers": [
+            10,
+            5,
+            3,
+            2
+          ]
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/TrollHaven/configs/config.desktop.json"
+  },
+  {
+    "slug": "cash-tank",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "FluffyFruitsFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/CashTank/configs/config.desktop.json"
+  },
+  {
+    "slug": "almighty-sparta-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AlmightySpartaDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "book-of-santa",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSpreadingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/BookOfSanta/configs/config.desktop.json"
+  },
+  {
+    "slug": "little-panda-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LittlePandaDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "sugar-glider-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "EXPANDING_JOKER": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SugarGliderDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "asgardians-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "PICKME",
+        "featureName": "Blacksmith",
+        "featureClassName": "BlacksmithBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AsgardiansDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "mystery-of-eldorado",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSpreadingFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "NO_WIN_ICONS": "nowin-icons-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/MysteryEldorado/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-dice-3",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "sparedMultiplierViewControllerID": "spared-multiplier-view-controller",
+          "fullOfAKindSupported": false,
+          "SPARED_WIN": "spared-win-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreak3Dice/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-dice-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreak2Dice/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-dice-1",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreakDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "ancient-troy-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AncientTroyDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "voodoo-dice",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "EMPTY_SPREAD_SYMBOL_WIN": "spreading-in-controller",
+          "SPREAD_SYMBOL_WIN": "spreading-out-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/VoodooDice/configs/config.desktop.json"
+  },
+  {
+    "slug": "almighty-sparta",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AlmightySparta/configs/config.desktop.json"
+  },
+  {
+    "slug": "ancient-troy",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false,
+          "REEL_EXPANDING_JOKER_WIN": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/AncientTroy/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-streak-3",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "SPARED_WIN": "spared-win-controller",
+          "controllers": {
+            "bootstrap": {
+              "viewControllers": {
+                "sparedMultiplierViewControllerID": "spared-multiplier-view-controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {}
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreak3/configs/config.desktop.json"
+  },
+  {
+    "slug": "luxurylife",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "displayPaidSupported": false,
+          "scatterPrizeSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuxuryLife/configs/config.desktop.json"
+  },
+  {
+    "slug": "sugar-glider",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "EXPANDING_JOKER": "expanding-joker-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/SugarGlider/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-streak-2",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreak2/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-streak-1",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyStreak/configs/config.desktop.json"
+  },
+  {
+    "slug": "dia-de-los-muertos",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/DiaDeMuertos/configs/config.desktop.json"
+  },
+  {
+    "slug": "kamchatka",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller",
+          "fullOfAKindSupported": false
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "PICKME",
+        "featureName": "Geyser",
+        "featureClassName": "GeyserBonusFeature",
+        "params": {
+          "backgroundSoundControllerID": "bonus-background-sound-controller",
+          "paidViewControllerID": "bonus-paid-view-controller",
+          "commentsViewControllerID": "bonus-comments-view-controller",
+          "mediumPrizeLimit": 5,
+          "largePrizeLimit": 10
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/Kamchatka/configs/config.desktop.json"
+  },
+  {
+    "slug": "lucky-lands",
+    "status": "discovered",
+    "features": [
+      {
+        "featureID": "SLOT",
+        "featureName": "",
+        "featureClassName": "SlotgameFeature",
+        "params": {
+          "rotationControllerID": "slot-rotation-controller",
+          "backgroundSoundControllerID": "slot-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "slot-paid-view-controller",
+          "commentsViewControllerID": "slot-comments-view-controller"
+        }
+      },
+      {
+        "featureID": "FREE_GAME",
+        "featureName": "",
+        "featureClassName": "EndorphinaStyleSelectionFreegamesFeature",
+        "params": {
+          "rotationControllerID": "freegames-rotation-controller",
+          "backgroundSoundControllerID": "freegames-background-sound-controller",
+          "playlinesViewControllerID": "playlines-view-controller",
+          "paidViewControllerID": "freegames-paid-view-controller",
+          "commentsViewControllerID": "freegames-comments-view-controller",
+          "multipliers": [
+            10,
+            5,
+            3,
+            2
+          ]
+        }
+      },
+      {
+        "featureID": "GAMBLE",
+        "featureName": "BTD",
+        "featureClassName": "GambleBTDFeature",
+        "params": {
+          "commentsViewControllerID": "gamble-comments-view-controller"
+        }
+      }
+    ],
+    "source": "https://demo.endorphina.network/games-wgl/endorphina2/LuckyLands/configs/config.desktop.json"
+  },
+  {
+    "slug": "legendary-sumo",
+    "status": "unavailable",
+    "features": [],
+    "evidence": "unavailable-evidence.json"
+  }
+]

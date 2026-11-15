@@ -1,0 +1,39 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "totl",
+  "title": "Treasures of the Lamps",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "needs_review",
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485899.241381,
+  "bootstrap_seconds": 28.844,
+  "preload_wait_seconds": 0.765,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "3cb041517858c84cef912563d68aba1df79d2d06245e91b64ec659555208146e"
+  ],
+  "observed_bet": 20,
+  "native_stake_controls_available": false,
+  "error_type": "ValueError",
+  "review_reason": "PAYOUT_COUNT_MISMATCH",
+  "unverified_round": {
+    "verified": false,
+    "stake": 20,
+    "win": 0,
+    "balance_before": 100000,
+    "balance_after": 99980,
+    "steps": 1,
+    "issues": [
+      "PAYOUT_COUNT_MISMATCH"
+    ],
+    "local_demo": true
+  }
+}

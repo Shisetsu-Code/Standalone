@@ -1,0 +1,5667 @@
+[
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10gdchalleng",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "pur-0"
+      ],
+      "missing_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "normal",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/18",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbextreme",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/50",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbbnz1000",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/51",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5bb3reeler",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/52",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswaysbbb",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-feature-contracts.json",
+        "pointer": "/21",
+        "sha256": "8cc7c43e579802529933cd31f7b90792565b6e15ee9c99f55648cd96d2400df5"
+      },
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/53",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbbrlact",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/54",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbbonanza",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-feature-contracts.json",
+        "pointer": "/22",
+        "sha256": "8cc7c43e579802529933cd31f7b90792565b6e15ee9c99f55648cd96d2400df5"
+      },
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/55",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbsplxmas",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/57",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbbnz",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/59",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbfloats",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/60",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bhallbnza2",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/62",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bhallbnza",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/65",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswaysbbhas",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [
+        "pur-0",
+        "pur-1"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-0",
+        "pur-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/66",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbfmission",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/67",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbrttr",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "missing_modes": [
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-0"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/70",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bblotgl",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "missing_modes": [
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-0"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/71",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10txbigbass",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/72",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbdoubled",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/77",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbxext",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/76",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbhas",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "missing_modes": [
+        "pur-0",
+        "pur-1"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-0",
+        "pur-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/78",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bbkir",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/79",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bburger",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/80",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs12bbbxmas",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/83",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs12bbb",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-feature-contracts.json",
+        "pointer": "/23",
+        "sha256": "8cc7c43e579802529933cd31f7b90792565b6e15ee9c99f55648cd96d2400df5"
+      },
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/84",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs12bgrbspl",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "missing_modes": [
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-0"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/85",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs25bkofkngdm",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-feature-contracts.json",
+        "pointer": "/25",
+        "sha256": "8cc7c43e579802529933cd31f7b90792565b6e15ee9c99f55648cd96d2400df5"
+      },
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/coverage-inventory.json",
+        "pointer": "/93",
+        "sha256": "f31add27a2705781f739d3a8856f35a3a6b1ba30cc8966572f8597025d18d646"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20terrorv",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/20",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10bxmasbnza",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/33",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs12tropicana",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/39",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs40demonpots",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/60",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10ddcbells",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/67",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10dgold88",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/73",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5drhs",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/76",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10dkinghp",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/74",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10dyndigd",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "pur-0"
+      ],
+      "missing_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "normal",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/86",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20eking",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/90",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20ekingrr",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/101-200/coverage-inventory.json",
+        "pointer": "/92",
+        "sha256": "cd8288d2a7dc49bb5eae970bd963cd68a4eea6384c695f175821e7c174e45a02"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10eyestorm",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/3",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10fangfree",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/5",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10fisheye",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/22",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10floatdrg",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/24",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswaysfltdrg",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/25",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswaysfltdrgny",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [
+        "bl-1",
+        "pur-1"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-1",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/26",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10fdrasbf",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [
+        "bl-1",
+        "pur-1"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "pur-1",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/28",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10fdsnake",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/29",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10luckfort",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/201-300/coverage-inventory.json",
+        "pointer": "/74",
+        "sha256": "f4e9dbc7d8600d1f9406a4fcbcd7ed944f27137dc97571ea8d4d5c98537b1a51"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5hotbmult",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/10",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10hottb7fs",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/11",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5hotburn",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/12",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs40hotburnx",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/13",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20hburnhs",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/14",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10kingofdth",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/54",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20lampinf",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/59",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5littlegem",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/64",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20lobcrab",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/65",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20lobseafd",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "pur-1",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/66",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10luckcharm",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/74",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10mmm",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "pur-0"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/301-400/coverage-inventory.json",
+        "pointer": "/92",
+        "sha256": "dd6b17a35ce2c1bd68ecf37eee15f4c78c41e3bbb3f1806b423d1ec0fcd993f0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20mmmelon",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_round_still_pending",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/7",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10frontrun",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/32",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10noodles",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/34",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswaystonypzz",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/45",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vswayspizza",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bl-1",
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        },
+        {
+          "mode": "bl-1",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/55",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10returndead",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/81",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20rockvegas",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/401-500/coverage-inventory.json",
+        "pointer": "/87",
+        "sha256": "d751f4e767fe16e86ff64c8bb6cc98ef9502137800c69a60078000e5f559ed63"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10snakeeyes",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/501-600/coverage-inventory.json",
+        "pointer": "/11",
+        "sha256": "c7eae1d14d96a006e24e3145a29b5008499b4eff362414335d3f69ffa53782c8"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10snakeladd",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/501-600/coverage-inventory.json",
+        "pointer": "/12",
+        "sha256": "c7eae1d14d96a006e24e3145a29b5008499b4eff362414335d3f69ffa53782c8"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10spiritadv",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "pur-0"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/501-600/coverage-inventory.json",
+        "pointer": "/18",
+        "sha256": "c7eae1d14d96a006e24e3145a29b5008499b4eff362414335d3f69ffa53782c8"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10starpirate",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/501-600/coverage-inventory.json",
+        "pointer": "/20",
+        "sha256": "c7eae1d14d96a006e24e3145a29b5008499b4eff362414335d3f69ffa53782c8"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs10tictac",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal",
+        "pur-0"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        },
+        {
+          "mode": "pur-0",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/501-600/coverage-inventory.json",
+        "pointer": "/86",
+        "sha256": "c7eae1d14d96a006e24e3145a29b5008499b4eff362414335d3f69ffa53782c8"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5ultrab",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/601-660/coverage-inventory.json",
+        "pointer": "/6",
+        "sha256": "9c0547046b696de248650f4d5d569f1e09f8868994029126ac66dbe9d6b919a1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs5ultra",
+    "family_id": "pragmatic.action",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "normal"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "normal"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/601-660/coverage-inventory.json",
+        "pointer": "/8",
+        "sha256": "9c0547046b696de248650f4d5d569f1e09f8868994029126ac66dbe9d6b919a1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "reelkingdom",
+    "game_id": "vs20yotdk",
+    "family_id": "pragmatic.action",
+    "status": "classified",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "pur-2"
+      ],
+      "missing_modes": [
+        "bl-1",
+        "normal",
+        "pur-0",
+        "pur-1",
+        "pur-3"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "pur-2"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "normal",
+        "pur-0",
+        "pur-1",
+        "pur-3",
+        "bl-1"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_normal_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-0",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "pur-2",
+          "gaps": []
+        },
+        {
+          "mode": "pur-3",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "native_wallet_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        },
+        {
+          "mode": "bl-1",
+          "gaps": [
+            "native_initial_wallet_or_session_reset_missing",
+            "native_mode_selector_mismatch",
+            "no_matching_verified_native_round"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/batches/601-660/coverage-inventory.json",
+        "pointer": "/51",
+        "sha256": "9c0547046b696de248650f4d5d569f1e09f8868994029126ac66dbe9d6b919a1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "demo-dashboard/README.txt",
+        "pointer": "",
+        "sha256": "09efd3cd0f2ac986ef804c08a5bd0230f0470cfef4750a6b5cf7502cef8aec16"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1a3ee845f15e48bafd7fb2f59f5f0f6ad915e7627e8628df1ecb64554153844c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/reelkingdom-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "60691949b67efb1e8a9ee520f0d64ad8b0b15f76a1e14bb3bd83cfbf98fc5bfe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "pragmatic_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  }
+]

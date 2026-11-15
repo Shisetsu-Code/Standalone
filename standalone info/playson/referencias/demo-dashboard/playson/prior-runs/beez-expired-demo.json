@@ -1,0 +1,21 @@
+{
+  "provider": "Playson",
+  "fictional_demo_only": true,
+  "accepted_interrupted_rounds": [
+    {
+      "mode": "Buy:0",
+      "accepted": true,
+      "state": "open",
+      "cost_minor": 750,
+      "before_minor": 1099940,
+      "last_confirmed_credit_minor": 1099190,
+      "reason": "Demo session returned sessionlost before free continuation; accepted purchase not replayed. Read-only reconnect wallet reset recorded privately."
+    }
+  ],
+  "verified_modes_preserved": [
+    "Spin",
+    "Ante:1.5",
+    "Ante:5"
+  ],
+  "paid_entry_replays": 0
+}

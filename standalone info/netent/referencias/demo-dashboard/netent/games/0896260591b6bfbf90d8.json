@@ -1,0 +1,200 @@
+{
+  "game_id": "wild-turkey-megaways",
+  "title": "Wild Turkey™ Megaways™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.03",
+          "has_state": false
+        },
+        {
+          "path": "game.respin[0]",
+          "mode": "Respin",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "closed_state": true,
+        "ordinary_entry": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "9999.93",
+      "win": "0.03",
+      "currency": "EUR"
+    },
+    {
+      "name": "FreeSpins:101",
+      "kind": "special",
+      "mode": "FreeSpins:101",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "2.01",
+          "has_state": false
+        },
+        {
+          "path": "game.respin[0]",
+          "mode": "Respin",
+          "win_reference": "0.12",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[1]",
+          "mode": "Respin",
+          "win_reference": "0.05",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[2]",
+          "mode": "Respin",
+          "win_reference": "0.11",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3]",
+          "mode": "Respin",
+          "win_reference": "1.70",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[0]",
+          "mode": "FreeSpins",
+          "win_reference": "0.06",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[0].respin[0]",
+          "mode": "RespinFreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[1]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[2]",
+          "mode": "FreeSpins",
+          "win_reference": "0.20",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[2].respin[0]",
+          "mode": "RespinFreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[3]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[4]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[5]",
+          "mode": "FreeSpins",
+          "win_reference": "1.44",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[5].respin[0]",
+          "mode": "RespinFreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[6]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[7]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[8]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.respin[3].freeSpins[9]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_settled": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "50.00",
+      "cost": "5.000",
+      "before": "10000.00",
+      "debit": "9995.00",
+      "after": "9997.01",
+      "win": "2.01",
+      "currency": "EUR",
+      "native_mode_id": 101
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

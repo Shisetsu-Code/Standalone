@@ -1,0 +1,34 @@
+{
+  "game": "Pirots 5",
+  "variant": "boss",
+  "status": "completed",
+  "observed_http_status": 500,
+  "attempted_modes": [
+    "DEF",
+    "X01",
+    "X02",
+    "X03",
+    "X04",
+    "X05"
+  ],
+  "fresh_native_progress": {
+    "collected-tokens-temple": "0",
+    "collected-tokens-ship": "0",
+    "collected-tokens-nest": "0"
+  },
+  "official_client_condition": "get stateLocked(){return 9!==\nthis.tokens.size||m.globals.hasCollectedFinalToken}updateProgress(b){this.progress<b&&(this.pr",
+  "required_collected_tokens": 9,
+  "source_url": "https://static-stage.contentmedia.eu/pirots5/build-355983/game.js",
+  "source_sha256": "e94a13fe5d78c895a5a80baba3e41d8ae5e8cc3e5119db3117328f91cb9a1c8c",
+  "limitation": "These tests start from fresh demos. Boss needs persistent progression through temple, ship and nest; no state overrides or forced outcomes were used.",
+  "campaign": "61e0737f933b4da1878a664c7e6680a0",
+  "completed_modes": [
+    "DEF",
+    "X01",
+    "X02",
+    "X03",
+    "X04",
+    "X05"
+  ],
+  "completed": 1793204877.529495
+}

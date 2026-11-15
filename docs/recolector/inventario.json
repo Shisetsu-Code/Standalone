@@ -1,0 +1,467 @@
+[
+  {
+    "id": "pragmatic",
+    "name": "Pragmatic Play",
+    "path": "inventario/pragmatic.json",
+    "games": 660,
+    "modes": 1687,
+    "sha256": "1f4b83c6181d36961371bc7508ab8fabfd4930afafa8a424986e48085a3cc009",
+    "protocol": {
+      "family": "pragmatic.action",
+      "workspace_adapter": "collection_full_existing.py::pragmatic_complete",
+      "continuations": "na/bonus decision",
+      "closure": "native round and wallet"
+    }
+  },
+  {
+    "id": "endorphina",
+    "name": "Endorphina",
+    "path": "inventario/endorphina.json",
+    "games": 238,
+    "modes": 563,
+    "sha256": "e001656d06df7eef1601fe53821b3502e2769c1dc200d5d83dcdf853b94590be",
+    "protocol": {
+      "family": "endorphina.protobuf",
+      "workspace_adapter": "collection_worker.py::endorphina",
+      "continuations": "close_round native response",
+      "closure": "terminal protobuf and wallet"
+    }
+  },
+  {
+    "id": "hacksaw",
+    "name": "Hacksaw Gaming",
+    "path": "inventario/hacksaw.json",
+    "games": 142,
+    "modes": 744,
+    "sha256": "56009c99382717ffcbaac0b78f699890fc7c25a533e071ed63923a7a65a0e85b",
+    "protocol": {
+      "family": "hacksaw.play",
+      "workspace_adapter": "collection_worker.py::hacksaw",
+      "continuations": "nextRound/actions",
+      "closure": "round finished and balance"
+    }
+  },
+  {
+    "id": "nolimit",
+    "name": "Nolimit City",
+    "path": "inventario/nolimit.json",
+    "games": 141,
+    "modes": 1147,
+    "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a",
+    "protocol": {
+      "family": "nolimit.websocket",
+      "workspace_adapter": "collection_worker.py::nolimit",
+      "continuations": "native game state",
+      "closure": "round completed and wallet"
+    }
+  },
+  {
+    "id": "elk",
+    "name": "ELK Studios",
+    "path": "inventario/elk.json",
+    "games": 159,
+    "modes": 803,
+    "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf",
+    "protocol": {
+      "family": "elk.xiter",
+      "workspace_adapter": "collection_worker.py::elk",
+      "continuations": "native game state",
+      "closure": "native closed state and wallet"
+    }
+  },
+  {
+    "id": "playngo",
+    "name": "Play’n GO",
+    "path": "inventario/playngo.json",
+    "games": 476,
+    "modes": 493,
+    "sha256": "8cd2ef7fb6a409982334966b5bca578e3bf9b3ebfc2a4c1b5409d53206f2bbc9",
+    "protocol": {
+      "family": "playngo.xml",
+      "workspace_adapter": "collection_full_existing.py::playngo_complete",
+      "continuations": "game-specific XML commands",
+      "closure": "native settlement and wallet"
+    }
+  },
+  {
+    "id": "threeoaks",
+    "name": "3 Oaks Gaming",
+    "path": "inventario/threeoaks.json",
+    "games": 103,
+    "modes": 234,
+    "sha256": "4bf39678dd138073f80576b31cc44923f69e58ea72158d30dd98a3369018ad40",
+    "protocol": {
+      "family": "threeoaks.native",
+      "workspace_adapter": "collection_worker.py::threeoaks",
+      "continuations": "native continuation",
+      "closure": "settled response and wallet"
+    }
+  },
+  {
+    "id": "kagaming",
+    "name": "KA Gaming",
+    "path": "inventario/kagaming.json",
+    "games": 837,
+    "modes": 885,
+    "sha256": "38fc70a95e9eccf686094fe35834c309e67de1d70f68d3793af9be98985f9ce6",
+    "protocol": {
+      "family": "kaga.spin",
+      "workspace_adapter": "collection_full_existing.py::kagaming_complete",
+      "continuations": "native bonus commands",
+      "closure": "native cash and total win"
+    }
+  },
+  {
+    "id": "bgaming",
+    "name": "BGaming",
+    "path": "inventario/bgaming.json",
+    "games": 244,
+    "modes": 808,
+    "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796",
+    "protocol": {
+      "family": "bgaming.game-service",
+      "workspace_adapter": "collection_full_node.py::bgaming",
+      "continuations": "events/free or bonus",
+      "closure": "native response round and wallet"
+    }
+  },
+  {
+    "id": "kendoo",
+    "name": "Kendoo",
+    "path": "inventario/kendoo.json",
+    "games": 33,
+    "modes": 76,
+    "sha256": "8241b8ac2b24382500f4599298f2795273aee1553cae93aec90be29647c1776d",
+    "protocol": {
+      "family": "kendoo.state-actions",
+      "workspace_adapter": "collection_full_node.py::kendoo",
+      "continuations": "context.actions/current",
+      "closure": "round_finished and balance"
+    }
+  },
+  {
+    "id": "netent",
+    "name": "NetEnt",
+    "path": "inventario/netent.json",
+    "games": 233,
+    "modes": 440,
+    "sha256": "19f484cc6b4139e8cae26f363d53fac445ebc0fa2ed16508ab49481dbcc889ca",
+    "protocol": {
+      "family": "netent",
+      "workspace_adapter": "collection_full_node.py::netent",
+      "continuations": "bootstrap family and next action",
+      "closure": "family-specific settlement"
+    }
+  },
+  {
+    "id": "playson",
+    "name": "Playson",
+    "path": "inventario/playson.json",
+    "games": 114,
+    "modes": 242,
+    "sha256": "cb1c6298b4030626c43da2fe8bc997365ad4ddcf8e32b0471a242c3ed36fb287",
+    "protocol": {
+      "family": "playson.micro-packets",
+      "workspace_adapter": "collection_full_node.py::playson",
+      "continuations": "native command packets",
+      "closure": "idle plus cash/bonus ledger"
+    }
+  },
+  {
+    "id": "playtech",
+    "name": "Playtech",
+    "path": "inventario/playtech.json",
+    "games": 2033,
+    "modes": 3940,
+    "sha256": "91ded62df00b4ebf5617669ff5e6db94cbf2550348ca054af6e732e6dea30876",
+    "protocol": {
+      "family": "playtech",
+      "workspace_adapter": "collection_full_playtech.py::collect",
+      "continuations": "native engine phase/choice",
+      "closure": "native engine terminal and wallet"
+    }
+  },
+  {
+    "id": "peterandsons",
+    "name": "Peter & Sons",
+    "path": "inventario/peterandsons.json",
+    "games": 75,
+    "modes": 223,
+    "sha256": "22bfd7d7a4356eb225e264006fc6eab8d74dac9ab34ee767a0963d35f337c111",
+    "protocol": {
+      "family": "peterandsons.native",
+      "workspace_adapter": "collection_extra_chat4.py::collect",
+      "continuations": "native state/available actions",
+      "closure": "native final state and wallet"
+    }
+  },
+  {
+    "id": "rubyplay",
+    "name": "RubyPlay",
+    "path": "inventario/rubyplay.json",
+    "games": 180,
+    "modes": 262,
+    "sha256": "e143f1ea8d68e5a72e89c4bd84ce8b5bfb34b2a944461477c2c1723c543c1f20",
+    "protocol": {
+      "family": "rubyplay.native-binary",
+      "workspace_adapter": "collection_full_node.py::rubyplay",
+      "continuations": "phaseNext/native source plan",
+      "closure": "native round and funding ledger"
+    }
+  },
+  {
+    "id": "belatra",
+    "name": "Belatra",
+    "path": "inventario/belatra.json",
+    "games": 117,
+    "modes": 302,
+    "sha256": "2808fb1e8ffe4ee985f1804a39f7e0929239b41bdc4ba615458df93c7b50cbee",
+    "protocol": {
+      "family": "belatra.native-phase",
+      "workspace_adapter": "collection_full_node.py::belatra",
+      "continuations": "gs.phaseNext",
+      "closure": "native phase and wallet"
+    }
+  },
+  {
+    "id": "reelkingdom",
+    "name": "Reel Kingdom",
+    "path": "inventario/reelkingdom.json",
+    "games": 73,
+    "modes": 183,
+    "sha256": "547c0e8b84f464f39e1ff01e3d7fe40603a530a93e730a2f36be60d2cc933d70",
+    "protocol": {
+      "family": "pragmatic.action",
+      "workspace_adapter": "collection_full_existing.py::pragmatic_complete",
+      "continuations": "na/bonus decision",
+      "closure": "native round and wallet"
+    }
+  },
+  {
+    "id": "thunderspin",
+    "name": "ThunderSpin",
+    "path": "inventario/thunderspin.json",
+    "games": 61,
+    "modes": 84,
+    "sha256": "647c8d06973d10d3c923a833fb5396e9a0b71dd97e3ca082e10bea01718324da",
+    "protocol": {
+      "family": "thunderspin.native",
+      "workspace_adapter": "collection_extra_chat4.py::collect",
+      "continuations": "client campaign contract",
+      "closure": "native final state and wallet"
+    }
+  },
+  {
+    "id": "irondog",
+    "name": "Iron Dog Studio",
+    "path": "inventario/irondog.json",
+    "games": 141,
+    "modes": 379,
+    "sha256": "0ef87b41bc1efcd7584a8b5df0796eb2d3ebf29975b748a3369d0367784ebeca",
+    "protocol": {
+      "family": "irondog.morphic",
+      "workspace_adapter": "collection_full_misc.py::_irondog",
+      "continuations": "native engine continuation",
+      "closure": "settled; legacy cycle exceptions"
+    }
+  },
+  {
+    "id": "amusnet",
+    "name": "Amusnet",
+    "path": "inventario/amusnet.json",
+    "games": 468,
+    "modes": 763,
+    "sha256": "8561962efe7b77231bc31be018308bfae3f210f5e2c27e716b83b68c8ecb55a0",
+    "protocol": {
+      "family": "amusnet.gin",
+      "workspace_adapter": "collection_extra_misc.py::collect",
+      "continuations": "native option and bonus phase",
+      "closure": "round and wallet"
+    }
+  },
+  {
+    "id": "amigogaming",
+    "name": "Amigo Gaming",
+    "path": "inventario/amigogaming.json",
+    "games": 157,
+    "modes": 207,
+    "sha256": "6045577a6950fcc5caeb6c2a1491347d5e850ec0411b492245cd03ca1029dea2",
+    "protocol": {
+      "family": "amigo.native",
+      "workspace_adapter": "collection_extra_chat4.py::collect",
+      "continuations": "native free game",
+      "closure": "native final state and wallet"
+    }
+  },
+  {
+    "id": "ela-games",
+    "name": "Ela Games",
+    "path": "inventario/ela-games.json",
+    "games": 68,
+    "modes": 134,
+    "sha256": "f11706f4607f6b1c363cdeed042ab58b810eae3b441d0c02e3bdd517ec4216a4",
+    "protocol": {
+      "family": "ela.feature",
+      "workspace_adapter": "collection_full_existing.py::ela_complete",
+      "continuations": "native free/respins",
+      "closure": "native award and wallet"
+    }
+  },
+  {
+    "id": "smartsoft",
+    "name": "SmartSoft Gaming",
+    "path": "inventario/smartsoft.json",
+    "games": 41,
+    "modes": 66,
+    "sha256": "da64d230931a43f9376b61c3fb11ab1fc3eaa2689eafdc485b79098952831a23",
+    "protocol": {
+      "family": "smartsoft.options",
+      "workspace_adapter": "collection_full_misc.py::_smartsoft",
+      "continuations": "native option/state",
+      "closure": "native closure and wallet"
+    }
+  },
+  {
+    "id": "spinomenal",
+    "name": "Spinomenal",
+    "path": "inventario/spinomenal.json",
+    "games": 596,
+    "modes": 1581,
+    "sha256": "630a0c324d13a2ebd6de1fa4715b43fe9ff54e8bc6f5ef729cdb1f4fe39fcc89",
+    "protocol": {
+      "family": "spinomenal.process",
+      "workspace_adapter": "collection_full_misc.py::_spinomenal",
+      "continuations": "process/feature/choice",
+      "closure": "finished phase and balance ledger"
+    }
+  },
+  {
+    "id": "betsoft",
+    "name": "Betsoft",
+    "path": "inventario/betsoft.json",
+    "games": 219,
+    "modes": 574,
+    "sha256": "3ed40ca0902478e71524a13c9ec66346849ef5f975a601d65d63342f49309b1c",
+    "protocol": {
+      "family": "betsoft.command",
+      "workspace_adapter": "collection_full_misc.py::_betsoft",
+      "continuations": "native command/state",
+      "closure": "terminal award and balance"
+    }
+  },
+  {
+    "id": "redtiger",
+    "name": "Red Tiger",
+    "path": "inventario/redtiger.json",
+    "games": 361,
+    "modes": 610,
+    "sha256": "20096c599ea4dbd213fefa37ca66d2967b54e357515d88badca50a8a457fb895",
+    "protocol": {
+      "family": "redtiger.http",
+      "workspace_adapter": "collection_full_misc.py::_redtiger",
+      "continuations": "native mode/choice/finish",
+      "closure": "native round closed; wallet gap explicit"
+    }
+  },
+  {
+    "id": "1spin4win",
+    "name": "1spin4win",
+    "path": "inventario/1spin4win.json",
+    "games": 232,
+    "modes": 283,
+    "sha256": "10f41fc7e507f59ed3fa5d7dc3cb73129ccf9e6d2bc7b29af3f6783b4807e939",
+    "protocol": {
+      "family": "1spin4win.websocket",
+      "workspace_adapter": "collection_full_misc.py::_one_spin",
+      "continuations": "native selectors and continuation",
+      "closure": "terminal frame; wallet may be unavailable"
+    }
+  },
+  {
+    "id": "evoplay",
+    "name": "Evoplay",
+    "path": "inventario/evoplay.json",
+    "games": 258,
+    "modes": 1080,
+    "sha256": "2ff12594468f2373e5a482eec99027ac6d16fab1a333eee7d5f48e1440d3e30e",
+    "protocol": {
+      "family": "evoplay.fullstate",
+      "workspace_adapter": "collection_full_playtech.py::collect",
+      "continuations": "available_actions",
+      "closure": "idle plus native payout ledger"
+    }
+  },
+  {
+    "id": "egt-digital",
+    "name": "EGT Digital",
+    "path": "inventario/egt-digital.json",
+    "games": 231,
+    "modes": 331,
+    "sha256": "72fc0fc5cf24bf383bdb372796bfea99526c522b4fadc945e65ed194b13a1bee",
+    "protocol": {
+      "family": "egt.websocket",
+      "workspace_adapter": "collection_full_misc.py::_egt",
+      "continuations": "native variant state",
+      "closure": "terminal event and wallet"
+    }
+  },
+  {
+    "id": "habanero",
+    "name": "Habanero",
+    "path": "inventario/habanero.json",
+    "games": 205,
+    "modes": 315,
+    "sha256": "0d1a945bae4f8add14bde6bda0671324bed1e06c4c7ccc8f80f392f48ed7633c",
+    "protocol": {
+      "family": "habanero",
+      "workspace_adapter": "collection_full_existing.py::habanero_complete",
+      "continuations": "native pending state",
+      "closure": "closed and balance_ok"
+    }
+  },
+  {
+    "id": "mascot",
+    "name": "Mascot Gaming",
+    "path": "inventario/mascot.json",
+    "games": 171,
+    "modes": 211,
+    "sha256": "bdca432fe788a260e81a29d3f6df07a5b3e1687abec83758f720540917595510",
+    "protocol": null
+  },
+  {
+    "id": "yggdrasil",
+    "name": "Yggdrasil",
+    "path": "inventario/yggdrasil.json",
+    "games": 138,
+    "modes": 301,
+    "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3",
+    "protocol": null
+  },
+  {
+    "id": "microgaming",
+    "name": "Microgaming",
+    "path": "inventario/microgaming.json",
+    "games": 147,
+    "modes": 49,
+    "sha256": "a97b053c4ecc7179824a8652d3c61dca3f6f43e016233e7fbb6a2e136b23d53d",
+    "protocol": null
+  },
+  {
+    "id": "gamesglobal",
+    "name": "Games Global",
+    "path": "inventario/gamesglobal.json",
+    "games": 81,
+    "modes": 0,
+    "sha256": "5a3a10adffe008be64f0f446b41d51f1ed62d2a0c262f47c2811002d2fae3ee7",
+    "protocol": null
+  },
+  {
+    "id": "hardfire-kalamba",
+    "name": "Kalamba",
+    "path": "inventario/hardfire-kalamba.json",
+    "games": 441,
+    "modes": 66,
+    "sha256": "f640e875091e738f227f17a1087b97b68fd23f558271d2f493ff1097d287e089",
+    "protocol": null
+  }
+]

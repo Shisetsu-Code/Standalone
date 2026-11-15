@@ -1,0 +1,27 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Hacksaw · Detalle de ronda</title>
+<style>body{font:16px system-ui;background:#101827;color:#e2e8f0;max-width:1150px;margin:32px auto;padding:0 24px}a{color:#7dd3fc}nav{margin:22px 0}.stats{display:flex;gap:16px;flex-wrap:wrap}.card{background:#1e293b;padding:20px;border-radius:12px;flex:1}strong{display:block;font-size:26px;color:#6ee7b7}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:12px;border-bottom:1px solid #334155;vertical-align:top}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}</style>
+<nav><a href="../providers.html">Proveedores</a> · <a id="batchlink">Volver al lote</a></nav><h1 id="title">Cargando ronda…</h1><p id="state"></p><div class="stats" id="stats"></div><p>Importes en unidades nativas de la API. Cada evento del bono queda separado dentro de su ronda; el coste se descuenta una sola vez por entrada.</p><table><thead><tr><th>Paso</th><th>Acción / evento</th><th>Detalle</th><th>Mensajes nativos</th></tr></thead><tbody id="steps"></tbody></table>
+<script>
+'use strict';const query=new URLSearchParams(location.search),batch=query.get('batch')||'1-100',key=query.get('case');
+function node(tag,text){const n=document.createElement(tag);n.textContent=text;return n}
+async function main(){
+ if(!/^[1-9][0-9]*-[1-9][0-9]*$/.test(batch)||!/^\d+--(?:normal|buy-\d+|mode-extreme)(?:--choice-\d+)?$/.test(key||''))throw Error('Registro inválido');
+ document.getElementById('batchlink').href='batches/'+batch+'/index.html';
+ const response=await fetch('batches/'+batch+'/traces/'+key+'.json');if(!response.ok)throw Error('Registro no disponible');
+ const packet=await response.json(),r=packet.summary;
+ document.getElementById('title').textContent=r.name;
+ document.getElementById('state').textContent=key+' · '+(r.status==='completed'?'Cerrada':'Revisar')+' · '+(r.wallet_check==='match'?'Saldo conciliado':r.reason||'Pendiente')+(r.base_mode?' · Modo '+r.base_mode:'');
+ for(const [label,value] of [['Saldo inicial',r.balance_before],['Coste de entrada',r.cost],['Premio total',r.win],['Saldo final',r.balance_after]]){const card=node('div');card.className='card';card.append(node('strong',value??'Pendiente'),node('span',label));document.getElementById('stats').append(card)}
+ let number=0;
+ for(const step of packet.trace){
+  const tr=node('tr'),request=step.request||{},data=step.response||{},round=data.round||{};
+  const label=step.endpoint.endsWith('/authenticate')?'Abrir sesión demo':step.endpoint.endsWith('/partnerSettings')?'Configuración':request.bets?(request.bets[0].buyBonus?'Compra / activador':r.base_mode?'Modo '+r.base_mode:'Tirada normal'):'Continuación / cobro';
+  tr.append(node('td',++number),node('td',label),node('td',request.continueInstructions?.action||request.bets?.[0]?.buyBonus||step.endpoint));
+  const cell=node('td'),details=node('details');details.append(node('summary','Solicitud y respuesta'),node('pre',JSON.stringify(step,null,2)));cell.append(details);tr.append(cell);document.getElementById('steps').append(tr);
+  for(const [i,event] of (round.events||[]).entries()){
+   const row=node('tr');row.append(node('td',number+'.'+(i+1)),node('td',event.etn||'Evento'),node('td','Premio: '+(event.wa||'0')+' · Acumulado: '+(event.awa||'0')));
+   const c=node('td'),d=node('details');d.append(node('summary','Datos del evento'),node('pre',JSON.stringify(event,null,2)));c.append(d);row.append(c);document.getElementById('steps').append(row);
+  }
+ }
+}main().catch(e=>{document.getElementById('state').textContent=e.message});
+</script></html>

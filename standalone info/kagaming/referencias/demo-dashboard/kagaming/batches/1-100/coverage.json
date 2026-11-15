@@ -1,0 +1,1088 @@
+{
+  "provider": "kagaming",
+  "batch": "1-100",
+  "completed_at_utc": "2026-10-29T18:19:47.567359+00:00",
+  "catalog_entries": 100,
+  "eligible_games": 92,
+  "excluded_games": [
+    "GoldenDragon",
+    "JungleWar",
+    "FourDragonKings",
+    "Genie",
+    "MermaidWorld",
+    "GiantFishHunter",
+    "MythicalAdventure",
+    "PoseidonSecret2"
+  ],
+  "verified_cases": 281,
+  "mode_counts": {
+    "normal": 92,
+    "ante": 8,
+    "buy": 12,
+    "variant": 169
+  },
+  "missing_cases": [],
+  "unexpected_cases": [],
+  "deferred_games": [],
+  "legacy_mode_keys_bound_by_expected_filename_and_native_audit": [
+    "BonusMania-normal.json",
+    "GoldenBull-ante-1.json",
+    "GoldenBull-ante-2.json",
+    "GoldenBull-ante-3.json",
+    "GoldenBull-ante-4.json",
+    "GoldenBull-normal.json",
+    "HotCoin-normal.json",
+    "Luck88-normal.json",
+    "SuperEnergy-normal.json",
+    "Treasurebowl-normal.json"
+  ],
+  "audit_passed": true,
+  "scope": "Una entrada normal y cada opcion no normal identificada. Las decisiones internas se recorren cuando aparecen; no equivale a todas las combinaciones aleatorias.",
+  "native_steps_recorded": 475,
+  "native_recovery_cases": [
+    "FrenchRoulette-roulette-58"
+  ],
+  "cadence_current_phase": {
+    "games": 63,
+    "minimum_interval_seconds": 120,
+    "observed_minimum_start_gap_seconds": 128.79455971717834
+  },
+  "games": [
+    {
+      "game": "BonusMania",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "GoldenBull",
+      "verified_modes": [
+        "normal",
+        "ante-1",
+        "ante-2",
+        "ante-3",
+        "ante-4"
+      ]
+    },
+    {
+      "game": "HotCoin",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "SuperEnergy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Treasurebowl",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Luck88",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "HotCoinBF",
+      "verified_modes": [
+        "normal",
+        "buy-atb-1",
+        "buy-atb-2",
+        "buy-atb-3",
+        "buy-atb-4",
+        "buy-atb-5",
+        "buy-atb-6",
+        "buy-atb-7",
+        "buy-atb-8",
+        "buy-atb-9"
+      ]
+    },
+    {
+      "game": "KickCashMonkey2",
+      "verified_modes": [
+        "normal",
+        "buy-1"
+      ]
+    },
+    {
+      "game": "BlazingBuffalo",
+      "verified_modes": [
+        "normal",
+        "ante-1",
+        "ante-2",
+        "ante-3",
+        "ante-4"
+      ]
+    },
+    {
+      "game": "GoldenBeansScratch",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Shopping",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "AlienDairy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "AstroPets",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DayOfTheDead",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FortuneSkyLanterns",
+      "verified_modes": [
+        "normal",
+        "lantern-2",
+        "lantern-3",
+        "lantern-4",
+        "lantern-5",
+        "lantern-6",
+        "lantern-7",
+        "lantern-8",
+        "lantern-9",
+        "lantern-10"
+      ]
+    },
+    {
+      "game": "JadeQuest",
+      "verified_modes": [
+        "normal",
+        "buy-1"
+      ]
+    },
+    {
+      "game": "MidnightDeparture",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Sleepy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "TombHeroes",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "PufferSwimming",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "MayanCivilization",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FrenchRoulette",
+      "verified_modes": [
+        "normal",
+        "roulette-1",
+        "roulette-2",
+        "roulette-3",
+        "roulette-4",
+        "roulette-5",
+        "roulette-6",
+        "roulette-7",
+        "roulette-8",
+        "roulette-9",
+        "roulette-10",
+        "roulette-11",
+        "roulette-12",
+        "roulette-13",
+        "roulette-14",
+        "roulette-15",
+        "roulette-16",
+        "roulette-17",
+        "roulette-18",
+        "roulette-19",
+        "roulette-20",
+        "roulette-21",
+        "roulette-22",
+        "roulette-23",
+        "roulette-24",
+        "roulette-25",
+        "roulette-26",
+        "roulette-27",
+        "roulette-28",
+        "roulette-29",
+        "roulette-30",
+        "roulette-31",
+        "roulette-32",
+        "roulette-33",
+        "roulette-34",
+        "roulette-35",
+        "roulette-36",
+        "roulette-37",
+        "roulette-38",
+        "roulette-39",
+        "roulette-40",
+        "roulette-41",
+        "roulette-42",
+        "roulette-43",
+        "roulette-44",
+        "roulette-45",
+        "roulette-46",
+        "roulette-47",
+        "roulette-48",
+        "roulette-49",
+        "roulette-50",
+        "roulette-51",
+        "roulette-52",
+        "roulette-53",
+        "roulette-54",
+        "roulette-55",
+        "roulette-56",
+        "roulette-57",
+        "roulette-58",
+        "roulette-59",
+        "roulette-60",
+        "roulette-61",
+        "roulette-62",
+        "roulette-63",
+        "roulette-64",
+        "roulette-65",
+        "roulette-66",
+        "roulette-67",
+        "roulette-68",
+        "roulette-69",
+        "roulette-70",
+        "roulette-71",
+        "roulette-72",
+        "roulette-73",
+        "roulette-74",
+        "roulette-75",
+        "roulette-76",
+        "roulette-77",
+        "roulette-78",
+        "roulette-79",
+        "roulette-80",
+        "roulette-81",
+        "roulette-82",
+        "roulette-83",
+        "roulette-84",
+        "roulette-85",
+        "roulette-86",
+        "roulette-87",
+        "roulette-88",
+        "roulette-89",
+        "roulette-90",
+        "roulette-91",
+        "roulette-92",
+        "roulette-93",
+        "roulette-94",
+        "roulette-95",
+        "roulette-96",
+        "roulette-97",
+        "roulette-98",
+        "roulette-99",
+        "roulette-100",
+        "roulette-101",
+        "roulette-102",
+        "roulette-103",
+        "roulette-104",
+        "roulette-105",
+        "roulette-106",
+        "roulette-107",
+        "roulette-108",
+        "roulette-109",
+        "roulette-110",
+        "roulette-111",
+        "roulette-112",
+        "roulette-113",
+        "roulette-114",
+        "roulette-115",
+        "roulette-116",
+        "roulette-117",
+        "roulette-118",
+        "roulette-119",
+        "roulette-120",
+        "roulette-121",
+        "roulette-122",
+        "roulette-123",
+        "roulette-124",
+        "roulette-125",
+        "roulette-126",
+        "roulette-127",
+        "roulette-128",
+        "roulette-129",
+        "roulette-130",
+        "roulette-131",
+        "roulette-132",
+        "roulette-133",
+        "roulette-134",
+        "roulette-135",
+        "roulette-136",
+        "roulette-137",
+        "roulette-138",
+        "roulette-139",
+        "roulette-140",
+        "roulette-141",
+        "roulette-142",
+        "roulette-143",
+        "roulette-144",
+        "roulette-145",
+        "roulette-146",
+        "roulette-147",
+        "roulette-148",
+        "roulette-149",
+        "roulette-150",
+        "roulette-151",
+        "roulette-152",
+        "roulette-153",
+        "roulette-154",
+        "roulette-155",
+        "roulette-156",
+        "racetrack-37",
+        "racetrack-38",
+        "racetrack-39",
+        "racetrack-40"
+      ]
+    },
+    {
+      "game": "PartyGirlDeluxe",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BombingFruit",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Dracula",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "TrickOrTreat",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WildernessCowboy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "RedBoy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "RockParrot",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Crazy777",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Ecstasy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Jingwei",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DesertIslandAdventure",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "GoldRush",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "LegendOfAthena",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DetectiveDee",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "ToroAmigo",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FantasyWar",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "RedSorghum",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FluffyBuddy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FourScholars",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "GridironClash",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WitchAcademy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "ShaolinLegend",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "ChristmasCandy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "CrazyCircus",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Area51",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "NightOnTheNile",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "SilkRoad",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "SanctuaryOfDarkness",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "XmasWishes",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BaseballFever",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Speakeasy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "VeggiesPlot",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Fantasy777",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "HomeRunDerby",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FastBlast",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "EasterEggParty",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FruitParty",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "JumpingFatGuy",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WildJungle",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "CarnivalBeauty",
+      "verified_modes": [
+        "normal",
+        "buy-1"
+      ]
+    },
+    {
+      "game": "MouseOnThePrairie",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "GachaGacha",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Firefighters",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "KingOfDragon",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "GokudoBentou",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FightingGirls",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Submariner",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "TheMasterCat",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "PhantomThief",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BoxingRoo",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "SNS",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BeautifulLady",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DumbHero",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FantasyCircus",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Neanderthals",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "FortuneFunland",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "TaiChi",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WalkingOz",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Shennong",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WindLionGod",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WenDing",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "WrestlingQueen",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BonusPoker",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "BoomX",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "MoleMoney",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "TowerofBabel",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DrMad",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "LuckysMillionsScratch",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "Pinocchio",
+      "verified_modes": [
+        "normal"
+      ]
+    },
+    {
+      "game": "DaGuanYuan",
+      "verified_modes": [
+        "normal"
+      ]
+    }
+  ],
+  "case_hashes": {
+    "AlienDairy-normal.json": "752bdfec0d476a3df19c87341fa570b8d3f95db22dc50e7693be53b73d6255dc",
+    "Area51-normal.json": "7549c42f0de563d9a0f7d16a1563fd655b988b6459cb9b280eebbfecf8a3787d",
+    "AstroPets-normal.json": "7e21e3b25dd52e8db6cbdd8a5a503e783ca618fa245ac2524898c9ad50b0c63b",
+    "BaseballFever-normal.json": "5ebbec13f446be3ece2ff5da63aaf97118b6d2e9c43a8f25afb95d6973b9c471",
+    "BeautifulLady-normal.json": "702da0b52bc36fab1059ad44582d3f6e87e8dc634a2081ab6a02fa54b646ae30",
+    "BlazingBuffalo-ante-1.json": "cf6cb73c6f58cc927e4dad666a72b31c269058fc6cbf8f5d720b2256350ada7c",
+    "BlazingBuffalo-ante-2.json": "4b9c561102f27ef4503df8b9d48abd5dcceb9a727c3d2b05e785069eadeeec6b",
+    "BlazingBuffalo-ante-3.json": "6fa6525068dcf26b6fad7e8538b5d9d719fea4988b06773041978264fb3eca24",
+    "BlazingBuffalo-ante-4.json": "4f6a8e1d6e1819f99c0760826a4738e5f5631ddec55c33be792ddc14a48c565f",
+    "BlazingBuffalo-normal.json": "d95072b90874dba75e1b40b700454ffc5284492ad7eca6721a8f85b865ee6bc3",
+    "BombingFruit-normal.json": "6ddef5ff27090fab787961b4644ebfa4df9103c5432121172c530db8638b38aa",
+    "BonusMania-normal.json": "2b11360b66322f8f820eea611c30c254dca41075cec2eae93b2bbae4d74e9907",
+    "BonusPoker-normal.json": "25f7106c54fb3f60f9fd67ae77b395a3234279791727275709a385e03a311207",
+    "BoomX-normal.json": "4767846628f640503a7e1ba9e097c399571c2e829780a3b00ec66e4016009572",
+    "BoxingRoo-normal.json": "80c6a39dd64b05ef772b827b9e31999f38ffda1553a499dcb08df3a93a5f3f7d",
+    "CarnivalBeauty-buy-1.json": "1c578900006a3dfd4261fd176553e3e008c3b2b83102b4c8c0f111e1fd909f36",
+    "CarnivalBeauty-normal.json": "1170772eb2cb1a843dd1ac72781a41846c1618665a0bf5f5206178360b9962ea",
+    "ChristmasCandy-normal.json": "ee578d265a99ac6d131bac4edcd27f2b15b08661d92dd26416b527dc8d471aa4",
+    "Crazy777-normal.json": "943a4d4d8844ec57cddf428e6c981621c739d9e6233052dcfcd0f1d087aa8464",
+    "CrazyCircus-normal.json": "5598254fd1f2b7f5c6e636bbe078b58c6a7a96ab74fbb95ccd24bf0528261b93",
+    "DaGuanYuan-normal.json": "664cc30769d5aeafa79bd5b1c523eb5ccf43306e9eb4774000c0dcd34700ea57",
+    "DayOfTheDead-normal.json": "2b8ed7849f6d8ef293781926ee511f583e33fc3b90a22f95f5b2d89c77a39e32",
+    "DesertIslandAdventure-normal.json": "b18a5803667607322c4f56bab82b0e2e39c3c41f47786fe5110cf5a6c9070060",
+    "DetectiveDee-normal.json": "d3132da04722c1161481aceedc33074186a8e0a902b8a90c9734b6ea6de6ba5d",
+    "Dracula-normal.json": "4e43ad86044fb1853f2f28a5a3d9eeb0a71745ead0b91abfc69a69b1764dd6a1",
+    "DrMad-normal.json": "e2cef2e9222a0102f579866bc237f609e31151d13c8118bde22a569800192a66",
+    "DumbHero-normal.json": "fd773114633fc0551658b565f9d13fd212bcc554df20457174dc1f4aace6d844",
+    "EasterEggParty-normal.json": "bdfb2690f66d6a0ccfe9f3745737d7c2556591fc8e723b8e6daa672230d9b8f8",
+    "Ecstasy-normal.json": "d5f2996b32f435b1d4c1cdf092cc75aa8bbb96117d8a6ea7c1aed173a9e95be8",
+    "Fantasy777-normal.json": "d6039049782ceebc58ee03b60a500f02ca6c0006054ffc940a3c00c829115daf",
+    "FantasyCircus-normal.json": "07297254c3d030a761dcf732da5c9ab234272a752b1295869c2db521db422dad",
+    "FantasyWar-normal.json": "d24fb6cda6537434a77afef75423c31b797acdcdd36238089b1ba36a695b4a7d",
+    "FastBlast-normal.json": "cf4776d9dce5c9eaeaac15a500411ea5980db01ba111e804cf414080cbb23d0f",
+    "FightingGirls-normal.json": "f84a624e1fe8567e4b8e343481f88116bc9bd4cd8276071c0b6f79a3e894afe4",
+    "Firefighters-normal.json": "9eeaa76e35926f596e2c427afc9a5ed4c60409cbb11771655dada676c076cba1",
+    "FluffyBuddy-normal.json": "e5f082cb17ff36ceab106a4b9abd2ce6cb8cc337af37b08050e660c71bd1a5fe",
+    "FortuneFunland-normal.json": "1c80b8f2a8a33383c1b0b6a482d9fa1e1495a9de9571e024545c5a26e74dedd7",
+    "FortuneSkyLanterns-lantern-10.json": "062e7e5976fc73b024ea310be79d8aa79d67eb002eb69682c815c86de702dd0b",
+    "FortuneSkyLanterns-lantern-2.json": "936095d509e06d6fb94a4b0787d924559632ef39dd52166d06d7d9be88829480",
+    "FortuneSkyLanterns-lantern-3.json": "43945e27e6eab51225dc2b83d22182a8310cff2b3360cc7a75520b2c4d82f18e",
+    "FortuneSkyLanterns-lantern-4.json": "a0fffbfb4ef2ac74fbda913fd76d850b8bf787d92bf67517210c056008c1311c",
+    "FortuneSkyLanterns-lantern-5.json": "d340d93e35076e1b06f11fc202006275517a2e886a3568cf0e84b74246a02322",
+    "FortuneSkyLanterns-lantern-6.json": "6fe09b7e0abbe6acb5e31320ee98cf48a59f5f4af8e194572ccc7ce52ea752e2",
+    "FortuneSkyLanterns-lantern-7.json": "e9cea4227007192a250731700f318e959949041428aaec4c5b6cf91da962c528",
+    "FortuneSkyLanterns-lantern-8.json": "9dcc1f754159116f4a1dcb71f9adaed96ee1f15163f6f17ee1be6007f01e0138",
+    "FortuneSkyLanterns-lantern-9.json": "3f0aa5865ce34eb12d0f9e51ce4c26a31a587b5567e09f25bfc1c889d121c6d9",
+    "FortuneSkyLanterns-normal.json": "d695698c5f0bd501ba5ca996dbd413ce5267f77a8038cd33929e13cea8bc1c76",
+    "FourScholars-normal.json": "d831f7f77f0a9c0ab0a3e8460410eea67a89645793d5c5e4b0815e594d0fb233",
+    "FrenchRoulette-normal.json": "cb9f0aff6e722d0a96db83e16704a5b0f2752553de84744d6c4d45b48b913f2c",
+    "FrenchRoulette-racetrack-37.json": "0a63e4dc5577c553abe4d045cc61b7eb7dc2ad1396b242ffb908d7a87998a92f",
+    "FrenchRoulette-racetrack-38.json": "486c1c60f8bf57bdf06d21cb05274ca45f3157ef7bd9e9245fcc86aa555b7cb5",
+    "FrenchRoulette-racetrack-39.json": "a92ca22ff120ea25f42ee2a112fb643d410686c8acd756b66b7d7f6c8d3eb8b4",
+    "FrenchRoulette-racetrack-40.json": "305337d674ec6c578957dcad346fd7110ac06c4441a44193712858935c372352",
+    "FrenchRoulette-roulette-1.json": "df197721facb20966ca341893c9bfa9f09d854bf8c0fd63b442c3ca13fdb8a85",
+    "FrenchRoulette-roulette-10.json": "a9e8752f69430beedc46020260786d5718860b12c1973f6cf6609d5125f9d8f4",
+    "FrenchRoulette-roulette-100.json": "c137a386707f68bc7791a87c7f6aafaa6e9b69b760486592a2f3ca12d18d8cf7",
+    "FrenchRoulette-roulette-101.json": "355a8e7949d10ebd80876b0074506ae18846a62ef513ae9a728ea6cccab2b7f5",
+    "FrenchRoulette-roulette-102.json": "054ade62f16404f6e32ec804f0a5d6794cbb91dab0b56753eed244654413d0eb",
+    "FrenchRoulette-roulette-103.json": "2278311b0731d5f13ec7c16e690c951e6d160d555767706c0554f18aa1499529",
+    "FrenchRoulette-roulette-104.json": "7f41e320a4dcf19801d914f3688d4bd7c6c24c03b6a6835a1289823f525b2897",
+    "FrenchRoulette-roulette-105.json": "b3eb8b2ed072447fe793db135d97bef4e12076751636d9b54e10efffba5309ce",
+    "FrenchRoulette-roulette-106.json": "d00757adaf9413db1b8291a430f59fe76e646aba6cab60beeba9a1dbdb7a25a7",
+    "FrenchRoulette-roulette-107.json": "3462d13fa11c54393e678c5a9c661ab11d157894575ecb204015eb9a517e97de",
+    "FrenchRoulette-roulette-108.json": "01364bd803a2b21a767269929f80c00c98b269a5edc54ab3ae18e4a23f0ce76e",
+    "FrenchRoulette-roulette-109.json": "8a98c13bd967ab0c7a94d0f1ace9d915c04751b0b707b849ffed19a28d9d3e78",
+    "FrenchRoulette-roulette-11.json": "0e1e1860f7785644f7c7a063d3bb08b98366d367e653d36552d907262b07ccac",
+    "FrenchRoulette-roulette-110.json": "75cbc66b592e1567d5cedb8ec944a7bd58cf66dab5ecd8ea424c52876e130d15",
+    "FrenchRoulette-roulette-111.json": "985d97c850925984093cb864e036402fabcc4ba4663180a2d802da59293437ea",
+    "FrenchRoulette-roulette-112.json": "2fc57eeec78b1d997978f67e4e15ab595a65158255318a36fdbf4f2b1b37540e",
+    "FrenchRoulette-roulette-113.json": "f651487ff47e8fb867ff321b245aa3781049896c5cbd83e81d754e9389287b56",
+    "FrenchRoulette-roulette-114.json": "256dd2a6026d223e25ad47a1ec3ac05a0978746539515b0b8557f6c0e86016be",
+    "FrenchRoulette-roulette-115.json": "fa31e516dfe413ca427c7d432953fbf31e9b81071afa45e56788253274d9e5f7",
+    "FrenchRoulette-roulette-116.json": "d51bc4125c8cf4322a212bab80b9d6cc179b41ae36e12f85ebd38bf31d37ec34",
+    "FrenchRoulette-roulette-117.json": "801d7d75f6baa0e7b80314de8708042a778962c0d5ab5d1930a572fbd91bad68",
+    "FrenchRoulette-roulette-118.json": "03be656c13a919f2f7870fe5c55f5655aea55423ae55e7c98523a892ea62bf97",
+    "FrenchRoulette-roulette-119.json": "6ebd9ecc10b65cce74f476743acfce1a55b4381d7a07c27308074bdfa91e4de9",
+    "FrenchRoulette-roulette-12.json": "6a417ad60469d8bdf0f6f16b132a9e1eb42a5b030b9e497027e33d348a22581b",
+    "FrenchRoulette-roulette-120.json": "5563f354255a319ab5da3617ec5dfb50e840b65985e93a0aef35ac3e82450f4d",
+    "FrenchRoulette-roulette-121.json": "c0fe82c2bccdec340c930d731e540104e15c8f4ab5476d68d1712f5061d4a744",
+    "FrenchRoulette-roulette-122.json": "13887c4fcbe5d71472baa6ba9c5c1fd02b6952b1a0c1a748d16b24a348bde2c7",
+    "FrenchRoulette-roulette-123.json": "9448bf28b2dccc0030ba9add37d5efb1b43facf0beeae82d281f1e364881f4c3",
+    "FrenchRoulette-roulette-124.json": "baa925ddb7b30f47494184f6ed00e04d131ad42a89bd2d1381ffb5bc874376f8",
+    "FrenchRoulette-roulette-125.json": "4268d3846ea34be96baf9d06561ae4f05a955f0f4504cb697373f517c6025402",
+    "FrenchRoulette-roulette-126.json": "447eb43d3409dba6c6952d6cd06f30d7161ce0d2974556f64e66987554906261",
+    "FrenchRoulette-roulette-127.json": "3e1d2ecd6cb9a5dae04b72ca12188d80eba35df8c71e6927e4f306c2a7dc3f07",
+    "FrenchRoulette-roulette-128.json": "b0627e0902bd32eb95754711a62aee70a6e7996d8089ac8c63ab4da5a441741a",
+    "FrenchRoulette-roulette-129.json": "69f5d4f3f5689ded00869774a376aefd2b6367a128a110ad2c616644ae3057bb",
+    "FrenchRoulette-roulette-13.json": "963fdf27d1a7bad16a1275afafa1c04397c0d073fa67553e313adcda19df0013",
+    "FrenchRoulette-roulette-130.json": "fea2858368599a01645e4fb7da058ebea58bdfa9c7a45b7bf363b4f7d1b01a65",
+    "FrenchRoulette-roulette-131.json": "7a413bbae5e20be2a0b71cbaf6ebc38f4b24710bd3b46cb67d4ea35f67b15cd0",
+    "FrenchRoulette-roulette-132.json": "e558c6f8763bb4cdaaf117fad8076b7d223ecb440b876d44ea01d3d2395beb84",
+    "FrenchRoulette-roulette-133.json": "1b956fa6c7981f77f17a6c709c37fc0518d3bd2bc2f1a5c342aedc6cb5ad81e0",
+    "FrenchRoulette-roulette-134.json": "479405ea4cce37740a709951bb28378ae4f5cdab03c19f05019950bf89ec4aed",
+    "FrenchRoulette-roulette-135.json": "88843bedac5e095685dc61b787ef6c5927a26918c2fbbd7f7a75f51d2aef44a0",
+    "FrenchRoulette-roulette-136.json": "4055fdd4b0609057c7dba018e528431a80937ca66bd8055290476d288284ca97",
+    "FrenchRoulette-roulette-137.json": "e212da23d26ab309a078a3c089346bdd10d0e5468af77d1007f61c4dbe85fe9a",
+    "FrenchRoulette-roulette-138.json": "e857515d612a33cee648eaa6d4ad12186571ebaa7d1b2b4b95b2dc39aef70411",
+    "FrenchRoulette-roulette-139.json": "323ed61b5dce6a3150e4072955155f22f910556f9634da47e047595c8dbd21d3",
+    "FrenchRoulette-roulette-14.json": "52eff30056f2b6cffd5af2ef94e37109beb11a3db1e23cc479210c7e7e4e0d1b",
+    "FrenchRoulette-roulette-140.json": "a801649198bcdf4039f69404706fba9b384a99de9de9e26d3e6aba4c33bc8f3d",
+    "FrenchRoulette-roulette-141.json": "37385f118e6e9dde345533d145d9aef04862253277400f2a4fa48fea5d102a1e",
+    "FrenchRoulette-roulette-142.json": "e47504d4d3a79889816b2676af27449d0c390fae212656259f630a0d0bf0a471",
+    "FrenchRoulette-roulette-143.json": "6e562853aa3beabbe83460b0de38ca557470c84297c61d2c120a04cfe3512d92",
+    "FrenchRoulette-roulette-144.json": "269dbab5406703e1c644245e23a47fab4724fa7cae7bd0536aa44f5faa49949e",
+    "FrenchRoulette-roulette-145.json": "a8d67b488f46f8ba738c01ec8bd008219d32c6ed80869faf5595f34d100adcfb",
+    "FrenchRoulette-roulette-146.json": "22d6138185a96b75515fdd8d91ad60de1db87ea0b85d9f91cfea455be7314d9e",
+    "FrenchRoulette-roulette-147.json": "bef1e3962bf46a2ac12fb4bc7e73e079723b2e702d2f771ef33390ee4f36e601",
+    "FrenchRoulette-roulette-148.json": "f60eb04882dc9fdec2fec3de1990f57e26d9ae7a9d0fead3b4a8393602c781b3",
+    "FrenchRoulette-roulette-149.json": "151520f27a02be97acbad47bbd1b5f19c8b6bbb0fe4a30d9c61dec5b28e5e6d2",
+    "FrenchRoulette-roulette-15.json": "e183efe5239030b2b9a41c1e48e29e785fd8e1cb5b50872c1c7bbef1ff3bca06",
+    "FrenchRoulette-roulette-150.json": "1495d689d7427607b7abb25c393c4fa666dd306719f24bdacb29d635d39c0ede",
+    "FrenchRoulette-roulette-151.json": "4bcc3f801b20fea7829e63667aa903742c47f7a33d53a9d9b1b6447b5abc342b",
+    "FrenchRoulette-roulette-152.json": "6319fac27190b1e7940061a682e97d990cda9751b7ac4a5e3865279d91462ec9",
+    "FrenchRoulette-roulette-153.json": "9e3ea69b87aef23d596dfefd5aa60ea2e405c023adbf24ca076b76f7d2cb7ae1",
+    "FrenchRoulette-roulette-154.json": "1d6bcb7d739fa7eaca1fdec2986845e517925ed873584f0765cc5ec5a5aca766",
+    "FrenchRoulette-roulette-155.json": "10ba1ebff1ba26cd6cb3838ae09355f94ead1c4b18105292d7b33a906a80c0cf",
+    "FrenchRoulette-roulette-156.json": "927bb0f18c3e59aa4c9769d57b60acd31f06c7ce52784109c5976f32f4e4bf86",
+    "FrenchRoulette-roulette-16.json": "ed65eec37335e6da814e0f924084716aa1118b26c42e7803af6320eb53b1f0df",
+    "FrenchRoulette-roulette-17.json": "63f970f88d363027357f5c81a1beda98f7c20555dfe019c48bc32196e8e3483e",
+    "FrenchRoulette-roulette-18.json": "aff1eb429a63dcb32be3baebeea46919b1509ca4c502bd1794d4b3a8a75c07ca",
+    "FrenchRoulette-roulette-19.json": "32452e5a3b341085240f804871d6df4a462837fac3b76353f6ec5e5040c76832",
+    "FrenchRoulette-roulette-2.json": "9692defef66030bdb66926a4bf2a4e60553b866e755abfeaec336b9553d4b6a3",
+    "FrenchRoulette-roulette-20.json": "3f584ac8f4166e24a7fd0088d1566ed84fb1ce1d32a96351a6307e3bba60740f",
+    "FrenchRoulette-roulette-21.json": "7b13f6d8c8fcef6a3753e105906086a62c8db7175696230fd9a954602e503458",
+    "FrenchRoulette-roulette-22.json": "e0022795459cf00da808d54c5bc6799652ba22b3fdca69829cbad5d716f9d0f4",
+    "FrenchRoulette-roulette-23.json": "7b6f5663909cab671b3a5e55e3112d87f43d86e87dbac7ecb8d899e01324f0bb",
+    "FrenchRoulette-roulette-24.json": "b51ccf3766f4ac51242182a89d72c63bf88f4f2a45a4d072ec8ae959eb1de0e2",
+    "FrenchRoulette-roulette-25.json": "42d0ac8c9f5bf98d187c53f1a5940a342fcb88eace4e8dcc06f3cdf2a7554655",
+    "FrenchRoulette-roulette-26.json": "b157e4fc70ea97fd129eb3c2ac2a8c37cefc02e5472937330b166b594f6b0aa8",
+    "FrenchRoulette-roulette-27.json": "c60da939595aca5d7ea145f1855d3f3970300b15082a9c87439a8405dff0ae6a",
+    "FrenchRoulette-roulette-28.json": "8ae7537fa8b8122fcf5540c0033fc811889557ab1b147a523b8cd1cb375d850e",
+    "FrenchRoulette-roulette-29.json": "13e356468768a7ffbca95fe023aadb5396db3b06ed8bd3cfd16909fd916ef88f",
+    "FrenchRoulette-roulette-3.json": "5ec37e3477135e61c3a4d38d306f87e158b60b3bb1371956c8f17c2d373a0d7a",
+    "FrenchRoulette-roulette-30.json": "c013d57f9957e72755bbf7f7dc6537dc75ccaa51860bee47a198c1a3638cda83",
+    "FrenchRoulette-roulette-31.json": "790fce58e031737e0227f00404529b02e565eb3d4a06f9767e15cdddfcc9375f",
+    "FrenchRoulette-roulette-32.json": "d87cde5e84fb33406eade66ecc5217128d9b2a076b858824e6a090ce85b1a344",
+    "FrenchRoulette-roulette-33.json": "6b9cacaeda19d3d6d54b2101db3a4c3ab52f30c381fb7013ecf2a9d9e8142e9e",
+    "FrenchRoulette-roulette-34.json": "adb857ce265850d23f8b1db788e18c6e13c988ea341d47ee6cb0a39c204c621f",
+    "FrenchRoulette-roulette-35.json": "bbe0d9d8c5fc487eb49241d5b7a39142a4b5086f0cf9cf2088c1a7df16438dc7",
+    "FrenchRoulette-roulette-36.json": "2c73420a2598b06c7c7f40ba0fdcc6ca6542231b0d30917687f870702520cb36",
+    "FrenchRoulette-roulette-37.json": "22595faf32930cb2bceb35b0280366bad6cee8583a4547f738574f703d9b1c28",
+    "FrenchRoulette-roulette-38.json": "bafc8c34e2e6bd1c12b4b389033a279c91f08d02b066d36ad25edffc37412314",
+    "FrenchRoulette-roulette-39.json": "12e78edd7fd7b0f86d8d4f6a01a1742482c762ffe12eb3e1e966faef24386519",
+    "FrenchRoulette-roulette-4.json": "472e50b736f97cac5f3f732af3b0ce97d2a5559d2a6372ba17f87e62e33b4a6a",
+    "FrenchRoulette-roulette-40.json": "044e30c0df58e31436f07d7ebc2bb1d4566cddcde4d988646ff08bb93d2ac783",
+    "FrenchRoulette-roulette-41.json": "7d262fdb6b36d177235736ead947ef877ec5ec4740ffd540861184809735a995",
+    "FrenchRoulette-roulette-42.json": "a90437ede121f8647c487bae84f2843d3159c51b4877e523262ec73f4b4666ec",
+    "FrenchRoulette-roulette-43.json": "7b0283a9ff4193bd08f0708dd508ee089aab06d46469d754edb70b574d6380f0",
+    "FrenchRoulette-roulette-44.json": "87295dfee6977b738cfc3473391addc4cb9691df8ffcf246c7aec2cd5d90d79d",
+    "FrenchRoulette-roulette-45.json": "e41e1df7402ba285333fa9335ad67f984cf9c5ea3e67e39d681211b1880aac97",
+    "FrenchRoulette-roulette-46.json": "2c6b523bf30ffe6ab4294e2d313527e339ba83483aec4d96e36adb7260b87279",
+    "FrenchRoulette-roulette-47.json": "586c818be095fb8ea78f5e3052423e8b2ec60543fa1f0cf1066017e900ccb8b5",
+    "FrenchRoulette-roulette-48.json": "7ec571ce58412ab49b4bea011975e4f2287acd4587f64893d1bdf5117d4a921d",
+    "FrenchRoulette-roulette-49.json": "29daebe38bcf6ac633a6b292533bb38cc2437f86206beffc891fe8674d2c0d6b",
+    "FrenchRoulette-roulette-5.json": "e26542f1390b9e8ad527e51834b189ab7e2c6ea67e1ad255d6898a426022651e",
+    "FrenchRoulette-roulette-50.json": "bd50ac6800af50244c01765be65cf1e328e4b7cda7996f9790a62de33e04a70e",
+    "FrenchRoulette-roulette-51.json": "d29724b162d025cc4543f93b36b5e690b1015a8a0d63446610bc1963a6c667ed",
+    "FrenchRoulette-roulette-52.json": "8e1157fc37cf9d64be9ec51825d58bd4307e2184d586632622d2b14fa4ff2fd0",
+    "FrenchRoulette-roulette-53.json": "35876655e586026f399b1d70f53f1f2e01b8133d6d7ec7e022a4fe0b636d5962",
+    "FrenchRoulette-roulette-54.json": "fb948d8a746f04b427a127d40fa01a5823cdc1417957b409d045270a3e9618fe",
+    "FrenchRoulette-roulette-55.json": "b4711bdfb986ac45ecf036461ed3fb420df58b278cc8286178fd6c318cbd3763",
+    "FrenchRoulette-roulette-56.json": "6a30fc639fc1b73e38e4f69132e8229c3c9aa89534ee3937d4e69e2c6f648244",
+    "FrenchRoulette-roulette-57.json": "0ecab126e293ea1397043c543a07b67c49157f2e77618fd4bdc53160ee5287aa",
+    "FrenchRoulette-roulette-58.json": "23e99f5795f42b761c47406fa80fee3a469d2c7b23bf574a465ae43cb2945901",
+    "FrenchRoulette-roulette-59.json": "d6afa5b1c364141bfb4e124196da1c3ecdf85bd41468e5fcdb4bebbdc0cff282",
+    "FrenchRoulette-roulette-6.json": "83e587c810269be905fdfb072935b20059f54a12be8040a93da6311907e4bba3",
+    "FrenchRoulette-roulette-60.json": "55f50fc9ee613f81ca6acac2203940343dc0d8b23b3bdfd7e4c4c4409d398b7b",
+    "FrenchRoulette-roulette-61.json": "0f5611d43b88efb6968ef3f9966898544e2283161e014183f3c5692db551ae5d",
+    "FrenchRoulette-roulette-62.json": "3e030ba5521149fc3802bff1a50c581f998ebafddbceda8be628d849bf6796bb",
+    "FrenchRoulette-roulette-63.json": "c50a01f7a56b18837b4ff2b649fa854497b1e41b03b0e36b218f9fb284e73f6f",
+    "FrenchRoulette-roulette-64.json": "ae3cba8c892c3cbba0a54b4892ebb9a8379ddbedf7d9088b8c2b284d736a68c2",
+    "FrenchRoulette-roulette-65.json": "953b95c597a1ef93be71972c2266b0e63f92c58feb1e2813e511ecfcc1ccd98c",
+    "FrenchRoulette-roulette-66.json": "f572dc7f947002a1681fe2e3d08de59a9436ba0337d6d85325bacaa48e63e425",
+    "FrenchRoulette-roulette-67.json": "0c0c706beedd9fad3c22dba94e58139f40b5e3b54bedaf93c44ec9393b529976",
+    "FrenchRoulette-roulette-68.json": "f89a0747677f6b5f06836f499436086391db94b414c1613d789e5fc085e343a8",
+    "FrenchRoulette-roulette-69.json": "27087d0d3d935d3e9ccd4802a542dc8ed98affa6ac9ee51ddea19c72982bf74d",
+    "FrenchRoulette-roulette-7.json": "8a3657d1ff8ae11810248c190fe27e68d80134072ff9b74523e9a12587422c0c",
+    "FrenchRoulette-roulette-70.json": "bae06fe356facd64318a8b682a871bd6180e389422640e8e713e2177e81be443",
+    "FrenchRoulette-roulette-71.json": "029ab4848004284d4b7d436f5aaa5d293e900b05cc44ac409919cb9cf3a92d70",
+    "FrenchRoulette-roulette-72.json": "75502d99534f4bc1af4293ddade9b2ec2c88e111f49f7e1826939497972f09bb",
+    "FrenchRoulette-roulette-73.json": "61bb4483999f6f6b1a819173578e808482a0ca74ce62ef80ba41bfa0f343406a",
+    "FrenchRoulette-roulette-74.json": "587acdca55b039ecf45cb8da0882ec9e990630cf2a8bfcb260a9de27a73be0ca",
+    "FrenchRoulette-roulette-75.json": "c00b87ab634463f92799216eac29bda18e671e33b0de927da4f69247ac215dfc",
+    "FrenchRoulette-roulette-76.json": "4e3d48d8c86fac23723fd86444819e09426bd52d97fe51971d5b348988bcc1cb",
+    "FrenchRoulette-roulette-77.json": "616ff6e058b974a88239c58630b208bb9b44c973e941d6f7351ae285c0b3927a",
+    "FrenchRoulette-roulette-78.json": "1a4ad390d130bdbe535c402c0f32f72276c23ad4907aa3de52ed8154a7ea996d",
+    "FrenchRoulette-roulette-79.json": "ca055a7e1fa134b011a793ff50001395df35fb13151adc8b5714cb3f8ae0029d",
+    "FrenchRoulette-roulette-8.json": "54c3082d3dc579339c52143dd3f5bab34dab772c66b684c5be068554b3789ecf",
+    "FrenchRoulette-roulette-80.json": "5bf761a0607c118ebe526fe47e2cf032ed7ffac937f8b98adb1a82739c5598de",
+    "FrenchRoulette-roulette-81.json": "f519ca2d7dbaf4c30386b9dacc536fddd220d53193cc594e520d908262e2a949",
+    "FrenchRoulette-roulette-82.json": "764a318bde31de2584ce03611a16a02a92044606e4a37801b8494da1f5a7c4c1",
+    "FrenchRoulette-roulette-83.json": "25e52cc2f7ca28270a3e3809c67ced66eebadc0fc4102526a86ea94150e32666",
+    "FrenchRoulette-roulette-84.json": "fecd631bab9e4cec47ddfe491f4667e5279062842618fc2622fb09a4b2aa7d25",
+    "FrenchRoulette-roulette-85.json": "74d04363023bd8078427cd51644066eefdd1d4ffbdd1f96818449ee6125317c4",
+    "FrenchRoulette-roulette-86.json": "580cd62ae97a0abc71c58580a57538a69852e2daac8f452791b3233d308d344b",
+    "FrenchRoulette-roulette-87.json": "7e7454021817e6729df42bf408ee42f6b9ddd1619f7ed2af1f02a44cda35e351",
+    "FrenchRoulette-roulette-88.json": "ba99a1cefa21d61c5dfcfe5a4092f85c1c57298b0b95b9a2cdd94e9c70377997",
+    "FrenchRoulette-roulette-89.json": "d76ddd90124dc6e405e7776b8d31ee357f2285a4c88b7e1f7053f3e92d5ecdbd",
+    "FrenchRoulette-roulette-9.json": "5d57961ad97be3d10bffe12bbd97d756e79b6d372fb4ff461381340ffd139264",
+    "FrenchRoulette-roulette-90.json": "d3decbab6fa9eb470ab88504aae94ac0c5e9bc0db929ec04e3f6d819a5614300",
+    "FrenchRoulette-roulette-91.json": "af5b89d1c23dc532f80ae6ca29a983e57781773ab40e6680e05601e792845304",
+    "FrenchRoulette-roulette-92.json": "66c29261422895d4b50f7657ffe79d736a5b8e73e915b2e812173b8f75ccc294",
+    "FrenchRoulette-roulette-93.json": "b6f0218843e16ca03d47258052a3dde8c6187c09e7195db85293fdfd21787de1",
+    "FrenchRoulette-roulette-94.json": "b95d9390c9260916d95a55da4daaa00e63ae73fcd23c12049f043a03c3c864ae",
+    "FrenchRoulette-roulette-95.json": "f811af5e9ccf42ae61821d50f6c781a392d3c4015b4c8aa0012f5ee06e8c062e",
+    "FrenchRoulette-roulette-96.json": "89275aa186c81dcf1690a996061d8cd33bb6e5c08dadda7f72cf5299ad2c5739",
+    "FrenchRoulette-roulette-97.json": "6843a6c76c1e83b89bf71217cc48bd615928c9141b621a9779fbb77d31f9a0eb",
+    "FrenchRoulette-roulette-98.json": "5993e010b32cc3603da6e8d2c36ee6b563b71d8121bd1355d25f1a8ee4fb0685",
+    "FrenchRoulette-roulette-99.json": "5505094cda1b937e16e6bba411aa4b5c91f445a3011b0453cb03c7463b12babd",
+    "FruitParty-normal.json": "31ee9b6656221fda359666e93213fdf8f07914c8b4c600a9934beb6ca18d655d",
+    "GachaGacha-normal.json": "17f4963f90e3b99b62bbbb4e6de3b1543868cd6480d1b6feb2c2708e408c41e9",
+    "GokudoBentou-normal.json": "788cec74711510299b290b62feb9193f9304413f768cd0a3621570b903c917a1",
+    "GoldenBeansScratch-normal.json": "5a556e7f2714605914ecfd2002a6eec6a3032fb5b58f2eb765c7b3831f16db2e",
+    "GoldenBull-ante-1.json": "a0481c5838b47dafb1c6f2b181f24251adcfd77b79ecc9833b7a169705f68048",
+    "GoldenBull-ante-2.json": "9aee4085563fc9f7b595e29b8773cc3d2f2c682c3b2464fcba5df1e00cedce06",
+    "GoldenBull-ante-3.json": "ca56c76af46e6658e1870648d9321efd72132822210ea31bf0bfdb8c1ba2d428",
+    "GoldenBull-ante-4.json": "34fb9e478dbf269ca63ce214044bbd9ec5cf35b5d8ac49e8e1f8f2285df5864d",
+    "GoldenBull-normal.json": "18c39cf244978137dbec0db7b464933d6c9b45668e366644b55b1e43c1aea0a9",
+    "GoldRush-normal.json": "1c017133d99c52032766689998de71b3af112fcfd889e29e22ed438405526477",
+    "GridironClash-normal.json": "ed38ed0022cd4a83f40b2e5b01ba453750db91f38cc803d7dd5f353f37979d02",
+    "HomeRunDerby-normal.json": "70d0c49c005e36baa884ca111f644818d31a336be0b9ceadf47e0260c9b9abae",
+    "HotCoin-normal.json": "b82ba6bcb3dbf4df3932e002a9c43fef39b4612fca4b9284aaa005060d011c7d",
+    "HotCoinBF-buy-atb-1.json": "549f6e1d4465fe49500342b2f1685be8b8b80811f065db8ddec77b5f33799e96",
+    "HotCoinBF-buy-atb-2.json": "d6310fc846b3325d681e3d68bcc18eabf68521f33961d520ec6cf9fca13e97eb",
+    "HotCoinBF-buy-atb-3.json": "11b5436df3f26dcd057e7ed13ea62ae2c829b8fa5594203a9b177b76bbf5e9cc",
+    "HotCoinBF-buy-atb-4.json": "461f81084acaf7a8a09dbc483a6c3f43e0763dff279f2a0e6d83e917d525b6a1",
+    "HotCoinBF-buy-atb-5.json": "d66f0b916256fee72341afa1d8f6e12457937152454e1aa14d3ffa1565ae2b1a",
+    "HotCoinBF-buy-atb-6.json": "81ea14a7459c41414fd017f11b2d0b8c496e3746e5392f70b135f7c2ec21d487",
+    "HotCoinBF-buy-atb-7.json": "379675bc25e6ba9db411151dee1f571e14d66ff754cffb57c1e48f6c6a6b997d",
+    "HotCoinBF-buy-atb-8.json": "93920985841740d134f78b6140c0c9f2eae476212f8798e42c88cfb5dfce5317",
+    "HotCoinBF-buy-atb-9.json": "6a4cb391117a3e0f709553ee204dbe81f474ed2afd5ec77c17a0e6279dfa6bd0",
+    "HotCoinBF-normal.json": "1a439682fad41f8780fedae693ee5a6dcda58976895eba2e842e7bf4f84ed55b",
+    "JadeQuest-buy-1.json": "2ac421454a372d0bf8b964832d5a94dcc6d81d57e9bbcaca0e1c6c7a39e5af11",
+    "JadeQuest-normal.json": "3767dae4dcf575da3b468de2c663e81c0b09cb3013845cbbccdfa9d572179fe1",
+    "Jingwei-normal.json": "3429c3d12c3e6f09848569f668bf5f0b217db5209f5261fc66f127df965cce03",
+    "JumpingFatGuy-normal.json": "d694e8b01779261bbc1960ee0da06d8e33b223b3e66904f9831f8ad2f43087f4",
+    "KickCashMonkey2-buy-1.json": "d94bdc68e9cb6d35dc2ca08a53ca546011168e0a29b3f3b2964bd7af4ed6174a",
+    "KickCashMonkey2-normal.json": "c1b37957edf6a2b175cef074faaee40f9cef2f1528d279b881138769c94b266b",
+    "KingOfDragon-normal.json": "e89acaafec4654235de11fc1a8546f8ca884bbd7988daf820f5ba3f4617a21a7",
+    "LegendOfAthena-normal.json": "b0568a6cc2d68f12ebe19e90bb4de0b7623c513ef2781d988912c650857eb1d1",
+    "Luck88-normal.json": "176ae0fdafc5ceac7e2adf1f302fafae6f6de21e0761f25265cc8c801bb68b88",
+    "LuckysMillionsScratch-normal.json": "da8d80aa530a84c9d11974c2b68fd2eaefa37c3c3d557cb230d65ee186b84676",
+    "MayanCivilization-normal.json": "ea170b0c5ca45d0857757d0d109a1d8d2f53b6673545eb2ff516b6c09cadb6c5",
+    "MidnightDeparture-normal.json": "8a96b7a681a95f84ec0382f334831fe854a077300b27c2941e6cd1ab05b5d2cb",
+    "MoleMoney-normal.json": "70174b408fb319c5296dd9a4365d4350b786588ea7e1f4bcc7441003d5a1ceed",
+    "MouseOnThePrairie-normal.json": "1ea7738080359f094dbe31eb943abd27bfb8b6c3fa80e24efb1a4f5885676603",
+    "Neanderthals-normal.json": "e647b2c892562481d79956f6dde7d559799162814ed4868dc6ef2af9ce52d8f3",
+    "NightOnTheNile-normal.json": "b98dba97caf8a856844cdfd33e675f7a6b462134fc9567350e8178156600fabb",
+    "PartyGirlDeluxe-normal.json": "78a940a6f897369a187d4c17d8cbbaf5238de52224f7495b630c0567c246decb",
+    "PhantomThief-normal.json": "3b8dc94ede9c4f47c7d53bff57c948b1c2e26e7017e8de490fbb04985d8cb722",
+    "Pinocchio-normal.json": "16cf419d0baef4e3ab193b93c16bdc98e0890f392e8d6c9bb2f090d143316552",
+    "PufferSwimming-normal.json": "9e8ec54be70a7b454eecdd9c27c17860d74cd4c6086fd1b70dd52be276ce2dc1",
+    "RedBoy-normal.json": "6e9c29eb056c123c2fe7096ecd13d3d2dbbeebe4510822306d0fff008648ddf4",
+    "RedSorghum-normal.json": "a434f38f67f4525f53790870077832d4e44575f20118cbe00700e8da1c76d891",
+    "RockParrot-normal.json": "f7007fe1dfb9605e236dcd8932ba4373fc3b975d12c7eef0ccd50cb80e083241",
+    "SanctuaryOfDarkness-normal.json": "44c991a67ef2dded7b99a8994bf1ceffe5ec66946903a6b28ec4ae699fdd794d",
+    "ShaolinLegend-normal.json": "8c31966ed60223adf9fd0a9e28eecc9fab4a9d8454f35ac5453b5f357878a147",
+    "Shennong-normal.json": "e76ebfcc61b486755e06a3aa2616b1960d15f5a28529b863035dec4c44668b99",
+    "Shopping-normal.json": "a6d8ae2f19827b723a5369263eca1aef50857a5b02e3fbb25d6961ea8a80ed71",
+    "SilkRoad-normal.json": "d8090e0e6da64aecb278a87ed6c6f028aa647ddb06513f33dd848868804c6b0e",
+    "Sleepy-normal.json": "2cc77420922ea647616c8c3407786fcc9bf9790dc6cff4179704a2e5ff206c04",
+    "SNS-normal.json": "4904fac2e500018024b24d3810ae6ceacd9670b9682313657fd4131059f101c9",
+    "Speakeasy-normal.json": "051b5a036b119f19a77707549b32e55abe9ff842120dc3d136ec7f3f29765d7c",
+    "Submariner-normal.json": "e2a89ee789c67cb5aa95662012f590e32ab6f355c919eec0a1ff9eef063e19f8",
+    "SuperEnergy-normal.json": "4f2a0e3355a9ce6cbb794074dd03044f9470176cbc9c966a237301bcd4133e79",
+    "TaiChi-normal.json": "9ac5a6f5d6da6db4aadaef57d72b41ba5e1d32c07ac4078b105c865c7a0c8cce",
+    "TheMasterCat-normal.json": "7f7d37638f76a8c03cba59e4f9736695867750737799ded344c0ef1a650f4822",
+    "TombHeroes-normal.json": "4905bce6efc33eb1e0c823b1969d6047865b7704d3b242ef0a7ca4b186a5edc2",
+    "ToroAmigo-normal.json": "189fc44968da122abab15628b10c787a68886948b198165cbaf41b4e8e39c8c9",
+    "TowerofBabel-normal.json": "211bf33b48a05d68b79a1ab44286753f627392f2f223a3e3c5c952677955e616",
+    "Treasurebowl-normal.json": "31376aa0f99e99450c6e4505786f0f4de34f2d8087b399df74f398a7002b34ac",
+    "TrickOrTreat-normal.json": "c8ff7eecaba46bc98e509bcc8b2523634a71de8183186ba76d146b40699be0fb",
+    "VeggiesPlot-normal.json": "b08da436e2a9050948e1d128262c009758283480e22a84145ec70aff7e5cc5ef",
+    "WalkingOz-normal.json": "7562b1041e28a09c78d58b4dab96d5c23a69c2364da7b67f7d5f4509e3f57374",
+    "WenDing-normal.json": "1bf0c2088db49071c7ecbf590b2465b0df7961ec58cf4fe10fbb005a2aa624be",
+    "WildernessCowboy-normal.json": "816a4ca1d7c007563643c65da70ab8aeab499ccdb546513e42016a613babc05b",
+    "WildJungle-normal.json": "be43430b3dfe2b5282415162a84f7ff7539e5aeb09b1f83b9b60652e1a28bc97",
+    "WindLionGod-normal.json": "315edca3ea7d6df90716653c78c2e8d0270a38caa602e51ce397c03414fa4c0d",
+    "WitchAcademy-normal.json": "94ed3c82c516c5eb73482688db6ef5f3b8181fa394a4d83b7125791b0857e46a",
+    "WrestlingQueen-normal.json": "e4d2b1c078831672257dc99e93e61351eb533a8ba8063ae1a05198ae70f68668",
+    "XmasWishes-normal.json": "3bb4f102d81950711ffd7a77f18e1e14709b2c5a3f74211a6566b70350aed129"
+  },
+  "implementation_hashes": {
+    "kagaming_client.py": "49886d6b7e48c4d69801f4fcdd245cab708956af2f8559177d78ec9d67fcb0ad",
+    "kagaming_core.py": "ccc8627e0c37fdf5af877dbba2bf91ae15642b55e6ebd2b33e88a19dee2ec52a",
+    "kagaming_run.py": "347811a9543ae743dbc82d3c4cf21dc32413bacc657a3a83c15e8c8e26c27f56",
+    "kagaming_audit.py": "0bda527e256259e4ea81b8e467328c76ffc525d3ac051ea673ac743cbd5c7143",
+    "kagaming_browser_bridge.py": "4980b4a31c2c131b3b74cc2a4461a2da91a7f64b6cb944ae0968a7d527df6d7c",
+    "kagaming_interactive.py": "cb7b33c6b432e99a9ef07a29733dacc0c2036f898c4bed60f88d4ad6d5078b5e",
+    "kagaming_bonus_pick.py": "a68629d0d3403b1354154639051b0a7e36cd0c374021b415d60422f1cc9c29ca",
+    "kagaming_roulette.py": "c29ad1d54d5aa2c8933f2ec85ca403249f28d1608b84242464b1924deb2d5346",
+    "kagaming_lanterns.py": "c922ed51c9820d7718b8dfd62ef57900ab6c88500ed702d6a730f74eb4cc8ff4",
+    "kagaming_reports.py": "f2c9eb7b5496b0dfb44a8493076473a869a4adc2611ecac15b4a6d28750400d4"
+  }
+}

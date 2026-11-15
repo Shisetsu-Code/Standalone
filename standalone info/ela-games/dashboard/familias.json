@@ -1,0 +1,4706 @@
+[
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_soul_fiesta",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/0",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/1",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/0",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_odysseus_wild_journey",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpins",
+        "superFreeSpins"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpins",
+        "superFreeSpins"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpins",
+        "superFreeSpins"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/2",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/20",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpins",
+        "superFreeSpins"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpins",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "superFreeSpins",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/1",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_piggy_brew_bonanza",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/5",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/21",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/22",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/23",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin",
+        "wheel_megaScatter",
+        "wheel_rollingBonus",
+        "wheel_brickLuck"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_megaScatter",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_rollingBonus",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_brickLuck",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/2",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_silly_chili_dogs",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "blue",
+        "green",
+        "pink",
+        "randomDouble",
+        "randomFeature",
+        "rpbg"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "blue",
+        "green",
+        "pink",
+        "randomDouble",
+        "randomFeature",
+        "rpbg"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "blue",
+        "green",
+        "pink",
+        "randomDouble",
+        "randomFeature",
+        "rpbg"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/9",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/10",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/11",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/12",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/13",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/14",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "pink",
+        "blue",
+        "green",
+        "randomDouble",
+        "randomFeature",
+        "rpbg"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "pink",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "blue",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "green",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "randomDouble",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "randomFeature",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "rpbg",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/3",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_royal_coins",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "holdAndWin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "holdAndWin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "holdAndWin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/15",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "holdAndWin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "holdAndWin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/4",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_the_age_of_cleopatra",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/5",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_flame_fruits_frenzy_hw",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "holdAndWin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "holdAndWin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "holdAndWin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/16",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "holdAndWin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "holdAndWin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/6",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_legacy_of_liberty",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/7",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_pinatas_festival_branded",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/17",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/8",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_piggy_brick_bonanza",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "wheel_brickLuck",
+        "wheel_megaScatter",
+        "wheel_rollingBonus"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/18",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/24",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/25",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/26",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin",
+        "wheel_megaScatter",
+        "wheel_rollingBonus",
+        "wheel_brickLuck"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_megaScatter",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_rollingBonus",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "wheel_brickLuck",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/9",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_thunder_ball_max",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "extraBonusGame"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "extraBonusGame"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "extraBonusGame"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/27",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "extraBonusGame"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "extraBonusGame",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/10",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_spirit_of_savanna",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "bonusGame",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "bonusGame"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "bonusGame",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/11",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_king_and_flame",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/29",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/12",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_thunder_ball",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/13",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_golden_bunny",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal",
+        "superFreeSpin"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/31",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "superFreeSpin",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "superFreeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/14",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_patricks_treasure_pots",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/32",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/15",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_rapid_wild",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/16",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_tea_party_of_fortune",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/72",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/17",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_wealth_of_the_east",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/34",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/18",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_golden_till",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal",
+        "superFreeSpin"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/36",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "superFreeSpin",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "superFreeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/19",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_joker_jam",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/20",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_roman_fortune",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/37",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/38",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/21",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_riches_express",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/39",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/40",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/22",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_witches_book",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/41",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/23",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_pinatas_festival",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/42",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/24",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_buffalo_force",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "holdAndWin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "holdAndWin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "holdAndWin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/43",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/73",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin",
+        "holdAndWin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "holdAndWin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/25",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_legacy_of_lost_gold",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/45",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/26",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_shoot_happens",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/27",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_johns_book",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/74",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/28",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_juicy_crystal",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/29",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_tail_of_crime",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin",
+        "freeSpin2",
+        "freeSpin3",
+        "freeSpin4"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin",
+        "freeSpin2",
+        "freeSpin3",
+        "freeSpin4"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin",
+        "freeSpin2",
+        "freeSpin3",
+        "freeSpin4"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/75",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/48",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/49",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/50",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin",
+        "freeSpin2",
+        "freeSpin3",
+        "freeSpin4"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin2",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin3",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin4",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/30",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_rabbit_winpot_deluxe",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/31",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_zeus_cashpot",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/32",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_noble_crown",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/33",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_shark_time_2",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/51",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/34",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_cash_of_egypt",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/76",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/77",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpinBase",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpinWithCollector",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/35",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_wealth_of_legends",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/54",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/36",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_flame_fruits_frenzy",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/37",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_shark_time_christmas",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/78",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/38",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_kraken_coins",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/56",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/39",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_scarab_wheel",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/40",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_farm_hunt",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "freeSpin",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/41",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_aqua_mafia",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/58",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/42",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_devils_treasures",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpinBase",
+        "freeSpinUltra"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpinBase",
+        "freeSpinUltra"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpinBase",
+        "freeSpinUltra"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/79",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/80",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpinBase",
+        "freeSpinUltra"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpinBase",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpinUltra",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/43",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_madshow_circus",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "bonusGame",
+        "bonusGame2"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "bonusGame",
+        "bonusGame2"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "bonusGame",
+        "bonusGame2"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/61",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/62",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "bonusGame",
+        "bonusGame2"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "bonusGame",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "bonusGame2",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/44",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_joker_cashpot",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/45",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_big_wave_delight",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/63",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/46",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_bandidos_bang",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/47",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_fish_and_spins",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/48",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_disco_wild",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/49",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_kraken_bay",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/81",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/50",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_cash_of_gods",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/82",
+          "kind": "historical_completion_evidence"
+        },
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/83",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "reSpinBase",
+        "reSpinWithCollector"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpinBase",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "reSpinWithCollector",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/51",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_sugar_spins",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/84",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/52",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_lucky_dwarfs",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "jackpotSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "jackpotSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "jackpotSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/85",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "jackpotSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "jackpotSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/53",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_viking_wild_cash",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "freeSpin",
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/54",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_book_of_meow",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/87",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/55",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_genie_respins",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/56",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_detective_fortune",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/57",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_bandidos_cash",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/58",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_viking_wild",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/59",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_eds_gun",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/60",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_wild_piranha",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/61",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_crab_slot",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/62",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_plinko",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/63",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_bullet_hole",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/64",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_vilk_and_little_red",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/65",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_shark_time",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "freeSpin"
+      ],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [
+        "freeSpin"
+      ],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [
+        "freeSpin"
+      ],
+      "evidence": [
+        {
+          "path": "ela-games-private/purchase-closures.jsonl",
+          "sha256": "5bd71ed984fc85718b1833d2875f119c0c06b87a7b2ff463cfa6812cd46ef881",
+          "pointer": "/88",
+          "kind": "historical_completion_evidence"
+        }
+      ],
+      "reasons": [
+        "historical_catalog_coverage_mismatch",
+        "historical_modes_missing",
+        "original_audit_scope_only"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal",
+        "freeSpin"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        },
+        {
+          "mode": "freeSpin",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/66",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  },
+  {
+    "provider_id": "ela-games",
+    "game_id": "ela_bobby_woods",
+    "family_id": "ela.feature",
+    "status": "executor_bound",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [
+        "normal"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "historical_case_evidence_not_integrated",
+        "historical_catalog_coverage_mismatch",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Cierres originales de compras DEMO documentadas. El importador contiene 68 demos frente a 69 declaradas; Mr Pacho requiere revisión de catálogo.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [
+        "normal"
+      ],
+      "cases": [
+        {
+          "mode": "normal",
+          "gaps": [
+            "historical_projection_missing_round_identity_and_native_init_binding"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "ela-games-private/batch-68.jsonl",
+        "pointer": "/67",
+        "sha256": "46928b8f80d2472bdd57a42491ac275702accbc80e0491b5bbdc4ee14ab6d71b"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_full_existing.py",
+        "pointer": "ela_complete",
+        "sha256": "2f3b0febc981f11199e1cc02c3579796e1ce441e429db5e3e7e111e4930f1011"
+      }
+    ]
+  }
+]

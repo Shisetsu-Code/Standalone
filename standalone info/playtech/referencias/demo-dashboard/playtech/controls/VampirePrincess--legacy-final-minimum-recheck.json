@@ -1,0 +1,112 @@
+{
+  "provider": "Playtech",
+  "game_code": "VampirePrincess",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "9265162d-15c3-49d9-a977-ffe8858bfa15:1",
+      "name": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 5,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "Base",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "closed_needs_review",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "07733e19ac85e606bbbb5ba6bca593e03cbb6a5b1b6234c6cb0a7550e805b6ac"
+  ],
+  "native_modes": [
+    {
+      "id": "9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "name": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "kind": "NATIVE_OPTION",
+      "selector": "__unnamed_uuid_option__:9265162d-15c3-49d9-a977-ffe8858bfa15",
+      "selector_source": "native declaration",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 5,
+        "name": "",
+        "parameters": {
+          "winline": "5"
+        },
+        "uuid": "9265162d-15c3-49d9-a977-ffe8858bfa15"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1200
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Previously source-bound selector dispatch",
+  "declared_line_options": [
+    "5"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "review_reason": "com.pt.casino.platform.game.EngineError:0",
+  "error_type": "ValueError",
+  "updated_at": 1793477298.7295785,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": false,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true,
+  "operation_tag": "legacy-final-minimum-recheck",
+  "selected_mode_ids": null
+}

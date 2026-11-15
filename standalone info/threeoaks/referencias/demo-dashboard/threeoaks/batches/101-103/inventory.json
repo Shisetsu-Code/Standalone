@@ -1,0 +1,4838 @@
+[
+  {
+    "game": {
+      "ordinal": 101,
+      "id": "moon_sisters",
+      "slug": "moon_sisters",
+      "name": "Moon Sisters",
+      "release_date": "2020-05-28",
+      "provider": "threeoaks",
+      "has_page": true,
+      "details_url": "https://3oaks.com/api/v1/games/moon_sisters"
+    },
+    "status": "ready",
+    "authority": {
+      "provider": "threeoaks",
+      "game_id": "moon_sisters",
+      "public_demo": true,
+      "fresh_session": true,
+      "launcher_host": "3oaks.com",
+      "server_host": "betman-demo.head.3oaks.com",
+      "project": "betman-demo",
+      "wl": "demo",
+      "currency": "FUN"
+    },
+    "trace": [
+      {
+        "status": "received",
+        "request": {
+          "command": "login",
+          "request_id": "a08d51ab35504b7db32cacaa31cfe359",
+          "client_command_timestamp": "[REDACTED]",
+          "token": "[REDACTED]",
+          "language": "en"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "login",
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "a08d51ab35504b7db32cacaa31cfe359",
+          "session_id": "[REDACTED]",
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 1,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      },
+      {
+        "status": "received",
+        "request": {
+          "command": "start",
+          "request_id": "369d9dc9dadc47f79af52777319428ad",
+          "client_command_timestamp": "[REDACTED]",
+          "mode": "auto",
+          "huid": "[REDACTED]",
+          "session_id": "[REDACTED]"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "start",
+          "context": {
+            "actions": [
+              "spin"
+            ],
+            "current": "spins",
+            "last_action": "init",
+            "last_args": {},
+            "round_finished": true,
+            "spins": {
+              "bet_per_line": 4,
+              "board": [
+                [
+                  10,
+                  10,
+                  8
+                ],
+                [
+                  2,
+                  8,
+                  4
+                ],
+                [
+                  8,
+                  7,
+                  3
+                ],
+                [
+                  8,
+                  2,
+                  1
+                ],
+                [
+                  10,
+                  10,
+                  10
+                ]
+              ],
+              "bs_v": [
+                [
+                  "major",
+                  800,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  300,
+                  1000,
+                  700
+                ]
+              ],
+              "bs_values": [
+                [
+                  150,
+                  8,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  10,
+                  7
+                ]
+              ],
+              "lines": 25,
+              "round_bet": 100,
+              "round_win": 0,
+              "total_win": 0
+            },
+            "version": 2
+          },
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "369d9dc9dadc47f79af52777319428ad",
+          "session_id": "[REDACTED]",
+          "settings": {
+            "bet_factor": [
+              25
+            ],
+            "bets": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              12,
+              14,
+              16,
+              20,
+              24,
+              30,
+              32,
+              40,
+              50,
+              60,
+              64,
+              80,
+              100,
+              120,
+              140,
+              160,
+              200,
+              240,
+              280,
+              300,
+              360
+            ],
+            "big_win": [
+              30,
+              50,
+              70
+            ],
+            "bonus_symbols": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              14,
+              16,
+              18,
+              20,
+              25,
+              "mini",
+              "major"
+            ],
+            "cols": 5,
+            "currency_format": {
+              "currency_style": "symbol",
+              "denominator": 100,
+              "style": "money"
+            },
+            "fs_retrigger": 8,
+            "jackpots": {
+              "grand": 1000,
+              "major": 150,
+              "mini": 30
+            },
+            "lines": [
+              25
+            ],
+            "paylines": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                2,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                1,
+                2,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                2,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                2,
+                2
+              ],
+              [
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                2,
+                0,
+                2,
+                1
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                2,
+                0,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            ],
+            "paytable": {
+              "1": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "2": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "3": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "4": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "5": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 25,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "6": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 30,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 150,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "7": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 40,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 200,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "8": [
+                {
+                  "multiplier": 15,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 250,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ]
+            },
+            "pt_supported": true,
+            "reelsamples": {
+              "spins": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ]
+            },
+            "respins_granted": 3,
+            "rows": 3,
+            "supported_freebets": [
+              "fixed",
+              "flexible"
+            ],
+            "symbols": [
+              {
+                "id": 1,
+                "name": "el_01",
+                "type": "line"
+              },
+              {
+                "id": 2,
+                "name": "el_02",
+                "type": "line"
+              },
+              {
+                "id": 3,
+                "name": "el_03",
+                "type": "line"
+              },
+              {
+                "id": 4,
+                "name": "el_04",
+                "type": "line"
+              },
+              {
+                "id": 5,
+                "name": "el_05",
+                "type": "line"
+              },
+              {
+                "id": 6,
+                "name": "el_06",
+                "type": "line"
+              },
+              {
+                "id": 7,
+                "name": "el_07",
+                "type": "line"
+              },
+              {
+                "id": 8,
+                "name": "el_08",
+                "type": "line"
+              },
+              {
+                "id": 9,
+                "name": "el_wild",
+                "type": "wild"
+              },
+              {
+                "id": 10,
+                "name": "el_bonus",
+                "type": "scat"
+              }
+            ],
+            "symbols_line": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "symbols_scat": [
+              10
+            ],
+            "symbols_wild": [
+              9
+            ],
+            "use_freebet_init_pick": false,
+            "use_pt_testing": false
+          },
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 2,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      }
+    ],
+    "launcher": {
+      "client_base": "https://static.3oaks.com/gs/clients_goreel/moon_sisters/3oaks.v26.10.11/",
+      "family": "clients_goreel",
+      "disable_buy_bonus": "0",
+      "disable_gold_bet": "0"
+    },
+    "start": {
+      "command": "start",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "init",
+        "last_args": {},
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 4,
+          "board": [
+            [
+              10,
+              10,
+              8
+            ],
+            [
+              2,
+              8,
+              4
+            ],
+            [
+              8,
+              7,
+              3
+            ],
+            [
+              8,
+              2,
+              1
+            ],
+            [
+              10,
+              10,
+              10
+            ]
+          ],
+          "bs_v": [
+            [
+              "major",
+              800,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              300,
+              1000,
+              700
+            ]
+          ],
+          "bs_values": [
+            [
+              150,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              10,
+              7
+            ]
+          ],
+          "lines": 25,
+          "round_bet": 100,
+          "round_win": 0,
+          "total_win": 0
+        },
+        "version": 2
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "369d9dc9dadc47f79af52777319428ad",
+      "session_id": "[REDACTED]",
+      "settings": {
+        "bet_factor": [
+          25
+        ],
+        "bets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          20,
+          24,
+          30,
+          32,
+          40,
+          50,
+          60,
+          64,
+          80,
+          100,
+          120,
+          140,
+          160,
+          200,
+          240,
+          280,
+          300,
+          360
+        ],
+        "big_win": [
+          30,
+          50,
+          70
+        ],
+        "bonus_symbols": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          16,
+          18,
+          20,
+          25,
+          "mini",
+          "major"
+        ],
+        "cols": 5,
+        "currency_format": {
+          "currency_style": "symbol",
+          "denominator": 100,
+          "style": "money"
+        },
+        "fs_retrigger": 8,
+        "jackpots": {
+          "grand": 1000,
+          "major": 150,
+          "mini": 30
+        },
+        "lines": [
+          25
+        ],
+        "paylines": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            0,
+            2
+          ]
+        ],
+        "paytable": {
+          "1": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "2": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "3": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "4": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "5": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "6": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 30,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 150,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "7": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 200,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "8": [
+            {
+              "multiplier": 15,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 250,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ]
+        },
+        "pt_supported": true,
+        "reelsamples": {
+          "spins": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ]
+        },
+        "respins_granted": 3,
+        "rows": 3,
+        "supported_freebets": [
+          "fixed",
+          "flexible"
+        ],
+        "symbols": [
+          {
+            "id": 1,
+            "name": "el_01",
+            "type": "line"
+          },
+          {
+            "id": 2,
+            "name": "el_02",
+            "type": "line"
+          },
+          {
+            "id": 3,
+            "name": "el_03",
+            "type": "line"
+          },
+          {
+            "id": 4,
+            "name": "el_04",
+            "type": "line"
+          },
+          {
+            "id": 5,
+            "name": "el_05",
+            "type": "line"
+          },
+          {
+            "id": 6,
+            "name": "el_06",
+            "type": "line"
+          },
+          {
+            "id": 7,
+            "name": "el_07",
+            "type": "line"
+          },
+          {
+            "id": 8,
+            "name": "el_08",
+            "type": "line"
+          },
+          {
+            "id": 9,
+            "name": "el_wild",
+            "type": "wild"
+          },
+          {
+            "id": 10,
+            "name": "el_bonus",
+            "type": "scat"
+          }
+        ],
+        "symbols_line": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "symbols_scat": [
+          10
+        ],
+        "symbols_wild": [
+          9
+        ],
+        "use_freebet_init_pick": false,
+        "use_pt_testing": false
+      },
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 100000,
+        "balance_version": 2,
+        "currency": "FUN",
+        "huid": "[REDACTED]",
+        "is_test": false,
+        "show_balance": true
+      }
+    },
+    "context": {
+      "actions": [
+        "spin"
+      ],
+      "current": "spins",
+      "last_action": "init",
+      "last_args": {},
+      "round_finished": true,
+      "spins": {
+        "bet_per_line": 4,
+        "board": [
+          [
+            10,
+            10,
+            8
+          ],
+          [
+            2,
+            8,
+            4
+          ],
+          [
+            8,
+            7,
+            3
+          ],
+          [
+            8,
+            2,
+            1
+          ],
+          [
+            10,
+            10,
+            10
+          ]
+        ],
+        "bs_v": [
+          [
+            "major",
+            800,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            300,
+            1000,
+            700
+          ]
+        ],
+        "bs_values": [
+          [
+            150,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            10,
+            7
+          ]
+        ],
+        "lines": 25,
+        "round_bet": 100,
+        "round_win": 0,
+        "total_win": 0
+      },
+      "version": 2
+    },
+    "profile": {
+      "bet_per_line": 1,
+      "lines": 25,
+      "bet_factor": 25,
+      "base_cost_native": 25,
+      "scale": 100
+    },
+    "source_proof": {
+      "file": "threeoaks/reference/moon_sisters.client.js",
+      "sha256": "7db7be8896a496b04b1405cb64d776673188651e8bae1d69df36c5dac0239887",
+      "url": "https://static.3oaks.com/gs/clients_goreel/moon_sisters/3oaks.v26.10.11/src/game.js"
+    },
+    "modes": [
+      {
+        "key": "normal",
+        "kind": "normal",
+        "action": {
+          "name": "spin",
+          "params": {
+            "bet_per_line": 1,
+            "lines": 25
+          }
+        },
+        "cost_native": 25,
+        "supported": true
+      }
+    ]
+  },
+  {
+    "game": {
+      "ordinal": 102,
+      "id": "sun_of_egypt",
+      "slug": "sun_of_egypt",
+      "name": "Sun of Egypt",
+      "release_date": "2019-11-28",
+      "provider": "threeoaks",
+      "has_page": true,
+      "details_url": "https://3oaks.com/api/v1/games/sun_of_egypt"
+    },
+    "status": "ready",
+    "authority": {
+      "provider": "threeoaks",
+      "game_id": "sun_of_egypt",
+      "public_demo": true,
+      "fresh_session": true,
+      "launcher_host": "3oaks.com",
+      "server_host": "betman-demo.head.3oaks.com",
+      "project": "betman-demo",
+      "wl": "demo",
+      "currency": "FUN"
+    },
+    "trace": [
+      {
+        "status": "received",
+        "request": {
+          "command": "login",
+          "request_id": "650530c2a4ae4e808009f0d8d7b36c3a",
+          "client_command_timestamp": "[REDACTED]",
+          "token": "[REDACTED]",
+          "language": "en"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "login",
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "650530c2a4ae4e808009f0d8d7b36c3a",
+          "session_id": "[REDACTED]",
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 1,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      },
+      {
+        "status": "received",
+        "request": {
+          "command": "start",
+          "request_id": "40bf5ac540ba4088b5ea7b8096ddc55d",
+          "client_command_timestamp": "[REDACTED]",
+          "mode": "auto",
+          "huid": "[REDACTED]",
+          "session_id": "[REDACTED]"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "start",
+          "context": {
+            "actions": [
+              "spin"
+            ],
+            "current": "spins",
+            "last_action": "init",
+            "last_args": {},
+            "round_finished": true,
+            "spins": {
+              "bet_per_line": 4,
+              "board": [
+                [
+                  11,
+                  11,
+                  8
+                ],
+                [
+                  2,
+                  8,
+                  4
+                ],
+                [
+                  8,
+                  10,
+                  3
+                ],
+                [
+                  8,
+                  2,
+                  1
+                ],
+                [
+                  11,
+                  11,
+                  11
+                ]
+              ],
+              "bs_v": [
+                [
+                  "major",
+                  800,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  300,
+                  1000,
+                  700
+                ]
+              ],
+              "bs_values": [
+                [
+                  150,
+                  8,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  10,
+                  7
+                ]
+              ],
+              "lines": 25,
+              "round_bet": 100,
+              "round_win": 0,
+              "total_win": 0
+            },
+            "version": 2
+          },
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "40bf5ac540ba4088b5ea7b8096ddc55d",
+          "session_id": "[REDACTED]",
+          "settings": {
+            "bet_factor": [
+              25
+            ],
+            "bets": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              12,
+              14,
+              16,
+              20,
+              24,
+              30,
+              32,
+              40,
+              50,
+              60,
+              64,
+              80,
+              100,
+              120,
+              140,
+              160,
+              200,
+              240,
+              280,
+              300,
+              360
+            ],
+            "big_win": [
+              30,
+              50,
+              70
+            ],
+            "bonus_symbols": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              14,
+              16,
+              18,
+              20,
+              25,
+              "mini",
+              "major"
+            ],
+            "cols": 5,
+            "currency_format": {
+              "currency_style": "symbol",
+              "denominator": 100,
+              "style": "money"
+            },
+            "fs_retrigger": 8,
+            "jackpots": {
+              "grand": 1000,
+              "major": 150,
+              "mini": 30
+            },
+            "lines": [
+              25
+            ],
+            "paylines": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                2,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                1,
+                2,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                2,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                2,
+                2
+              ],
+              [
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                2,
+                0,
+                2,
+                1
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                2,
+                0,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            ],
+            "paytable": {
+              "1": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "2": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "3": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "4": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 10,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "5": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 25,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "6": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 30,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 150,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "7": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 40,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 200,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "8": [
+                {
+                  "multiplier": 15,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 50,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 250,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "10": [
+                {
+                  "freespins": 8,
+                  "multiplier": 1,
+                  "occurrences": 3,
+                  "trigger": "freespins",
+                  "type": "tb"
+                }
+              ]
+            },
+            "pt_supported": true,
+            "reelsamples": {
+              "freespins": [
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  11
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  11
+                ]
+              ],
+              "last_freespins": [
+                [
+                  8,
+                  5,
+                  6,
+                  7
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              ],
+              "spins": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  11
+                ]
+              ]
+            },
+            "respins_granted": 3,
+            "rows": 3,
+            "supported_freebets": [
+              "fixed",
+              "flexible"
+            ],
+            "symbols": [
+              {
+                "id": 1,
+                "name": "el_j",
+                "type": "line"
+              },
+              {
+                "id": 2,
+                "name": "el_q",
+                "type": "line"
+              },
+              {
+                "id": 3,
+                "name": "el_k",
+                "type": "line"
+              },
+              {
+                "id": 4,
+                "name": "el_a",
+                "type": "line"
+              },
+              {
+                "id": 5,
+                "name": "el_lotus",
+                "type": "line"
+              },
+              {
+                "id": 6,
+                "name": "el_eye",
+                "type": "line"
+              },
+              {
+                "id": 7,
+                "name": "el_ankh",
+                "type": "line"
+              },
+              {
+                "id": 8,
+                "name": "el_nefertiti",
+                "type": "line"
+              },
+              {
+                "id": 9,
+                "name": "el_wild",
+                "type": "wild"
+              },
+              {
+                "id": 10,
+                "name": "el_scatter",
+                "type": "scat"
+              },
+              {
+                "id": 11,
+                "name": "el_bonus",
+                "type": "scat"
+              }
+            ],
+            "symbols_line": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "symbols_scat": [
+              10,
+              11
+            ],
+            "symbols_wild": [
+              9
+            ],
+            "use_freebet_init_pick": false,
+            "use_pt_testing": false
+          },
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 2,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      }
+    ],
+    "launcher": {
+      "client_base": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt/3oaks.v26.10.11/",
+      "family": "clients_goreel",
+      "disable_buy_bonus": "0",
+      "disable_gold_bet": "0"
+    },
+    "start": {
+      "command": "start",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "init",
+        "last_args": {},
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 4,
+          "board": [
+            [
+              11,
+              11,
+              8
+            ],
+            [
+              2,
+              8,
+              4
+            ],
+            [
+              8,
+              10,
+              3
+            ],
+            [
+              8,
+              2,
+              1
+            ],
+            [
+              11,
+              11,
+              11
+            ]
+          ],
+          "bs_v": [
+            [
+              "major",
+              800,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              300,
+              1000,
+              700
+            ]
+          ],
+          "bs_values": [
+            [
+              150,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              10,
+              7
+            ]
+          ],
+          "lines": 25,
+          "round_bet": 100,
+          "round_win": 0,
+          "total_win": 0
+        },
+        "version": 2
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "40bf5ac540ba4088b5ea7b8096ddc55d",
+      "session_id": "[REDACTED]",
+      "settings": {
+        "bet_factor": [
+          25
+        ],
+        "bets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          20,
+          24,
+          30,
+          32,
+          40,
+          50,
+          60,
+          64,
+          80,
+          100,
+          120,
+          140,
+          160,
+          200,
+          240,
+          280,
+          300,
+          360
+        ],
+        "big_win": [
+          30,
+          50,
+          70
+        ],
+        "bonus_symbols": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          16,
+          18,
+          20,
+          25,
+          "mini",
+          "major"
+        ],
+        "cols": 5,
+        "currency_format": {
+          "currency_style": "symbol",
+          "denominator": 100,
+          "style": "money"
+        },
+        "fs_retrigger": 8,
+        "jackpots": {
+          "grand": 1000,
+          "major": 150,
+          "mini": 30
+        },
+        "lines": [
+          25
+        ],
+        "paylines": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            0,
+            2
+          ]
+        ],
+        "paytable": {
+          "1": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "2": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "3": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "4": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "5": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "6": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 30,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 150,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "7": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 200,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "8": [
+            {
+              "multiplier": 15,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 250,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "10": [
+            {
+              "freespins": 8,
+              "multiplier": 1,
+              "occurrences": 3,
+              "trigger": "freespins",
+              "type": "tb"
+            }
+          ]
+        },
+        "pt_supported": true,
+        "reelsamples": {
+          "freespins": [
+            [
+              5,
+              6,
+              7,
+              8,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          ],
+          "last_freespins": [
+            [
+              8,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          ],
+          "spins": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          ]
+        },
+        "respins_granted": 3,
+        "rows": 3,
+        "supported_freebets": [
+          "fixed",
+          "flexible"
+        ],
+        "symbols": [
+          {
+            "id": 1,
+            "name": "el_j",
+            "type": "line"
+          },
+          {
+            "id": 2,
+            "name": "el_q",
+            "type": "line"
+          },
+          {
+            "id": 3,
+            "name": "el_k",
+            "type": "line"
+          },
+          {
+            "id": 4,
+            "name": "el_a",
+            "type": "line"
+          },
+          {
+            "id": 5,
+            "name": "el_lotus",
+            "type": "line"
+          },
+          {
+            "id": 6,
+            "name": "el_eye",
+            "type": "line"
+          },
+          {
+            "id": 7,
+            "name": "el_ankh",
+            "type": "line"
+          },
+          {
+            "id": 8,
+            "name": "el_nefertiti",
+            "type": "line"
+          },
+          {
+            "id": 9,
+            "name": "el_wild",
+            "type": "wild"
+          },
+          {
+            "id": 10,
+            "name": "el_scatter",
+            "type": "scat"
+          },
+          {
+            "id": 11,
+            "name": "el_bonus",
+            "type": "scat"
+          }
+        ],
+        "symbols_line": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "symbols_scat": [
+          10,
+          11
+        ],
+        "symbols_wild": [
+          9
+        ],
+        "use_freebet_init_pick": false,
+        "use_pt_testing": false
+      },
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 100000,
+        "balance_version": 2,
+        "currency": "FUN",
+        "huid": "[REDACTED]",
+        "is_test": false,
+        "show_balance": true
+      }
+    },
+    "context": {
+      "actions": [
+        "spin"
+      ],
+      "current": "spins",
+      "last_action": "init",
+      "last_args": {},
+      "round_finished": true,
+      "spins": {
+        "bet_per_line": 4,
+        "board": [
+          [
+            11,
+            11,
+            8
+          ],
+          [
+            2,
+            8,
+            4
+          ],
+          [
+            8,
+            10,
+            3
+          ],
+          [
+            8,
+            2,
+            1
+          ],
+          [
+            11,
+            11,
+            11
+          ]
+        ],
+        "bs_v": [
+          [
+            "major",
+            800,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            300,
+            1000,
+            700
+          ]
+        ],
+        "bs_values": [
+          [
+            150,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            10,
+            7
+          ]
+        ],
+        "lines": 25,
+        "round_bet": 100,
+        "round_win": 0,
+        "total_win": 0
+      },
+      "version": 2
+    },
+    "profile": {
+      "bet_per_line": 1,
+      "lines": 25,
+      "bet_factor": 25,
+      "base_cost_native": 25,
+      "scale": 100
+    },
+    "source_proof": {
+      "file": "threeoaks/reference/sun_of_egypt.client.js",
+      "sha256": "a7e05edd84db7c88d23b110757739de32cac85a44af7d1eb8485998670d26dcb",
+      "url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt/3oaks.v26.10.11/src/game.js"
+    },
+    "modes": [
+      {
+        "key": "normal",
+        "kind": "normal",
+        "action": {
+          "name": "spin",
+          "params": {
+            "bet_per_line": 1,
+            "lines": 25
+          }
+        },
+        "cost_native": 25,
+        "supported": true
+      }
+    ]
+  },
+  {
+    "game": {
+      "ordinal": 103,
+      "id": "book_of_sun_multichance",
+      "slug": "book_of_sun_multichance",
+      "name": "Book of Sun: Multichance",
+      "release_date": "2019-05-28",
+      "provider": "threeoaks",
+      "has_page": true,
+      "details_url": "https://3oaks.com/api/v1/games/book_of_sun_multichance"
+    },
+    "status": "ready",
+    "authority": {
+      "provider": "threeoaks",
+      "game_id": "book_of_sun_multichance",
+      "public_demo": true,
+      "fresh_session": true,
+      "launcher_host": "3oaks.com",
+      "server_host": "betman-demo.head.3oaks.com",
+      "project": "betman-demo",
+      "wl": "demo",
+      "currency": "FUN"
+    },
+    "trace": [
+      {
+        "status": "received",
+        "request": {
+          "command": "login",
+          "request_id": "89d31f2820754c40844a6f4b93cd11db",
+          "client_command_timestamp": "[REDACTED]",
+          "token": "[REDACTED]",
+          "language": "en"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "login",
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "89d31f2820754c40844a6f4b93cd11db",
+          "session_id": "[REDACTED]",
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 1,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      },
+      {
+        "status": "received",
+        "request": {
+          "command": "start",
+          "request_id": "997eeb5e66a54cc8b19d2e7b9fe7b48f",
+          "client_command_timestamp": "[REDACTED]",
+          "mode": "auto",
+          "huid": "[REDACTED]",
+          "session_id": "[REDACTED]"
+        },
+        "http_status": 200,
+        "response": {
+          "command": "start",
+          "context": {
+            "actions": [
+              "spin"
+            ],
+            "current": "spins",
+            "last_action": "init",
+            "last_args": {},
+            "round_finished": true,
+            "spins": {
+              "bet_per_line": 10,
+              "board": [
+                [
+                  1,
+                  5,
+                  10
+                ],
+                [
+                  3,
+                  4,
+                  9
+                ],
+                [
+                  1,
+                  10,
+                  2
+                ],
+                [
+                  9,
+                  5,
+                  1
+                ],
+                [
+                  10,
+                  2,
+                  3
+                ]
+              ],
+              "lines": 10,
+              "round_bet": 100,
+              "round_win": 0,
+              "total_win": 0
+            },
+            "version": 1
+          },
+          "modes": [
+            "auto",
+            "play"
+          ],
+          "request_id": "997eeb5e66a54cc8b19d2e7b9fe7b48f",
+          "session_id": "[REDACTED]",
+          "settings": {
+            "bet_factor": [
+              10
+            ],
+            "bets": [
+              2,
+              4,
+              5,
+              8,
+              9,
+              10,
+              12,
+              14,
+              15,
+              18,
+              20,
+              25,
+              27,
+              30,
+              35,
+              40,
+              50,
+              55,
+              60,
+              75,
+              80,
+              100,
+              110,
+              125,
+              150,
+              160,
+              180,
+              200,
+              250,
+              260
+            ],
+            "big_win": [
+              40,
+              70,
+              100
+            ],
+            "cols": 5,
+            "currency_format": {
+              "currency_style": "symbol",
+              "denominator": 100,
+              "style": "money"
+            },
+            "freespins_granted": 12,
+            "lines": [
+              10
+            ],
+            "paylines": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                2,
+                2,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                2,
+                2,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                1,
+                1,
+                1,
+                0
+              ]
+            ],
+            "paytable": {
+              "1": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 25,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "2": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 25,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "3": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 25,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "4": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 40,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 150,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "5": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 40,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 150,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "6": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 2,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 30,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 750,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "7": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 2,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 30,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 750,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "8": [
+                {
+                  "multiplier": 5,
+                  "occurrences": 2,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 40,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 400,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 2000,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "9": [
+                {
+                  "multiplier": 10,
+                  "occurrences": 2,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 1000,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 5000,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "10": [
+                {
+                  "multiplier": 10,
+                  "occurrences": 2,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 100,
+                  "occurrences": 3,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 1000,
+                  "occurrences": 4,
+                  "type": "lb"
+                },
+                {
+                  "multiplier": 5000,
+                  "occurrences": 5,
+                  "type": "lb"
+                }
+              ],
+              "11": [
+                {
+                  "multiplier": 2,
+                  "occurrences": 3,
+                  "type": "tb"
+                },
+                {
+                  "multiplier": 20,
+                  "occurrences": 4,
+                  "type": "tb"
+                },
+                {
+                  "multiplier": 200,
+                  "occurrences": 5,
+                  "type": "tb"
+                }
+              ]
+            },
+            "pt_supported": false,
+            "reelsamples": {
+              "freespins": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ],
+              "freespins_2": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ],
+              "freespins_3": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ],
+              "spins": [
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ]
+            },
+            "rows": 3,
+            "scatter_pays": {
+              "3": 2,
+              "4": 20,
+              "5": 200
+            },
+            "supported_freebets": [
+              "fixed",
+              "flexible",
+              "feature_freespins"
+            ],
+            "symbols": [
+              {
+                "id": 1,
+                "name": "el_10",
+                "type": "line"
+              },
+              {
+                "id": 2,
+                "name": "el_j",
+                "type": "line"
+              },
+              {
+                "id": 3,
+                "name": "el_q",
+                "type": "line"
+              },
+              {
+                "id": 4,
+                "name": "el_k",
+                "type": "line"
+              },
+              {
+                "id": 5,
+                "name": "el_a",
+                "type": "line"
+              },
+              {
+                "id": 6,
+                "name": "el_bird",
+                "type": "line"
+              },
+              {
+                "id": 7,
+                "name": "el_scarabeus",
+                "type": "line"
+              },
+              {
+                "id": 8,
+                "name": "el_horus",
+                "type": "line"
+              },
+              {
+                "id": 9,
+                "name": "el_pharaoh",
+                "type": "line"
+              },
+              {
+                "id": 10,
+                "name": "el_wild",
+                "type": "wild"
+              },
+              {
+                "id": 11,
+                "name": "el_scatter",
+                "type": "scat"
+              },
+              {
+                "id": 12,
+                "name": "hidden",
+                "type": "hide"
+              }
+            ],
+            "symbols_hide": [
+              12
+            ],
+            "symbols_line": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "symbols_scat": [
+              11
+            ],
+            "symbols_wild": [
+              10
+            ],
+            "use_freebet_init_pick": false,
+            "use_pt_testing": false
+          },
+          "status": {
+            "code": "OK"
+          },
+          "user": {
+            "balance": 100000,
+            "balance_version": 2,
+            "currency": "FUN",
+            "huid": "[REDACTED]",
+            "is_test": false,
+            "show_balance": true
+          }
+        }
+      }
+    ],
+    "launcher": {
+      "client_base": "https://static.3oaks.com/gs/clients_goreel/book_of_sun_multichance/3oaks.v26.9.24/",
+      "family": "clients_goreel",
+      "disable_buy_bonus": "0",
+      "disable_gold_bet": "0"
+    },
+    "start": {
+      "command": "start",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "init",
+        "last_args": {},
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 10,
+          "board": [
+            [
+              1,
+              5,
+              10
+            ],
+            [
+              3,
+              4,
+              9
+            ],
+            [
+              1,
+              10,
+              2
+            ],
+            [
+              9,
+              5,
+              1
+            ],
+            [
+              10,
+              2,
+              3
+            ]
+          ],
+          "lines": 10,
+          "round_bet": 100,
+          "round_win": 0,
+          "total_win": 0
+        },
+        "version": 1
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "997eeb5e66a54cc8b19d2e7b9fe7b48f",
+      "session_id": "[REDACTED]",
+      "settings": {
+        "bet_factor": [
+          10
+        ],
+        "bets": [
+          2,
+          4,
+          5,
+          8,
+          9,
+          10,
+          12,
+          14,
+          15,
+          18,
+          20,
+          25,
+          27,
+          30,
+          35,
+          40,
+          50,
+          55,
+          60,
+          75,
+          80,
+          100,
+          110,
+          125,
+          150,
+          160,
+          180,
+          200,
+          250,
+          260
+        ],
+        "big_win": [
+          40,
+          70,
+          100
+        ],
+        "cols": 5,
+        "currency_format": {
+          "currency_style": "symbol",
+          "denominator": 100,
+          "style": "money"
+        },
+        "freespins_granted": 12,
+        "lines": [
+          10
+        ],
+        "paylines": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "paytable": {
+          "1": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "2": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "3": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "4": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 150,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "5": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 150,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "6": [
+            {
+              "multiplier": 5,
+              "occurrences": 2,
+              "type": "lb"
+            },
+            {
+              "multiplier": 30,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 750,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "7": [
+            {
+              "multiplier": 5,
+              "occurrences": 2,
+              "type": "lb"
+            },
+            {
+              "multiplier": 30,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 750,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "8": [
+            {
+              "multiplier": 5,
+              "occurrences": 2,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 400,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 2000,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "9": [
+            {
+              "multiplier": 10,
+              "occurrences": 2,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 1000,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 5000,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "10": [
+            {
+              "multiplier": 10,
+              "occurrences": 2,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 1000,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 5000,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "11": [
+            {
+              "multiplier": 2,
+              "occurrences": 3,
+              "type": "tb"
+            },
+            {
+              "multiplier": 20,
+              "occurrences": 4,
+              "type": "tb"
+            },
+            {
+              "multiplier": 200,
+              "occurrences": 5,
+              "type": "tb"
+            }
+          ]
+        },
+        "pt_supported": false,
+        "reelsamples": {
+          "freespins": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "freespins_2": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "freespins_3": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "spins": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ]
+        },
+        "rows": 3,
+        "scatter_pays": {
+          "3": 2,
+          "4": 20,
+          "5": 200
+        },
+        "supported_freebets": [
+          "fixed",
+          "flexible",
+          "feature_freespins"
+        ],
+        "symbols": [
+          {
+            "id": 1,
+            "name": "el_10",
+            "type": "line"
+          },
+          {
+            "id": 2,
+            "name": "el_j",
+            "type": "line"
+          },
+          {
+            "id": 3,
+            "name": "el_q",
+            "type": "line"
+          },
+          {
+            "id": 4,
+            "name": "el_k",
+            "type": "line"
+          },
+          {
+            "id": 5,
+            "name": "el_a",
+            "type": "line"
+          },
+          {
+            "id": 6,
+            "name": "el_bird",
+            "type": "line"
+          },
+          {
+            "id": 7,
+            "name": "el_scarabeus",
+            "type": "line"
+          },
+          {
+            "id": 8,
+            "name": "el_horus",
+            "type": "line"
+          },
+          {
+            "id": 9,
+            "name": "el_pharaoh",
+            "type": "line"
+          },
+          {
+            "id": 10,
+            "name": "el_wild",
+            "type": "wild"
+          },
+          {
+            "id": 11,
+            "name": "el_scatter",
+            "type": "scat"
+          },
+          {
+            "id": 12,
+            "name": "hidden",
+            "type": "hide"
+          }
+        ],
+        "symbols_hide": [
+          12
+        ],
+        "symbols_line": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "symbols_scat": [
+          11
+        ],
+        "symbols_wild": [
+          10
+        ],
+        "use_freebet_init_pick": false,
+        "use_pt_testing": false
+      },
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 100000,
+        "balance_version": 2,
+        "currency": "FUN",
+        "huid": "[REDACTED]",
+        "is_test": false,
+        "show_balance": true
+      }
+    },
+    "context": {
+      "actions": [
+        "spin"
+      ],
+      "current": "spins",
+      "last_action": "init",
+      "last_args": {},
+      "round_finished": true,
+      "spins": {
+        "bet_per_line": 10,
+        "board": [
+          [
+            1,
+            5,
+            10
+          ],
+          [
+            3,
+            4,
+            9
+          ],
+          [
+            1,
+            10,
+            2
+          ],
+          [
+            9,
+            5,
+            1
+          ],
+          [
+            10,
+            2,
+            3
+          ]
+        ],
+        "lines": 10,
+        "round_bet": 100,
+        "round_win": 0,
+        "total_win": 0
+      },
+      "version": 1
+    },
+    "profile": {
+      "bet_per_line": 2,
+      "lines": 10,
+      "bet_factor": 10,
+      "base_cost_native": 20,
+      "scale": 100
+    },
+    "source_proof": {
+      "file": "threeoaks/reference/book_of_sun_multichance.client.js",
+      "sha256": "7b2c10b691ebfd3f14a120fb9ed30064e85aed729da0504ed10c90245f647ce5",
+      "url": "https://static.3oaks.com/gs/clients_goreel/book_of_sun_multichance/3oaks.v26.9.24/src/game.js"
+    },
+    "modes": [
+      {
+        "key": "normal",
+        "kind": "normal",
+        "action": {
+          "name": "spin",
+          "params": {
+            "bet_per_line": 2,
+            "lines": 10
+          }
+        },
+        "cost_native": 20,
+        "supported": true
+      }
+    ]
+  }
+]

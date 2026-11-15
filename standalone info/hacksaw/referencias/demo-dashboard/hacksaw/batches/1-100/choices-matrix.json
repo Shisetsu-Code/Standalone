@@ -1,0 +1,1330 @@
+{
+  "summary": {
+    "options": 46,
+    "verified": 46
+  },
+  "roots": {
+    "2405--normal": {},
+    "2670--normal": {},
+    "2091--normal": {},
+    "2582--normal": {},
+    "2269--normal": {},
+    "2347--normal": {},
+    "2253--normal": {},
+    "2465--normal": {},
+    "2536--normal": {},
+    "2620--normal": {},
+    "2248--normal": {},
+    "2492--normal": {},
+    "2356--normal": {},
+    "2408--normal": {},
+    "2613--normal": {},
+    "2458--normal": {},
+    "2378--normal": {},
+    "2413--normal": {},
+    "2319--normal": {},
+    "2166--normal": {},
+    "2328--normal": {},
+    "2303--normal": {},
+    "2334--normal": {},
+    "2438--normal": {},
+    "2470--normal": {},
+    "2296--normal": {},
+    "2213--normal": {},
+    "2274--normal": {},
+    "2243--normal": {},
+    "2258--normal": {},
+    "2229--normal": {},
+    "2082--normal": {},
+    "2108--normal": {},
+    "2219--normal": {},
+    "2185--normal": {},
+    "2234--normal": {},
+    "2195--normal": {},
+    "2190--normal": {},
+    "2148--normal": {},
+    "2143--normal": {},
+    "2062--normal": {},
+    "2138--normal": {},
+    "2077--normal": {},
+    "2057--normal": {},
+    "2115--normal": {},
+    "2019--normal": {},
+    "2000--normal": {},
+    "1981--normal": {},
+    "1971--normal": {},
+    "1946--normal": {},
+    "2004--normal": {},
+    "1977--normal": {},
+    "1965--normal": {},
+    "1938--normal": {},
+    "1871--normal": {},
+    "1914--normal": {},
+    "1803--normal": {},
+    "1924--normal": {},
+    "1928--normal": {},
+    "1891--normal": {},
+    "1830--normal": {},
+    "1875--normal": {},
+    "1867--normal": {},
+    "1744--normal": {},
+    "1824--normal": {},
+    "1799--normal": {},
+    "1811--normal": {},
+    "1817--normal": {},
+    "1756--normal": {},
+    "1897--normal": {},
+    "1740--normal": {},
+    "1791--normal": {},
+    "1787--normal": {},
+    "1229--normal": {},
+    "1783--normal": {},
+    "1760--normal": {},
+    "1752--normal": {},
+    "1736--normal": {},
+    "1685--normal": {},
+    "1732--normal": {},
+    "1728--normal": {},
+    "1715--normal": {},
+    "1460--normal": {},
+    "1711--normal": {},
+    "1430--normal": {},
+    "1697--normal": {},
+    "1693--normal": {},
+    "1666--normal": {},
+    "1675--normal": {},
+    "1681--normal": {},
+    "1438--normal": {},
+    "1689--normal": {},
+    "1640--normal": {},
+    "1608--normal": {},
+    "1558--normal": {},
+    "1554--normal": {},
+    "1620--normal": {},
+    "1612--normal": {},
+    "1616--normal": {},
+    "1580--normal": {},
+    "2405--buy-0": {},
+    "2405--buy-3": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2405--buy-3"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2405--buy-3--choice-1"
+        ]
+      }
+    },
+    "2405--buy-1": {},
+    "2405--buy-2": {},
+    "2405--buy-4": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2405--buy-4"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2405--buy-4--choice-1"
+        ]
+      }
+    },
+    "2269--buy-0": {},
+    "2405--buy-5": {},
+    "2269--buy-1": {},
+    "2269--buy-2": {},
+    "2269--buy-3": {},
+    "2670--buy-0": {},
+    "2670--buy-1": {
+      "3cd45735d1c48bef:fs": {
+        "node": "3cd45735d1c48bef",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "fs_2_coin"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "fs",
+        "verified": true,
+        "evidence": [
+          "2670--buy-1"
+        ]
+      },
+      "3cd45735d1c48bef:fs_2_coin": {
+        "node": "3cd45735d1c48bef",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "fs_2_coin"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "fs_2_coin",
+        "verified": true,
+        "evidence": [
+          "2670--buy-1--choice-1"
+        ]
+      }
+    },
+    "2347--buy-0": {},
+    "2347--buy-1": {},
+    "2347--buy-2": {},
+    "2347--buy-3": {},
+    "2091--buy-0": {},
+    "2091--buy-1": {},
+    "2091--buy-2": {},
+    "2091--buy-3": {},
+    "2582--buy-0": {},
+    "2582--buy-2": {},
+    "2582--buy-3": {},
+    "2582--buy-4": {},
+    "2582--buy-1": {},
+    "2253--buy-0": {},
+    "2253--buy-1": {},
+    "2253--buy-2": {},
+    "2253--buy-3": {},
+    "2536--buy-0": {},
+    "2536--buy-1": {},
+    "2536--buy-3": {},
+    "2536--buy-2": {},
+    "2536--buy-4": {},
+    "2465--buy-0": {},
+    "2465--buy-1": {},
+    "2620--buy-0": {},
+    "2620--buy-1": {},
+    "2620--buy-2": {},
+    "2620--buy-3": {},
+    "2620--buy-4": {},
+    "2248--buy-0": {},
+    "2248--buy-1": {},
+    "2248--buy-2": {},
+    "2248--buy-3": {},
+    "2492--buy-0": {},
+    "2492--buy-1": {},
+    "2492--buy-2": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2492--buy-2"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2492--buy-2--choice-1"
+        ]
+      }
+    },
+    "2492--buy-3": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2492--buy-3"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2492--buy-3--choice-1"
+        ]
+      }
+    },
+    "2408--buy-0": {},
+    "2408--buy-1": {},
+    "2408--buy-2": {},
+    "2408--buy-4": {},
+    "2356--buy-0": {},
+    "2408--buy-3": {},
+    "2356--buy-1": {},
+    "2356--buy-2": {},
+    "2356--buy-3": {},
+    "2613--buy-0": {},
+    "2613--buy-1": {},
+    "2458--buy-0": {},
+    "2458--buy-1": {},
+    "2458--buy-2": {},
+    "2458--buy-3": {},
+    "2378--buy-0": {},
+    "2378--buy-2": {},
+    "2378--buy-1": {},
+    "2378--buy-3": {},
+    "2413--buy-0": {},
+    "2413--buy-2": {},
+    "2413--buy-3": {},
+    "2413--buy-4": {},
+    "2413--buy-1": {},
+    "2166--buy-0": {},
+    "2166--buy-1": {},
+    "2166--buy-2": {},
+    "2166--buy-3": {},
+    "2319--buy-0": {},
+    "2319--buy-1": {},
+    "2319--buy-3": {},
+    "2319--buy-2": {},
+    "2319--buy-4": {},
+    "2328--buy-0": {},
+    "2328--buy-1": {},
+    "2328--buy-2": {},
+    "2328--buy-3": {},
+    "2334--buy-0": {},
+    "2334--buy-1": {},
+    "2334--buy-2": {},
+    "2334--buy-3": {},
+    "2303--buy-0": {},
+    "2303--buy-1": {},
+    "2303--buy-2": {},
+    "2303--buy-3": {},
+    "2438--buy-0": {},
+    "2438--buy-1": {},
+    "2438--buy-2": {},
+    "2470--buy-0": {},
+    "2438--buy-3": {},
+    "2470--buy-1": {},
+    "2470--buy-2": {},
+    "2470--buy-3": {},
+    "2213--buy-0": {},
+    "2213--buy-1": {},
+    "2213--buy-2": {},
+    "2213--buy-3": {},
+    "2213--buy-4": {},
+    "2296--buy-0": {},
+    "2296--buy-1": {},
+    "2296--buy-2": {},
+    "2296--buy-3": {},
+    "2274--buy-0": {},
+    "2274--buy-1": {},
+    "2274--buy-2": {},
+    "2274--buy-3": {},
+    "2274--buy-4": {},
+    "2243--buy-0": {},
+    "2243--buy-1": {},
+    "2243--buy-2": {},
+    "2243--buy-3": {},
+    "2258--buy-0": {},
+    "2258--buy-1": {},
+    "2258--buy-2": {},
+    "2258--buy-3": {},
+    "2229--buy-0": {},
+    "2229--buy-1": {},
+    "2229--buy-2": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2229--buy-2"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2229--buy-2--choice-1"
+        ]
+      }
+    },
+    "2229--buy-3": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2229--buy-3"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2229--buy-3--choice-1"
+        ]
+      }
+    },
+    "2082--buy-0": {},
+    "2082--buy-1": {},
+    "2082--buy-2": {},
+    "2082--buy-3": {},
+    "2108--buy-0": {},
+    "2108--buy-1": {},
+    "2108--buy-2": {},
+    "2108--buy-3": {},
+    "2234--buy-0": {},
+    "2234--buy-1": {},
+    "2234--buy-2": {},
+    "2234--buy-3": {},
+    "2234--buy-4": {},
+    "2219--buy-0": {},
+    "2219--buy-1": {},
+    "2219--buy-3": {},
+    "2219--buy-2": {},
+    "2185--buy-0": {},
+    "2185--buy-1": {},
+    "2185--buy-2": {},
+    "2185--buy-3": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2185--buy-3"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2185--buy-3--choice-1"
+        ]
+      }
+    },
+    "2185--buy-4": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "2185--buy-4"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "2185--buy-4--choice-1"
+        ]
+      }
+    },
+    "2185--buy-5": {},
+    "2195--buy-0": {},
+    "2195--buy-1": {},
+    "2195--buy-2": {},
+    "2195--buy-3": {},
+    "2190--buy-0": {},
+    "2190--buy-1": {},
+    "2190--buy-2": {},
+    "2190--buy-3": {},
+    "2148--buy-0": {},
+    "2148--buy-1": {},
+    "2148--buy-2": {},
+    "2148--buy-4": {},
+    "2148--buy-3": {},
+    "2143--buy-0": {},
+    "2143--buy-1": {},
+    "2143--buy-2": {},
+    "2062--buy-0": {},
+    "2143--buy-3": {},
+    "2062--buy-1": {},
+    "2062--buy-2": {},
+    "2062--buy-3": {},
+    "2062--buy-4": {},
+    "2062--buy-5": {},
+    "2138--buy-0": {},
+    "2138--buy-1": {},
+    "2138--buy-2": {},
+    "2138--buy-3": {},
+    "2077--buy-0": {},
+    "2077--buy-1": {},
+    "2077--buy-2": {},
+    "2077--buy-3": {},
+    "2057--buy-0": {},
+    "2057--buy-1": {},
+    "2057--buy-2": {},
+    "2057--buy-4": {},
+    "2057--buy-3": {},
+    "2115--buy-0": {},
+    "2115--buy-1": {},
+    "2115--buy-2": {},
+    "2115--buy-3": {},
+    "2000--buy-0": {},
+    "2000--buy-1": {},
+    "2000--buy-2": {},
+    "2000--buy-3": {},
+    "2019--buy-0": {},
+    "2019--buy-1": {},
+    "2019--buy-2": {},
+    "2019--buy-3": {},
+    "1981--buy-0": {},
+    "1981--buy-2": {},
+    "1981--buy-1": {},
+    "1981--buy-3": {},
+    "1981--buy-4": {},
+    "1971--buy-0": {},
+    "1971--buy-1": {},
+    "1971--buy-2": {},
+    "1971--buy-3": {},
+    "2004--buy-0": {},
+    "2004--buy-1": {},
+    "2004--buy-2": {},
+    "2004--buy-3": {},
+    "1946--buy-0": {},
+    "1946--buy-1": {},
+    "1946--buy-2": {},
+    "1946--buy-3": {},
+    "1977--buy-0": {},
+    "1977--buy-1": {},
+    "1977--buy-2": {},
+    "1977--buy-3": {},
+    "1965--buy-0": {},
+    "1965--buy-1": {},
+    "1965--buy-2": {},
+    "1965--buy-3": {},
+    "1938--buy-0": {},
+    "1938--buy-2": {},
+    "1938--buy-3": {},
+    "1938--buy-1": {},
+    "1871--buy-0": {},
+    "1871--buy-1": {},
+    "1871--buy-2": {},
+    "1871--buy-3": {},
+    "1924--buy-0": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1924--buy-0"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1924--buy-0--choice-8"
+        ]
+      }
+    },
+    "1924--buy-1": {},
+    "1924--buy-2": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1924--buy-2"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1924--buy-2--choice-1"
+        ]
+      }
+    },
+    "1924--buy-3": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1924--buy-3"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1924--buy-3--choice-1"
+        ]
+      }
+    },
+    "1914--buy-0": {},
+    "1914--buy-1": {},
+    "1914--buy-2": {},
+    "1914--buy-3": {},
+    "1803--buy-0": {},
+    "1803--buy-1": {},
+    "1803--buy-2": {},
+    "1803--buy-3": {},
+    "1928--buy-0": {},
+    "1928--buy-1": {},
+    "1928--buy-2": {},
+    "1928--buy-3": {},
+    "1891--buy-0": {},
+    "1891--buy-1": {},
+    "1891--buy-2": {},
+    "1891--buy-3": {},
+    "1867--buy-0": {},
+    "1867--buy-1": {},
+    "1867--buy-2": {},
+    "1867--buy-3": {},
+    "1875--buy-0": {},
+    "1875--buy-1": {},
+    "1875--buy-2": {
+      "0984b7f94e8c7ab8:ts": {
+        "node": "0984b7f94e8c7ab8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "ts"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "ts",
+        "verified": true,
+        "evidence": [
+          "1875--buy-2"
+        ]
+      },
+      "0984b7f94e8c7ab8:fs": {
+        "node": "0984b7f94e8c7ab8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "ts"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "fs",
+        "verified": true,
+        "evidence": [
+          "1875--buy-2--choice-1"
+        ]
+      }
+    },
+    "1875--buy-3": {
+      "b774818c72806374:ts": {
+        "node": "b774818c72806374",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "ts"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "ts",
+        "verified": true,
+        "evidence": [
+          "1875--buy-3"
+        ]
+      },
+      "b774818c72806374:fs": {
+        "node": "b774818c72806374",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "ts"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "fs",
+        "verified": true,
+        "evidence": [
+          "1875--buy-3--choice-1"
+        ]
+      }
+    },
+    "1830--buy-0": {},
+    "1830--buy-1": {},
+    "1830--buy-2": {},
+    "1830--buy-3": {},
+    "1744--buy-0": {},
+    "1744--buy-1": {},
+    "1744--buy-2": {},
+    "1744--buy-3": {},
+    "1824--buy-0": {},
+    "1824--buy-1": {},
+    "1824--buy-2": {},
+    "1824--buy-3": {},
+    "1799--buy-0": {},
+    "1824--buy-4": {},
+    "1799--buy-1": {},
+    "1799--buy-2": {},
+    "1799--buy-4": {},
+    "1799--buy-3": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1799--buy-3"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1799--buy-3--choice-1"
+        ]
+      }
+    },
+    "1811--buy-0": {},
+    "1811--buy-1": {},
+    "1811--buy-2": {},
+    "1811--buy-3": {},
+    "1811--buy-4": {},
+    "1817--buy-0": {},
+    "1817--buy-1": {},
+    "1817--buy-2": {},
+    "1817--buy-3": {},
+    "1756--buy-0": {},
+    "1756--buy-1": {},
+    "1756--buy-2": {},
+    "1756--buy-3": {},
+    "1897--buy-0": {},
+    "1897--buy-1": {},
+    "1897--buy-2": {},
+    "1740--buy-0": {},
+    "1740--buy-1": {},
+    "1740--buy-2": {},
+    "1740--buy-3": {},
+    "1791--buy-0": {},
+    "1791--buy-1": {},
+    "1791--buy-2": {},
+    "1791--buy-3": {},
+    "1787--buy-0": {},
+    "1787--buy-1": {},
+    "1787--buy-2": {},
+    "1787--buy-3": {},
+    "1229--buy-0": {},
+    "1229--buy-1": {},
+    "1229--buy-2": {},
+    "1783--buy-0": {},
+    "1783--buy-1": {},
+    "1783--buy-2": {},
+    "1760--buy-0": {},
+    "1760--buy-1": {},
+    "1760--buy-2": {},
+    "1760--buy-3": {},
+    "1760--buy-4": {},
+    "1752--buy-0": {},
+    "1752--buy-1": {},
+    "1752--buy-2": {},
+    "1752--buy-3": {},
+    "1736--buy-0": {},
+    "1736--buy-2": {},
+    "1736--buy-1": {},
+    "1736--buy-3": {},
+    "1685--buy-0": {},
+    "1685--buy-1": {},
+    "1685--buy-2": {},
+    "1685--buy-3": {},
+    "1732--buy-0": {},
+    "1732--buy-1": {},
+    "1732--buy-2": {},
+    "1732--buy-3": {},
+    "1728--buy-0": {},
+    "1728--buy-1": {},
+    "1728--buy-2": {},
+    "1728--buy-3": {},
+    "1728--buy-4": {},
+    "1715--buy-0": {},
+    "1715--buy-1": {},
+    "1715--buy-3": {},
+    "1715--buy-2": {},
+    "1715--buy-4": {},
+    "1711--buy-0": {},
+    "1711--buy-1": {},
+    "1711--buy-2": {},
+    "1711--buy-3": {},
+    "1460--buy-1": {},
+    "1460--buy-2": {},
+    "1460--buy-0": {},
+    "1460--buy-3": {},
+    "1430--buy-0": {},
+    "1430--buy-1": {},
+    "1430--buy-2": {},
+    "1430--buy-3": {},
+    "1697--buy-0": {},
+    "1697--buy-1": {},
+    "1697--buy-2": {},
+    "1697--buy-3": {
+      "824345bc867782ef:fs": {
+        "node": "824345bc867782ef",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "labyrinth"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "fs",
+        "verified": true,
+        "evidence": [
+          "1697--buy-3"
+        ]
+      },
+      "824345bc867782ef:labyrinth": {
+        "node": "824345bc867782ef",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "labyrinth"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "labyrinth",
+        "verified": true,
+        "evidence": [
+          "1697--buy-3--choice-1"
+        ]
+      }
+    },
+    "1697--buy-4": {
+      "8d2b6dc8fab10a53:fs": {
+        "node": "8d2b6dc8fab10a53",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "labyrinth"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "fs",
+        "verified": true,
+        "evidence": [
+          "1697--buy-4"
+        ]
+      },
+      "8d2b6dc8fab10a53:labyrinth": {
+        "node": "8d2b6dc8fab10a53",
+        "family": {
+          "status": "started",
+          "actions": [
+            "fs",
+            "labyrinth"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "labyrinth",
+        "verified": true,
+        "evidence": [
+          "1697--buy-4--choice-1"
+        ]
+      }
+    },
+    "1666--buy-0": {},
+    "1666--buy-1": {},
+    "1666--buy-2": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1666--buy-2"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1666--buy-2--choice-1"
+        ]
+      }
+    },
+    "1666--buy-3": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1666--buy-3"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1666--buy-3--choice-1"
+        ]
+      }
+    },
+    "1693--buy-0": {},
+    "1693--buy-1": {},
+    "1693--buy-3": {},
+    "1693--buy-2": {},
+    "1681--buy-0": {},
+    "1681--buy-1": {},
+    "1681--buy-2": {},
+    "1681--buy-3": {},
+    "1675--buy-0": {},
+    "1675--buy-1": {},
+    "1675--buy-2": {
+      "0d501c9f1a230a17:play": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1675--buy-2"
+        ]
+      },
+      "0d501c9f1a230a17:gamble": {
+        "node": "0d501c9f1a230a17",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1675--buy-2--choice-1"
+        ]
+      }
+    },
+    "1675--buy-3": {
+      "47946acd33026cd8:play": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "play",
+        "verified": true,
+        "evidence": [
+          "1675--buy-3"
+        ]
+      },
+      "47946acd33026cd8:gamble": {
+        "node": "47946acd33026cd8",
+        "family": {
+          "status": "started",
+          "actions": [
+            "gamble",
+            "play"
+          ],
+          "event": "pick",
+          "choice": "bonus_2"
+        },
+        "option": "gamble",
+        "verified": true,
+        "evidence": [
+          "1675--buy-3--choice-1"
+        ]
+      }
+    },
+    "1689--buy-0": {},
+    "1689--buy-1": {},
+    "1689--buy-2": {},
+    "1689--buy-3": {},
+    "1438--buy-0": {},
+    "1438--buy-1": {},
+    "1438--buy-2": {},
+    "1438--buy-3": {},
+    "1640--buy-0": {},
+    "1640--buy-1": {},
+    "1640--buy-2": {},
+    "1640--buy-3": {},
+    "1608--buy-0": {},
+    "1608--buy-1": {},
+    "1608--buy-2": {
+      "7c272abbf76bf6ac:wild": {
+        "node": "7c272abbf76bf6ac",
+        "family": {
+          "status": "started",
+          "actions": [
+            "warehouse",
+            "wild"
+          ],
+          "event": "pick",
+          "choice": "fs"
+        },
+        "option": "wild",
+        "verified": true,
+        "evidence": [
+          "1608--buy-2"
+        ]
+      },
+      "7c272abbf76bf6ac:warehouse": {
+        "node": "7c272abbf76bf6ac",
+        "family": {
+          "status": "started",
+          "actions": [
+            "warehouse",
+            "wild"
+          ],
+          "event": "pick",
+          "choice": "fs"
+        },
+        "option": "warehouse",
+        "verified": true,
+        "evidence": [
+          "1608--buy-2--choice-1"
+        ]
+      }
+    },
+    "1554--buy-0": {},
+    "1554--buy-1": {},
+    "1608--buy-3": {
+      "0ba35d635738f9ad:wild": {
+        "node": "0ba35d635738f9ad",
+        "family": {
+          "status": "started",
+          "actions": [
+            "warehouse",
+            "wild"
+          ],
+          "event": "pick",
+          "choice": "fs_2"
+        },
+        "option": "wild",
+        "verified": true,
+        "evidence": [
+          "1608--buy-3"
+        ]
+      },
+      "0ba35d635738f9ad:warehouse": {
+        "node": "0ba35d635738f9ad",
+        "family": {
+          "status": "started",
+          "actions": [
+            "warehouse",
+            "wild"
+          ],
+          "event": "pick",
+          "choice": "fs_2"
+        },
+        "option": "warehouse",
+        "verified": true,
+        "evidence": [
+          "1608--buy-3--choice-1"
+        ]
+      }
+    },
+    "1554--buy-2": {},
+    "1558--buy-0": {},
+    "1558--buy-1": {},
+    "1558--buy-2": {},
+    "1558--buy-3": {},
+    "1620--buy-0": {},
+    "1620--buy-1": {},
+    "1620--buy-2": {},
+    "1620--buy-3": {},
+    "1620--buy-4": {},
+    "1612--buy-0": {},
+    "1612--buy-1": {},
+    "1612--buy-2": {},
+    "1612--buy-3": {},
+    "1616--buy-0": {},
+    "1616--buy-1": {},
+    "1616--buy-2": {},
+    "1616--buy-3": {},
+    "1616--buy-4": {},
+    "1580--buy-0": {},
+    "1580--buy-1": {},
+    "1580--buy-3": {},
+    "1580--buy-2": {}
+  }
+}

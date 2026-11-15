@@ -1,0 +1,804 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_fbplinko_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "1b2067ee41a23cdba61971e21034381b84fd4e659f4a167f33251494bced5ef9"
+  ],
+  "native_modes": [
+    {
+      "id": "7bd2690b-eb5c-4977-8500-a0dc42e6cf69",
+      "name": "Rows14Low1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Low1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows14Low1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "7bd2690b-eb5c-4977-8500-a0dc42e6cf69"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "8395729f-6f63-40d4-b459-7f0d3e44bf62",
+      "name": "Rows14Low5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Low5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows14Low5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "8395729f-6f63-40d4-b459-7f0d3e44bf62"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "ec007cba-d220-4ed9-80a3-3951d81d421f",
+      "name": "Rows14Low10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Low10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows14Low10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "ec007cba-d220-4ed9-80a3-3951d81d421f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "ae61fb41-bc62-4151-a492-16d0616601a4",
+      "name": "Rows14Low25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Low25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows14Low25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "ae61fb41-bc62-4151-a492-16d0616601a4"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "d8781325-262a-4b89-8959-e7d0b0b34c1b",
+      "name": "Rows14Low50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Low50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows14Low50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "d8781325-262a-4b89-8959-e7d0b0b34c1b"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "2de9d21d-07e4-4092-80ad-9129322654fc",
+      "name": "Rows14Mid1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Mid1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows14Mid1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "2de9d21d-07e4-4092-80ad-9129322654fc"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "ffa66c06-3959-45c5-b2da-74fe0ed22f0d",
+      "name": "Rows14Mid5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Mid5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows14Mid5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "ffa66c06-3959-45c5-b2da-74fe0ed22f0d"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "6e5db0d7-f1dd-46ba-8eb0-523c6ac57be7",
+      "name": "Rows14Mid10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Mid10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows14Mid10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "6e5db0d7-f1dd-46ba-8eb0-523c6ac57be7"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "f4665fe3-8dc2-4d22-995d-348674dae345",
+      "name": "Rows14Mid25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Mid25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows14Mid25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "f4665fe3-8dc2-4d22-995d-348674dae345"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "1db0dea2-1c6a-4e9b-9d27-2cb3502d97d0",
+      "name": "Rows14Mid50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14Mid50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows14Mid50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "1db0dea2-1c6a-4e9b-9d27-2cb3502d97d0"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "045e7565-6ee8-43f1-ab4b-86d0a3b25e1a",
+      "name": "Rows14High1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14High1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows14High1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "045e7565-6ee8-43f1-ab4b-86d0a3b25e1a"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "ffc27faa-ad03-4f74-9330-24705b5ca78e",
+      "name": "Rows14High5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14High5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows14High5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "ffc27faa-ad03-4f74-9330-24705b5ca78e"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "c4aa2757-cb2d-4af3-806e-cdf2b6e25419",
+      "name": "Rows14High10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14High10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows14High10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "c4aa2757-cb2d-4af3-806e-cdf2b6e25419"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "281ba5b3-c700-4b81-a16a-7d016dbc053a",
+      "name": "Rows14High25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14High25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows14High25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "281ba5b3-c700-4b81-a16a-7d016dbc053a"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "dd44b496-a0c6-454f-a972-6e539c5a96e0",
+      "name": "Rows14High50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows14High50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows14High50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "dd44b496-a0c6-454f-a972-6e539c5a96e0"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "6d94b3e0-defc-4e3d-9738-e02bb01f42c7",
+      "name": "Rows16Low1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Low1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows16Low1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "6d94b3e0-defc-4e3d-9738-e02bb01f42c7"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "b2ea5158-1faf-4c45-bffe-32b09df2390e",
+      "name": "Rows16Low5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Low5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows16Low5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "b2ea5158-1faf-4c45-bffe-32b09df2390e"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "29c550fb-bf7b-41fb-968b-958980953508",
+      "name": "Rows16Low10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Low10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows16Low10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "29c550fb-bf7b-41fb-968b-958980953508"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "939a8e61-198b-4c35-98d5-539a5cf60217",
+      "name": "Rows16Low25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Low25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows16Low25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "939a8e61-198b-4c35-98d5-539a5cf60217"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "895d141c-cbf7-4070-9e41-c1c66452ef24",
+      "name": "Rows16Low50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Low50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows16Low50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "895d141c-cbf7-4070-9e41-c1c66452ef24"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "c1d9a93a-c44b-404a-a459-a8494cdad11b",
+      "name": "Rows16Mid1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Mid1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows16Mid1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "c1d9a93a-c44b-404a-a459-a8494cdad11b"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "551ba3b4-65b1-4f7e-a346-c622cca9b6f7",
+      "name": "Rows16Mid5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Mid5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows16Mid5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "551ba3b4-65b1-4f7e-a346-c622cca9b6f7"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "5a7fd998-cb4a-4bad-9925-66e270c2c304",
+      "name": "Rows16Mid10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Mid10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows16Mid10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "5a7fd998-cb4a-4bad-9925-66e270c2c304"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "bd915e58-4d82-455e-ab50-aecc54e1d1d4",
+      "name": "Rows16Mid25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Mid25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows16Mid25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "bd915e58-4d82-455e-ab50-aecc54e1d1d4"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "738a3f9a-3a90-4316-9398-3ec383035e9e",
+      "name": "Rows16Mid50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16Mid50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows16Mid50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "738a3f9a-3a90-4316-9398-3ec383035e9e"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "c5a85c44-0f57-4d5b-b7a4-d6ce6e3e3218",
+      "name": "Rows16High1Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16High1Ball",
+      "selector_source": "native declaration",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Rows16High1Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "c5a85c44-0f57-4d5b-b7a4-d6ce6e3e3218"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "b75ed26c-fbf1-4fe5-bfa0-809bfdb806d9",
+      "name": "Rows16High5Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16High5Ball",
+      "selector_source": "native declaration",
+      "cost": 50,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 50,
+        "name": "Rows16High5Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "5",
+          "winline": "1"
+        },
+        "uuid": "b75ed26c-fbf1-4fe5-bfa0-809bfdb806d9"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "6d55df2a-587f-4b5d-9fa2-87de13eed775",
+      "name": "Rows16High10Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16High10Ball",
+      "selector_source": "native declaration",
+      "cost": 100,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 100,
+        "name": "Rows16High10Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "10",
+          "winline": "1"
+        },
+        "uuid": "6d55df2a-587f-4b5d-9fa2-87de13eed775"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "91c0d148-043b-4d25-bc03-345b5116a442",
+      "name": "Rows16High25Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16High25Ball",
+      "selector_source": "native declaration",
+      "cost": 250,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 250,
+        "name": "Rows16High25Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "25",
+          "winline": "1"
+        },
+        "uuid": "91c0d148-043b-4d25-bc03-345b5116a442"
+      },
+      "server_declared": true,
+      "observed": true
+    },
+    {
+      "id": "3ab271df-a5b9-4a3e-a28d-e4910177b61a",
+      "name": "Rows16High50Ball",
+      "kind": "NATIVE_OPTION",
+      "selector": "Rows16High50Ball",
+      "selector_source": "native declaration",
+      "cost": 500,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 500,
+        "name": "Rows16High50Ball",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "f4800d57-2034-4ecd-a966-f0ad179d0977",
+          "startingPlays": "50",
+          "winline": "1"
+        },
+        "uuid": "3ab271df-a5b9-4a3e-a28d-e4910177b61a"
+      },
+      "server_declared": true,
+      "observed": true
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "review_reason": "No legal stake in native scoped domain",
+  "error_type": "ValueError",
+  "updated_at": 1793480860.5841045,
+  "slot_evidence": {
+    "confirmed": false,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

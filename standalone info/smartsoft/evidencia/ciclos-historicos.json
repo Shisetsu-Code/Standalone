@@ -1,0 +1,130 @@
+[
+  {
+    "provider": "smartsoft",
+    "game_id": "GeniesBonanza",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "DMO",
+      "bet": "0.2",
+      "cost": "20",
+      "win": "4.6",
+      "balance_before": "20000",
+      "balance_after": "19984.6"
+    },
+    "mode": {
+      "key": "PurchaseBonus:0",
+      "type": "purchase"
+    },
+    "source_sha256": "b90ffcdde5389f8ccce1dbbd0d80549d78e60244d710c00a04e311e673d8ae52",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 10,
+      "entry_event_index": 0,
+      "selected_option": "PurchaseBonus",
+      "selected_value": 0,
+      "transport": "http_direct",
+      "options_offered": [
+        "Start",
+        "PurchaseBonus",
+        "RiskBet",
+        "RiskGame"
+      ],
+      "steps": [
+        {
+          "event": "start.game",
+          "event_index": 0,
+          "selected_action": "PurchaseBonus",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 1,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 2,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 3,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 4,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 5,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 6,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 7,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 8,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 9,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start"
+          ]
+        },
+        {
+          "event": "start.game",
+          "event_index": 10,
+          "selected_action": "Start",
+          "options_offered": [
+            "Start",
+            "PurchaseBonus",
+            "RiskBet",
+            "RiskGame"
+          ]
+        }
+      ]
+    }
+  }
+]

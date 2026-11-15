@@ -1,0 +1,41 @@
+{
+  "status": "MATRIX_PROVIDER_BACKOFF",
+  "pid": 33576,
+  "started_at": 1793491813.7424753,
+  "games": [
+    {
+      "game_code": "gpas_15dmdlo_pop",
+      "status": "complete",
+      "declared_pairs": 25,
+      "verified_pairs": 25,
+      "baseline_snapshot": "history/gpas_15dmdlo_pop-before-full-stake-matrix.json",
+      "baseline_sha256": "a7fb11cb8d765119a6dc851c35e081eb6a6674c0cff229247a64c6e2bd59fb18",
+      "updated_at": 1793491859.6395764,
+      "missing_pairs": [],
+      "held_pairs": [],
+      "blocked_by_demo_balance": [],
+      "protocol_review": []
+    },
+    {
+      "game_code": "gpas_15homb1_pop",
+      "status": "complete",
+      "declared_pairs": 300,
+      "verified_pairs": 300,
+      "baseline_snapshot": "history/gpas_15homb1_pop-before-full-stake-matrix.json",
+      "baseline_sha256": "3b4ea2702c30fbd018b2102a3cd6dc988ff69e9ca4d9beec98b2b7d5587377f1",
+      "updated_at": 1793492512.9139252,
+      "missing_pairs": [],
+      "held_pairs": [],
+      "blocked_by_demo_balance": [],
+      "protocol_review": []
+    },
+    {
+      "game_code": "gpas_15homc1_pop",
+      "status": "controller_requires_review",
+      "reason": "MATRIX_PROVIDER_BACKOFF"
+    }
+  ],
+  "policy": "Actual closed receipts only; no uncertain tuple replay; native amounts exceeding observed supplied demo balance remain blocked. NGM local-engine execution excluded.",
+  "current_game": "gpas_15homc1_pop",
+  "updated_at": 1793492587.4077034
+}

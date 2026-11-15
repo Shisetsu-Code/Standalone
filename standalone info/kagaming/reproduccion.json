@@ -1,0 +1,23 @@
+{
+  "provider": "kagaming",
+  "name": "KA Gaming",
+  "inventory": "../inventario/kagaming.json",
+  "historical": "../evidencia/kagaming.json",
+  "games": 837,
+  "modes": 885,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "parallel-workspaces/kagaming"
+    ],
+    "absent_from_checkout": [
+      "parallel-workspaces/kagaming"
+    ]
+  },
+  "native_family": "kaga.spin",
+  "continuation": "native bonus commands",
+  "closure": "native cash and total win",
+  "standalone_rust": null,
+  "paused": false
+}

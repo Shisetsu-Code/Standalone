@@ -1,0 +1,144 @@
+{
+  "schema": "root-peterandsons-chat4-delivery-review/v1",
+  "updated_at": 1793546589.1460197,
+  "thread_title": "Crear un relay proxy (4)",
+  "status": "accepted_scoped_partial_delivery",
+  "catalogue_games": 75,
+  "games_complete_for_identified_minimum_modes": 70,
+  "games_with_unreconciled_prior_settlement": 5,
+  "verified_modes": 239,
+  "mode_kinds": {
+    "normal": 75,
+    "special": 52,
+    "purchase": 112
+  },
+  "internal_steps": 1870,
+  "conditional_purchases_verified": 2,
+  "mode_evidence_references_checked": 1918,
+  "pending_not_started": [
+    {
+      "game": "gold-raiders",
+      "mode": "buy_RAINBOW"
+    },
+    {
+      "game": "gold-raiders",
+      "mode": "buy_SUPER"
+    },
+    {
+      "game": "artifacts",
+      "mode": "buy_FS_RANDOM"
+    }
+  ],
+  "held_original_settlements": [
+    {
+      "game": "gold-raiders",
+      "mode": "buy_BONUS",
+      "error": "TRANSACTION_REJECTED",
+      "hold": {
+        "path": "provider-work/peterandsons-chat4/private/holds/gold-raiders.json",
+        "sha256": "eb24c9934c99315a88478b394c2ab26c56da888d9ee29a9e2e48363695aae560"
+      }
+    },
+    {
+      "game": "inks-pints",
+      "mode": "buy_JACKPOT",
+      "error": "TRANSACTION_REJECTED",
+      "hold": {
+        "path": "provider-work/peterandsons-chat4/private/holds/inks-pints.json",
+        "sha256": "8bada24596e39a8a1b6bb3160fe10a3d67cbfc54dafb28f5d4728fd3ad28cb27"
+      }
+    },
+    {
+      "game": "tango-of-chaos",
+      "mode": "buy_FS",
+      "error": "TRANSACTION_REJECTED",
+      "hold": {
+        "path": "provider-work/peterandsons-chat4/private/holds/tango-of-chaos.json",
+        "sha256": "b5eae42b9c5bcc13a1461827eb26f450a7bed4a05353803f513ae15281164e82"
+      }
+    },
+    {
+      "game": "artifacts",
+      "mode": "buy_FS_POWER_RANDOM",
+      "error": "TRANSACTION_REJECTED",
+      "hold": {
+        "path": "provider-work/peterandsons-chat4/private/holds/artifacts.json",
+        "sha256": "be7ebd1c1dedbc06ef3149784cf6f9254c6993439b8ab8533e117900a4ee2672"
+      }
+    },
+    {
+      "game": "bunny-heist",
+      "mode": "buy_JACKPOT",
+      "error": "TRANSACTION_REJECTED",
+      "hold": {
+        "path": "provider-work/peterandsons-chat4/private/holds/bunny-heist.json",
+        "sha256": "d69d28b328cf4167fd9e4e7d654efaac509ab3b3e6a769255c3eb3264cf040be"
+      }
+    }
+  ],
+  "replication_additional_not_new_mode_coverage": {
+    "game": "inks-pints",
+    "verified_rounds": 7,
+    "cost": 312,
+    "payout": 281,
+    "balance_before": 10000,
+    "balance_after": 9969,
+    "old_hold_unchanged": true
+  },
+  "bundles": [
+    {
+      "manifest": {
+        "path": "provider-work/peterandsons-chat4/export/peterandsons-evidence/manifest.json",
+        "sha256": "b7b371ddf5adc79d182f9fad1c5dd877575d0b7d8a79952fc159f8cac64988f0"
+      },
+      "files": 1148,
+      "hashes_passed": true,
+      "known_session_credentials_absent": true
+    },
+    {
+      "manifest": {
+        "path": "provider-work/peterandsons-chat4/export/peterandsons-evidence-bloody-update/manifest.json",
+        "sha256": "aa5e3421ea6483ec64c7dd45ed13c74428ce5690490e3a7ee7d87d1543cdbc44"
+      },
+      "files": 1185,
+      "hashes_passed": true,
+      "known_session_credentials_absent": true
+    },
+    {
+      "manifest": {
+        "path": "provider-work/peterandsons-chat4/export/inks-pints-har-addendum/manifest.json",
+        "sha256": "edac19ddcde67ddad695a82697add03564542a40ac68c1f9bba95331304a0dae"
+      },
+      "files": 5,
+      "hashes_passed": true,
+      "known_session_credentials_absent": true
+    },
+    {
+      "manifest": {
+        "path": "provider-work/peterandsons-chat4/export/inks-pints-replication/manifest.json",
+        "sha256": "fd1b535fd45151f972d8aba9aebc57329efd9623a6061d0d8ad9ad0427b3546c"
+      },
+      "files": 22,
+      "hashes_passed": true,
+      "known_session_credentials_absent": true
+    }
+  ],
+  "issues": [],
+  "coverage_limits": [
+    "Identified native minimum modes only; not all stakes/line permutations.",
+    "Original five rejected settlements remain unresolved. A different session cannot reconcile them.",
+    "Inks additional successful Jackpot proves operation at tested amount/timing; no causal diagnosis of prior rejection.",
+    "Captured HAR cycles, parent preparations, conditional modes and seven additional replication rounds are separate counts."
+  ],
+  "source_report": {
+    "path": "provider-work/peterandsons-chat4/results/provider-report.json",
+    "sha256": "7767865177f3da08c325936db55dcac84002f68231de205bdade6cd5098fccd5"
+  },
+  "source_audit": {
+    "path": "provider-work/peterandsons-chat4/results/final-audit.json",
+    "sha256": "96f6cdd857939ee1b639096e3f4edf17a1f65f06d816c79f5b1ab68cc406f005"
+  },
+  "network_requests": 0,
+  "new_game_outcomes": 0,
+  "other_chat_files_modified": false
+}

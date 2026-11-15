@@ -1,0 +1,196 @@
+{
+  "game_id": "casino-night",
+  "title": "Casino Night™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.88",
+          "has_state": false
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "closed_state": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "10000.78",
+      "win": "0.88",
+      "currency": "EUR",
+      "native_mode_id": 0
+    },
+    {
+      "name": "Bonus:101",
+      "kind": "special",
+      "mode": "Bonus:101",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "2.96",
+          "has_state": false
+        },
+        {
+          "path": "game.freeSpins[0]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[1]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[2]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[3]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[4]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[5]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[6]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[7]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[8]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[9]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[10]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[11]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[12]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[13]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[14]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[15]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[16]",
+          "mode": "FreeSpins",
+          "win_reference": "2.78",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "closed_state": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "60.00",
+      "cost": "6.000",
+      "before": "10000.78",
+      "debit": "9994.78",
+      "after": "9997.74",
+      "win": "2.96",
+      "currency": "EUR",
+      "native_mode_id": 101
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

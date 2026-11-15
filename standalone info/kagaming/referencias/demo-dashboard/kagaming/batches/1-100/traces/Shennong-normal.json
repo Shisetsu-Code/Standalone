@@ -1,0 +1,151 @@
+{
+  "game": "Shennong",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 6,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 20,
+    "cost_formula": "Uc(sel,cps) -> 20*cps (selection-independent)",
+    "source_sha256": "2f8fe02528b34f58bf7a81adbce965b9edc12f34ac40585d2f689ff19439ed1c",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "Shennong",
+        "sel": 6,
+        "sid": 1296227295,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793296227.2944596,
+      "http_status": 200,
+      "response": {
+        "sid": 1296227295,
+        "md": {
+          "sid": 1296319067,
+          "tid": "round-3ec77f6f220b5589159e",
+          "sel": 6,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 20,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 4,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            9,
+            6,
+            9,
+            3,
+            7,
+            2,
+            5,
+            3,
+            6,
+            5,
+            0,
+            5,
+            5,
+            10,
+            11,
+            8,
+            4,
+            9,
+            10,
+            9,
+            11,
+            10,
+            5,
+            1
+          ],
+          "swi": [
+            4
+          ],
+          "snm": [
+            1
+          ],
+          "ssm": [
+            524293
+          ],
+          "sm": [
+            0,
+            1024,
+            1
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999984,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 4,
+          "tsb": 20
+        },
+        "pcr": 9999980,
+        "cr": 9999984,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          20,
+          25,
+          50,
+          75,
+          100,
+          250,
+          500,
+          750,
+          1000,
+          1500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793296225.292181,
+  "session_group": "Shennong-18c9597b87f844edb51de4a368a9641a",
+  "balance_before_native": 10000000,
+  "cost_native": 20,
+  "win_native": 4,
+  "balance_after_native": 9999984,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

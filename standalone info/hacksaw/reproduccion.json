@@ -1,0 +1,24 @@
+{
+  "provider": "hacksaw",
+  "name": "Hacksaw Gaming",
+  "inventory": "../inventario/hacksaw.json",
+  "historical": "../evidencia/hacksaw.json",
+  "games": 142,
+  "modes": 744,
+  "python": {
+    "source": "../../../bet-collector/collection_worker.py",
+    "entry": "hacksaw",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "hacksaw.play",
+  "continuation": "nextRound/actions",
+  "closure": "round finished and balance",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/hacksaw.rs",
+    "verified_normal_ci": true
+  },
+  "paused": false
+}

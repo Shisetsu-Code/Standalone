@@ -1,0 +1,66 @@
+{
+  "game_id": "burning-fortunator",
+  "title": "Burning Fortunator",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 1,
+  "modes": [
+    {
+      "name": "Spin",
+      "mode": "Spin",
+      "kind": "normal",
+      "state": "verified",
+      "status": "verified",
+      "validation_concluded": true,
+      "complete": true,
+      "checks": {
+        "documented_demo_adjustments": true,
+        "positive_native_cost": true,
+        "entry_base_cost": true,
+        "entry_wallet": true,
+        "wallet_ledger": true,
+        "round_closed": true,
+        "purchase_binding": true,
+        "ante_binding": true,
+        "free_entries_zero_cost": true,
+        "demo": true,
+        "minimum_base": true,
+        "native_source": true
+      },
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "credit_minor": 1099990,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0,
+          "bonus_spins_left": null,
+          "free_win_minor": null,
+          "free_spins_remaining": 0,
+          "native_cash_bet_minor": 10,
+          "bonus_present": false
+        }
+      ],
+      "before_minor": 1100000,
+      "after_minor": 1099990,
+      "cost_minor": 10,
+      "win_minor": 0,
+      "base_cost_minor": 10,
+      "multiplier": 1,
+      "demo_reconnect_adjustment_minor": 0,
+      "cash_packet_win_minor": 0,
+      "bonus_packet_win_minor": 0,
+      "win_source": "Sum of native cash-win micro packets plus settled bonus-win packets; aggregate free-win retained as a diagnostic."
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "native_client_sha256": "dd944eef5cfffe312c84bbf67b215e07bda0d8d522fc637a9599575060665fe8",
+  "native_minimum_minor": 10,
+  "uncertain_play_attempts": 0,
+  "historical_interrupted_demo_rounds": 0
+}

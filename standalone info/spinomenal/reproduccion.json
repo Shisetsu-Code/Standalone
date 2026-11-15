@@ -1,0 +1,23 @@
+{
+  "provider": "spinomenal",
+  "name": "Spinomenal",
+  "inventory": "../inventario/spinomenal.json",
+  "historical": "../evidencia/spinomenal.json",
+  "games": 596,
+  "modes": 1581,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "spinomenal-private"
+    ],
+    "absent_from_checkout": [
+      "spinomenal-private"
+    ]
+  },
+  "native_family": "spinomenal.process",
+  "continuation": "process/feature/choice",
+  "closure": "finished phase and balance ledger",
+  "standalone_rust": null,
+  "paused": false
+}

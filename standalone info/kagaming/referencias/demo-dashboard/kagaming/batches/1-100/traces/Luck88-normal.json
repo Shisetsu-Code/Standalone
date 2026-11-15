@@ -1,0 +1,148 @@
+{
+  "game": "Luck88",
+  "mode": "normal",
+  "status": "verified",
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "Luck88",
+        "sel": 5,
+        "sid": 1252447914,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793252447.913539,
+      "http_status": 200,
+      "response": {
+        "sid": 1252447914,
+        "md": {
+          "sid": 1295052043,
+          "tid": "round-ee9e6fa6edcc1a977e88",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 88,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            3,
+            7,
+            4,
+            2,
+            9,
+            7,
+            5,
+            4,
+            2,
+            5,
+            12,
+            4,
+            2,
+            11,
+            1
+          ],
+          "swi": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "snm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ssm": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sm": [
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999912,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 88
+        },
+        "pcr": 9999912,
+        "cr": 9999912,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "US"
+      }
+    }
+  ],
+  "created_at": 1793252445.1395655,
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 88,
+    "cost_formula": "Uc(sel,cps) -> constant PR*cps; PR=88",
+    "source_sha256": "8eb2ec976b18e585ffb09aad845308d047d7d4e26428b0217101feb828a82e9a"
+  },
+  "balance_before_native": 10000000,
+  "cost_native": 88,
+  "win_native": 0,
+  "balance_after_native": 9999912,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

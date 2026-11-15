@@ -1,0 +1,21 @@
+{
+  "provider": "hardfire-kalamba",
+  "name": "Kalamba",
+  "inventory": "../inventario/hardfire-kalamba.json",
+  "historical": "../evidencia/hardfire-kalamba.json",
+  "games": 441,
+  "modes": 66,
+  "python": {
+    "source": "../../../bet-collector/collection_claude_extra.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "bet-collector/claude-demo-catalog.json"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": null,
+  "continuation": null,
+  "closure": null,
+  "standalone_rust": null,
+  "paused": false
+}

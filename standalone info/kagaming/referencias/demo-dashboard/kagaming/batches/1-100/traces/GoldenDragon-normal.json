@@ -1,0 +1,48 @@
+{
+  "game": "GoldenDragon",
+  "family": "fish",
+  "mode": "normal",
+  "action": "native RMP spin, source qz delegates to Hd via Cf",
+  "status": "rejected_native",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 5,
+    "cost_formula": "Uc:function(a,b){return a*b}",
+    "source_sha256": "2c86c8c54e218721e573c52a65a55e2cbdae84b2fd75eb8474636b82d34359f8"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "GoldenDragon",
+        "sel": 5,
+        "sid": 1251895574,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793251895.5751476,
+      "http_status": 200,
+      "response": {
+        "sid": 1251895574,
+        "pcr": 0,
+        "cr": 0,
+        "xp": 0,
+        "dl": 0,
+        "e": true,
+        "ec": 1,
+        "es": "Invalid math result",
+        "cc": "US"
+      },
+      "error": "native_demo_error"
+    }
+  ],
+  "created_at": 1793251895.5721488,
+  "error": "Official demo returned ec=1: Invalid math result. No accepted round; no automatic replay.",
+  "reviewed_native_rejection": true,
+  "review_note": "Retain rejected response and defer fish protocol; continue other catalog entries with fresh sessions."
+}

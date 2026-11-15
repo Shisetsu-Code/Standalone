@@ -1,0 +1,4188 @@
+[
+  {
+    "provider_id": "thunderspin",
+    "game_id": "62",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/1",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/indian-call.json",
+        "pointer": "",
+        "sha256": "6afebaf08601a1637778bc4b26b61185a798001b8ec8e5ab3a96f42c0d472dd4"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "60",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/26",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/3",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/illuminati-party.json",
+        "pointer": "",
+        "sha256": "25a346ffb0b860d16dee498ff09b8a702bc7a80cd0bded7d2c88d4435470edb0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "59",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/16",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/4",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/comeback.json",
+        "pointer": "",
+        "sha256": "99f3e54ccfa82766fffd413982e9a20861f7862ed5f326c88cb08a9373f60200"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "58",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/5",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/secret-party.json",
+        "pointer": "",
+        "sha256": "c9f04f7646f1be5e4c5c862d84a01d766b4d15bc000048f878bd8234f18448cd"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "56",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/6",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/fortune-jaguar.json",
+        "pointer": "",
+        "sha256": "3def13f4047472b9d53bb740381a732d09b955b9b31bf8503f8e48e84120fd64"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "55",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/7",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/steam-wilds-megaways.json",
+        "pointer": "",
+        "sha256": "4f5c985678efbb874310b90204278aa3bb3891340cad56c66fe33b41eb565a91"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "54",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/8",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/shadow-wilds.json",
+        "pointer": "",
+        "sha256": "7adaa68f3c97254bd9411f6233bf8a0fffa5e53484db214068e13f2a11e968e6"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "53",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/9",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/jingle-blast.json",
+        "pointer": "",
+        "sha256": "d520b2fd65e4e60192b685a479c65dc579ce54af960d577c2b4f0af608e6d7cf"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "52",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/10",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/fiery-fortune.json",
+        "pointer": "",
+        "sha256": "dcc9dbc0120c96a307d3174d7d509d724bc8cb1b2c45518feba33cab76ff648f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "2",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/11",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/loco-luck.json",
+        "pointer": "",
+        "sha256": "633bf3f605c490b35e58fab014f505ac99f592e7350d16c9f585c75c1cdc1bc9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "15",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/12",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/candy-blast.json",
+        "pointer": "",
+        "sha256": "377c354b42f42fb02b841f4b2487c345d3492036dfe6f4d012ad6cf30857dd75"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "38",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/13",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/savannah-spins.json",
+        "pointer": "",
+        "sha256": "3675522e111a7bd2973577ac591cd830f417cd4032506a702f0d2c0cb1c36bdd"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "46",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/14",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/thunder-fruits.json",
+        "pointer": "",
+        "sha256": "ddc087a38736bd85e4d238a9ecf6a8decc9b153ee0da5753c942a720d9f22122"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "43",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/15",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/steam-wilds.json",
+        "pointer": "",
+        "sha256": "eb2bd5c1e296a35e1cf4a3a9fba57d7d08ce6d720a3f9725cadd2b00a9c033b1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "47",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/16",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/tundra-treasures.json",
+        "pointer": "",
+        "sha256": "0aaf64700250effa46fda8558e26937e09ed318f3edce58b2be4e50a3ce9d48e"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "24",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/17",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/holmes-vs-moriarty.json",
+        "pointer": "",
+        "sha256": "87fd825b3fdc5596fc32895bec9e555de42fbc4d3b5baf1d35e51d603c29c880"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "37",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/18",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/santa-vs-krampus.json",
+        "pointer": "",
+        "sha256": "8a1a1c3715a45181d87070ce5c01164a14c136a2f5a2f4b04fa84e3c866ccae0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "7",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/19",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/aztec-artefacts-10000.json",
+        "pointer": "",
+        "sha256": "e6226f5ca66f2111437caba36a85ebd2c495d706394b2cbec8ae8c3e0826081f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "13",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/20",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-witches.json",
+        "pointer": "",
+        "sha256": "e880e1d11b871ecec343f08c97648998ffbee48d418ea7a6c6d8adb0d5f9366c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "34",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/21",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/pyramids-deluxe.json",
+        "pointer": "",
+        "sha256": "cf2f9413a51f9a73f4dfee552655421084196f0f354c2fa0ede16425a47cb1cb"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "36",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/22",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/rich-leprechaun-megaways.json",
+        "pointer": "",
+        "sha256": "9a865b88ceaaaa9ae49247655b3ff3c3b52c0360b09ee758f4188166146d9554"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "30",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/23",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/money-ways.json",
+        "pointer": "",
+        "sha256": "f0cb3676a1aa45fb231afea127972de6954691454713765744ebba756ca85d55"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "10",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/24",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-games-20.json",
+        "pointer": "",
+        "sha256": "1f49acd9b21999adee563dfddfbcc0b9a470173f46058fafb48a5da1d125e5ac"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "8",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/25",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-egypt.json",
+        "pointer": "",
+        "sha256": "e061a7f93408a38e43504eedfbd294062bee53f254da97a6b7fefe166c9490a3"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "6",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/26",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/aztec-artefacts.json",
+        "pointer": "",
+        "sha256": "5e9774cc5509c11ddf41522fb36599c319c74ccaaa9b939c5fc3391b8bb5b4d4"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "1",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/27",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/sakura-mystery.json",
+        "pointer": "",
+        "sha256": "2b80e03d788ac50ebf879e5f905a41111da8a4df0dfa4d8a03ed7b0d5a081669"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "49",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/28",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/western-riches.json",
+        "pointer": "",
+        "sha256": "fac71009eababe8a62f826ba5d2c72842b4e5311d4d15c0f953a91377e8de64d"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "9",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/29",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-games.json",
+        "pointer": "",
+        "sha256": "b33d6744824ddb7c0c5a413c25082ed84b07b63afc95f91f061b653455fa30fc"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "33",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/38",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/30",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/pyramids.json",
+        "pointer": "",
+        "sha256": "ab27cf7cf2017db2878863dfb55573871ad428bfa28e65cdd9f3f89a59e9cff2"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "11",
+    "family_id": "thunderspin.native",
+    "status": "executor_bound",
+    "completion": {
+      "status": "partial",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "partial",
+      "missing_modes": [
+        "BUY_BONUS"
+      ],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        },
+        {
+          "mode": "BUY_BONUS",
+          "gaps": [
+            "balance_credit_or_debit_mismatch"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/31",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-jam.json",
+        "pointer": "",
+        "sha256": "d707fcb35a30f469b054788bcc3013c77eada36e117550fea8f3b9b1183674bf"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "39",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/32",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/sky-lanterns.json",
+        "pointer": "",
+        "sha256": "264562bf22d0b17ae9956bf588183ede8fda452c4f1228d5eb9a8707406dc050"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "23",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/33",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/halloween-witch-party.json",
+        "pointer": "",
+        "sha256": "b84e9cf3742478aa3f68442b240e8a53cfcc18c069e03d9d19377c6e24a5e991"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "28",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/34",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/kingdom-of-glory.json",
+        "pointer": "",
+        "sha256": "3104c75a5069159394beaa0a7edb84dd7f6bca862610e4e90ee85e577ea98db0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "12",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/35",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/book-of-treasures.json",
+        "pointer": "",
+        "sha256": "5084e06fe4a9e09da46597320ab9de81b44f169eb9fac99185a587c46908706d"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "48",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/36",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/vikings-frozen-gods.json",
+        "pointer": "",
+        "sha256": "bb4696ceba1726ff470edaaed7e0be944b81a0c7ad8afeceb6a151f0c506327d"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "3",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/37",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/angels-vs-demons.json",
+        "pointer": "",
+        "sha256": "c90a7a7964ef3ba5ab66d8a4ecda7df61a0349071666f2c0d5ab69100430225b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "42",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/38",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/spy-girls.json",
+        "pointer": "",
+        "sha256": "157d9be1343ea3fcf42274aabfe8a69c7ade2591a69e73b2f0ca6f442d97478b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "21",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/39",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/egypt-story.json",
+        "pointer": "",
+        "sha256": "0ae0d9162f8c84cfa1eae876b44cdcfc78e37ca61dc8d08a1c545a24c33865f7"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "44",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/53",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/40",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/stellar.json",
+        "pointer": "",
+        "sha256": "1936aa254bf3073a56bb088747d9eab093480688466beff8915f68e851655569"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "20",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/41",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/cute-farm.json",
+        "pointer": "",
+        "sha256": "688ee2da94acfb673cfe2f6a8c641ce61a1f3d7f193646e90a88210744a69fd4"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "50",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/42",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/world-cup-football.json",
+        "pointer": "",
+        "sha256": "9666c6dd4510cca402b0e336ce3d1776d77dd534f488bc21aa4e7e5590baf2f7"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "45",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/43",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/the-money.json",
+        "pointer": "",
+        "sha256": "c3f98220161fe7156f85e8d0caa4034fdaf920a9beca435ea27932cba9ae4389"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "19",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/44",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/crazy-new-year.json",
+        "pointer": "",
+        "sha256": "287ab58c7b7ee9e5c90a707dd64055e5d49dc57aaf91ac4f1d75cd8bb61e654e"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "5",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/45",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/atomic-mushrooms.json",
+        "pointer": "",
+        "sha256": "b575abfd53b46efbd171e867ee1f07d78c2cb366d3d1cfb2fb8ed10d01571256"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "25",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/46",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/indian-gold.json",
+        "pointer": "",
+        "sha256": "69c3449c97304268afe2f61db51a2fdaf33719311d7898e68d64e9a4009ea536"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "27",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/47",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/jolly-roger.json",
+        "pointer": "",
+        "sha256": "c8db727e2231b0ca012d9694e78ac62dd2537bfebd1b6a41a0087e89156d26f7"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "18",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/48",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/circus-train.json",
+        "pointer": "",
+        "sha256": "9bf7017be4b9ffc4c4d290a61c3b960b37316f716d4a9629922f4f1b95674ed9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "32",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/37",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/49",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/necronomicon.json",
+        "pointer": "",
+        "sha256": "d9efabadb6571ed95c2bb4d12c0494e21d614799128f016164973870ef1c34c7"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "40",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/48",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/50",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/snailtown.json",
+        "pointer": "",
+        "sha256": "47688fab431a721771210d4dec950e0e0fde2b38a1ac3fac78be67aee4354295"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "41",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/51",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/space-jail.json",
+        "pointer": "",
+        "sha256": "3eda2220c41651ffc7479e279ba3c8d7e32a6a7f32e107cb630cd3f28f54d3a5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "29",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/52",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/magic-jam.json",
+        "pointer": "",
+        "sha256": "4d32594093c3232b13a31d6d2c29dce327dee824f344434b545bd9ee3bcb90e4"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "4",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/53",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/animals-steam.json",
+        "pointer": "",
+        "sha256": "aaf743dd88c136ecf73f5852701f8392a2cea9d8a8a5b7e434f062b7df3ffed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "26",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/54",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/joker-jack.json",
+        "pointer": "",
+        "sha256": "3c277a2ae1297eee02db12b1e32510b36327dea34534584d091361e3e03e394b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "16",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/13",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/55",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/candyland.json",
+        "pointer": "",
+        "sha256": "ba9ebe52cf9745776a9e03a3b6a23b8b0f6c5ff4dc39d0db848a18dc78daa0fc"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "14",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "demo-dashboard/thunderspin/summary.json",
+        "pointer": "/games/11",
+        "sha256": "994a176f053aa576b9f76d35e99ea976da755966c1afed257006c65f2be33d23"
+      },
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/56",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/calipso.json",
+        "pointer": "",
+        "sha256": "0ba4cfade7e476b0211162be6ffc73d3d62fb69f75740ab035397b2a5057f705"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "17",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/57",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/chibi-slot.json",
+        "pointer": "",
+        "sha256": "7c631e9533d022777ffed1a8832ff13ac7d5666274e0800a45bd837db96b8b2a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "31",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/58",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/monster-sushi.json",
+        "pointer": "",
+        "sha256": "499045ad11d874c08a27773d358687ed8aff50017a83a6a76892bdf79f87b2d9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "51",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/59",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/zombie-slot-deluxe.json",
+        "pointer": "",
+        "sha256": "354f51286a12eccb4b18ef334fd4cb6c7a208562d6d4e4ea5e179deb02f8f934"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "22",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/60",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/gold-sea.json",
+        "pointer": "",
+        "sha256": "05f67db084c85f7a59afc28b8e0aef7744e69605e8d93fdec1ddc31d4e604b3b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "35",
+    "family_id": "thunderspin.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "NORMAL"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "NORMAL"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "NORMAL",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/61",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/the-queen-of-spades.json",
+        "pointer": "",
+        "sha256": "bfddae531b2764223c9bb69077f135dc4be786a8c658542c8e290b93e94d1942"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "thunderspin",
+    "game_id": "61",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/thunderspin-chat4/results/catalogue.json",
+        "pointer": "/2",
+        "sha256": "bdb08f7c4d7ab5bf406b62c4ffea31e6b2ed85ff7b05205109c807da6977fd3d"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/thunderspin-chat4/private/plans/zeus-riches-megaways.json",
+        "pointer": "",
+        "sha256": "2544a884f3471824aa9989148860b1efee41627a1089459a395c524d156a6426"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "1e50a483c9dec066d306b39791a64952a89099e7bbcba5128011fd8ee9a5bed5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/thunderspin-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "7825a353a3a734ad252afcd77f020e88b90bba9c943e9a07add7ea93057737fe"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  }
+]

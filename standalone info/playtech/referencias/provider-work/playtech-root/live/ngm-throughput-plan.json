@@ -1,0 +1,36 @@
+{
+  "updated_at": 1793546261.4846716,
+  "requested_by_user": "Advance faster",
+  "normal_calculators": 85,
+  "pending_normal_slots": 86,
+  "current_known_source_pairs": 143,
+  "pending_without_complete_source": 28,
+  "workflow": "Three implementers; coordinator source review/integration and readonly result audit. Additional peer only for concrete unresolved issue or substantial coordinator-authored runtime change.",
+  "workers": {
+    "ngm_family_inventory": [
+      "epa",
+      "aogmt"
+    ],
+    "ngm_hwilds_adapter": [
+      "jdlo"
+    ],
+    "ngm_node_probe_review": [
+      "samz productionreplayfix (nooriginal)",
+      "frtlgsk",
+      "frtlg",
+      "frtlgro"
+    ]
+  },
+  "priority": "Own retained payout fixtures before source-poor profiles; family research shared but every game pinned and verified separately.",
+  "auditor_command": "python -B playtech-private-root/ngm-families/audit_registered_profiles.py --incremental",
+  "auditor_reuse_rules": [
+    "All pinned references revalidated each run",
+    "Changed profile/fixture/shared host/runtime invalidates reuse",
+    "Failed checks never reused",
+    "DOM host profiles always rechecked",
+    "No gameplay/dispatch or session cache"
+  ],
+  "histories_held_unchanged": true,
+  "remote_backoff_retained": true,
+  "browser_standby": true
+}

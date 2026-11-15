@@ -1,0 +1,90 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_cishd1_pop",
+  "game_type": "Slots",
+  "classification_source": "Exact source/config static classification only; no gameplay verified",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "disabled_native_options": [
+    {
+      "cost": 700,
+      "name": "BuyBonusA1",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "71e03dad-92a3-425b-9600-a9ad14a9eb64",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "94edd1ba-9ab8-4f72-8177-a35af8de81e5"
+    },
+    {
+      "cost": 700,
+      "name": "BuyBonus95",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "677f82ce-791c-4a3f-9d0e-fa4128f3461e",
+        "startingPlays": "1",
+        "winline": "1"
+      },
+      "uuid": "126048bd-664e-4793-9ced-3a2c2a7174d3"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 700,
+        "name": "BuyBonusA1",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "71e03dad-92a3-425b-9600-a9ad14a9eb64",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "94edd1ba-9ab8-4f72-8177-a35af8de81e5"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 700,
+        "name": "BuyBonus95",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "677f82ce-791c-4a3f-9d0e-fa4128f3461e",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "126048bd-664e-4793-9ced-3a2c2a7174d3"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    }
+  ],
+  "review_reason": "Slot classification not confirmed; no paid request sent",
+  "error_type": "ValueError",
+  "updated_at": 1793493309.2809098,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": true,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": false,
+    "source_bound_circuitshock_slots": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  }
+}

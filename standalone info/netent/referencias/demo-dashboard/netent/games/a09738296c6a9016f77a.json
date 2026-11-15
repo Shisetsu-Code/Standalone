@@ -1,0 +1,255 @@
+{
+  "game_id": "starburst-xxxtreme",
+  "title": "Starburst™ XXXtreme",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 3,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0,
+            "spin": 0,
+            "current": 0,
+            "winnings": []
+          },
+          "game": {
+            "randomWildReels": [],
+            "randomWildCoverMapping": [],
+            "wildMultiplierMapping": [],
+            "wildMultiplierTotal": null,
+            "multiplier": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "1000",
+      "debit": "999.9",
+      "after": "999.9",
+      "win": "0"
+    },
+    {
+      "name": "XXXtremeSpin",
+      "kind": "special",
+      "mode": "XXXtremeSpin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0,
+            "spin": 0,
+            "current": 0,
+            "winnings": []
+          },
+          "game": {
+            "randomWildReels": [],
+            "randomWildCoverMapping": [],
+            "wildMultiplierMapping": [
+              {
+                "reel": 3,
+                "multiplier": 3
+              }
+            ],
+            "wildMultiplierTotal": 3,
+            "multiplier": 1
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0,
+            "spin": 0,
+            "current": 0,
+            "winnings": []
+          },
+          "game": {
+            "randomWildReels": [],
+            "randomWildCoverMapping": [],
+            "wildMultiplierMapping": [
+              {
+                "reel": 3,
+                "multiplier": 3
+              }
+            ],
+            "wildMultiplierTotal": 3,
+            "multiplier": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "10",
+      "cost": "1.0",
+      "before": "999.9",
+      "debit": "998.9",
+      "after": "998.9",
+      "win": "0",
+      "prior_evaluations": [
+        {
+          "checks": {
+            "positive_stake": true,
+            "positive_factor": true,
+            "debit_matches_cost": false,
+            "wallet_matches_root_win": true,
+            "round_closed": true,
+            "minimum_base": true
+          },
+          "debit": "999.9"
+        }
+      ]
+    },
+    {
+      "name": "XXXtremeSpinEnhanced",
+      "kind": "special",
+      "mode": "XXXtremeSpinEnhanced",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 60,
+            "spin": 0,
+            "current": 60,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 4,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 600.0,
+                "winnings": 60,
+                "line": 3
+              }
+            ]
+          },
+          "game": {
+            "randomWildReels": [],
+            "randomWildCoverMapping": [],
+            "wildMultiplierMapping": [
+              {
+                "reel": 3,
+                "multiplier": 2
+              },
+              {
+                "reel": 1,
+                "multiplier": 10
+              }
+            ],
+            "wildMultiplierTotal": 12,
+            "multiplier": 1
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 60,
+            "spin": 0,
+            "current": 0,
+            "winnings": []
+          },
+          "game": {
+            "randomWildReels": [],
+            "randomWildCoverMapping": [],
+            "wildMultiplierMapping": [
+              {
+                "reel": 3,
+                "multiplier": 2
+              },
+              {
+                "reel": 1,
+                "multiplier": 10
+              }
+            ],
+            "wildMultiplierTotal": 12,
+            "multiplier": 1
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "95",
+      "cost": "9.5",
+      "before": "998.9",
+      "debit": "989.4",
+      "after": "1049.4",
+      "win": "60"
+    }
+  ],
+  "historical_failed_checks": 1,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

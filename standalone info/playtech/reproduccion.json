@@ -1,0 +1,22 @@
+{
+  "provider": "playtech",
+  "name": "Playtech",
+  "inventory": "../inventario/playtech.json",
+  "historical": "../evidencia/playtech.json",
+  "games": 2033,
+  "modes": 3940,
+  "python": {
+    "source": "../../../bet-collector/collection_full_playtech.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/playtech-root",
+      "playtech-private-root"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "playtech",
+  "continuation": "native engine phase/choice",
+  "closure": "native engine terminal and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

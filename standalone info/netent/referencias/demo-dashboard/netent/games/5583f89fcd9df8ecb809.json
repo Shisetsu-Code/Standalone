@@ -1,0 +1,7267 @@
+{
+  "game_id": "demon-beats",
+  "title": "Demon Beats",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 7,
+  "modes": [
+    {
+      "name": "FeatureBuy3",
+      "kind": "special",
+      "mode": "FeatureBuy3",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.04,
+            "spin": 0.04,
+            "current": 0.04,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.1,
+                "winnings": 0.02,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "payout": 0.1,
+                "winnings": 0.02,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.04
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": true,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.04,
+            "spin": 0.04,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.04
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 4,
+            "explodePositions": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 2
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": true,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 1.96,
+            "spin": 1.96,
+            "current": 1.92,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ],
+                "payout": 1.6,
+                "winnings": 0.32,
+                "multiplier": 16,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 8,
+                "winnings": 1.6,
+                "multiplier": 16,
+                "purePayout": 0.5,
+                "payoutWays": 0.1
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 1.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": true,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 1.96,
+            "spin": 1.96,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 1.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 64,
+            "explodePositions": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 0,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 1
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": true,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 1.96,
+            "spin": 1.96,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 1.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 256,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": true,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "25",
+      "cost": "5.0",
+      "before": "1000",
+      "debit": "995.0",
+      "after": "996.96",
+      "win": "1.96"
+    },
+    {
+      "name": "FeatureBuy6",
+      "kind": "special",
+      "mode": "FeatureBuy6",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.02,
+            "spin": 0.02,
+            "current": 0.02,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.1,
+                "winnings": 0.02,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.02
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.06,
+            "spin": 0.06,
+            "current": 0.04,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.2,
+                "winnings": 0.04,
+                "multiplier": 2,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.06
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 10,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.06,
+            "spin": 0.06,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.06
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": true
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 9,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.08,
+            "spin": 0.02,
+            "current": 0.02,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.1,
+                "winnings": 0.02,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.08
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 9,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.18,
+            "current": 0.16,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.8,
+                "winnings": 0.16,
+                "multiplier": 4,
+                "purePayout": 0.1,
+                "payoutWays": 0.04
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 9,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.18,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 8,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 7,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 6,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 5,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.24,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.24
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 4,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.56,
+            "spin": 0.32,
+            "current": 0.32,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 1.6,
+                "winnings": 0.32,
+                "multiplier": 16,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.56
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 4,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.56,
+            "spin": 0.32,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.56
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 3,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.56,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.56
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 2,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.56,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.56
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.4,
+            "spin": 3.84,
+            "current": 3.84,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ],
+                "payout": 19.2,
+                "winnings": 3.84,
+                "multiplier": 64,
+                "purePayout": 0.1,
+                "payoutWays": 0.06
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 4.4
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 0,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 3
+              }
+            ],
+            "crashPositions": [
+              {
+                "x": 3,
+                "y": 3
+              }
+            ],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.4,
+            "spin": 3.84,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 4.4
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 3
+                }
+              ],
+              [
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 3
+                }
+              ]
+            ],
+            "multiplier": 256,
+            "explodePositions": [
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 45.36,
+            "spin": 44.8,
+            "current": 40.96,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  }
+                ],
+                "payout": 204.8,
+                "winnings": 40.96,
+                "multiplier": 1024,
+                "purePayout": 0.1,
+                "payoutWays": 0.04
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 45.36
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1024,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 45.36,
+            "spin": 44.8,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 45.36
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1024,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 10,
+            "left": 0,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 0
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 2
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 45.36,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 45.36
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1024,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "superFreeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "300",
+      "cost": "60.0",
+      "before": "996.96",
+      "debit": "936.96",
+      "after": "982.32",
+      "win": "45.36"
+    },
+    {
+      "name": "FeatureBuy2",
+      "kind": "special",
+      "mode": "FeatureBuy2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.0
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "10",
+      "cost": "2.0",
+      "before": "982.32",
+      "debit": "980.32",
+      "after": "980.32",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy5",
+      "kind": "special",
+      "mode": "FeatureBuy5",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.06,
+            "spin": 0.06,
+            "current": 0.06,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.3,
+                "winnings": 0.06,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.06
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.06
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                }
+              ],
+              [
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 0
+              }
+            ],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.26,
+            "spin": 0.26,
+            "current": 0.2,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.2,
+                "multiplier": 2,
+                "purePayout": 0.5,
+                "payoutWays": 0.1
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                }
+              ],
+              [
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [
+              {
+                "x": 4,
+                "y": 2
+              },
+              {
+                "x": 4,
+                "y": 2
+              }
+            ],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.26,
+            "spin": 0.26,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 4,
+            "explodePositions": [
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 4,
+                "y": 1
+              },
+              {
+                "x": 4,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 3
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 10,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.26,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 8,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 9,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 8,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 1,
+            "explodePositions": [
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 4,
+                "y": 1
+              },
+              {
+                "x": 4,
+                "y": 2
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 4,
+            "explodePositions": [
+              {
+                "x": 3,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 4,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 3
+              }
+            ],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "featureexecution",
+          "free_spins": {
+            "total": 10,
+            "left": 7,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 3,
+                "y": 1
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 7,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.26,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.26
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 3,
+                "y": 1
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [
+              {
+                "x": 3,
+                "y": 1
+              }
+            ],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 6,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.4,
+            "current": 0.4,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 2
+                  }
+                ],
+                "payout": 2,
+                "winnings": 0.4,
+                "multiplier": 1,
+                "purePayout": 2,
+                "payoutWays": 0.4
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "featureexecution",
+          "free_spins": {
+            "total": 10,
+            "left": 6,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.4,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 6,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.4,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 5,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 4,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 3,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.66,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.66
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 2,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.82,
+            "spin": 0.16,
+            "current": 0.16,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 3
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.8,
+                "winnings": 0.16,
+                "multiplier": 1,
+                "purePayout": 0.2,
+                "payoutWays": 0.16
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.82
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 0,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 3
+              }
+            ],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 2,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 0.98,
+            "spin": 0.32,
+            "current": 0.16,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.8,
+                "winnings": 0.16,
+                "multiplier": 4,
+                "purePayout": 0.1,
+                "payoutWays": 0.04
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.98
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 2,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 1.3,
+            "spin": 0.64,
+            "current": 0.32,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 1.6,
+                "winnings": 0.32,
+                "multiplier": 16,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 1.3
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 2,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 1.3,
+            "spin": 0.64,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 1.3
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 1.32,
+            "spin": 0.02,
+            "current": 0.02,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.1,
+                "winnings": 0.02,
+                "multiplier": 1,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 1.32
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "featureexecution",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 1.32,
+            "spin": 0.02,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 1.32
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.64,
+            "spin": 3.34,
+            "current": 3.32,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.8,
+                "winnings": 0.16,
+                "multiplier": 4,
+                "purePayout": 0.1,
+                "payoutWays": 0.04
+              },
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 7.8,
+                "winnings": 1.56,
+                "multiplier": 4,
+                "purePayout": 0.15,
+                "payoutWays": 0.39
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 8,
+                "winnings": 1.6,
+                "multiplier": 4,
+                "purePayout": 1,
+                "payoutWays": 0.4
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 4.64
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 0
+              }
+            ],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.96,
+            "spin": 3.66,
+            "current": 0.32,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 1.6,
+                "winnings": 0.32,
+                "multiplier": 16,
+                "purePayout": 0.1,
+                "payoutWays": 0.02
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 4.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 16,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 1,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.96,
+            "spin": 3.66,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 4.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 64,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 10,
+            "left": 0,
+            "extra": null,
+            "level": 0,
+            "preSymbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "preColossals": null
+          },
+          "wins": {
+            "total": 4.96,
+            "spin": 0.0,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 4.96
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": "freeSpin",
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "100",
+      "cost": "20.0",
+      "before": "980.32",
+      "debit": "960.32",
+      "after": "965.28",
+      "win": "4.96"
+    },
+    {
+      "name": "FeatureBuy1",
+      "kind": "special",
+      "mode": "FeatureBuy1",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.13,
+            "spin": 0.13,
+            "current": 0.13,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.15,
+                "winnings": 0.03,
+                "multiplier": 1,
+                "purePayout": 0.15,
+                "payoutWays": 0.03
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ],
+                "payout": 0.5,
+                "winnings": 0.1,
+                "multiplier": 1,
+                "purePayout": 0.5,
+                "payoutWays": 0.1
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.13
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.13,
+            "spin": 0.13,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.13
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "2",
+      "cost": "0.4",
+      "before": "965.28",
+      "debit": "964.88",
+      "after": "965.01",
+      "win": "0.13"
+    },
+    {
+      "name": "FeatureBuy4",
+      "kind": "special",
+      "mode": "FeatureBuy4",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.03,
+            "spin": 0.03,
+            "current": 0.03,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  }
+                ],
+                "payout": 0.15,
+                "winnings": 0.03,
+                "multiplier": 1,
+                "purePayout": 0.15,
+                "payoutWays": 0.03
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.03
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "featureexecution",
+          "free_spins": null,
+          "wins": {
+            "total": 0.03,
+            "spin": 0.03,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.03
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "featureexecution",
+          "free_spins": null,
+          "wins": {
+            "total": 0.03,
+            "spin": 0.03,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 0.03
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 0,
+                  "y": 3
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                }
+              ]
+            ],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [
+              {
+                "x": 0,
+                "y": 1
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": {
+              "isColossalCoversVS": false,
+              "wilds": [
+                {
+                  "x": 0,
+                  "y": 1
+                }
+              ],
+              "colossals": [
+                {
+                  "x": 0,
+                  "y": 2,
+                  "symbol": 5
+                }
+              ]
+            },
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 2.43,
+            "spin": 2.43,
+            "current": 2.4,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 6
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ],
+                "payout": 1,
+                "winnings": 0.2,
+                "multiplier": 2,
+                "purePayout": 0.1,
+                "payoutWays": 0.1
+              },
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ],
+                "payout": 5,
+                "winnings": 1.0,
+                "multiplier": 2,
+                "purePayout": 0.5,
+                "payoutWays": 0.5
+              },
+              {
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  }
+                ],
+                "payout": 6,
+                "winnings": 1.2,
+                "multiplier": 2,
+                "purePayout": 1,
+                "payoutWays": 0.6
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 2.43
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 0,
+                  "y": 3
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                }
+              ]
+            ],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 0,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 3
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 3
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 4,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 1
+              }
+            ],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [
+              {
+                "x": 0,
+                "y": 1
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [
+              {
+                "x": 0,
+                "y": 1
+              }
+            ],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "featureexecution",
+          "free_spins": null,
+          "wins": {
+            "total": 2.43,
+            "spin": 2.43,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 2.43
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "featureexecution",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 3.63,
+            "spin": 3.63,
+            "current": 1.2,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 4,
+                    "y": 2
+                  }
+                ],
+                "payout": 4,
+                "winnings": 0.8,
+                "multiplier": 4,
+                "purePayout": 1,
+                "payoutWays": 0.2
+              },
+              {
+                "winSymbol": {
+                  "id": 8
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ],
+                "payout": 2,
+                "winnings": 0.4,
+                "multiplier": 4,
+                "purePayout": 0.5,
+                "payoutWays": 0.1
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 3.63
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 3.63,
+            "spin": 3.63,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 3.63
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 8,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "50",
+      "cost": "10.0",
+      "before": "965.01",
+      "debit": "955.01",
+      "after": "958.64",
+      "win": "3.63"
+    },
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.09,
+            "spin": 0.09,
+            "current": 0.09,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 4
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "payout": 0.45,
+                "winnings": 0.09,
+                "multiplier": 1,
+                "purePayout": 0.15,
+                "payoutWays": 0.09
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 0.09
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                }
+              ],
+              [
+                {
+                  "x": 2,
+                  "y": 0
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                }
+              ]
+            ],
+            "multiplier": 1,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 0,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 4,
+                "y": 1
+              }
+            ],
+            "crashPositions": [
+              {
+                "x": 3,
+                "y": 2
+              }
+            ],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": null,
+          "wins": {
+            "total": 1.49,
+            "spin": 1.49,
+            "current": 1.4,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [
+              {
+                "winSymbol": {
+                  "id": 7
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ],
+                "payout": 7,
+                "winnings": 1.4,
+                "multiplier": 2,
+                "purePayout": 0.5,
+                "payoutWays": 0.7
+              }
+            ],
+            "subgames": {
+              "base": {
+                "total": 1.49
+              }
+            }
+          },
+          "game": {
+            "colossals": [
+              [
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ],
+              [
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                }
+              ]
+            ],
+            "multiplier": 2,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 0
+              }
+            ],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 1.49,
+            "spin": 1.49,
+            "current": 0.0,
+            "pending": 0,
+            "winCap": false,
+            "winnings": [],
+            "subgames": {
+              "base": {
+                "total": 1.49
+              }
+            }
+          },
+          "game": {
+            "colossals": [],
+            "multiplier": 4,
+            "explodePositions": [],
+            "colossalAssociatedPositions": [],
+            "crashPositions": [],
+            "fsMode": null,
+            "wildPositions": [],
+            "randomMultiplier": false,
+            "battle": null,
+            "isWinCapped": false,
+            "expandingWilds": [],
+            "triggersSuperFS": false
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "958.64",
+      "debit": "958.44",
+      "after": "959.93",
+      "win": "1.49"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

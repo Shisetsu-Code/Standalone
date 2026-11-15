@@ -1,0 +1,24 @@
+{
+  "provider": "reelkingdom",
+  "name": "Reel Kingdom",
+  "inventory": "../inventario/reelkingdom.json",
+  "historical": "../evidencia/reelkingdom.json",
+  "games": 73,
+  "modes": 183,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "demo-dashboard"
+    ],
+    "absent_from_checkout": []
+  },
+  "native_family": "pragmatic.action",
+  "continuation": "na/bonus decision",
+  "closure": "native round and wallet",
+  "standalone_rust": {
+    "source": "../../../game-runner/src/adapters/pragmatic.rs",
+    "verified_normal_ci": true
+  },
+  "paused": false
+}

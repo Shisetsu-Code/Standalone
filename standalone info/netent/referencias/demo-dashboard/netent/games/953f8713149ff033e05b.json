@@ -1,0 +1,690 @@
+{
+  "game_id": "let-it-burn",
+  "title": "Let It Burn™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 4,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "40",
+          "game_state": "basic",
+          "credit_cents": "100030"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "1000",
+      "debit": "999.9",
+      "after": "1000.3",
+      "win": "0.4",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Buy:option1",
+      "kind": "special",
+      "mode": "Buy:option1",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "30",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "120",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "240",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "320",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "392",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "395",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "400",
+          "game_state": "freespin",
+          "credit_cents": "99030"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "580",
+          "game_state": "basic",
+          "credit_cents": "99610"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "100",
+      "cost": "10",
+      "before": "1000.3",
+      "debit": "990.3",
+      "after": "996.1",
+      "win": "5.8",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Buy:option2",
+      "kind": "special",
+      "mode": "Buy:option2",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "49",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "65",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "65",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "125",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "289",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "289",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "309",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "333",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "333",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "389",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "589",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "685",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "685",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "698",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "698",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1004",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1052",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1068",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1080",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1400",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1445",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1465",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1497",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1597",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1683",
+          "game_state": "freespin",
+          "credit_cents": "98110"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "1723",
+          "game_state": "basic",
+          "credit_cents": "99833"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "150",
+      "cost": "15",
+      "before": "996.1",
+      "debit": "981.1",
+      "after": "998.33",
+      "win": "17.23",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "Buy:option3",
+      "kind": "special",
+      "mode": "Buy:option3",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "178",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "498",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "498",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "588",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "688",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "688",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "694",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "874",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "952",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "962",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1124",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1369",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1369",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1369",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1373",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1373",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1693",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1753",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1793",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1793",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1889",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "1979",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2239",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "2383",
+          "game_state": "freespin",
+          "credit_cents": "97833"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "2461",
+          "game_state": "basic",
+          "credit_cents": "100294"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "200",
+      "cost": "20",
+      "before": "998.33",
+      "debit": "978.33",
+      "after": "1002.94",
+      "win": "24.61",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

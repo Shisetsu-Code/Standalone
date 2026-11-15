@@ -1,0 +1,185 @@
+{
+  "game": {
+    "ordinal": 4,
+    "id": "975",
+    "slug": "ghost-booster-go-guaranteed",
+    "case_slug": "ghost-booster-go-guaranteed",
+    "name": "Ghost Booster! GO Guaranteed",
+    "release_date": "2026-10-01T00:00:00+00:00",
+    "details_url": "https://www.playngo.com/games/ghost-booster-go-guaranteed",
+    "gid": "ghostbooster"
+  },
+  "authority": {
+    "gid": "ghostbooster",
+    "game_id": "975",
+    "pid": 2,
+    "practice": 1,
+    "demo": 2,
+    "server": "https://ascflyp.playngonetwork.com/",
+    "product_group": 2,
+    "currency": "DEMO"
+  },
+  "trace": [
+    {
+      "transport": "http",
+      "status": "received",
+      "commands": [
+        {
+          "code": 103,
+          "args": [
+            "12",
+            "en_GB",
+            "975",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140.0.0.0 Safari/537.36",
+            "ghostbooster",
+            "desktop"
+          ]
+        }
+      ],
+      "http_status": 200,
+      "responses": [
+        {
+          "code": 103,
+          "args": [
+            "[REDACTED]"
+          ]
+        }
+      ]
+    },
+    {
+      "transport": "http",
+      "status": "received",
+      "commands": [
+        {
+          "code": 101,
+          "args": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "http_status": 200,
+      "responses": [
+        {
+          "code": 103,
+          "args": [
+            "[REDACTED]"
+          ]
+        },
+        {
+          "code": 101,
+          "args": [
+            "[REDACTED]",
+            "DEMO",
+            "[REDACTED]",
+            "ZZ",
+            "[REDACTED]",
+            "[REDACTED]"
+          ]
+        },
+        {
+          "code": 127,
+          "args": [
+            "2026-10-28T16:50:13Z"
+          ]
+        }
+      ]
+    },
+    {
+      "transport": "websocket",
+      "status": "received",
+      "commands": [
+        {
+          "code": 104,
+          "args": [
+            "975",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "responses": [
+        {
+          "code": 104,
+          "args": [
+            "1"
+          ]
+        },
+        {
+          "code": 54,
+          "args": [
+            "15",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "8",
+            "10",
+            "15",
+            "25",
+            "35",
+            "50",
+            "100",
+            "200",
+            "250",
+            "500",
+            "1"
+          ]
+        },
+        {
+          "code": 57,
+          "args": [
+            "<custom><RTP Value=\"96\" /></custom>"
+          ]
+        },
+        {
+          "code": 60,
+          "args": [
+            "96",
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "code": 52,
+          "args": [
+            "2500000",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "code": 83,
+          "args": [
+            "0"
+          ]
+        },
+        {
+          "code": 56,
+          "args": [
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "code": 91,
+          "args": [
+            "[REDACTED]",
+            "[REDACTED]"
+          ]
+        },
+        {
+          "code": 109,
+          "args": []
+        }
+      ]
+    }
+  ]
+}

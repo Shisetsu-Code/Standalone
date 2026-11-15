@@ -1,0 +1,147 @@
+{
+  "game": "RichFarm",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 30,
+    "cost_formula": "Uc(sel,cps) -> 30*cps (selection-independent)",
+    "source_sha256": "5ee948db11a3b1306a9fd6959709d6a2bffb10a36dca486f3fd3eacb180242f6",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "RichFarm",
+        "sel": 5,
+        "sid": 1305009518,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793305009.517921,
+      "http_status": 200,
+      "response": {
+        "sid": 1305009518,
+        "md": {
+          "sid": 1296632940,
+          "tid": "round-69b4cd7e144c061316b1",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 30,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 60,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            7,
+            7,
+            9,
+            10,
+            10,
+            7,
+            8,
+            9,
+            11,
+            11,
+            8,
+            7,
+            7,
+            5,
+            4
+          ],
+          "swi": [
+            60
+          ],
+          "snm": [
+            1
+          ],
+          "ssm": [
+            6179
+          ],
+          "sm": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 10000030,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 60,
+          "tsb": 30
+        },
+        "pcr": 9999970,
+        "cr": 10000030,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100,
+          150,
+          250,
+          500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793305007.5147848,
+  "session_group": "RichFarm-df4bda6b5efb453ba30f9da432e49db3",
+  "balance_before_native": 10000000,
+  "cost_native": 30,
+  "win_native": 60,
+  "balance_after_native": 10000030,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

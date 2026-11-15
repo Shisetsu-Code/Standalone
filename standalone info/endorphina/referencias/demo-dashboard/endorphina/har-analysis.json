@@ -1,0 +1,265 @@
+{
+  "sources": [
+    {
+      "file": "demo.endorphina.network_Archive [26-10-27 23-07-59].har",
+      "sha256": "87576f74289dbaf1e0545ffa25034bdb3d059a1fb836232cbe99145821902385",
+      "entries": 147
+    },
+    {
+      "file": "demo.endorphina.network_Archive [26-10-27 23-08-16].har",
+      "sha256": "4015edebc1e389b6861135c1a6ba956d36efbf0d17ea1de38c1b69890f9d107c",
+      "entries": 93
+    },
+    {
+      "file": "endorphina.com_Archive [26-10-27 23-06-29].har",
+      "sha256": "1532a7d387bf06ed7d414594f17ea5289e05746165199973772b18eccb636aa6",
+      "entries": 806
+    }
+  ],
+  "catalog": {
+    "games_captured": 216,
+    "pages": [
+      {
+        "page": 3,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=4&per-page=12"
+      },
+      {
+        "page": 4,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=5&per-page=12"
+      },
+      {
+        "page": 5,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=6&per-page=12"
+      },
+      {
+        "page": 6,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=7&per-page=12"
+      },
+      {
+        "page": 7,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=8&per-page=12"
+      },
+      {
+        "page": 8,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=9&per-page=12"
+      },
+      {
+        "page": 9,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=10&per-page=12"
+      },
+      {
+        "page": 10,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=11&per-page=12"
+      },
+      {
+        "page": 11,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=12&per-page=12"
+      },
+      {
+        "page": 12,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=13&per-page=12"
+      },
+      {
+        "page": 13,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=14&per-page=12"
+      },
+      {
+        "page": 14,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=15&per-page=12"
+      },
+      {
+        "page": 15,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=16&per-page=12"
+      },
+      {
+        "page": 16,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=17&per-page=12"
+      },
+      {
+        "page": 17,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=18&per-page=12"
+      },
+      {
+        "page": 18,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=19&per-page=12"
+      },
+      {
+        "page": 19,
+        "items": 12,
+        "next_url": "https://endorphina.com/es/juegos?page=20&per-page=12"
+      },
+      {
+        "page": 20,
+        "items": 12,
+        "next_url": null
+      }
+    ],
+    "missing_before_capture": [
+      1,
+      2
+    ],
+    "has_next_after_last_capture": false,
+    "complete": true,
+    "games_combined": 240,
+    "pages_added_from_public_site": [
+      1,
+      2
+    ],
+    "combined_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "complete_scope": "Spanish public catalog, combining captured pages 3-20 with current official pages 1-2; 240 unique IDs and no next page on page 20."
+  },
+  "games": [
+    {
+      "source": "demo.endorphina.network_Archive [26-10-27 23-07-59].har",
+      "game": "endorphina2_CloverFlamesDice",
+      "websocket_connections": [
+        {
+          "entry": 22,
+          "endpoint": "wss://dyndemo.endorphina.network/organic/websocket/endpoint/2",
+          "query_keys": [
+            "session",
+            "sign"
+          ],
+          "status": 101
+        }
+      ],
+      "websocket_messages": 0,
+      "assets": {
+        "/games-wgl/endorphina2/common/js-ext/platform.2.js": {
+          "bytes": 34156,
+          "captured": true
+        },
+        "/games-wgl/endorphina2/CloverFlamesDice/wgl-frontend/main.bundle.js": {
+          "bytes": 1531100,
+          "captured": true
+        },
+        "/games-wgl/endorphina2/CloverFlamesDice/configs/config.desktop.json": {
+          "bytes": 80663,
+          "captured": true
+        }
+      },
+      "failed_resources": [],
+      "name": "Clover Flames (Dice)",
+      "currency": "EUR",
+      "websocket_endpoint": "wss://dyndemo.endorphina.network/organic/websocket/endpoint/2",
+      "session_response_fields": [
+        "settings",
+        "game",
+        "session",
+        "replaySize",
+        "sign",
+        "serverId",
+        "replayLink",
+        "historyUrl",
+        "endpoint",
+        "gameName",
+        "currencyInfo",
+        "currency",
+        "nodeId",
+        "player"
+      ],
+      "session_values_redacted": true
+    },
+    {
+      "source": "demo.endorphina.network_Archive [26-10-27 23-08-16].har",
+      "game": "endorphina2_3WitchPots",
+      "websocket_connections": [
+        {
+          "entry": 24,
+          "endpoint": "wss://dyndemo.endorphina.network/organic/websocket/endpoint/2",
+          "query_keys": [
+            "session",
+            "sign"
+          ],
+          "status": 101
+        }
+      ],
+      "websocket_messages": 0,
+      "assets": {
+        "/games-wgl/endorphina2/common/js-ext/platform.2.js": {
+          "bytes": 34156,
+          "captured": true
+        },
+        "/games-wgl/endorphina2/3WitchPots/wgl-frontend/main.bundle.js": {
+          "bytes": 1468020,
+          "captured": true
+        },
+        "/games-wgl/endorphina2/3WitchPots/configs/config.desktop.json": {
+          "bytes": 101359,
+          "captured": true
+        }
+      },
+      "failed_resources": [
+        {
+          "path": "/games-wgl/endorphina2/3WitchPots/resources/graphics/background/bgslot_bottom.jpg",
+          "status": 404
+        }
+      ],
+      "name": "3 Witch Pots",
+      "currency": "EUR",
+      "websocket_endpoint": "wss://dyndemo.endorphina.network/organic/websocket/endpoint/2",
+      "session_response_fields": [
+        "settings",
+        "game",
+        "session",
+        "replaySize",
+        "sign",
+        "serverId",
+        "replayLink",
+        "historyUrl",
+        "endpoint",
+        "gameName",
+        "currencyInfo",
+        "currency",
+        "nodeId",
+        "player"
+      ],
+      "session_values_redacted": true
+    }
+  ],
+  "gameplay_frames_captured": 0,
+  "gameplay_tested": false,
+  "fresh_demo_initialization": {
+    "verified_games": 2,
+    "evidence": "initialization-summary.json",
+    "full_responses": "live-readonly-samples.json",
+    "gameplay_actions_sent": 0
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "provider": "Playson",
+  "slug": "api-joker-expand",
+  "fictional_demo_only": true,
+  "transport": "HTTP XML through relay8793",
+  "cases": [
+    {
+      "mode": "Spin",
+      "state": "verified",
+      "passed": true,
+      "checks": {
+        "documented_demo_adjustments": true,
+        "positive_native_cost": true,
+        "entry_base_cost": true,
+        "entry_wallet": true,
+        "wallet_ledger": true,
+        "round_closed": true,
+        "purchase_binding": true,
+        "ante_binding": true,
+        "free_entries_zero_cost": true,
+        "demo": true,
+        "minimum_base": true,
+        "native_source": true
+      },
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "credit_minor": 1099990,
+          "base_win_minor": 0,
+          "bonus_win_minor": 0,
+          "bonus_present": false,
+          "bonus_spins_left": null,
+          "free_win_minor": null,
+          "free_spins_remaining": 0,
+          "native_cash_bet_minor": 10
+        }
+      ],
+      "kind": "normal",
+      "before_minor": 1100000,
+      "line_bet_minor": 2,
+      "base_cost_minor": 10,
+      "cost_minor": 10,
+      "multiplier": 1,
+      "minimum_observed": true,
+      "entry_base_cost_matches": true,
+      "native_cash_bet_minor": 10,
+      "native_cash_bet_game_minor": 10,
+      "ante_binding": true,
+      "purchase_binding": true,
+      "entry_ordinal": 3,
+      "demo_reconnect_adjustment_minor": 0,
+      "after_minor": 1099990,
+      "win_minor": 0,
+      "cash_packet_win_minor": 0,
+      "bonus_packet_win_minor": 0,
+      "validation_concluded": true,
+      "win_source": "Sum of native cash-win micro packets plus settled bonus-win packets; aggregate free-win retained as a diagnostic."
+    }
+  ],
+  "mode_cost_factors": {
+    "Spin": 1
+  },
+  "contract_review_complete": true,
+  "all_game_modes_complete": true,
+  "native_client_sha256": "88014a433e4b214e3525310cc4b27e859073bd13ed6ae1127ba5f11f0d237e91",
+  "status": "complete",
+  "demo_verified": true,
+  "native_source_verified": true,
+  "quote": {
+    "multiplier_origin": "native_client_config",
+    "ante_multipliers": [],
+    "line_bet_minor": 2,
+    "line_bet_domain": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      80,
+      100,
+      150,
+      200,
+      400,
+      600,
+      1000,
+      1500,
+      2000
+    ],
+    "base_multiplier": 5,
+    "base_cost_minor": 10,
+    "buy_multipliers": []
+  },
+  "minimum_base_minor": 10,
+  "all_native_modes_attempted": true
+}

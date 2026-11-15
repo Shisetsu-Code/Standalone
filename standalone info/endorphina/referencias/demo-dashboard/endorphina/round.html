@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Endorphina · Detalle de ronda</title>
+<style>body{font:16px system-ui;background:#101827;color:#e2e8f0;max-width:1150px;margin:32px auto;padding:0 24px}a{color:#7dd3fc}.stats{display:flex;gap:16px;flex-wrap:wrap}.card{background:#1e293b;padding:20px;border-radius:12px;flex:1}strong{display:block;font-size:26px;color:#6ee7b7}table{width:100%;border-collapse:collapse;margin:24px 0}td,th{text-align:left;padding:12px;border-bottom:1px solid #334155;vertical-align:top}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}small{color:#94a3b8}nav{margin-bottom:24px}</style>
+<body><nav><a href="../providers.html">Proveedores</a> · <a href="batches/1-100/index.html">Endorphina · Lote 1–100</a></nav><h1 id="title">Detalle de ronda</h1><p id="state">Cargando registro…</p><div class="stats" id="stats"></div><p id="note"></p><table><thead><tr><th>Paso</th><th>Acción</th><th>Detalle</th><th>Mensajes</th></tr></thead><tbody id="steps"></tbody></table>
+<script>
+'use strict';
+const query=new URLSearchParams(location.search);
+const key=query.get('case');
+const batch=query.get('batch')||'1-100';
+function node(tag,text){const n=document.createElement(tag);n.textContent=text;return n}
+function label(request,summary){
+ const p=request.payload||{};
+ if(request.method==='START_GAME')return p.buyInId?'Compra de bono':'Tirada normal';
+ if(request.method==='START_FEATURE')return 'Inicio de función';
+ if(request.method==='END_FEATURE')return 'Fin de función';
+ if(request.method==='END_GAME')return 'Cobro y cierre';
+ if(request.method==='STEP_FEATURE'){
+  const t=p['@type']||'';
+  if(t.includes('BTD_Gamble_Action'))return 'Riesgo · carta '+(Number(p.player_choice)+1);
+  if(t.includes('.gamble.'))return summary.risk_control?.label||'Juego de riesgo';
+  if(t.includes('Choose_Type'))return 'Elegir tipo de tiradas gratis';
+  if(t.includes('Drop_Action'))return 'Cascada o respín';
+  if(t.includes('Free_Games_Action'))return 'Tirada gratis';
+  if('playerChoice' in p)return 'Elección interna · opción '+(Number(p.playerChoice)+1);
+  if('player_choice' in p)return 'Elección interna · opción '+(Number(p.player_choice)+1);
+  return 'Paso interno del bono';
+ }
+ return {GET_BALANCE:'Consulta de saldo',GET_LAST_GAME:'Consulta de estado',GET_PAYTABLE_INFO:'Configuración del juego'}[request.method]||request.method;
+}
+async function load(){
+ if(!/^[1-9][0-9]*-[1-9][0-9]*$/.test(batch))throw Error('Lote inválido.');
+ document.querySelector('nav a:nth-of-type(2)').href='batches/'+batch+'/index.html';
+ document.querySelector('nav a:nth-of-type(2)').textContent='Endorphina · Lote '+batch;
+ if(!key||!/^[a-z0-9-]{1,180}$/.test(key))throw Error('Identificador de ronda inválido.');
+ const response=await fetch('batches/'+batch+'/traces/'+encodeURIComponent(key)+'.json');
+ if(!response.ok)throw Error('No se encontró el registro de esta ronda.');
+ const record=await response.json(), s=record.summary||{};
+ document.getElementById('title').textContent=s.name||s.slug||key;
+ document.getElementById('state').textContent=key+' · '+(s.status==='completed'?'Cerrada':'Pendiente de revisión')+' · '+(s.wallet_check==='match'?'Saldo conciliado':s.wallet_check||'Sin conciliación final');
+ for(const [title,value] of [['Saldo inicial',s.balance_before],['Coste de entrada',s.cost],['Premio total',s.final_win],['Saldo final',s.balance_after]]){
+  const box=node('div','');box.className='card';box.append(node('strong',value??'â€”'),node('span',title));document.getElementById('stats').append(box);
+ }
+ document.getElementById('note').textContent='Cada fila corresponde a un mensaje enviado al proveedor. Las tiradas gratis y las elecciones del bono se conservan dentro de esta ronda. Los importes son ficticios de la demo.';
+ for(const [index,step] of record.trace.entries()){
+  const tr=node('tr',''),r=step.request,p=r.payload;
+  tr.append(node('td',String(index+1)),node('td',label(r,s)));
+  const detail=node('td',p&&p.buyInId?p.buyInId:Array.isArray(p)?p[1]:p&&p['@type']?p['@type'].split('.').pop():r.method);
+  tr.append(detail);
+  const td=node('td',''),d=node('details','');d.append(node('summary','Solicitud y respuesta'),node('pre',JSON.stringify({enviado:r,respuestas:step.responses},null,2)));td.append(d);tr.append(td);document.getElementById('steps').append(tr);
+ }
+}
+load().catch(e=>document.getElementById('state').textContent=e.message);
+</script></body></html>

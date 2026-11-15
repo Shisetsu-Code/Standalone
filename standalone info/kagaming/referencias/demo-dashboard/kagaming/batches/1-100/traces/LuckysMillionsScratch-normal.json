@@ -1,0 +1,137 @@
+{
+  "game": "LuckysMillionsScratch",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 1,
+    "cps": 5,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 50,
+    "cost_formula": "Uc(sel,cps) -> 10*cps (selection-independent)",
+    "source_sha256": "47d0406e4899d266295e50f498782b8c768cceacff365fc695e209f405ec4062",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "LuckysMillionsScratch",
+        "sel": 1,
+        "sid": 1297656718,
+        "cps": 5,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793297656.7173975,
+      "http_status": 200,
+      "response": {
+        "sid": 1297656718,
+        "md": {
+          "sid": 1296373589,
+          "tid": "round-96edd1fb263e0a11c147",
+          "sel": 1,
+          "cps": 5,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 50,
+          "swm": 130,
+          "sw": 0,
+          "swu": 1,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            7,
+            9,
+            5,
+            2,
+            2,
+            6,
+            7,
+            9,
+            1
+          ],
+          "swi": [
+            0
+          ],
+          "snm": [
+            0
+          ],
+          "ssm": [
+            0
+          ],
+          "sm": [
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999950,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 50
+        },
+        "pcr": 9999950,
+        "cr": 9999950,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          5,
+          10,
+          15,
+          20,
+          30,
+          50,
+          75,
+          100,
+          200,
+          500,
+          1000,
+          2000,
+          5000,
+          10000,
+          20000
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793297654.714431,
+  "session_group": "LuckysMillionsScratch-e5d490d3e11a44b4bd7359c990ca8980",
+  "balance_before_native": 10000000,
+  "cost_native": 50,
+  "win_native": 0,
+  "balance_after_native": 9999950,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

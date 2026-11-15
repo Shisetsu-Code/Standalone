@@ -1,0 +1,40 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "popc",
+  "title": "Gaelic Luck™",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 20,
+      "win": 0,
+      "balance_before": 100000,
+      "balance_after": 99980,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485399.102453,
+  "bootstrap_seconds": 40.765,
+  "preload_wait_seconds": 0.875,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "6b4d07e6b7e9edd0d6c8057de94d243ac93e9c5b3999c919e39323c62c4e3ee8"
+  ],
+  "observed_bet": 20,
+  "native_stake_controls_available": false,
+  "local_event_trace_validated": true,
+  "review_note": "Official local round verified. Full action/feature inventory and all stake sizes require separate coverage; no remote server settlement is asserted.",
+  "native_inventory_unresolved_count": 41,
+  "native_inventory_plan_complete": false
+}

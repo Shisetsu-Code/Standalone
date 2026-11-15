@@ -1,0 +1,23 @@
+{
+  "provider": "1spin4win",
+  "name": "1spin4win",
+  "inventory": "../inventario/1spin4win.json",
+  "historical": "../evidencia/1spin4win.json",
+  "games": 232,
+  "modes": 283,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/mocks/1spin4win"
+    ],
+    "absent_from_checkout": [
+      "provider-work/mocks/1spin4win"
+    ]
+  },
+  "native_family": "1spin4win.websocket",
+  "continuation": "native selectors and continuation",
+  "closure": "terminal frame; wallet may be unavailable",
+  "standalone_rust": null,
+  "paused": false
+}

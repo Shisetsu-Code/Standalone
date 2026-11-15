@@ -1,0 +1,92 @@
+{
+  "GoldenBeansScratch": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "1f03388626b68a4f0738a95a0d16016d9c14caac9eb5a8068faf5714e19d4b26",
+    "review": "Direct Hd subclass; no qz override; inherited rmp spin serializer, constant Uc pricing; scratch/shop display is local"
+  },
+  "Shopping": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "20b08b84afe029fbaf83c2257aeeddac4ce789e06fa6d1b3085c28aad228193d",
+    "review": "Custom kc: native positions[0] left,[1] right,[2] cashout; default left then cashout; terminal sm0 in{-1,3} with fsr0. Source-derived choice handler required."
+  },
+  "AlienDairy": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "0a77099a61f3285636c784dc9270fc89732081adb0f278c589342c93452f2529",
+    "review": "Custom kc: initial cla true -> Cb.kc without pos; pending free picks -> Cb.ZV pos0..5; choose0, maintain zero debit, close fsr0. Source h8.GYc5, level cap12."
+  },
+  "PufferSwimming": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "0bbe3b8897cf190d7c17957d64f0938646a5351be98277834f6f274667f98937",
+    "review": "Direct Hd subclass; inherited native rmp spin request; explicit scalar/linear Uc price. Presentation-specific reveals local; unknown bpd decisions still stop for review."
+  },
+  "Crazy777": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "86a6d6e1c5283012839088a2e02ba70dd7ae3767a653c8ed28fec95077fd1d6d",
+    "review": "Direct Hd subclass; inherited native rmp spin request; explicit scalar/linear Uc price. Presentation-specific reveals local; unknown bpd decisions still stop for review."
+  },
+  "BoomX": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "0ece4101f989e275e83042a01f094aeac27eba1977386f30409a634f79404b13",
+    "review": "Direct Hd subclass; inherited native rmp spin request; explicit scalar/linear Uc price. Presentation-specific reveals local; unknown bpd decisions still stop for review."
+  },
+  "LuckysMillionsScratch": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "47d0406e4899d266295e50f498782b8c768cceacff365fc695e209f405ec4062",
+    "review": "Direct Hd subclass; inherited native rmp spin request; explicit scalar/linear Uc price. Presentation-specific reveals local; unknown bpd decisions still stop for review."
+  },
+  "FortuneSkyLanterns": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "36be4a6e19f72f4a8dc672b3d73efd78981d7b677d2d40fd763680417674ab33",
+    "review": "Dedicated source-bound plans; exact native position vector, per-game amount and closure checks; no slot-cost assumption"
+  },
+  "FrenchRoulette": {
+    "family": "table",
+    "action": "rmp_spin",
+    "source_sha256": "5c447e5a05a1ca8c02f6eaf6ad087110d2ba604e359cb6bb22e1bb890c7f57d0",
+    "review": "Dedicated source-bound plans; exact native position vector, per-game amount and closure checks; no slot-cost assumption"
+  },
+  "HomeRunX": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "1d76cae47cfe15b1e5603044714768352c7bc58dbe9bcca970861f42827a6c1c",
+    "review": "Hd/I inherited spin; kc only super; results/animation local; source Uc=100*sel*cps; native minimum profile and closed fsr/bpd/rf required"
+  },
+  "CaptainsBounty": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "7171b832d21d3c21dbe3956d426531ac0fbed7d1b9e6349ffab2639c45840e01",
+    "review": "Hd/I inherited spin; local result reveal, no network choices; source Uc=1*sel*cps; native minimum profile and closed fsr/bpd/rf required"
+  },
+  "GolfMaster": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "ec96f8742b39793a5b8085f6faa521d2a5f78b65fc235b746a25eabffcf7e3c8",
+    "review": "Hd/I inherited spin; kc only super; returned st0 drives local golf animation; source Uc=100*sel*cps; native minimum profile and closed fsr/bpd/rf required"
+  },
+  "AwesomeLuckyWheel": {
+    "family": "other",
+    "action": "rmp_spin",
+    "source_sha256": "1432aa940afdbee4cd8113dd12deb4ec5e47c1259aa57265563a415450dc787b",
+    "review": "Explicit Cb.kc standard spin; three wheel results already native st, no added paid request; source Uc=10*sel*cps; native minimum profile and closed fsr/bpd/rf required"
+  },
+  "PhilosopherRoulette": {
+    "family": "table",
+    "action": "rmp_spin",
+    "source_sha256": "7ef0966b7f59e40458c025cca99970b43642d0f97968516273face67b5f0b4ad",
+    "review": "Dedicated source-pinned board, chip/table/field caps, request occupancy, native closure and wallet proof; response board dimensions must match"
+  },
+  "AmericanRoulette": {
+    "family": "table",
+    "action": "rmp_spin",
+    "source_sha256": "39ca616cfb8f0081866ba7a232964646b4e331cbc95304017ac20db20707c978",
+    "review": "Dedicated source-pinned board, chip/table/field caps, request occupancy, native closure and wallet proof; response board dimensions must match"
+  }
+}

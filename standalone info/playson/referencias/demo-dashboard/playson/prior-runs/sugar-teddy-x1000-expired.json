@@ -1,0 +1,22 @@
+{
+  "provider": "Playson",
+  "fictional_demo_only": true,
+  "accepted_interrupted_rounds": [
+    {
+      "mode": "Buy:1",
+      "accepted": true,
+      "state": "interrupted_session_lost",
+      "cost_minor": 10000,
+      "before_minor": 1099940,
+      "last_confirmed_credit_minor": 1089993,
+      "reason": "Official TEST owner expired before native free continuation completed; prior request not repeated."
+    }
+  ],
+  "verified_prior_modes": [
+    "Spin",
+    "Ante:1.5",
+    "Buy:0"
+  ],
+  "closed_failed_modes": [],
+  "replayed_prior_requests": 0
+}

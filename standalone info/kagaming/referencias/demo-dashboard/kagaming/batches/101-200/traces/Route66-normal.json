@@ -1,0 +1,142 @@
+{
+  "game": "Route66",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 40,
+    "cost_formula": "Uc(sel,cps) -> 40*cps (selection-independent)",
+    "source_sha256": "44e52dc5f973f1ee28f51efbba0c954b62430a8103f7d22c1a7a0e4e14add02a",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "Route66",
+        "sel": 5,
+        "sid": 1307418402,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793307418.401212,
+      "http_status": 200,
+      "response": {
+        "sid": 1307418402,
+        "md": {
+          "sid": 1296705765,
+          "tid": "round-65bd72374356cf220024",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 40,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            11,
+            4,
+            9,
+            6,
+            6,
+            10,
+            4,
+            9,
+            8,
+            2,
+            11,
+            9,
+            7,
+            1,
+            7,
+            10,
+            4,
+            12,
+            1,
+            3
+          ],
+          "swi": [
+            0
+          ],
+          "snm": [
+            0
+          ],
+          "ssm": [
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999960,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 40
+        },
+        "pcr": 9999960,
+        "cr": 9999960,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100,
+          150,
+          250,
+          500
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793307416.3990598,
+  "session_group": "Route66-abfd9f5288b749259d092fac156fcf86",
+  "balance_before_native": 10000000,
+  "cost_native": 40,
+  "win_native": 0,
+  "balance_after_native": 9999960,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

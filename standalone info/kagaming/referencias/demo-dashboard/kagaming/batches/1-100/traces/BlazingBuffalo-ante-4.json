@@ -1,0 +1,149 @@
+{
+  "game": "BlazingBuffalo",
+  "mode": "ante",
+  "atb": 4,
+  "status": "verified",
+  "profile": {
+    "sel": 5,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 4,
+    "cost_native": 88,
+    "cost_formula": "Uc(sel,cps,atb) -> PR[atb]*cps; engine fo -> request.atb; PR=[8, 18, 38, 68, 88]",
+    "source_sha256": "1b91a2d22f36dd63a861182be2e72dd50ba240a63b3150c7bd9b3fb61012a47f",
+    "ante_costs_native": [
+      8,
+      18,
+      38,
+      68,
+      88
+    ],
+    "kind": "ante",
+    "key": "ante-4"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "BlazingBuffalo",
+        "sel": 5,
+        "sid": 1271707624,
+        "cps": 1,
+        "atb": 4,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793271707.619098,
+      "http_status": 200,
+      "response": {
+        "sid": 1271707624,
+        "md": {
+          "sid": 1295589411,
+          "tid": "round-c29ddfd1501c3cdc2ef1",
+          "sel": 5,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 4,
+          "v": true,
+          "fs": false,
+          "twg": 88,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 80,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            4,
+            5,
+            1,
+            0,
+            2,
+            5,
+            3,
+            6,
+            6,
+            5,
+            6,
+            0,
+            6,
+            4,
+            3
+          ],
+          "swi": [
+            80
+          ],
+          "snm": [
+            1
+          ],
+          "ssm": [
+            7560
+          ],
+          "sm": [
+            4,
+            1,
+            0
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 5,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000093,
+          "obb": 10000085,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 305,
+          "tsb": 220
+        },
+        "pcr": 10000005,
+        "cr": 10000085,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793271705.6166797,
+  "session_group": "BlazingBuffalo-9daff7c46aa3451ab0fc1080a731e1c6",
+  "balance_before_native": 10000093,
+  "cost_native": 88,
+  "win_native": 80,
+  "balance_after_native": 10000085,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

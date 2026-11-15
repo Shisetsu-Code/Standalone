@@ -1,0 +1,258 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_krsroice_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "9c6e3414-564a-479a-86bd-c1f270a8dad4:2",
+      "name": "normal",
+      "kind": "SPIN",
+      "multiplier": 2,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 6,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 6
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999996,
+      "cost": 10,
+      "win": 6,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "a67f22aa2fd03a427ac326d05c56c7e3ead5772bc4d400331ba92c67974c3f9a"
+  ],
+  "native_modes": [
+    {
+      "id": "9c6e3414-564a-479a-86bd-c1f270a8dad4",
+      "name": "normal",
+      "kind": "SPIN",
+      "selector": "lines-25",
+      "selector_source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet.",
+      "cost": 5,
+      "bet_type": "default",
+      "multiplier": 2,
+      "declaration": {
+        "cost": 5,
+        "name": "normal",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "9c6e3414-564a-479a-86bd-c1f270a8dad4"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        120,
+        150,
+        160,
+        200,
+        240,
+        300,
+        360,
+        400,
+        480,
+        500,
+        600,
+        800,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        4500,
+        5000
+      ],
+      "minimum_legal_multiplier": 2
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "25"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 5,
+      "name": "30TB",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "9e9617f5-ede3-419b-9186-7b0d085b1cc8",
+        "startingPlays": "1",
+        "winline": "25"
+      },
+      "uuid": "1a687f9f-cddd-4f75-b187-f5792f2042e3"
+    },
+    {
+      "cost": 5,
+      "name": "16TB",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "86c75971-d2f5-46fb-9202-59298577a0b1",
+        "startingPlays": "1",
+        "winline": "25"
+      },
+      "uuid": "47fb3736-e145-4c1d-8ef2-f7b2c938a89e"
+    },
+    {
+      "cost": 5,
+      "name": "20TB",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "2eed5943-a8f5-4a1f-8597-1fe9a33c878a",
+        "startingPlays": "1",
+        "winline": "25"
+      },
+      "uuid": "09f8b5ed-f3f1-4a29-865d-754de759bec9"
+    },
+    {
+      "cost": 5,
+      "name": "8TB",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "1d721f8b-d3b4-4124-8a92-b649dd7fbcde",
+        "startingPlays": "1",
+        "winline": "25"
+      },
+      "uuid": "04d3d372-cbe5-492e-8839-c37529907035"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 5,
+        "name": "30TB",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "9e9617f5-ede3-419b-9186-7b0d085b1cc8",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "1a687f9f-cddd-4f75-b187-f5792f2042e3"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 5,
+        "name": "16TB",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "86c75971-d2f5-46fb-9202-59298577a0b1",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "47fb3736-e145-4c1d-8ef2-f7b2c938a89e"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 5,
+        "name": "20TB",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "2eed5943-a8f5-4a1f-8597-1fe9a33c878a",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "09f8b5ed-f3f1-4a29-865d-754de759bec9"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 5,
+        "name": "8TB",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "1d721f8b-d3b4-4124-8a92-b649dd7fbcde",
+          "startingPlays": "1",
+          "winline": "25"
+        },
+        "uuid": "04d3d372-cbe5-492e-8839-c37529907035"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793472032.4278345,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "historical_attempts": [
+    {
+      "path": "history/gpas_krsroice_pop-before-protocol-recovery.json",
+      "sha256": "90dca3f34847a5e33993ee9ad5954ef8db92ad072492f3b8d2d10c1a328052d2",
+      "prior_status": "needs_review",
+      "prior_review_reason": "STAKE_UUID_MISMATCH",
+      "verified_cases": 1,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 1
+    }
+  ],
+  "protocol_recovery": {
+    "independent_demo_control": true,
+    "historical_rounds_resumed": false,
+    "historical_failures_retained": true,
+    "note": "Current protocol coverage verified in a new anonymous demo. This does not assert settlement or recovery of earlier missing receipts."
+  },
+  "pending_choice_branches": {}
+}

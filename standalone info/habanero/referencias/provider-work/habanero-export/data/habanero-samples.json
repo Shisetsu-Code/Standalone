@@ -1,0 +1,64 @@
+{
+ "SGLegendOfNezha|init|-": {
+  "header": {
+   "player": {
+    "sfb": null,
+    "dtld": 639295006360530300,
+    "ssotoken": "",
+    "funmode": true,
+    "brandid": "a9d542ac-c9bb-e311-93f6-80c16e0883f4",
+    "lc": "en",
+    "mobile": false
+   },
+   "version": "1.1.24603.707"
+  },
+  "game": {
+   "action": "init",
+   "sessionid": null,
+   "brandgameid": "0a6b92a3-da3b-4bc3-bae0-74be03b829b5",
+   "kn": "SGLegendOfNezha"
+  },
+  "grid": "<UUID_PER_REQUEST>"
+ },
+ "SGLegendOfNezha|game|base": {
+  "game": {
+   "action": "game",
+   "sessionid": null,
+   "brandgameid": "0a6b92a3-da3b-4bc3-bae0-74be03b829b5",
+   "kn": "SGLegendOfNezha"
+  },
+  "portmessage": "{\"coinValue\":0.2,\"betLevel\":1,\"numLines\":28,\"gameMode\":\"base\",\"pssid\":\"\"}",
+  "header": {
+   "player": {
+    "ssotoken": "",
+    "funmode": true,
+    "brandid": "a9d542ac-c9bb-e311-93f6-80c16e0883f4",
+    "lc": "en",
+    "mobile": false
+   },
+   "version": "1.1.24603.707"
+  },
+  "grid": "<UUID_PER_REQUEST>"
+ },
+ "SGLegendOfNezha|game|free": {
+  "game": {
+   "action": "game",
+   "gameid": "<GAMEID_FROM_LAST_RESPONSE>",
+   "sessionid": null,
+   "brandgameid": "0a6b92a3-da3b-4bc3-bae0-74be03b829b5",
+   "kn": "SGLegendOfNezha"
+  },
+  "portmessage": "{\"gameMode\":\"free\",\"pssid\":\"\",\"gssid\":\"<GSSID_FROM_LAST_RESPONSE>\"}",
+  "header": {
+   "player": {
+    "ssotoken": "",
+    "funmode": true,
+    "brandid": "a9d542ac-c9bb-e311-93f6-80c16e0883f4",
+    "lc": "en",
+    "mobile": false
+   },
+   "version": "1.1.24603.707"
+  },
+  "grid": "<UUID_PER_REQUEST>"
+ }
+}

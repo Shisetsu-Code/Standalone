@@ -1,0 +1,630 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_pstrike_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "subset_complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "1c290416-470c-429f-a7f7-cb360b043e08:1",
+      "name": "BF_RND",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 960,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 960,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "BF_RND_LP",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 8,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 8,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 10,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 8,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 18,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 18,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 4,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 20,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "FreeGame",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "MegaSpin",
+          "native_total_win": 42,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2592,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 2634,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001674,
+      "cost": 960,
+      "win": 2634,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {
+        "BF_RND_LP": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "selected_choices": {
+        "BF_RND_LP": [
+          2
+        ]
+      },
+      "missing_choice_branches": {
+        "BF_RND_LP": [
+          0,
+          1,
+          3
+        ]
+      }
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "8334bacbd793dddf3e2b3129792c338d7b7e1b2fa7553716b46886563c52c179"
+  ],
+  "native_modes": [
+    {
+      "id": "ada68954-4a6f-4547-abfc-2065317aa389",
+      "name": "Base",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Base",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "52c3572c-e1b8-4944-84d8-1ea68f0817dc",
+          "startingPlays": "1"
+        },
+        "uuid": "ada68954-4a6f-4547-abfc-2065317aa389"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": []
+    },
+    {
+      "id": "6dd386f6-c3f5-4e93-89a9-0493c6e4eeb2",
+      "name": "BF3",
+      "kind": "NATIVE_OPTION",
+      "selector": "BF3",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 320,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 320,
+        "name": "BF3",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "69cbfeb8-570b-4630-8342-01721522031f",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "6dd386f6-c3f5-4e93-89a9-0493c6e4eeb2"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": []
+    },
+    {
+      "id": "d9c12b26-bb6e-4c17-875f-ba8787da82c3",
+      "name": "BF4",
+      "kind": "NATIVE_OPTION",
+      "selector": "BF4",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 675,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 675,
+        "name": "BF4",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "e9b98fd3-e1fb-4258-8ae0-e660f2f6b7ca",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "d9c12b26-bb6e-4c17-875f-ba8787da82c3"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": []
+    },
+    {
+      "id": "a5111c29-f460-481c-96cd-7e47a3b507e8",
+      "name": "BF5",
+      "kind": "NATIVE_OPTION",
+      "selector": "BF5",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 1045,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1045,
+        "name": "BF5",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "be879665-0fa8-4937-8c75-8bfd7801dc4c",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "a5111c29-f460-481c-96cd-7e47a3b507e8"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": []
+    },
+    {
+      "id": "b01eae9c-86d7-4a47-8e37-92f011a51bb8",
+      "name": "BF6",
+      "kind": "NATIVE_OPTION",
+      "selector": "BF6",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 1800,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1800,
+        "name": "BF6",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "bee922ff-797d-4daf-bca5-bba9111658c2",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "b01eae9c-86d7-4a47-8e37-92f011a51bb8"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": []
+    },
+    {
+      "id": "1c290416-470c-429f-a7f7-cb360b043e08",
+      "name": "BF_RND",
+      "kind": "NATIVE_OPTION",
+      "selector": "BF_RND",
+      "selector_source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc",
+      "cost": 960,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 960,
+        "name": "BF_RND",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "maxBaseCostMultiplier": "100000",
+          "startingMode": "704b80ee-b5cf-42fd-805a-fb962797f868",
+          "startingPlays": "1",
+          "winline": "1"
+        },
+        "uuid": "1c290416-470c-429f-a7f7-cb360b043e08"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "1"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793476381.3882215,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {
+    "1c290416-470c-429f-a7f7-cb360b043e08": {
+      "BF_RND_LP": [
+        0,
+        1,
+        3
+      ]
+    }
+  },
+  "requested_choice_targets": {
+    "BF_RND_LP": 2
+  },
+  "explore_all_choices": false,
+  "all_requested_choices_complete": true,
+  "operation_tag": "mystery-card-2",
+  "selected_mode_ids": [
+    "1c290416-470c-429f-a7f7-cb360b043e08"
+  ],
+  "all_requested_modes_complete": true
+}

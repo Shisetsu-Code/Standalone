@@ -1,0 +1,262 @@
+{
+  "game_id": "superstars",
+  "title": "Superstars™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "8",
+          "game_state": "basic",
+          "credit_cents": "99998"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "1000",
+      "debit": "999.9",
+      "after": "999.98",
+      "win": "0.08",
+      "currency": "USD",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "initbonus",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "initbonus",
+          "next_action": "roll_dice",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "roll_dice",
+          "next_action": "gonzo",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "gonzo",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "roll_dice",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "roll_dice",
+          "next_action": "miss_banks",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "miss_banks",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "roll_dice",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "roll_dice",
+          "next_action": "space_wars",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "space_wars",
+          "next_action": "space_wars_respin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "space_wars_respin",
+          "next_action": "space_wars_respin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "space_wars_respin",
+          "next_action": "space_wars_respin",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "space_wars_respin",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "roll_dice",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "roll_dice",
+          "next_action": "starburst",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "starburst",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "bonusaction",
+          "game_over": "false",
+          "win_cents": "0",
+          "game_state": "bonus",
+          "credit_cents": "98500"
+        },
+        {
+          "kind": "bonusaction",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "920",
+          "game_state": "basic",
+          "credit_cents": "99420"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.1",
+      "factor": "150",
+      "cost": "15",
+      "before": "1000",
+      "debit": "985",
+      "after": "994.2",
+      "win": "9.2",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

@@ -1,0 +1,76 @@
+{
+  "game_id": "butterfly-staxx-2",
+  "title": "Butterfly Staxx 2™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 1,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "0",
+          "game_state": "basic",
+          "credit_cents": "99975"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.25",
+      "factor": "1",
+      "cost": "0.25",
+      "before": "1000",
+      "debit": "999.75",
+      "after": "999.75",
+      "win": "0",
+      "currency": "USD",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed",
+      "prior_evaluations": [
+        {
+          "checks": {
+            "demo": true,
+            "minimum_base": true,
+            "positive_factor": true,
+            "wallet_ledger": false,
+            "nonnegative_credit": true,
+            "round_closed": true
+          },
+          "cost": "0.4",
+          "before": "1000",
+          "debit": "999.6",
+          "after": "999.75",
+          "win": "0",
+          "passed": false
+        }
+      ]
+    }
+  ],
+  "historical_failed_checks": 1,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0,
+  "native_cost_source": {
+    "coins": 25,
+    "client_sha256": "001a3f98e903f3355aef9e280bdb13bcc29cfd4fc2f9d78826c86276d464df88",
+    "config_sha256": "92dc14c248bd857c349f29f4883eea852b83e97ff6be3ed02843644d4d67c932"
+  }
+}

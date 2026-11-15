@@ -1,0 +1,20 @@
+{
+  "schema": "ngm-audit-throughput-measurement/v1",
+  "measured_at": 1793545334.505339,
+  "baseline_cold_full_checks": 143,
+  "baseline_seconds": 43.09628540000995,
+  "baseline_provenance": "Observed stdout of first --incremental run with empty cache; report was subsequently replaced by warm run.",
+  "warm_unchanged_seconds": 6.527492699999129,
+  "warm_reused": 142,
+  "warm_checked": 1,
+  "one_changed_profile_seconds": 8.809297100000549,
+  "one_changed_reused": 141,
+  "one_changed_checked": 2,
+  "latest_audit": {
+    "path": "provider-work/playtech-root/reviews/ngm-registered-offline-audit.json",
+    "sha256": "b37f45e260c8c69701a2ce8021b378206080bf32e10247f58d25270edd6f0fa5"
+  },
+  "tests_passed": 17,
+  "new_native_dispatches_from_auditor": 0,
+  "scope": "Read-only quote and saved-replay auditing only; no claim of whole-catalogue completion or same speedup for source adaptation."
+}

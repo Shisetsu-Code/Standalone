@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "catalogue_games": 75,
+    "normal_modes_verified": 75,
+    "identified_minimum_modes_verified": 239,
+    "normal": 75,
+    "special": 52,
+    "purchase_including_conditional": 112,
+    "conditional_purchases": 2,
+    "internal_steps": 1870,
+    "games_complete_at_identified_minimum": 70,
+    "historical_settlement_holds": 5,
+    "unstarted_purchases": 3,
+    "all_modes_complete": false,
+    "scope": "Modos identificados al mínimo nativo; otras apuestas y selecciones de líneas no recorridas por completo."
+  },
+  "additional_verified_sequence": {
+    "game": "inks-pints",
+    "status": "verified",
+    "rounds": [
+      {
+        "index": 1,
+        "action": "main",
+        "bet": 2,
+        "payout": 0.0,
+        "balance_after": 9998.0,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "action": "main",
+        "bet": 2,
+        "payout": 0.0,
+        "balance_after": 9996.0,
+        "status": "verified"
+      },
+      {
+        "index": 3,
+        "action": "buy_FS_3SC",
+        "bet": 150,
+        "payout": 149.0,
+        "balance_after": 9995.0,
+        "status": "verified"
+      },
+      {
+        "index": 4,
+        "action": "bet",
+        "bet": 3,
+        "payout": 0.0,
+        "balance_after": 9992.0,
+        "status": "verified"
+      },
+      {
+        "index": 5,
+        "action": "buy_JACKPOT",
+        "bet": 150,
+        "payout": 132.0,
+        "balance_after": 9974.0,
+        "status": "verified"
+      },
+      {
+        "index": 6,
+        "action": "bet",
+        "bet": 3,
+        "payout": 0.0,
+        "balance_after": 9971.0,
+        "status": "verified"
+      },
+      {
+        "index": 7,
+        "action": "main",
+        "bet": 2,
+        "payout": 0.0,
+        "balance_after": 9969.0,
+        "status": "verified"
+      }
+    ],
+    "balance_before": 10000,
+    "balance_after": 9969,
+    "cost": 312,
+    "payout": 281,
+    "previous_hold_separate": true,
+    "counts_as_additional_catalogue_modes": false
+  },
+  "review_sha256": "1e96ee5508a101512fd2deddd2419b4fc465fa1782662c9d997de6eca29fc783",
+  "private_credentials_published": false
+}

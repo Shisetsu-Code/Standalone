@@ -1,0 +1,2574 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_aogwfot_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Each declared bound action and line choice across all native legal stake multipliers; independent demo sessions retained separately",
+  "all_stake_sizes_requested": true,
+  "cases": [
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:1",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:1",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 999990,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999970,
+      "cost": 20,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:2",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 2,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999980,
+      "cost": 20,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482773090569100"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:3",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 3,
+      "expected_cost": 30,
+      "before": 999980,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 30,
+          "win": 30,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 30,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999980,
+      "cost": 30,
+      "win": 30,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482773090569100"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:4",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 4,
+      "expected_cost": 40,
+      "before": 999980,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 40,
+          "win": 20,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 20,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999960,
+      "cost": 40,
+      "win": 20,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482773090569100"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:5",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 5,
+      "expected_cost": 50,
+      "before": 999960,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 50,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999910,
+      "cost": 50,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482773090569100"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:6",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 6,
+      "expected_cost": 60,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 60,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999940,
+      "cost": 60,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482780451353200"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:8",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 8,
+      "expected_cost": 80,
+      "before": 999940,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 80,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999860,
+      "cost": 80,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482780451353200"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:10",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 10,
+      "expected_cost": 100,
+      "before": 999860,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 100,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999760,
+      "cost": 100,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482780451353200"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:15",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 15,
+      "expected_cost": 150,
+      "before": 999760,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 150,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin5",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 360,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 360,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999970,
+      "cost": 150,
+      "win": 360,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482780451353200"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:20",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 20,
+      "expected_cost": 200,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 200,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999800,
+      "cost": 200,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482788934449000"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:25",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 25,
+      "expected_cost": 250,
+      "before": 999800,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 250,
+          "win": 550,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 550,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000100,
+      "cost": 250,
+      "win": 550,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482788934449000"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:30",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 30,
+      "expected_cost": 300,
+      "before": 1000100,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 300,
+          "win": 300,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 300,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000100,
+      "cost": 300,
+      "win": 300,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482788934449000"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:40",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 40,
+      "expected_cost": 400,
+      "before": 1000100,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 400,
+          "win": 1840,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1840,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001540,
+      "cost": 400,
+      "win": 1840,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482788934449000"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:50",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 50,
+      "expected_cost": 500,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 500,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999500,
+      "cost": 500,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482796308939400"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:80",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 80,
+      "expected_cost": 800,
+      "before": 999500,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 800,
+          "win": 1120,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1120,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999820,
+      "cost": 800,
+      "win": 1120,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482796308939400"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:100",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 100,
+      "expected_cost": 1000,
+      "before": 999820,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 998820,
+      "cost": 1000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482796308939400"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:150",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 150,
+      "expected_cost": 1500,
+      "before": 998820,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1500,
+          "win": 3000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 3000,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000320,
+      "cost": 1500,
+      "win": 3000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482796308939400"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:200",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 200,
+      "expected_cost": 2000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 2000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 998000,
+      "cost": 2000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482803616802700"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:300",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 300,
+      "expected_cost": 3000,
+      "before": 998000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 3000,
+          "win": 600,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 600,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 995600,
+      "cost": 3000,
+      "win": 600,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482803616802700"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:500",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 500,
+      "expected_cost": 5000,
+      "before": 995600,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 5000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 990600,
+      "cost": 5000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482803616802700"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:1000",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 1000,
+      "expected_cost": 10000,
+      "before": 990600,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10000,
+          "win": 2000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 2000,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 982600,
+      "cost": 10000,
+      "win": 2000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482803616802700"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:1500",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 1500,
+      "expected_cost": 15000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 15000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 985000,
+      "cost": 15000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482811090167600"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:2000",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 2000,
+      "expected_cost": 20000,
+      "before": 985000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 965000,
+      "cost": 20000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482811090167600"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:3000",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 3000,
+      "expected_cost": 30000,
+      "before": 965000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 30000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 935000,
+      "cost": 30000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482811090167600"
+    },
+    {
+      "case_id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc:5000",
+      "name": "Standard",
+      "kind": "SPIN",
+      "multiplier": 5000,
+      "expected_cost": 50000,
+      "before": 935000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 50000,
+          "win": 10000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 10000,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "false"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 895000,
+      "cost": 50000,
+      "win": 10000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-9003ac8c-1793482811090167600"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:2",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 2,
+      "expected_cost": 40,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 40,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999960,
+      "cost": 40,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482818400341500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:3",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 3,
+      "expected_cost": 60,
+      "before": 999960,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 60,
+          "win": 30,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 30,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999930,
+      "cost": 60,
+      "win": 30,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482818400341500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:4",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 4,
+      "expected_cost": 80,
+      "before": 999930,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 80,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999850,
+      "cost": 80,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482818400341500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:5",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 5,
+      "expected_cost": 100,
+      "before": 999850,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 100,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999750,
+      "cost": 100,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482818400341500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:6",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 6,
+      "expected_cost": 120,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 120,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999880,
+      "cost": 120,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482825682807600"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:8",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 8,
+      "expected_cost": 160,
+      "before": 999880,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 160,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999720,
+      "cost": 160,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482825682807600"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:10",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 10,
+      "expected_cost": 200,
+      "before": 999720,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 200,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999520,
+      "cost": 200,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482825682807600"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:15",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 15,
+      "expected_cost": 300,
+      "before": 999520,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 300,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999220,
+      "cost": 300,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482825682807600"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:20",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 20,
+      "expected_cost": 400,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 400,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999600,
+      "cost": 400,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482833044452100"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:25",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 25,
+      "expected_cost": 500,
+      "before": 999600,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 500,
+          "win": 350,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 350,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999450,
+      "cost": 500,
+      "win": 350,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482833044452100"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:30",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 30,
+      "expected_cost": 600,
+      "before": 999450,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 600,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 998850,
+      "cost": 600,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482833044452100"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:40",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 40,
+      "expected_cost": 800,
+      "before": 998850,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 800,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 998050,
+      "cost": 800,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482833044452100"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:50",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 50,
+      "expected_cost": 1000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999000,
+      "cost": 1000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482840432920200"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:80",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 80,
+      "expected_cost": 1600,
+      "before": 999000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1600,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 997400,
+      "cost": 1600,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482840432920200"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:100",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 100,
+      "expected_cost": 2000,
+      "before": 997400,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 2000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 995400,
+      "cost": 2000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482840432920200"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:150",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 150,
+      "expected_cost": 3000,
+      "before": 995400,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 3000,
+          "win": 1050,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 1050,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 993450,
+      "cost": 3000,
+      "win": 1050,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482840432920200"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:200",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 200,
+      "expected_cost": 4000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 4000,
+          "win": 400,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 400,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 996400,
+      "cost": 4000,
+      "win": 400,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482847913531500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:300",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 300,
+      "expected_cost": 6000,
+      "before": 996400,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 6000,
+          "win": 120000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 120000,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1110400,
+      "cost": 6000,
+      "win": 120000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482847913531500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:500",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 500,
+      "expected_cost": 10000,
+      "before": 1110400,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10000,
+          "win": 3000,
+          "round_closed": false,
+          "next_round": "Respin5",
+          "native_total_win": 3000,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 55000,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 58000,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1158400,
+      "cost": 10000,
+      "win": 58000,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482847913531500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:1000",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1000,
+      "expected_cost": 20000,
+      "before": 1158400,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1138400,
+      "cost": 20000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482847913531500"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:1500",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1500,
+      "expected_cost": 30000,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 30000,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 970000,
+      "cost": 30000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482855947560000"
+    },
+    {
+      "case_id": "66c20afc-43c9-4798-b26e-a59eab9394d0:2000",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "multiplier": 2000,
+      "expected_cost": 40000,
+      "before": 970000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 40000,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "Respin5",
+          "native_total_win": 0,
+          "request_parameters": [
+            {
+              "key": "extraBetSupported",
+              "value": "true"
+            },
+            {
+              "key": "extraBetActive",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 930000,
+      "cost": 40000,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {},
+      "session_group": "stake-matrix-66c20afc-1793482855947560000"
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "b41656cf38e3b5175399563c4781de5156d60c8eb93bf1d192579d2783fece62"
+  ],
+  "native_modes": [
+    {
+      "id": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc",
+      "name": "Standard",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "Official client command constructed with all financial sends blocked",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Standard",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [
+        {
+          "key": "extraBetSupported",
+          "value": "true"
+        },
+        {
+          "key": "extraBetActive",
+          "value": "false"
+        }
+      ],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "66c20afc-43c9-4798-b26e-a59eab9394d0",
+      "name": "Extra",
+      "kind": "ANTE_BET",
+      "selector": "extra",
+      "selector_source": "Native P6d selects extra through bHc; official base parameter shape plus active ExtraBets flag. Corrective control requires exact extra UUID.",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "Extra",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "20f13b5c-4993-4a10-8a4f-ddd1403da5b8",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "66c20afc-43c9-4798-b26e-a59eab9394d0"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [
+        {
+          "key": "extraBetSupported",
+          "value": "true"
+        },
+        {
+          "key": "extraBetActive",
+          "value": "true"
+        }
+      ],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "30"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "supplemental_sessions": [
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482773090569100",
+      "operation_tag": "stake-matrix-9003ac8c-1793482773090569100",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482780451353200",
+      "operation_tag": "stake-matrix-9003ac8c-1793482780451353200",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482788934449000",
+      "operation_tag": "stake-matrix-9003ac8c-1793482788934449000",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482796308939400",
+      "operation_tag": "stake-matrix-9003ac8c-1793482796308939400",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482803616802700",
+      "operation_tag": "stake-matrix-9003ac8c-1793482803616802700",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-9003ac8c-1793482811090167600",
+      "operation_tag": "stake-matrix-9003ac8c-1793482811090167600",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482818400341500",
+      "operation_tag": "stake-matrix-66c20afc-1793482818400341500",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482825682807600",
+      "operation_tag": "stake-matrix-66c20afc-1793482825682807600",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482833044452100",
+      "operation_tag": "stake-matrix-66c20afc-1793482833044452100",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482840432920200",
+      "operation_tag": "stake-matrix-66c20afc-1793482840432920200",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482847913531500",
+      "operation_tag": "stake-matrix-66c20afc-1793482847913531500",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    },
+    {
+      "session_group": "stake-matrix-66c20afc-1793482855947560000",
+      "operation_tag": "stake-matrix-66c20afc-1793482855947560000",
+      "independent_demo_owner": true,
+      "stake_domain_control": true
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793482862.7867866,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "historical_attempts": [
+    {
+      "path": "history/gpas_aogwfot_pop-before-native-extra-selector-v2.json",
+      "sha256": "387d8badc94a25e8e897c0c12cd61b8fb331f729ee2bd15b95b37c7422e645ac",
+      "prior_status": "needs_review",
+      "prior_review_reason": "com.pt.casino.platform.game.EngineError:0",
+      "verified_cases": 0,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 1
+    }
+  ],
+  "protocol_recovery": {
+    "independent_demo_control": true,
+    "historical_rounds_resumed": false,
+    "historical_failures_retained": true,
+    "note": "Current protocol coverage verified in a new anonymous demo. This does not assert settlement or recovery of earlier missing receipts."
+  },
+  "pending_choice_branches": {},
+  "full_stake_coverage": {
+    "status": "complete",
+    "declared_pairs": 48,
+    "verified_pairs": 48,
+    "baseline_snapshot": "history/gpas_aogwfot_pop-before-full-stake-matrix.json",
+    "baseline_sha256": "003da52b6ea1f9e3e610f9123cb4202d6b7d02ec07017f857d1516ff75bb7f35",
+    "updated_at": 1793482862.7867866,
+    "missing_pairs": [],
+    "held_pairs": [],
+    "blocked_by_demo_balance": [],
+    "protocol_review": []
+  }
+}

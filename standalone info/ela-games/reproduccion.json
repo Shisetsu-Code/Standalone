@@ -1,0 +1,23 @@
+{
+  "provider": "ela-games",
+  "name": "Ela Games",
+  "inventory": "../inventario/ela-games.json",
+  "historical": "../evidencia/ela-games.json",
+  "games": 68,
+  "modes": 134,
+  "python": {
+    "source": "../../../bet-collector/collection_full_existing.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "ela-games-private"
+    ],
+    "absent_from_checkout": [
+      "ela-games-private"
+    ]
+  },
+  "native_family": "ela.feature",
+  "continuation": "native free/respins",
+  "closure": "native award and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

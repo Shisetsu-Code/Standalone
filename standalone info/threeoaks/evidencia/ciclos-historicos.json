@@ -1,0 +1,213 @@
+[
+  {
+    "provider": "threeoaks",
+    "game_id": "4_hot_chillies",
+    "execution_source": "native_remote",
+    "status": "completed",
+    "round_closed": true,
+    "wallet_check": "match",
+    "amounts": {
+      "currency": "FUN",
+      "bet": null,
+      "cost": 1000,
+      "win": 1180,
+      "balance_before": 100000,
+      "balance_after": 100180
+    },
+    "mode": {
+      "key": "buy-1",
+      "type": "purchase"
+    },
+    "source_sha256": "75a42377748f71e87df0fdabb4e0e014c13d0044b9e458c96f98ae89cb6243c1",
+    "phases": {
+      "accepted_event_index": 0,
+      "closed_event_index": 15,
+      "entry_event_index": 0,
+      "selected_option": "buy-1",
+      "transport": "http_direct",
+      "options_offered": [
+        1,
+        2
+      ],
+      "steps": [
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 0,
+          "round_finished": false,
+          "state": "spins",
+          "total_win": 0,
+          "options_offered": [
+            "bonus_init"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 1,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 2,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 3,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 4,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 5,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 6,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 7,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 8,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 9,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 10,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 11,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 12,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 99000,
+          "index": 13,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "respin"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 100180,
+          "index": 14,
+          "round_finished": false,
+          "state": "bonus",
+          "total_win": null,
+          "options_offered": [
+            "bonus_spins_stop"
+          ]
+        },
+        {
+          "action": null,
+          "balance": 100180,
+          "index": 15,
+          "round_finished": true,
+          "state": "spins",
+          "total_win": 1180,
+          "options_offered": [
+            "spin",
+            "buy_spin"
+          ]
+        }
+      ]
+    }
+  }
+]

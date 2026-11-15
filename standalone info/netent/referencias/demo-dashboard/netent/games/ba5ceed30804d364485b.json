@@ -1,0 +1,1375 @@
+{
+  "game_id": "lock-and-pop",
+  "title": "Lock and Pop",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 1
+                },
+                {
+                  "id": 1
+                },
+                {
+                  "id": 1
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 3
+                }
+              ]
+            ],
+            "wins": []
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 7,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 15,
+                  "value": 5
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ]
+            ],
+            "wins": []
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 0,
+            "accumulatorRow": [
+              0,
+              0,
+              0,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 15,
+                  "value": 5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ],
+            "subFeature": {
+              "columnIndex": 4,
+              "subFeature": "Adder1"
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 6
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 0,
+            "accumulatorRow": [
+              0,
+              0,
+              0,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 15,
+                  "value": 5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 5
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 1,
+            "accumulatorRow": [
+              0,
+              0,
+              0,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 15,
+                  "value": 5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 7,
+            "left": 4
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 2,
+            "accumulatorRow": [
+              0,
+              0,
+              0,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 15,
+                  "value": 5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 4
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 2,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ],
+            "subFeature": {
+              "columnIndex": 2,
+              "subFeature": "Magnet"
+            }
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 3
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 3,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 2
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 4,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 7,
+            "left": 1
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 5,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 2
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 7,
+            "left": 0
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 6,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              5.0
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 10
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 2
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 7,
+            "left": 0
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 6,
+            "accumulatorRow": [
+              0,
+              0,
+              8.5,
+              0,
+              6.5
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 11
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 3
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1.0
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 2.5
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ],
+            "subFeature": {
+              "columnIndex": 4,
+              "subFeature": "Duplicator",
+              "duplicatorSubFeatureData": {
+                "reelStopIndex": 2,
+                "spinResult": [
+                  [
+                    {
+                      "id": 14,
+                      "value": 1
+                    },
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 14,
+                      "value": 2
+                    }
+                  ],
+                  [
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 14,
+                      "value": 0.5
+                    },
+                    {
+                      "id": 14,
+                      "value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "id": 14,
+                      "value": 0.5
+                    },
+                    {
+                      "id": 14,
+                      "value": 0.5
+                    },
+                    {
+                      "id": 14,
+                      "value": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 13
+                    }
+                  ],
+                  [
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 13
+                    },
+                    {
+                      "id": 13
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 7,
+            "left": 0
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "spinNumber": 6,
+            "accumulatorRow": [
+              0,
+              17.5,
+              8.5,
+              0,
+              6.5
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 11
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 3
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 1.5
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 2.5
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ],
+            "subFeature": {
+              "columnIndex": 1,
+              "subFeature": "Collector"
+            }
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 7,
+            "left": 0
+          },
+          "wins": {
+            "total": 12.9,
+            "current": 12.9
+          },
+          "game": {
+            "spinNumber": 6,
+            "accumulatorRow": [
+              0,
+              17.5,
+              19.0,
+              0,
+              6.5
+            ],
+            "symbols": [
+              [
+                {
+                  "id": 15,
+                  "value": 11
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 3
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 2
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 2
+                }
+              ],
+              [
+                {
+                  "id": 13
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                },
+                {
+                  "id": 14,
+                  "value": 1
+                }
+              ],
+              [
+                {
+                  "id": 14,
+                  "value": 2
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 13
+                }
+              ]
+            ],
+            "subFeature": {
+              "columnIndex": 2,
+              "subFeature": "Blaster2",
+              "blasterSubFeatureData": {
+                "newPrizesPositions": [
+                  {
+                    "row": 0,
+                    "col": 4
+                  },
+                  {
+                    "row": 2,
+                    "col": 2
+                  },
+                  {
+                    "row": 0,
+                    "col": 2
+                  }
+                ]
+              }
+            },
+            "totalAccumulatorRow": [
+              14,
+              17.5,
+              23.0,
+              1.5,
+              8.5
+            ]
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "60",
+      "cost": "12.0",
+      "before": "1000",
+      "debit": "988.0",
+      "after": "1000.9",
+      "win": "12.9"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

@@ -1,0 +1,23 @@
+{
+  "provider": "bgaming",
+  "name": "BGaming",
+  "inventory": "../inventario/bgaming.json",
+  "historical": "../evidencia/bgaming.json",
+  "games": 244,
+  "modes": 808,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/bgaming-chat4"
+    ],
+    "absent_from_checkout": [
+      "provider-work/bgaming-chat4"
+    ]
+  },
+  "native_family": "bgaming.game-service",
+  "continuation": "events/free or bonus",
+  "closure": "native response round and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

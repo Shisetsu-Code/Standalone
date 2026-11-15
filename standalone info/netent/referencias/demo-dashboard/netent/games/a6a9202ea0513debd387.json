@@ -1,0 +1,158 @@
+{
+  "game_id": "fruit-shop-frenzy",
+  "title": "Fruit Shop™ Frenzy",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "0.36",
+          "has_state": false
+        },
+        {
+          "path": "game.freeSpins[0]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[1]",
+          "mode": "FreeSpins",
+          "win_reference": "0.18",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "closed_state": true,
+        "ordinary_entry": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "1",
+      "cost": "0.1",
+      "before": "10000.00",
+      "debit": "9999.90",
+      "after": "10000.26",
+      "win": "0.36",
+      "currency": "EUR"
+    },
+    {
+      "name": "FruitFrenzy:101",
+      "kind": "special",
+      "mode": "FruitFrenzy:101",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "win_total": "5.04",
+          "has_state": false
+        },
+        {
+          "path": "game.freeSpins[0]",
+          "mode": "FreeSpins",
+          "win_reference": "0.03",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[1]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[2]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[3]",
+          "mode": "FreeSpins",
+          "win_reference": "0.06",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[4]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[5]",
+          "mode": "FreeSpins",
+          "win_reference": "0.06",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[6]",
+          "mode": "FreeSpins",
+          "win_reference": "0.00",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[7]",
+          "mode": "FreeSpins",
+          "win_reference": "0.06",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        },
+        {
+          "path": "game.freeSpins[8]",
+          "mode": "FreeSpins",
+          "win_reference": "4.20",
+          "settlement": "included_in_parent; not_an_additional_wager_or_wallet_credit"
+        }
+      ],
+      "checks": {
+        "success": true,
+        "demo": true,
+        "continuity": true,
+        "native_mode_id": true,
+        "no_promotional_bonus": true,
+        "request_stake_matches_game": true,
+        "debit": true,
+        "credit": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_settled": true,
+        "minimum_base": true
+      },
+      "stake": "0.1",
+      "factor": "20.00",
+      "cost": "2.000",
+      "before": "10000.00",
+      "debit": "9998.00",
+      "after": "10003.04",
+      "win": "5.04",
+      "currency": "EUR",
+      "native_mode_id": 101
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

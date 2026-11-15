@@ -1,0 +1,1764 @@
+{
+  "game_id": "jack-and-the-beanstalk",
+  "title": "Jack and the Beanstalk™ Remastered",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "spin",
+          "free_spins": null,
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseSymbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 0
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "wins": [],
+            "treasures": null
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.8",
+      "win": "0.0"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 10
+          },
+          "wins": {
+            "total": 0,
+            "current": 0
+          },
+          "game": {}
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 0
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 10
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 0
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 9
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 0
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 8
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 0
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 2
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 1
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.0,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 2
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 2
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.15,
+            "current": 0.15
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 2
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 15,
+                "payout": 0.75,
+                "winnings": 0.15,
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "treasures": 3
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7
+          },
+          "wins": {
+            "total": 0.3,
+            "current": 0.15
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 2
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 11,
+                "payout": 0.75,
+                "winnings": 0.15,
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            ],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 7
+          },
+          "wins": {
+            "total": 1.2,
+            "current": 0.9
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 1,
+                  "type": "Normal"
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 9,
+                "payout": 3,
+                "winnings": 0.6,
+                "winSymbol": {
+                  "id": 9
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ]
+              },
+              {
+                "line": 13,
+                "payout": 1.5,
+                "winnings": 0.3,
+                "winSymbol": {
+                  "id": 5
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            ],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 6
+          },
+          "wins": {
+            "total": 1.2,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 5
+          },
+          "wins": {
+            "total": 1.2,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 3
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 4
+                }
+              ],
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 12
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 4
+          },
+          "wins": {
+            "total": 1.2,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 0
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 4
+          },
+          "wins": {
+            "total": 1.36,
+            "current": 0.16
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 5
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 1,
+                  "type": "TwoStacked"
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 4
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 8
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 17,
+                "payout": 0.6,
+                "winnings": 0.12,
+                "winSymbol": {
+                  "id": 11
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ]
+              },
+              {
+                "line": 6,
+                "payout": 0.2,
+                "winnings": 0.04,
+                "winSymbol": {
+                  "id": 11
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "treasures": 4
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "respin",
+          "free_spins": {
+            "total": 10,
+            "left": 4
+          },
+          "wins": {
+            "total": 2.16,
+            "current": 0.8
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 1,
+                  "type": "TwoStacked"
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 2
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 11,
+                "payout": 3,
+                "winnings": 0.6,
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              },
+              {
+                "line": 4,
+                "payout": 1,
+                "winnings": 0.2,
+                "winSymbol": {
+                  "id": 10
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "treasures": 5
+          }
+        },
+        {
+          "kind": "respin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 3
+          },
+          "wins": {
+            "total": 2.16,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 6
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 2
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 6
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 2
+          },
+          "wins": {
+            "total": 2.2,
+            "current": 0.04
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 10
+                }
+              ],
+              [
+                {
+                  "id": 11
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 7
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [
+              {
+                "line": 9,
+                "payout": 0.2,
+                "winnings": 0.04,
+                "winSymbol": {
+                  "id": 11
+                },
+                "symbolPositions": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "treasures": 6
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "free_spins": {
+            "total": 10,
+            "left": 1
+          },
+          "wins": {
+            "total": 2.2,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 4
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 8
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 9
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 6
+          }
+        },
+        {
+          "kind": "freespin",
+          "next_action": "spin",
+          "free_spins": {
+            "total": 10,
+            "left": 0
+          },
+          "wins": {
+            "total": 2.2,
+            "current": 0.0
+          },
+          "game": {
+            "symbols": [
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                }
+              ],
+              [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 9
+                },
+                {
+                  "id": 5
+                }
+              ],
+              [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 3
+                },
+                {
+                  "id": 7
+                }
+              ],
+              [
+                {
+                  "id": 6
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 11
+                }
+              ],
+              [
+                {
+                  "id": 12
+                },
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+              ]
+            ],
+            "baseSymbols": null,
+            "wins": [],
+            "treasures": 6
+          }
+        }
+      ],
+      "checks": {
+        "positive_stake": true,
+        "positive_factor": true,
+        "debit_matches_cost": true,
+        "wallet_matches_root_win": true,
+        "round_closed": true,
+        "minimum_base": true
+      },
+      "stake": "0.2",
+      "factor": "45",
+      "cost": "9.0",
+      "before": "999.8",
+      "debit": "990.8",
+      "after": "993.0",
+      "win": "2.2"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 0
+}

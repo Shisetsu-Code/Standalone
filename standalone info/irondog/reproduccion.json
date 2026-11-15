@@ -1,0 +1,23 @@
+{
+  "provider": "irondog",
+  "name": "Iron Dog Studio",
+  "inventory": "../inventario/irondog.json",
+  "historical": "../evidencia/irondog.json",
+  "games": 141,
+  "modes": 379,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/mocks/irondog"
+    ],
+    "absent_from_checkout": [
+      "provider-work/mocks/irondog"
+    ]
+  },
+  "native_family": "irondog.morphic",
+  "continuation": "native engine continuation",
+  "closure": "settled; legacy cycle exceptions",
+  "standalone_rust": null,
+  "paused": false
+}

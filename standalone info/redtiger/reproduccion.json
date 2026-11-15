@@ -1,0 +1,23 @@
+{
+  "provider": "redtiger",
+  "name": "Red Tiger",
+  "inventory": "../inventario/redtiger.json",
+  "historical": "../evidencia/redtiger.json",
+  "games": 361,
+  "modes": 607,
+  "python": {
+    "source": "../../../bet-collector/collection_full_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/mocks/redtiger"
+    ],
+    "absent_from_checkout": [
+      "provider-work/mocks/redtiger"
+    ]
+  },
+  "native_family": "redtiger.http",
+  "continuation": "native mode/choice/finish",
+  "closure": "native round closed; wallet gap explicit",
+  "standalone_rust": null,
+  "paused": false
+}

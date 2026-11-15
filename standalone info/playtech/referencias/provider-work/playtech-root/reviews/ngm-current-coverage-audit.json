@@ -1,0 +1,267 @@
+{
+  "schema": "ngm-current-coverage-audit/v1",
+  "updated_at": 1793546287.0402136,
+  "registry": {
+    "path": "playtech-private-root/ngm-families/profiles/registry.json",
+    "sha256": "ef5828a70f72e0ce05e1477dc297fa0296692904d9ebd49a8ee92364a7f94d7f"
+  },
+  "counts": {
+    "catalogue": 265,
+    "slots": 171,
+    "non_slots": 94,
+    "verified_source_manifest_pairs": 143,
+    "unknown_slots": 28,
+    "candidate_families": 126,
+    "distinct_source_hashes": 143,
+    "reviewed_profiles": 143,
+    "normal_calculators": 85,
+    "antebet_calculators": 1,
+    "games_with_official_payout_fixture": 70
+  },
+  "native_mode_status_counts": {
+    "NORMAL": {
+      "enabled_for_calculation": 85,
+      "native_quote_only": 41,
+      "enabled_for_replay": 17
+    },
+    "ANTE_BET": {
+      "pending_native_binding": 142,
+      "enabled_for_calculation": 1
+    },
+    "PURCHASE": {
+      "pending_native_binding": 143
+    },
+    "SPECIAL_SPIN": {
+      "pending_native_binding": 143
+    },
+    "BONUS_CONTINUATION": {
+      "pending_native_binding": 142,
+      "enabled_for_calculation": 1
+    },
+    "CHOICE": {
+      "pending_native_binding": 143
+    }
+  },
+  "normal_code_lists": {
+    "enabled_for_calculation": [
+      "anwild",
+      "bs",
+      "ght_a",
+      "phot",
+      "ashicv",
+      "anwild_pa",
+      "vcstd",
+      "yclong",
+      "cljpbb",
+      "hpjjbj",
+      "jbells",
+      "aogrots",
+      "mmaogrots",
+      "fdt",
+      "fdtjg",
+      "er",
+      "roos",
+      "esm",
+      "fmn",
+      "eas",
+      "bl",
+      "hh",
+      "irl",
+      "nian_k",
+      "agoeg",
+      "gos",
+      "grbjp",
+      "sib",
+      "sis",
+      "ssp",
+      "bbbo",
+      "bt",
+      "ct",
+      "fm",
+      "ccc",
+      "ccccny",
+      "dnr",
+      "ljxy",
+      "lm",
+      "pmn",
+      "rng2",
+      "sfh",
+      "aeolus",
+      "mobdt",
+      "nk",
+      "shmst",
+      "tht",
+      "tigc",
+      "tmccoy",
+      "trl",
+      "wlg",
+      "www",
+      "evj",
+      "fbr",
+      "fcgz",
+      "fdtsl",
+      "furf",
+      "hlf_pa",
+      "mgstk",
+      "gtsjxb",
+      "gtsswk",
+      "hb",
+      "hk",
+      "mwilds",
+      "nian",
+      "pst",
+      "rrd",
+      "tpd2",
+      "gemheat",
+      "gemheat_noptpp",
+      "ges",
+      "glrj",
+      "hlf",
+      "infdrg",
+      "jnglg",
+      "aogroo",
+      "ashamw",
+      "ashlcl",
+      "athn",
+      "bib",
+      "bigsh",
+      "bob",
+      "bup",
+      "c7",
+      "cm"
+    ],
+    "native_quote_only": [
+      "hwilds",
+      "gfal",
+      "gfal_lo",
+      "ashhof",
+      "aogmm",
+      "ashabw",
+      "drgch",
+      "phtdnoptpp",
+      "mcb",
+      "mnkmn",
+      "murder",
+      "paw",
+      "phtd",
+      "wotp",
+      "dvncvnoptpp",
+      "epa_us",
+      "frtlghr",
+      "ftsis",
+      "gtsfc",
+      "gtsflzt",
+      "gtsgme",
+      "legwld",
+      "gtsje",
+      "sol",
+      "strsawk",
+      "totl",
+      "ub",
+      "xufe",
+      "mmwhk2",
+      "scrdstns",
+      "whk",
+      "whk2",
+      "glr2",
+      "ashbob",
+      "ashhotj",
+      "ashjid",
+      "ashjut",
+      "ashtmd",
+      "ashwnoz",
+      "bfb_us",
+      "dvncv"
+    ],
+    "enabled_for_replay": [
+      "cbells",
+      "gfal_ul",
+      "catqc",
+      "popc",
+      "epa",
+      "bfb",
+      "jdlo",
+      "frtlgsk",
+      "samz",
+      "aogmt",
+      "arc",
+      "fmjp",
+      "frtlg",
+      "frtlgro",
+      "jpgt",
+      "lumli",
+      "pgv"
+    ]
+  },
+  "registry_offline_audit": {
+    "path": "provider-work/playtech-root/reviews/ngm-registered-offline-audit.json",
+    "sha256": "56fe942a517c85b311bb5f61ba8fcbfde121809bbf8a3fe54304a665f14c1aa7"
+  },
+  "reference_pin_audit": {
+    "path": "provider-work/playtech-root/reviews/ngm-profile-evidence-reference-audit.json",
+    "sha256": "626c5efd6413ff810082bc101c4cb1503cd1396eeb9d906ba101134229cb989c"
+  },
+  "new_result_readonly_audits": [
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-gtsswk-first-native-normal-readonly-audit.json",
+      "sha256": "aad98a6358dc46afd96e46efae4850208c1447ccacab800eb1c5d7a8745963ee"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-aogroo-first-native-normal-readonly-audit.json",
+      "sha256": "b1f9818e3837e33fd1e22551245d4e062abf67ec6e9bc7a33ae120805a11a0c6"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-gtsjxb-first-native-normal-readonly-audit.json",
+      "sha256": "a2bb23efa5f36004610d44a70aaca9872f31472d4f8674c263cadd9e76a9451a"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-ashlcl-first-native-normal-readonly-audit.json",
+      "sha256": "e232b04fb2087824e0da2dbe7b28071111931f8ec31e99864b4653ce6ac7abd2"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-grbjp-first-native-normal-readonly-audit.json",
+      "sha256": "d4775d9a40e6ada12852b7e26b3db2f8e75a454f525f70f3e9176215b15c22c1"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-cljpbb-first-native-normal-readonly-audit.json",
+      "sha256": "1f4a8229adecf755a47abba47681cb66d496ca4c8cfb215c022104686d6ecf79"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-hpjjbj-first-native-normal-readonly-audit.json",
+      "sha256": "32db31c31ec299b427b80a2e09ee4f8bb41ead50b4638764a6b63ae33cd6e6d5"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-jbells-first-native-normal-readonly-audit.json",
+      "sha256": "3afe590ee17ae7bb22b1534b7b27bcc380ddd25d6983a15a43111291acf6929c"
+    },
+    {
+      "path": "provider-work/playtech-root/reviews/ngm-ashamw-first-native-normal-readonly-audit.json",
+      "sha256": "f8f8a400067b63fe92fdd6f008298412a7b0cbbea0c6ddb1f2e7bb4ea0de8bb8"
+    }
+  ],
+  "pending_readonly_audits": [],
+  "campaign_retained_jobs": 92,
+  "full_catalogue_complete": false,
+  "full_mode_lifecycles_complete": false,
+  "remote_backoff_retained": true,
+  "browser_standby": true,
+  "native_new_outcomes_executed_by_this_audit": 0,
+  "limitations": [
+    "80 local NORMAL calculators are not full lifecycle or remote settlement coverage.",
+    "42 registered profiles remain quote-only and21 replay-only;28 slot identities lack a complete own source/manifest pair.",
+    "One antebet and one native free continuation capability do not establish equivalent capabilities for other games.",
+    "Held or uncertain outcomes remain preserved; no blanket reconciliation or retry.",
+    "pending_native_binding is an unbound capability placeholder, not evidence that a game offers that purchase, antebet, choice or special mode. Native availability is per game.",
+    "ASHLCL native NORMAL is triggered via Open with a model-price reference and no wirestake; generated result does not assert an accepted paid wager/debit. Its Sec mathematical extraction currently uses a plain t:engine alias, statically same sole readset as actual lfc.t engine; no full controller invocation claimed."
+  ],
+  "pending_integrations": [
+    {
+      "game_code": "samz",
+      "hold": {
+        "path": "provider-work/playtech-root/reviews/ngm-samz-production-integration-hold.json",
+        "sha256": "6afece5b5a3f0d95d726b2aa89ffbb21afdfea9cf6ce45798734bfda274214f4"
+      },
+      "original_case_executed": false
+    }
+  ]
+}

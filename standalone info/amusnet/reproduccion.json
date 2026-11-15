@@ -1,0 +1,23 @@
+{
+  "provider": "amusnet",
+  "name": "Amusnet",
+  "inventory": "../inventario/amusnet.json",
+  "historical": "../evidencia/amusnet.json",
+  "games": 468,
+  "modes": 763,
+  "python": {
+    "source": "../../../bet-collector/collection_extra_misc.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "amusnet-private"
+    ],
+    "absent_from_checkout": [
+      "amusnet-private"
+    ]
+  },
+  "native_family": "amusnet.gin",
+  "continuation": "native option and bonus phase",
+  "closure": "round and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

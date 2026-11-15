@@ -1,0 +1,22 @@
+{
+  "provider": "NetEnt",
+  "game": "funk-master",
+  "status": "native_button_contract_verified_after_rejection",
+  "rejected_requests": [
+    {
+      "mode": "FeatureBuy",
+      "state": "rejected_no_debit",
+      "stake": "0.2",
+      "factor": "125",
+      "rejection_evidence": {
+        "provider_errorcode": "998",
+        "evo_error_code": "2001",
+        "same_demo_wallet_unchanged": true,
+        "round_closed": true,
+        "native_button_contract_reviewed": true
+      }
+    }
+  ],
+  "accepted_purchase_replayed": false,
+  "same_demo_wallet_unchanged_after_rejection": true
+}

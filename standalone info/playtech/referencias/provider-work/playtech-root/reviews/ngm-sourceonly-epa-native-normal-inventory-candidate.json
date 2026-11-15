@@ -1,0 +1,308 @@
+{
+  "schema": "ngm-epa-native-normal-source-delivery/v1",
+  "game_code": "epa",
+  "status": "source_bound_pristine_NORMAL_candidate_pending_ROOT_independent_review",
+  "source": {
+    "path": "playtech-private-root/ngm-families/source-cache/2e9de626eec5ff38cceac8c2e99d9c74af9c468082cdeaf323d3d963e4fbed1e.js",
+    "sha256": "2e9de626eec5ff38cceac8c2e99d9c74af9c468082cdeaf323d3d963e4fbed1e"
+  },
+  "manifest": {
+    "path": "playtech-private-root/ngm-families/source-cache/a47320e46a78a2ca3d7ba8065a647a95b77a13cf2721b471f99066144600b824.jmm",
+    "sha256": "a47320e46a78a2ca3d7ba8065a647a95b77a13cf2721b471f99066144600b824"
+  },
+  "adapter": {
+    "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/adapter.js",
+    "sha256": "cdbcd3b6e4147bcb258d83f5258b40b6a8bf7c21fa454b612af406badb2659bd"
+  },
+  "contract": {
+    "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/source-contract.json",
+    "sha256": "a630f7930f29ecc0b22a0a274f0670b6aa7d6f6a0d738018f5a92772ec905399"
+  },
+  "bindings": {
+    "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/bindings.json",
+    "sha256": "5f74a1c26220e6bd9554daac94e2b8a867f441ee8f167b5b6ad7f1196fe8dc97"
+  },
+  "artifacts": {
+    "adapter.js": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/adapter.js",
+      "sha256": "cdbcd3b6e4147bcb258d83f5258b40b6a8bf7c21fa454b612af406badb2659bd"
+    },
+    "runtime.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/runtime.cjs",
+      "sha256": "fa2b4bc3d73900b6a27d2d1bf4291bbf3e0ed0f8c5106c191da59f62f53346f7"
+    },
+    "unit-support.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/unit-support.cjs",
+      "sha256": "40802e48d54e11bbbf97dc4447d3de692bf1ab91baec75c1f9a861d2ec4acff1"
+    },
+    "fixture.json": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/fixture.json",
+      "sha256": "e8dac04f66e036b85ce5d578ad5afdd7272f3088dfeb8c22aa3c760d408eefa0"
+    },
+    "verification.json": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/verification.json",
+      "sha256": "bde7f795597d5ffb37148f0dcfc988e707dadff13cd31b0baa4881f1c26ab618"
+    },
+    "test-constructor.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-constructor.cjs",
+      "sha256": "a32e3576bcbc9cc83d5ed87ccc66c3996639a35b25b42b69c31dea092e0302d3"
+    },
+    "test-forensics.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-forensics.cjs",
+      "sha256": "433f96911ebab40b69ecaba3357b87872cd792331344ce04ffdeefe7ad8aa42b"
+    },
+    "test-guards.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-guards.cjs",
+      "sha256": "4dc5d5e44a58c194361a41d5e48a745079e6b458ce059f76d46df1699102a857"
+    },
+    "test-math-readset.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-math-readset.cjs",
+      "sha256": "99a247c0dbbf6fab34e990c84c4a3024c74ddeba44bf67ac16d770d01493dd7c"
+    },
+    "test-normal-flow.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-normal-flow.cjs",
+      "sha256": "09bdf627a63024c96930ac00e82bc03ba58562d580909c207624a27b59dfd1e6"
+    },
+    "test-replay.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-replay.cjs",
+      "sha256": "bc59f6682f0af20adee9ddd427242614f1e955d3157c39976091c5c2ebfcea8a"
+    },
+    "test-response-holds.cjs": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-response-holds.cjs",
+      "sha256": "1e47934d96b35c573ce2a0168fe4de7bb7a1dea42d48fa7fa6cf4126579b1324"
+    },
+    "test-source-chain.py": {
+      "path": "playtech-private-root/ngm-families/candidates/epa/native-normal-inventory-v1/test-source-chain.py",
+      "sha256": "59d9805267f0c8393d0b5cdc15118d0727707d1967ae87f4ff37659d1890f78d"
+    }
+  },
+  "source_anchor_count": 128,
+  "tests": [
+    {
+      "command": "node test-constructor.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-forensics.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-guards.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-math-readset.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-normal-flow.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-replay.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node test-response-holds.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "python test-source-chain.py",
+      "exit_code": 0
+    }
+  ],
+  "native_request_model": {
+    "source": "$sc\u2192FIc\u2192JJc\u2192sjd\u2192Olb/Dqb40021; bound regular path only",
+    "model_numCoins": 1,
+    "wire_numCoins": 1,
+    "model_lines": 4096,
+    "wire_line_vector": [
+      4096
+    ],
+    "math_pattern": "all_ways",
+    "total_bet_multiplier": 40,
+    "coin_sizes": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200
+    ],
+    "costs": [
+      40,
+      80,
+      200,
+      400,
+      800,
+      2000,
+      4000,
+      8000
+    ],
+    "native_price": "hLc/gLc/eLc with actual original rLc Bet from Jjd/$Tc; same Bet throughout",
+    "wire_price_present": true,
+    "quote_request_pure": true,
+    "same_original_Olb_wire_unit_proof": true
+  },
+  "native_setup_plan": {
+    "kind": "original_initial_display",
+    "scope": "full original kUc factory tail reusing SAME Jjd engine constructed before quote; original jUc/RTc\u2192ETc\u2192Pdf(engine.n),6 draws; no source reset/reseed/suppression",
+    "cost": 0,
+    "original_auto_start": true,
+    "ui_intro_executed": false,
+    "retained_paid_request_before_setup": true,
+    "host_journal_before_entry_required": true
+  },
+  "budget_reference": {
+    "kind": "own_original_DEMO_boot_reference_not_observed_wallet",
+    "amount": 100000,
+    "currency": "usd",
+    "function": "mEb",
+    "anchor": {
+      "function": "mEb",
+      "status": "resolved",
+      "parameters": [
+        "a",
+        "b"
+      ],
+      "body_sha256": "c0f03a6bd167d5282e440965701b7f722195fae6f4d0a0e4417aad2805040c4d",
+      "start_offset": 912306,
+      "end_offset": 913551,
+      "line_1based": 9636,
+      "direct_named_calls": [
+        "BJb",
+        "BPb",
+        "CLb",
+        "EEb",
+        "EQb",
+        "FRb",
+        "GRb",
+        "HQb",
+        "IMb",
+        "JPb",
+        "JQb",
+        "KEb",
+        "KKb",
+        "KMb",
+        "LJb",
+        "LKb",
+        "MEb",
+        "MMb",
+        "MQb",
+        "MRb",
+        "NRb",
+        "Nyf",
+        "OEb",
+        "ORb",
+        "OXc",
+        "Oyf",
+        "QQb",
+        "REb",
+        "RegExp",
+        "Rqb",
+        "SKb",
+        "UKb",
+        "UMb",
+        "Uve",
+        "VJb",
+        "VUb",
+        "XXc",
+        "bKb",
+        "bYc",
+        "bkd",
+        "cFb",
+        "ckd",
+        "eKb",
+        "god",
+        "iKb",
+        "jKb",
+        "kuf",
+        "nEb",
+        "nFb",
+        "nze",
+        "oEb",
+        "pFb",
+        "rRb",
+        "sFb",
+        "vFb"
+      ]
+    },
+    "statement": "iKb(a.k.c)&&BPb(a.k.a,100000,0,'usd')",
+    "statement_offset": 912720,
+    "statement_sha256": "7d9c6715c46a841d7f530a8e505ba4804fc8cde517cca746c7b51ca469f4461f",
+    "adapter_wallet_mutation": false
+  },
+  "own_positive_oracle": {
+    "stake": 40,
+    "nativeUnits": 80,
+    "payout_records": 2,
+    "fixture_sha256": "e8dac04f66e036b85ce5d578ad5afdd7272f3088dfeb8c22aa3c760d408eefa0",
+    "new_outcome": false
+  },
+  "synthetic_controls": {
+    "same_retained_stops_bank0_nativeUnits": 0,
+    "bank2_nativeUnits": 80,
+    "prior_grid_values": [
+      8,
+      9
+    ],
+    "complete_native24cell_grid_same": true,
+    "native_scatter2_allowed_3_held": true,
+    "matcher_mutation": false,
+    "before_award_negative_controls": [
+      "role",
+      "container",
+      "cap",
+      "accum",
+      "flag",
+      "counter",
+      "preset",
+      "feature",
+      "extra_header",
+      "lookalike",
+      "bank",
+      "extra_payload"
+    ],
+    "original_Olb_wire_equals_pure_quote_request": true,
+    "pure_quote_prices": [
+      40,
+      80,
+      200,
+      400,
+      800,
+      2000,
+      4000,
+      8000
+    ],
+    "synthetic_not_new_original_outcomes": true
+  },
+  "native_rng": {
+    "cold_original_Sdf_constructors": 4,
+    "original_Math_seed_bits": 2,
+    "persistent_roots": [
+      "engine.n native default-display Sdf",
+      "vQb native offline uniform Sdf",
+      "sdf native weighted Math Xdf"
+    ],
+    "source_seed_counter": "Ndf",
+    "source_initializer": "tdf",
+    "original_producer_preserved": true,
+    "original_valid_gameplay_values_extracted_by_actor": 0,
+    "original_server_dispatch_executed_by_actor": 0,
+    "initial_draw_barrier_attempts": 1,
+    "initial_draw_barrier_values_returned": 0
+  },
+  "gaps": [
+    "Independent ROOT review before admission or any original generation. No canary_parameters supplied.",
+    "Normal mathematical path only; free feature\u22653 is held before ALL awards; no continuation/purchase/ante/choice binding.",
+    "Actor original outcome/dispatch calls0; deterministic fresh flow uses dispatcher/low-level RNG stubs. Root alone may authorize one original case after source review.",
+    "No wallet debit, remote settlement, financial closure, full browser lifecycle, VM recovery or family compatibility claim."
+  ],
+  "default_enabled": false,
+  "new_original_outcomes": 0,
+  "verified_round": false,
+  "remote_settlement": false,
+  "registry_host_public_or_other_provider_changed": false
+}

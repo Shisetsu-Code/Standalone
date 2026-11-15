@@ -1,0 +1,181 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_sorome_pop",
+  "game_type": "Slots",
+  "classification_source": "Reviewed native slot command binding plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "3d0076d7-3d88-4900-9d4b-2a4fa753a4f8:1",
+      "name": "40",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "1decb358-e33a-4562-89ef-91345b00a88e:1",
+      "name": "Buy feature",
+      "kind": "NATIVE_OPTION",
+      "multiplier": 1,
+      "expected_cost": 800,
+      "before": 999990,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 800,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "ChooseFG",
+          "native_total_win": 0
+        }
+      ],
+      "state": "accepted_open",
+      "passed": false
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "a2590d9fd76d3bc74b95cde681f8affed5cec2c708f568395b5703998b76b55d"
+  ],
+  "native_modes": [
+    {
+      "id": "3d0076d7-3d88-4900-9d4b-2a4fa753a4f8",
+      "name": "40",
+      "kind": "NATIVE_OPTION",
+      "selector": "40",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "40",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "e3b3dddf-46dd-4ab2-86f0-900e1eb85812",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "3d0076d7-3d88-4900-9d4b-2a4fa753a4f8"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        8000,
+        10000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "1decb358-e33a-4562-89ef-91345b00a88e",
+      "name": "Buy feature",
+      "kind": "NATIVE_OPTION",
+      "selector": "Buy feature",
+      "cost": 800,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 800,
+        "name": "Buy feature",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "69813a60-2c96-40a6-b0cc-39d2b81b0666",
+          "startingPlays": "1",
+          "winline": "40"
+        },
+        "uuid": "1decb358-e33a-4562-89ef-91345b00a88e"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "declared_line_options": [
+    "40"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "all_action_types_classified": false,
+  "action_type_note": "NATIVE_OPTION means a source-bound paid UUID option whose commercial category is still unclassified",
+  "review_reason": "PICK_COMMAND_NOT_BOUND",
+  "error_type": "ValueError",
+  "updated_at": 1793427533.0994723
+}

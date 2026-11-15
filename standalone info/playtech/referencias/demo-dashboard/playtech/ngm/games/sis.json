@@ -1,0 +1,40 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "sis",
+  "title": "Silent Samurai™",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 9,
+      "win": 5,
+      "balance_before": 100000,
+      "balance_after": 99996,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485646.2626417,
+  "bootstrap_seconds": 45.391,
+  "preload_wait_seconds": 0.016,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "57e595b7c805d15138326744993bec735ceb1765868ddff21609caa9c480c53b"
+  ],
+  "observed_bet": 9,
+  "native_stake_controls_available": false,
+  "local_event_trace_validated": true,
+  "review_note": "Official local round verified. Full action/feature inventory and all stake sizes require separate coverage; no remote server settlement is asserted.",
+  "native_inventory_unresolved_count": 9,
+  "native_inventory_plan_complete": false
+}

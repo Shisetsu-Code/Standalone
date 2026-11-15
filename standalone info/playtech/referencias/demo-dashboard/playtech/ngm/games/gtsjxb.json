@@ -1,0 +1,45 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "gtsjxb",
+  "title": "Ji Xiang 8™",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "needs_review",
+  "cases": [],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793484639.1211948,
+  "bootstrap_seconds": 40.063,
+  "preload_wait_seconds": 0.016,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "8944ea6112edbc632c531b9d482ecd37f2e3b7c72ce4de7df23df94112342a4f"
+  ],
+  "observed_bet": 80,
+  "native_stake_controls_available": false,
+  "error_type": "ValueError",
+  "review_reason": "NGM_COMMAND_UNBOUND",
+  "unverified_round": {
+    "verified": false,
+    "stake": 0,
+    "win": 0,
+    "balance_before": 100000,
+    "balance_after": 99920,
+    "steps": 0,
+    "issues": [
+      "NGM_COMMAND_UNBOUND",
+      "PAYOUT_OUT_OF_ORDER",
+      "ROUND_NOT_CLOSED_AND_READY",
+      "RESPONSE_COUNT_MISMATCH",
+      "PAYOUT_COUNT_MISMATCH",
+      "BALANCE_NOT_RECONCILED",
+      "WAGER_DEBIT_NOT_OBSERVED"
+    ],
+    "local_demo": true
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "game": "FortuneSkyLanterns",
+  "mode": "variant",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 1,
+    "cps": 1,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 10,
+    "cost_formula": "Uc(sel,cps) = 10*cps; native = 100*dn*10*cps",
+    "source_sha256": "36be4a6e19f72f4a8dc672b3d73efd78981d7b677d2d40fd763680417674ab33",
+    "key": "lantern-2",
+    "kind": "variant",
+    "position": [
+      2,
+      3000002
+    ],
+    "label": "Lantern 2 · 64x"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "FortuneSkyLanterns",
+        "sel": 1,
+        "sid": 1274489224,
+        "cps": 1,
+        "atb": 0,
+        "dn": 0.01,
+        "pos": [
+          2,
+          3000002
+        ]
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793274489.2226994,
+      "http_status": 200,
+      "response": {
+        "sid": 1274489224,
+        "md": {
+          "sid": 1295659738,
+          "tid": "round-7e5d1cf021772716ea9e",
+          "sel": 1,
+          "cps": 1,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 10,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            2
+          ],
+          "swi": [
+            0
+          ],
+          "snm": [
+            0
+          ],
+          "ssm": [
+            0
+          ],
+          "sm": [
+            0,
+            0
+          ],
+          "pos": [
+            2,
+            3000002
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 2,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 9999990,
+          "obb": 9999980,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 20
+        },
+        "pcr": 9999980,
+        "cr": 9999980,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          20,
+          25,
+          30,
+          50,
+          75,
+          100
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793274487.1289194,
+  "session_group": "FortuneSkyLanterns-d549045fd8da46f587fc1b68cd3746f6",
+  "balance_before_native": 9999990,
+  "cost_native": 10,
+  "win_native": 0,
+  "balance_after_native": 9999980,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

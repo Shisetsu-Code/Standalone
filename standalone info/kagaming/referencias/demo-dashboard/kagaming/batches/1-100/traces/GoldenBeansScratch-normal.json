@@ -1,0 +1,141 @@
+{
+  "game": "GoldenBeansScratch",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 1,
+    "cps": 5,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 50,
+    "cost_formula": "Uc(sel,cps) -> 10*cps (selection-independent)",
+    "source_sha256": "1f03388626b68a4f0738a95a0d16016d9c14caac9eb5a8068faf5714e19d4b26",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "GoldenBeansScratch",
+        "sel": 1,
+        "sid": 1271891012,
+        "cps": 5,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793271891.0124395,
+      "http_status": 200,
+      "response": {
+        "sid": 1271891012,
+        "md": {
+          "sid": 1295593885,
+          "tid": "round-03643d5d49d67fa3b29f",
+          "sel": 1,
+          "cps": 5,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 50,
+          "swm": 64,
+          "sw": 0,
+          "swu": 1,
+          "tw": 0,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            3,
+            5,
+            6,
+            1,
+            2,
+            7,
+            8,
+            1,
+            4
+          ],
+          "swi": [
+            0
+          ],
+          "snm": [
+            0
+          ],
+          "ssm": [
+            0
+          ],
+          "sm": [
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 9999950,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 0,
+          "tsb": 50
+        },
+        "pcr": 9999950,
+        "cr": 9999950,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          5,
+          10,
+          15,
+          20,
+          30,
+          50,
+          75,
+          100,
+          200,
+          500,
+          1000,
+          2000,
+          5000,
+          10000,
+          20000
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793271889.0092442,
+  "session_group": "GoldenBeansScratch-bd7e0b9a4a10450cbf4c627b9d70a28e",
+  "balance_before_native": 10000000,
+  "cost_native": 50,
+  "win_native": 0,
+  "balance_after_native": 9999950,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

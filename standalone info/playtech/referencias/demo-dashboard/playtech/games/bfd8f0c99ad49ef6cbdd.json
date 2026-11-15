@@ -1,0 +1,285 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_krsofury_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "7ddcc223-c4c5-467b-bd35-e0df5a7c8496:1",
+      "name": "BG10",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "10b78fc4715ce88b49ab88d749cac3df3bfbf65924f3b0fa9cab84d30d731c08"
+  ],
+  "native_modes": [
+    {
+      "id": "7ddcc223-c4c5-467b-bd35-e0df5a7c8496",
+      "name": "BG10",
+      "kind": "SPIN",
+      "selector": "lines-20",
+      "selector_source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet.",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "BG10",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "7ddcc223-c4c5-467b-bd35-e0df5a7c8496"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "20"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 10,
+      "name": "ShopRespin x10",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "80b6f129-e4d0-44c1-b755-a413fd4dd9b4",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "1dff981d-e679-4986-ab63-da9edf2a4005"
+    },
+    {
+      "cost": 10,
+      "name": "ShopRespin x20",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "800ff4a1-8492-420f-a1db-4a929e42abe6",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "f3385dd7-b44e-42b9-87ba-f56a6ae8b8f6"
+    },
+    {
+      "cost": 10,
+      "name": "ShopRespin x40",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "453c5cff-7dbb-4ca7-a581-7ea3d5366012",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "f9370bd0-90c6-45fa-8f47-110ae24e0b9c"
+    },
+    {
+      "cost": 10,
+      "name": "Bonus x6",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "14de163b-2704-4cad-8731-3ddc841e660e",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "13efbc82-d6d1-47fd-854c-76cc31653249"
+    },
+    {
+      "cost": 10,
+      "name": "Bonus x15",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "19caeed8-a308-4877-ad53-d30d7a693136",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "5491a5af-c1d1-4384-8b86-7f5730cfdc3a"
+    },
+    {
+      "cost": 10,
+      "name": "Bonus x30",
+      "parameters": {
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "83098e52-dcbd-4187-8d40-ab6d165582b8",
+        "startingPlays": "1",
+        "winline": "20"
+      },
+      "uuid": "94da5148-8fc8-4b39-8c31-dfe4df774eb9"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "ShopRespin x10",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "80b6f129-e4d0-44c1-b755-a413fd4dd9b4",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "1dff981d-e679-4986-ab63-da9edf2a4005"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "ShopRespin x20",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "800ff4a1-8492-420f-a1db-4a929e42abe6",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "f3385dd7-b44e-42b9-87ba-f56a6ae8b8f6"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "ShopRespin x40",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "453c5cff-7dbb-4ca7-a581-7ea3d5366012",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "f9370bd0-90c6-45fa-8f47-110ae24e0b9c"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "Bonus x6",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "14de163b-2704-4cad-8731-3ddc841e660e",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "13efbc82-d6d1-47fd-854c-76cc31653249"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "Bonus x15",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "19caeed8-a308-4877-ad53-d30d7a693136",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "5491a5af-c1d1-4384-8b86-7f5730cfdc3a"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "Bonus x30",
+        "parameters": {
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "83098e52-dcbd-4187-8d40-ab6d165582b8",
+          "startingPlays": "1",
+          "winline": "20"
+        },
+        "uuid": "94da5148-8fc8-4b39-8c31-dfe4df774eb9"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793472020.023571,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "historical_attempts": [
+    {
+      "path": "history/gpas_krsofury_pop-before-protocol-recovery.json",
+      "sha256": "15c499ac1b5594fce8a6729b5c5f7f78786a466bd9bda8dcbef1f9e41b3a2cf3",
+      "prior_status": "needs_review",
+      "prior_review_reason": "STAKE_UUID_MISMATCH",
+      "verified_cases": 1,
+      "unverified_entries": 1,
+      "unverified_historical_roots": 1
+    }
+  ],
+  "protocol_recovery": {
+    "independent_demo_control": true,
+    "historical_rounds_resumed": false,
+    "historical_failures_retained": true,
+    "note": "Current protocol coverage verified in a new anonymous demo. This does not assert settlement or recovery of earlier missing receipts."
+  },
+  "pending_choice_branches": {}
+}

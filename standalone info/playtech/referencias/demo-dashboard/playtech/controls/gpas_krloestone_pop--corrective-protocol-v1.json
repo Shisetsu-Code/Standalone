@@ -1,0 +1,242 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_krloestone_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "Supplemental subset of previously unattempted native options at minimum legal stake in an independent demo session",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "3e480837-ac95-43cf-a8a8-90d35128e316:1",
+      "name": "Base",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 10,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 10,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999990,
+      "cost": 10,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "cbcf33d8b85a7e8917431f23cb1bc46975c43fed01fae61000f36295844b2ad1"
+  ],
+  "native_modes": [
+    {
+      "id": "3e480837-ac95-43cf-a8a8-90d35128e316",
+      "name": "Base",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet.",
+      "cost": 10,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 10,
+        "name": "Base",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "3e480837-ac95-43cf-a8a8-90d35128e316"
+      },
+      "server_declared": true,
+      "observed": true,
+      "entry_parameters": [],
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "10"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [
+    {
+      "cost": 10,
+      "name": "Freegame1600",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "449eba73-c499-4231-847b-3111e750d5af",
+        "startingPlays": "1",
+        "winline": "10"
+      },
+      "uuid": "c344118b-78e5-4558-bcac-85bcf67bb9b1"
+    },
+    {
+      "cost": 10,
+      "name": "DragonBonus4000",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "46e2c63d-10ae-432d-b179-9356cf792f84",
+        "startingPlays": "1",
+        "winline": "10"
+      },
+      "uuid": "43249316-70ec-4a14-8609-457f6ef26775"
+    },
+    {
+      "cost": 10,
+      "name": "DragonBonus8000",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "2aad3360-7608-44f9-955d-0ea812ec36de",
+        "startingPlays": "1",
+        "winline": "10"
+      },
+      "uuid": "10786562-ebed-4ebf-806b-7cd3fb4b24b9"
+    },
+    {
+      "cost": 10,
+      "name": "Freegame3200",
+      "parameters": {
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "bdfd3bc4-61a5-4a58-8383-2f8371f57bf3",
+        "startingPlays": "1",
+        "winline": "10"
+      },
+      "uuid": "9783b180-6b6d-4c77-a18f-de5f418531c8"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "Freegame1600",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "449eba73-c499-4231-847b-3111e750d5af",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "c344118b-78e5-4558-bcac-85bcf67bb9b1"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "DragonBonus4000",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "46e2c63d-10ae-432d-b179-9356cf792f84",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "43249316-70ec-4a14-8609-457f6ef26775"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "DragonBonus8000",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "2aad3360-7608-44f9-955d-0ea812ec36de",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "10786562-ebed-4ebf-806b-7cd3fb4b24b9"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    },
+    {
+      "declaration": {
+        "cost": 10,
+        "name": "Freegame3200",
+        "parameters": {
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "bdfd3bc4-61a5-4a58-8383-2f8371f57bf3",
+          "startingPlays": "1",
+          "winline": "10"
+        },
+        "uuid": "9783b180-6b6d-4c77-a18f-de5f418531c8"
+      },
+      "reason": "Native featureShopEnabled=false and tokenBalanceEnabled=false; supplier token-only feature entry unavailable in this demo"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793472007.9522939,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": true,
+    "native_reel_symbols": true,
+    "native_slot_configuration_and_spin_events": false,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "operation_tag": "corrective-protocol-v1",
+  "selected_mode_ids": null,
+  "all_requested_modes_complete": true
+}

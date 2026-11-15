@@ -1,0 +1,131 @@
+{
+  "game": "Flaming7",
+  "mode": "normal",
+  "atb": 0,
+  "status": "verified",
+  "profile": {
+    "sel": 1,
+    "cps": 5,
+    "dn": 0.01,
+    "atb": 0,
+    "cost_native": 5,
+    "cost_formula": "Uc:function(a,b){return a*b}",
+    "source_sha256": "6add305c9e89be893ca8a90d90cdd49d05153dcef48bdb7e10b90ec5babbf0ce",
+    "kind": "normal",
+    "key": "normal"
+  },
+  "steps": [
+    {
+      "status": "received",
+      "request": {
+        "gn": "Flaming7",
+        "sel": 1,
+        "sid": 1301198669,
+        "cps": 5,
+        "atb": 0,
+        "dn": 0.01
+      },
+      "path": "/kaga/command/spin",
+      "started_at": 1793301198.6689787,
+      "http_status": 200,
+      "response": {
+        "sid": 1301198669,
+        "md": {
+          "sid": 1296487595,
+          "tid": "round-fbcbb21ab4d479ffe41d",
+          "sel": 1,
+          "cps": 5,
+          "dn": 0.01,
+          "nd": 0.01,
+          "ncps": 0,
+          "atb": 0,
+          "v": true,
+          "fs": false,
+          "twg": 5,
+          "swm": 0,
+          "sw": 0,
+          "swu": 0,
+          "tw": 70,
+          "fsw": 0,
+          "fsr": 0,
+          "tfw": 0,
+          "st": [
+            6,
+            6,
+            4,
+            0,
+            5,
+            6,
+            6,
+            6,
+            4
+          ],
+          "swi": [
+            70
+          ],
+          "snm": [
+            7
+          ],
+          "ssm": [
+            7
+          ],
+          "acb": 0,
+          "rf": 0,
+          "sp": 1,
+          "cr": "USD",
+          "sessionId": "[REDACTED]",
+          "rd": 0,
+          "tz": 0,
+          "pbb": 10000000,
+          "obb": 10000065,
+          "mb": false,
+          "pwa": 0,
+          "pac": {},
+          "xjp": 0,
+          "tsw": 70,
+          "tsb": 5
+        },
+        "pcr": 9999995,
+        "cr": 10000065,
+        "xp": 0,
+        "lvl": {
+          "lvl": 1,
+          "xp": 0,
+          "bc": 0,
+          "cps": 5,
+          "sc": 200,
+          "wb": 0
+        },
+        "dl": 0,
+        "cps": [
+          5,
+          10,
+          15,
+          20,
+          30,
+          50,
+          75,
+          100,
+          200,
+          500,
+          1000,
+          2000,
+          5000,
+          10000,
+          20000
+        ],
+        "e": false,
+        "ec": 0,
+        "cc": "AR"
+      }
+    }
+  ],
+  "created_at": 1793301196.6668365,
+  "session_group": "Flaming7-486b7f981a0d4559ab3160a3788decd2",
+  "balance_before_native": 10000000,
+  "cost_native": 5,
+  "win_native": 70,
+  "balance_after_native": 10000065,
+  "internal_steps": 1,
+  "wallet_check": "match"
+}

@@ -1,0 +1,28 @@
+{
+  "satoshis-secret": {
+    "reason": "official_demo_temporarily_unavailable",
+    "http_status": 502,
+    "source_files": [
+      "satoshis-secret-es-demo-error.txt",
+      "satoshis-secret-en-demo-error.txt"
+    ],
+    "checks": [
+      {
+        "play_url": "https://endorphina.com/es/juegos/satoshis-secret/play",
+        "launcher_status": 200,
+        "demo_status": 502,
+        "demo_host": "edemo.endorphina.com",
+        "source_file": "satoshis-secret-es-demo-error.txt",
+        "checked_utc": "2026-10-28T10:17:39.857430+00:00"
+      },
+      {
+        "play_url": "https://endorphina.com/games/satoshis-secret/play",
+        "launcher_status": 200,
+        "demo_status": 502,
+        "demo_host": "edemo.endorphina.com",
+        "source_file": "satoshis-secret-en-demo-error.txt",
+        "checked_utc": "2026-10-28T10:17:39.728501+00:00"
+      }
+    ]
+  }
+}

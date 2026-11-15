@@ -1,0 +1,5690 @@
+[
+  {
+    "provider_id": "peterandsons",
+    "game_id": "royal-hunt",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet_3GUNS",
+        "bet_FREQ",
+        "bet_GUN6",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet_3GUNS",
+        "bet_FREQ",
+        "bet_GUN6",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet_3GUNS",
+          "gaps": []
+        },
+        {
+          "mode": "bet_FREQ",
+          "gaps": []
+        },
+        {
+          "mode": "bet_GUN6",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/0",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/royal-hunt.json",
+        "pointer": "",
+        "sha256": "9fff6ee7777b59e0e7e04cf5d35fd0ac4e35ca15e6abb3df55972bd3cdca6eb5"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "barbarossa-beyond-the-edge",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER_RANDOM",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER_RANDOM",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_POWER_RANDOM",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/3",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/barbarossa-beyond-the-edge.json",
+        "pointer": "",
+        "sha256": "0f0c1f57bf480e812afcee6b813ebe40ad29ada147a63560fe665ad0a7cbc73c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "viking-legacy",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/4",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/viking-legacy.json",
+        "pointer": "",
+        "sha256": "e389e4db4cb7e925a8578a3b18e15c5a5dbbc5871aee401e0d53be3f65acf029"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "bloody-mary",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_SFS_3SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_SFS_3SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SFS_3SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/5",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/bloody-mary.json",
+        "pointer": "",
+        "sha256": "32f6ba25350c188056ea48ac2a3606e1860078487f2d90898a3609600bac1990"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "dragon-guardian",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SUPER_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/6",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/dragon-guardian.json",
+        "pointer": "",
+        "sha256": "a2fcf8e3da8954454514dca56f829bc22c6f0ff39a1e1fb54aef23b7fbbe67e4"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "lucky-caiman",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS",
+        "buy_POWER_SPIN",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS",
+        "buy_POWER_SPIN",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_POWER_SPIN",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SUPER_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/7",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/lucky-caiman.json",
+        "pointer": "",
+        "sha256": "9d29c060ed163fb2356a47176e5a5f9a2c0eeb8d904f3b5cc0c77b993b4463ab"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "bear-patrol",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/8",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/bear-patrol.json",
+        "pointer": "",
+        "sha256": "6941501081fa903a5299cde25ddcc109f503fc3992806a66dd40fd23e9c562e9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "greedy-alice-2",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/9",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/greedy-alice-2.json",
+        "pointer": "",
+        "sha256": "8ed0c48b5c74379c9c7ceb0fe97c85ce546d5f593136fc69272c41315308f1ca"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "cyber-runner",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/10",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/cyber-runner.json",
+        "pointer": "",
+        "sha256": "0178dfc387e853d14821b042b4fe9f036337cb646ca22125cfa9cfe4e4ba7c2a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "big-bounty-bandits",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet_GOLDEN_BET",
+        "bet_POWER_SPIN",
+        "buy_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet_GOLDEN_BET",
+        "bet_POWER_SPIN",
+        "buy_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet_GOLDEN_BET",
+          "gaps": []
+        },
+        {
+          "mode": "bet_POWER_SPIN",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SUPER_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/11",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/big-bounty-bandits.json",
+        "pointer": "",
+        "sha256": "2085be36c4a9485f61708f63830376b052bbbd149c7b0ff9a55d6391ca65b52a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "ginger-wins",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/12",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/ginger-wins.json",
+        "pointer": "",
+        "sha256": "53c099853f1df35fb6042eb385cc0fd2db3578e388ed244a50bbadbf1116648a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "soapranos",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "buy_SFS_4SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "buy_SFS_4SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SFS_4SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/13",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/soapranos.json",
+        "pointer": "",
+        "sha256": "43f1fa7142262077df54e67d030656fa97269e0102e7604a6ca61b7a3297df1c"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "roadquake",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS",
+        "buy_FS_RANDOM",
+        "buy_MEGA_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS",
+        "buy_FS_RANDOM",
+        "buy_MEGA_FS",
+        "buy_SUPER_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        },
+        {
+          "mode": "buy_MEGA_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SUPER_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/15",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/roadquake.json",
+        "pointer": "",
+        "sha256": "49eccf6e2a37d5e2b303e64e5edd69b4a226a419e1b5f5da7c81b7229a199989"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "roman-glory",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FIREBALL",
+        "buy_INFINITY",
+        "buy_MULTIPLIER",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FIREBALL",
+        "buy_INFINITY",
+        "buy_MULTIPLIER",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FIREBALL",
+          "gaps": []
+        },
+        {
+          "mode": "buy_INFINITY",
+          "gaps": []
+        },
+        {
+          "mode": "buy_MULTIPLIER",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/16",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/roman-glory.json",
+        "pointer": "",
+        "sha256": "e0fedf2ec9de8fcba0e0d7aebda1c72ccb316eae0980ad03869ccad0576ba703"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "rustworld",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_POWER",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_POWER",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_POWER",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/19",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/rustworld.json",
+        "pointer": "",
+        "sha256": "f644be907ac58c08310e19ab0f1da7ca1c814dacfd96abb505ee3d383ea87fb3"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "barbarossa-dragon-empire",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER_RANDOM",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER_RANDOM",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_POWER_RANDOM",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/20",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/barbarossa-dragon-empire.json",
+        "pointer": "",
+        "sha256": "4795115f6984894f6869d979c39854de170ba82f338f9341b15d35a1603fe820"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "bad-santa",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/21",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/bad-santa.json",
+        "pointer": "",
+        "sha256": "1d915718bcf1544f3e429ed6202f71f3b981fd14dcdcbe6c3d72847fd092396b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "gnomes-and-giants",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_6SC",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_6SC",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_6SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/22",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/gnomes-and-giants.json",
+        "pointer": "",
+        "sha256": "3d8c1dbc74e07a6d96241e2db8f3dda055485a30a7031192f9a9e6a9aad2ca65"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "zombie-road",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/23",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/zombie-road.json",
+        "pointer": "",
+        "sha256": "247c6b99b6b2a8b2b39b0c46d367da5be6aa4da018757504233513875d165fca"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "bubblegum-robo",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER",
+        "buy_POWER_SPIN",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_POWER",
+        "buy_POWER_SPIN",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_POWER",
+          "gaps": []
+        },
+        {
+          "mode": "buy_POWER_SPIN",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/24",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/bubblegum-robo.json",
+        "pointer": "",
+        "sha256": "32625cee8d887daad565459acd55c92eb4106a3b95bbd9b6ead78d4b0bbc25a6"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "dig-it",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_5SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/25",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/dig-it.json",
+        "pointer": "",
+        "sha256": "42f8a6ec7e5f82a9dc6def92be6b88aafe62ad96afcd1e28e0ce22c48726c617"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "alibi",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/26",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/alibi.json",
+        "pointer": "",
+        "sha256": "930514ec3b601e32390881fb3db1aec49d82a2b29abca4c10c43bcbe2abddbe9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "boom-farm",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_BOOSTED_FS",
+        "buy_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_BOOSTED_FS",
+        "buy_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_BOOSTED_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/27",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/boom-farm.json",
+        "pointer": "",
+        "sha256": "a25a3a1afa863a673d3662d7b21a93d5974e76eb93800d4b49c2b11a4ac92b67"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "ghostfather-awakened",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_5SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/28",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/ghostfather-awakened.json",
+        "pointer": "",
+        "sha256": "ff168cf9849c01bc51636d5824e29f77f4c3cab3e6fd481e6c9dc1487f152056"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "blood-club",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/29",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/blood-club.json",
+        "pointer": "",
+        "sha256": "e59a0bf95cceeb5105ee9b5c900a400e084836b70bfc3d0cbf79a9e31bf98e2f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "greedy-alice",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_4SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/30",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/greedy-alice.json",
+        "pointer": "",
+        "sha256": "77fd8cdf4046dc7a19b9cecdc6f0acd2c0b30f899f15fa3a3a2eae43a32a2f5e"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "potion-power",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_7",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_7",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_7",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/31",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/potion-power.json",
+        "pointer": "",
+        "sha256": "ecc997b3b864531e3d45dae664c6b68e62c13fa9a660066d7c13b9f1b9c2d545"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "gears-of-fortune",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/32",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/gears-of-fortune.json",
+        "pointer": "",
+        "sha256": "6f28bf404b63cd7c2a3ed718aff7386b055a3c5755e66a69921478c14fed22ea"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "epic-hellas",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_BONUS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/33",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/epic-hellas.json",
+        "pointer": "",
+        "sha256": "f49f366602e06bc949d56dda4c1229c4bb5a1ff714d11ce329306485a0d954e1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "barbarossa-revenge",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/34",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/barbarossa-revenge.json",
+        "pointer": "",
+        "sha256": "49bbea837fe9402265a02b4c2e318622182592e0bf6f30c62877af22210b2841"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "muddy-waters",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_5SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/35",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/muddy-waters.json",
+        "pointer": "",
+        "sha256": "24d1ee2a787920cb784fec31f3b14d5166ae01bddf3d23f8265f9844cbf97506"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "workshop",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/36",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/workshop.json",
+        "pointer": "",
+        "sha256": "1226ce398dd2826cd992997671078a7c63b7e7e687e748587e8f83d61ac4eb52"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "gunpowder",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/37",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/gunpowder.json",
+        "pointer": "",
+        "sha256": "4a5ac268c8a57d4507a2e72186ed64760240e215fadc932862a0b378b9e54729"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "evil-devil",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/38",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/evil-devil.json",
+        "pointer": "",
+        "sha256": "00a06f7f74cf092689988de2b8a169e795665adfc4c338ec7692ec5d92939f88"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "sands-of-destiny",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/39",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/sands-of-destiny.json",
+        "pointer": "",
+        "sha256": "88a68bf09c5a843e80a16e76d84fe323306f6b7744a31eeb6cdd0e1ae5b342a2"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "ghostfather",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/40",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/ghostfather.json",
+        "pointer": "",
+        "sha256": "29a1e6690a0accb9a9964414b4bf8e8e9227e3d168edb2d133b048723102e929"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "mutagenes",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/41",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/mutagenes.json",
+        "pointer": "",
+        "sha256": "0dda3af1286bd4f2336824204cbf4be29fae4f761503f3ce626ae87e3633214f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "coin-blox",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet_COINS",
+        "bet_FS",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet_COINS",
+        "bet_FS",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet_COINS",
+          "gaps": []
+        },
+        {
+          "mode": "bet_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_BONUS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/42",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/coin-blox.json",
+        "pointer": "",
+        "sha256": "b34eb160f3bed2e06828b3d441d9d1b39af1e2b80f78c4491f5f9c600a264f29"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "pop-cop",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/43",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/pop-cop.json",
+        "pointer": "",
+        "sha256": "f109e95db616a3ea1dcf199d6699dfe2f1b42db23d43ec3f52e4a8b89cb91e39"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "cauldron",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/44",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/cauldron.json",
+        "pointer": "",
+        "sha256": "d4440e8f3da6c5c4b0bc8eb0c48e3a7ac7c6ceb8c2e08e5444c4d883d5f6624f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "hunter",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/45",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/hunter.json",
+        "pointer": "",
+        "sha256": "a6cbeb7b515f8f67c532ab9c2acfade20b2a44ef87c996297384a2ca13ce47c0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "abrakadabra",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS",
+        "buy_SFS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS",
+        "buy_SFS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_SFS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/46",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/abrakadabra.json",
+        "pointer": "",
+        "sha256": "ca5c2c0060acdf1a1bb1987d4f3370122fdd0fa77cccc22fae63d64900bf0897"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "animafia",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_20",
+        "buy_FS_6",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_20",
+        "buy_FS_6",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_20",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_6",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/47",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/animafia.json",
+        "pointer": "",
+        "sha256": "aba3dbae1734a2547683f71b15d2bce2d7c355f52bce38a3d55b554d8382dff6"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "thunderhawk",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_BONUS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/48",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/thunderhawk.json",
+        "pointer": "",
+        "sha256": "acb279378fb1c05470e99d967847b91551d1c8ae3fc69d095f0385426efc5875"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "barbarossa",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_RANDOM",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RANDOM",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/49",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/barbarossa.json",
+        "pointer": "",
+        "sha256": "8b78624c3dc9a04c85d02243d6f189497a05676d744901e0f79d050dab1ae9be"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "book-of-books",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_3SC",
+        "buy_FS_4SC",
+        "buy_FS_5SC",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_4SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_5SC",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/50",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/book-of-books.json",
+        "pointer": "",
+        "sha256": "2faf4c1425e75e04e09888a084cf0b3d19a572bf5fa4c49d1e0d0d0e3a9bb19a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "frozen-age",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_FS_6SC",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_FS_6SC",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_6SC",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/51",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/frozen-age.json",
+        "pointer": "",
+        "sha256": "621fbd4d8e9c8417f5ba87116fc1c23d9b259886cd318d10ca28973898f6df00"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "dragon-blox",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy_BONUS",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy_BONUS",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/52",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/dragon-blox.json",
+        "pointer": "",
+        "sha256": "fed505f53a9508927ac754e6f5a9859658d33fe90de3055db3e3ee8001683b85"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "musashi",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/53",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/musashi.json",
+        "pointer": "",
+        "sha256": "aca0a2d9adf44f6212fff32fe8c7a234cdb479e2826bdfc40e97d316a06f402f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "dungeon",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "bet",
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "bet",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/54",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/dungeon.json",
+        "pointer": "",
+        "sha256": "537061d72c78fca7c138908e7303f4abeb926377bb40b2db1e0b7d42df820a33"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "voodoo-hex",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy_FS_15",
+        "buy_FS_7",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy_FS_15",
+        "buy_FS_7",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_15",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_7",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/55",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/voodoo-hex.json",
+        "pointer": "",
+        "sha256": "e7c4338c0cdb35fd0fa9b66eb87347317c4e91178f8c88cbc1775ac421cb5764"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "wild-one",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/56",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/wild-one.json",
+        "pointer": "",
+        "sha256": "b9e5c67c03a5bb8eec9a0353c765be67b527a7a916de624ae33b4b9aedc27f8e"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "water-blox",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy_FS_20",
+        "buy_FS_5",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy_FS_20",
+        "buy_FS_5",
+        "buy_FS_RAND",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_20",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_5",
+          "gaps": []
+        },
+        {
+          "mode": "buy_FS_RAND",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/57",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/water-blox.json",
+        "pointer": "",
+        "sha256": "01ef86a46b224770ff4f36b92f571e090d52ad99195a372f108d4f0b1ed08c91"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "duel",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/58",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/duel.json",
+        "pointer": "",
+        "sha256": "2e6d8fc362c7f6d0ab4c4fca024e119601dd58067d204db82903ab849c66ba10"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "xibalba",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/59",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/xibalba.json",
+        "pointer": "",
+        "sha256": "a5b603d35b6e8e6e2fb7ed27a397e8eb072e4ad1497b0ac95b21106f162b603b"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "valkyries",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/60",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/valkyries.json",
+        "pointer": "",
+        "sha256": "6ff669ecb5e932a9b38b79cae769bd7ea19be531053f4c05bf1e90990da9ff47"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "monster-blox",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/61",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/monster-blox.json",
+        "pointer": "",
+        "sha256": "5c905d80564bb295530893c2835b80f97923a9befc1eb7f886626e0b3ab019e7"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "robin-not",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/62",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/robin-not.json",
+        "pointer": "",
+        "sha256": "b8e4035b3d48e702196bfe850ae4e70f1e203e532fbab98facf20733784024bb"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "hammer-of-gods",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "buy",
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "buy",
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        },
+        {
+          "mode": "buy",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/63",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/hammer-of-gods.json",
+        "pointer": "",
+        "sha256": "6af1ca0f448f8b0ae1407df6b24ca528982e0241e04936078ae148d54b5f902f"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "robin",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/64",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/robin.json",
+        "pointer": "",
+        "sha256": "c1889ce7b5ad47eb9e1a20a05613a36087ae38b5ea0f5630712da8f7e23e0831"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "johnan-legendarian",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/65",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/johnan-legendarian.json",
+        "pointer": "",
+        "sha256": "f3fdf6830d8781c86a53d8d458ad3880d15aa75e87770de86654f04dda6211d9"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "precious-7",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/66",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/precious-7.json",
+        "pointer": "",
+        "sha256": "d43da77ef8bb875620f76be696faedea81a45e3015654e29660bdfe75b057861"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "kaiser",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/67",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/kaiser.json",
+        "pointer": "",
+        "sha256": "e7a70ae64a137d88bd15c9b73be59231462a815e95100db04d2fd9322e64535a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "mafiosi",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/68",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/mafiosi.json",
+        "pointer": "",
+        "sha256": "74cae1406934820f347f2895662da0c6c4d741f27d375fa129461b1d2e06ef34"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "zombies",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/69",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/zombies.json",
+        "pointer": "",
+        "sha256": "8eb5d01ada0e7f60adbf9da212eac593736e3c4f231cb7de2acec79efebd1e37"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "wild-bard",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/70",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/wild-bard.json",
+        "pointer": "",
+        "sha256": "724e87bd892bf9f5dd3384ac5d6d9f0f470a3d2367780bcb462d96b8bd328bf1"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "rome",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/71",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/rome.json",
+        "pointer": "",
+        "sha256": "dd149f1b3183dc5553c5b196d6368db61ee50d0478f91cf7dcc402537ddecefa"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "punch-club",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/72",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/punch-club.json",
+        "pointer": "",
+        "sha256": "706acfef34736f9e80b9438d776b57fabad60627c8432c7b4ef7537ef2961599"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "sheriff-colt",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/73",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/sheriff-colt.json",
+        "pointer": "",
+        "sha256": "fda7ec751450c2dd90882cc3cac981dc1ff3e2701ae430dfe2b0cbf3864e12fd"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "circus",
+    "family_id": "peterandsons.native",
+    "status": "lifecycle_verified",
+    "completion": {
+      "status": "completed",
+      "covered_modes": [
+        "main"
+      ],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [
+        "main"
+      ],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "verified",
+      "missing_modes": [],
+      "cases": [
+        {
+          "mode": "main",
+          "gaps": []
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/74",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/circus.json",
+        "pointer": "",
+        "sha256": "df6119a82f1de11b7dabb68b3c458953ceb1029862cb7baae0e023681eac8a79"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "gold-raiders",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/1",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/gold-raiders.json",
+        "pointer": "",
+        "sha256": "2f4fcece439e8772a1620998c37ca7145cda5ce952f76ed5931fb86d30d6db28"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "inks-pints",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/2",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/inks-pints.json",
+        "pointer": "",
+        "sha256": "d1e724a0d9f662fb692db9011383d557cd7016ecc0e262d5529499a0b024e56a"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "tango-of-chaos",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/14",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/tango-of-chaos.json",
+        "pointer": "",
+        "sha256": "a70b2aef5fc8fd59ae216230b81229ac412695c958b0819994077dd436db4141"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "artifacts",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/17",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/artifacts.json",
+        "pointer": "",
+        "sha256": "40c9b97f5e275c6559cad9069b766f6a8bac418bf913949c03f1b5edc2ccce13"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  },
+  {
+    "provider_id": "peterandsons",
+    "game_id": "bunny-heist",
+    "family_id": null,
+    "status": "unclassified",
+    "completion": {
+      "status": "integration_review",
+      "covered_modes": [],
+      "missing_modes": [],
+      "historical_covered_modes": [],
+      "native_verified_modes": [],
+      "offline_reader_pending_modes": [],
+      "evidence": [],
+      "reasons": [
+        "catalogue_modes_not_bound",
+        "historical_import_requires_reconciliation"
+      ],
+      "scope": "Modalidades con cierre aprobado por el auditor histórico; alcance observado.",
+      "authorizes_execution": false
+    },
+    "replay": {
+      "status": "not_verified",
+      "missing_modes": [],
+      "cases": []
+    },
+    "evidence": [
+      {
+        "kind": "historical",
+        "path": "provider-work/peterandsons-chat4/results/catalogue.json",
+        "pointer": "/18",
+        "sha256": "8938ec960e98e18f8359b10d1802332851c4771af35b056ed78bb38747340542"
+      },
+      {
+        "kind": "native_game_contract",
+        "path": "provider-work/peterandsons-chat4/private/plans/bunny-heist.json",
+        "pointer": "",
+        "sha256": "89abe81b7e1cb703711e108030f89dcb0b9db8d56f5ee248855421b2308339e0"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/AGENTS.md",
+        "pointer": "",
+        "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+      },
+      {
+        "kind": "walkthrough_documentation",
+        "path": "provider-work/peterandsons-chat4/CONTINUITY.md",
+        "pointer": "",
+        "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+      },
+      {
+        "kind": "executor_contract",
+        "path": "bet-collector/collection_extra_chat4.py",
+        "pointer": "collect",
+        "sha256": "12e78e81361bf39062b258b2d2c0516130208550314c8b22cee0c16c29416c6a"
+      }
+    ]
+  }
+]

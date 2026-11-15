@@ -1,0 +1,40 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "lm",
+  "title": "Lotto Madness",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 20,
+      "win": 0,
+      "balance_before": 100000,
+      "balance_after": 99980,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793485035.1174085,
+  "bootstrap_seconds": 21.953,
+  "preload_wait_seconds": 40.5,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "b3327d415f7fa7b16336301dc5fdc3b2980a6eb7474efb6aecd7415cf2b49dcd"
+  ],
+  "observed_bet": 20,
+  "native_stake_controls_available": false,
+  "local_event_trace_validated": true,
+  "review_note": "Official local round verified. Full action/feature inventory and all stake sizes require separate coverage; no remote server settlement is asserted.",
+  "native_inventory_unresolved_count": 44,
+  "native_inventory_plan_complete": false
+}

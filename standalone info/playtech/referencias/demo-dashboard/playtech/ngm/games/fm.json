@@ -1,0 +1,40 @@
+{
+  "provider": "Playtech",
+  "engine": "ngm",
+  "game_code": "fm",
+  "title": "Funky Monkey™",
+  "execution_scope": "official-local-demo",
+  "server_execution": false,
+  "fictional_demo_only": true,
+  "visible_browser": true,
+  "transport": "Official local client; asset/lobby HTTP/WSS through relay8793",
+  "status": "normal_round_verified",
+  "cases": [
+    {
+      "verified": true,
+      "stake": 3,
+      "win": 0,
+      "balance_before": 100000,
+      "balance_after": 99997,
+      "steps": 1,
+      "issues": [],
+      "local_demo": true
+    }
+  ],
+  "all_declared_modes_complete": false,
+  "all_stake_sizes_requested": false,
+  "minimum_stake_verified": false,
+  "updated_at": 1793484146.3963218,
+  "bootstrap_seconds": 38.718,
+  "preload_wait_seconds": 1.079,
+  "demo_verified": true,
+  "native_source_sha256": [
+    "ddc3145e433c0460b97d7ff672c0cf14e3a6b68bd6e0a7e6471e86f21553c043"
+  ],
+  "observed_bet": 3,
+  "native_stake_controls_available": false,
+  "local_event_trace_validated": true,
+  "review_note": "Official local round verified. Full action/feature inventory and all stake sizes require separate coverage; no remote server settlement is asserted.",
+  "native_inventory_unresolved_count": 24,
+  "native_inventory_plan_complete": false
+}

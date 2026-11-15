@@ -1,0 +1,23 @@
+{
+  "provider": "smartsoft",
+  "name": "SmartSoft Gaming",
+  "inventory": "../inventario/smartsoft.json",
+  "historical": "../evidencia/smartsoft.json",
+  "games": 41,
+  "modes": 66,
+  "python": {
+    "source": "../../../bet-collector/collection_worker.py",
+    "entry": "native_rust",
+    "dependency_paths": [
+      "smartsoft-private"
+    ],
+    "absent_from_checkout": [
+      "smartsoft-private"
+    ]
+  },
+  "native_family": "smartsoft.options",
+  "continuation": "native option/state",
+  "closure": "native closure and wallet",
+  "standalone_rust": null,
+  "paused": false
+}

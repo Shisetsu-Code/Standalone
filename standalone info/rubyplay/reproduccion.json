@@ -1,0 +1,23 @@
+{
+  "provider": "rubyplay",
+  "name": "RubyPlay",
+  "inventory": "../inventario/rubyplay.json",
+  "historical": "../evidencia/rubyplay.json",
+  "games": 180,
+  "modes": 262,
+  "python": {
+    "source": "../../../bet-collector/collection_full_node.py",
+    "entry": "collect",
+    "dependency_paths": [
+      "provider-work/rubyplay-chat2"
+    ],
+    "absent_from_checkout": [
+      "provider-work/rubyplay-chat2"
+    ]
+  },
+  "native_family": "rubyplay.native-binary",
+  "continuation": "phaseNext/native source plan",
+  "closure": "native round and funding ledger",
+  "standalone_rust": null,
+  "paused": false
+}

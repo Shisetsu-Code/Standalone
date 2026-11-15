@@ -1,0 +1,286 @@
+{
+  "game_id": "funk-master",
+  "title": "Funk Master™",
+  "game_type": "Slots",
+  "status": "complete_declared_modes",
+  "complete": true,
+  "declared_modes": 2,
+  "modes": [
+    {
+      "name": "Spin",
+      "kind": "normal",
+      "mode": "Spin",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "1",
+          "game_state": "basic",
+          "credit_cents": "99980"
+        },
+        {
+          "kind": "drop",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "4",
+          "game_state": "basic",
+          "credit_cents": "99984"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "1",
+      "cost": "0.2",
+      "before": "1000",
+      "debit": "999.8",
+      "after": "999.84",
+      "win": "0.04",
+      "currency": "USD",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    },
+    {
+      "name": "FeatureBuy",
+      "kind": "special",
+      "mode": "FeatureBuy",
+      "status": "verified",
+      "complete": true,
+      "state": "verified",
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "14",
+          "game_state": "basic",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "28",
+          "game_state": "basic",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "34",
+          "game_state": "basic",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "170",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "185",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "199",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "203",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "236",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "249",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "255",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "259",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "263",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "269",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "599",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "602",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "603",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "623",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "623",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "629",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "633",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "freespin",
+          "game_over": "false",
+          "win_cents": "703",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "freespin",
+          "next_action": "drop",
+          "game_over": "false",
+          "win_cents": "707",
+          "game_state": "freespin",
+          "credit_cents": "97500"
+        },
+        {
+          "kind": "drop",
+          "next_action": "spin",
+          "game_over": "true",
+          "win_cents": "727",
+          "game_state": "basic",
+          "credit_cents": "98227"
+        }
+      ],
+      "checks": {
+        "demo": true,
+        "minimum_base": true,
+        "positive_factor": true,
+        "wallet_ledger": true,
+        "nonnegative_credit": true,
+        "round_closed": true
+      },
+      "stake": "0.2",
+      "factor": "125",
+      "cost": "25",
+      "before": "1000",
+      "debit": "975",
+      "after": "982.27",
+      "win": "7.27",
+      "debit_observation": "Derived from native cost; no separate after-bet wallet packet is exposed"
+    }
+  ],
+  "historical_failed_checks": 0,
+  "har_reference_rounds": 0,
+  "locked_options": [],
+  "progression_rounds": [],
+  "historical_interrupted_demo_rounds": 0,
+  "historical_uncertain_requests": [],
+  "uncertain_play_attempts": 0,
+  "historical_rejected_requests": 1,
+  "rejected_attempts": [
+    {
+      "mode": "FeatureBuy",
+      "state": "rejected_no_debit",
+      "stake": "0.2",
+      "factor": "125",
+      "rejection_evidence": {
+        "provider_errorcode": "998",
+        "evo_error_code": "2001",
+        "same_demo_wallet_unchanged": true,
+        "round_closed": true,
+        "native_button_contract_reviewed": true
+      }
+    }
+  ],
+  "prior_run_report": "prior-runs/funk-master-rejected-request.json"
+}

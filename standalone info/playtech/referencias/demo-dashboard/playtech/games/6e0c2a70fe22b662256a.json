@@ -1,0 +1,2053 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_gtr10kc1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus explicit winline domain",
+  "status": "needs_review",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "cd4f7f1b-47e7-424f-ae72-ac6b496d28ab:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 3,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 3,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 999983,
+      "cost": 20,
+      "win": 3,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "ceea8209-2fcb-45c2-a832-4f9b11b896f6:1",
+      "name": "BuyFeature",
+      "kind": "PURCHASE",
+      "multiplier": 1,
+      "expected_cost": 1000,
+      "before": 999983,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 1000,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "RespinsBF",
+          "native_total_win": 0,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 2740,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 2740,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001723,
+      "cost": 1000,
+      "win": 2740,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001723,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 22,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": []
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "9"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 0,
+          "round_closed": false,
+          "next_round": "JackpotPickExtraBet",
+          "native_total_win": 22,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "kind": "free_continuation",
+          "stake": 0,
+          "win": 400,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 422,
+          "request_parameters": [
+            {
+              "key": "pick",
+              "value": "11"
+            }
+          ]
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1002120,
+      "cost": 25,
+      "win": 422,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {
+        "JackpotPickExtraBet": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "selected_choices": {
+        "JackpotPickExtraBet": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1002120,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 4,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 4,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1002099,
+      "cost": 25,
+      "win": 4,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1002099,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1002074,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1002074,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1002049,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1002049,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1002024,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1002024,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001999,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001999,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001974,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001974,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001949,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001949,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001924,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001924,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001899,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001899,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001874,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001874,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 8,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 8,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001857,
+      "cost": 25,
+      "win": 8,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001857,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001832,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001832,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001807,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001807,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001782,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001782,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001757,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001757,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 6,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 6,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001738,
+      "cost": 25,
+      "win": 6,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001738,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001713,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001713,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 4,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 4,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001692,
+      "cost": 25,
+      "win": 4,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001692,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001667,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001667,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001642,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001642,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001617,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001617,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001592,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001592,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001567,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001567,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 24,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 24,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001566,
+      "cost": 25,
+      "win": 24,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001566,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 5,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 5,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001546,
+      "cost": 25,
+      "win": 5,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001546,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001521,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001521,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 6,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 6,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001502,
+      "cost": 25,
+      "win": 6,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001502,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 8,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 8,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001485,
+      "cost": 25,
+      "win": 8,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001485,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001460,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001460,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001435,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001435,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 35,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 35,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001445,
+      "cost": 25,
+      "win": 35,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "case_id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f:1:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12:choice:JackpotPickExtraBet:12",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "multiplier": 1,
+      "expected_cost": 25,
+      "before": 1001445,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 25,
+          "win": 0,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 0,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1001420,
+      "cost": 25,
+      "win": 0,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {
+        "JackpotPickExtraBet": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": false,
+  "native_source_sha256": [
+    "e2bdb86256f4a31b1db84fc6ac13839d4b4622fc3108db9e460806237f0d0971"
+  ],
+  "native_modes": [
+    {
+      "id": "cd4f7f1b-47e7-424f-ae72-ac6b496d28ab",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "native declaration",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "b362bc15-1416-451f-b0da-592ccd5cb751",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "cd4f7f1b-47e7-424f-ae72-ac6b496d28ab"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        70,
+        80,
+        100,
+        125,
+        150,
+        200,
+        300,
+        400,
+        500,
+        750,
+        800,
+        1000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "ceea8209-2fcb-45c2-a832-4f9b11b896f6",
+      "name": "BuyFeature",
+      "kind": "PURCHASE",
+      "selector": "BuyFeature",
+      "selector_source": "native declaration",
+      "cost": 1000,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 1000,
+        "name": "BuyFeature",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "87c018d2-04f4-4173-987d-2aab56111e6f",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "ceea8209-2fcb-45c2-a832-4f9b11b896f6"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        70,
+        80,
+        100,
+        125,
+        150,
+        200,
+        300,
+        400,
+        500,
+        750,
+        800,
+        1000
+      ],
+      "minimum_legal_multiplier": 1
+    },
+    {
+      "id": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f",
+      "name": "extra",
+      "kind": "ANTE_BET",
+      "selector": "extra",
+      "selector_source": "native declaration",
+      "cost": 25,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 25,
+        "name": "extra",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "ad9a55e8-77b8-475d-855b-8c12736427b8",
+          "startingPlays": "1",
+          "winline": "30"
+        },
+        "uuid": "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        70,
+        80,
+        100,
+        125,
+        150,
+        200,
+        300,
+        400,
+        500,
+        750,
+        800,
+        1000
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [
+    "30"
+  ],
+  "line_domain_note": "Only explicitly declared native line options",
+  "disabled_native_options": [],
+  "disabled_native_option_details": [],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793484272.2058032,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {
+    "0fc6540a-46d9-427e-9f0f-b08c08fd7d1f": {
+      "JackpotPickExtraBet": [
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}

@@ -1,0 +1,239 @@
+{
+  "provider": "Playtech",
+  "game_code": "gpas_cblitzc1_pop",
+  "game_type": "Slots",
+  "classification_source": "Native command family plus native reel renderer and directional slot payout configuration",
+  "status": "complete",
+  "fictional_demo_only": true,
+  "transport": "Direct HTTP/WSS through relay8793",
+  "coverage": "each declared action and line choice at minimum legal multiplier",
+  "all_stake_sizes_requested": false,
+  "cases": [
+    {
+      "case_id": "d9693a58-1a55-43f4-b613-1d97df53b476:1",
+      "name": "default",
+      "kind": "SPIN",
+      "multiplier": 1,
+      "expected_cost": 20,
+      "before": 1000000,
+      "steps": [
+        {
+          "kind": "paid_entry",
+          "stake": 20,
+          "win": 20,
+          "round_closed": true,
+          "next_round": "BET_END_STATE_IDENTIFIER",
+          "native_total_win": 20,
+          "request_parameters": []
+        }
+      ],
+      "state": "verified_closed",
+      "passed": true,
+      "after": 1000000,
+      "cost": 20,
+      "win": 20,
+      "checks": {
+        "demo": true,
+        "native_source": true,
+        "round_closed": true,
+        "wallet": true,
+        "entry_and_free_costs": true,
+        "native_cost_identity": true,
+        "cumulative_native_win": true,
+        "native_stake_domain": true,
+        "minimum_when_requested": true
+      },
+      "offered_choices": {},
+      "selected_choices": {},
+      "missing_choice_branches": {}
+    }
+  ],
+  "all_declared_modes_complete": true,
+  "all_choices_complete": true,
+  "native_source_sha256": [
+    "46ac6f6d2a27d8d90b6faf685cc9729d68ae04e6b0feb29a5f961679770285db"
+  ],
+  "native_modes": [
+    {
+      "id": "d9693a58-1a55-43f4-b613-1d97df53b476",
+      "name": "default",
+      "kind": "SPIN",
+      "selector": "default",
+      "selector_source": "native declaration",
+      "cost": 20,
+      "bet_type": "default",
+      "multiplier": 1,
+      "declaration": {
+        "cost": 20,
+        "name": "default",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "Standard",
+          "startingPlays": "1"
+        },
+        "uuid": "d9693a58-1a55-43f4-b613-1d97df53b476"
+      },
+      "server_declared": true,
+      "observed": true,
+      "legal_multipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        300,
+        500,
+        750
+      ],
+      "minimum_legal_multiplier": 1
+    }
+  ],
+  "native_selector_policy": "Configuration-declared names probed; confirmed only by matching native response cost UUID and amount",
+  "declared_line_options": [],
+  "line_domain_note": "No selectable line choice declared",
+  "disabled_native_options": [
+    {
+      "cost": 1600,
+      "name": "BF3",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "8d0bd17c-0807-42c4-a2d0-d3328775c241",
+        "startingPlays": "1"
+      },
+      "uuid": "91149a5d-8196-4980-9d5c-c4edd3de3689"
+    },
+    {
+      "cost": 2400,
+      "name": "BF4",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "084934e0-8b42-47b3-b9e8-b3a42ae42548",
+        "startingPlays": "1"
+      },
+      "uuid": "c511b454-3154-4173-8062-ad71edfb125c"
+    },
+    {
+      "cost": 4000,
+      "name": "BF5",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "eac87f59-97d3-4a14-a2af-7896c085e737",
+        "startingPlays": "1"
+      },
+      "uuid": "16ecc975-103e-4a98-ae50-5862b8851d05"
+    },
+    {
+      "cost": 10000,
+      "name": "BF6",
+      "parameters": {
+        "disableBCMValidation": "false",
+        "discountable": "false",
+        "evalPayout": "LEFT_TO_RIGHT",
+        "startingMode": "6a6c3a32-5b14-4ffd-a9f1-c0349da13f47",
+        "startingPlays": "1"
+      },
+      "uuid": "fb6e01eb-a7c9-492c-99ec-70f14e5867b6"
+    }
+  ],
+  "disabled_native_option_details": [
+    {
+      "declaration": {
+        "cost": 1600,
+        "name": "BF3",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "8d0bd17c-0807-42c4-a2d0-d3328775c241",
+          "startingPlays": "1"
+        },
+        "uuid": "91149a5d-8196-4980-9d5c-c4edd3de3689"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 2400,
+        "name": "BF4",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "084934e0-8b42-47b3-b9e8-b3a42ae42548",
+          "startingPlays": "1"
+        },
+        "uuid": "c511b454-3154-4173-8062-ad71edfb125c"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 4000,
+        "name": "BF5",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "eac87f59-97d3-4a14-a2af-7896c085e737",
+          "startingPlays": "1"
+        },
+        "uuid": "16ecc975-103e-4a98-ae50-5862b8851d05"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    },
+    {
+      "declaration": {
+        "cost": 10000,
+        "name": "BF6",
+        "parameters": {
+          "disableBCMValidation": "false",
+          "discountable": "false",
+          "evalPayout": "LEFT_TO_RIGHT",
+          "startingMode": "6a6c3a32-5b14-4ffd-a9f1-c0349da13f47",
+          "startingPlays": "1"
+        },
+        "uuid": "fb6e01eb-a7c9-492c-99ec-70f14e5867b6"
+      },
+      "reason": "Not enabled by activeBetOptions"
+    }
+  ],
+  "all_action_types_classified": true,
+  "action_type_note": "NATIVE_OPTION retains the native declared option; commercial category is unclassified. Execution is verified only when response UUID, cost, closure and wallet agree.",
+  "updated_at": 1793479312.9341364,
+  "slot_evidence": {
+    "confirmed": true,
+    "native_command_family": true,
+    "directional_slot_payout": true,
+    "native_reel_view": false,
+    "native_reel_symbols": false,
+    "native_slot_configuration_and_spin_events": true,
+    "source": "Current supplier game configuration plus game-specific client source hashes"
+  },
+  "pending_choice_branches": {},
+  "requested_choice_targets": null,
+  "explore_all_choices": true,
+  "all_requested_choices_complete": true,
+  "required_native_continuation": null,
+  "required_continuation_observed": true
+}
